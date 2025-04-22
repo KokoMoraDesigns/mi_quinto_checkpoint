@@ -1,7 +1,7 @@
 
 ## ¿Qué es un condicional?
 
-> Las sentencias condicionales también se denominan sentencias de decisión. **Se utilizan para ejecutar un bloque específico de código si las condiciones dadas son verdaderas o falsas**. es una forma de controlar el flujo de ejecución del código, permitiendo que se ejecuten diferentes bloques de código en función de si una condición es verdadera o falsa. Las condicionales son fundamentales para crear programas que puedan tomar decisiones y responder de manera diferente a diferentes situaciones. Utiliza la palabra clave «If» seguida de la condición que debe cumplirse. El programador también elige la acción que se ejecutará si se cumple la condición. Los elementos que analizaremos a continuación son: sintaxis, 
+> Las sentencias condicionales también se denominan sentencias de decisión. **Se utilizan para ejecutar un bloque específico de código si las condiciones dadas son verdaderas o falsas**. es una forma de controlar el flujo de ejecución del código, permitiendo que se ejecuten diferentes bloques de código en función de si una condición es verdadera o falsa. Las condicionales son fundamentales para crear programas que puedan tomar decisiones y responder de manera diferente a diferentes situaciones. Utiliza la palabra clave «If» seguida de la condición que debe cumplirse. El programador también elige la acción que se ejecutará si se cumple la condición. Los elementos que analizaremos a continuación son: elementos de la condicional, sintaxis, tipos de condicionales, operadores de las condicionales, y, por supuesto, ejemplos.
 
 Se comprueba la condición y el conjunto de código del bloque «If» se ejecuta si es verdadera. De lo contrario, el código del bloque «If» no se ejecuta y se ejecuta la sentencia que sigue a la sentencia If.
 
@@ -47,7 +47,7 @@ x  =  5  if  x  ==  5:  print("Es 5")  elif  x  ==  6:  print("Es 6")  elif  x  
 
 El operador ternario o `ternary operator` es una herramienta muy potente que muchos lenguajes de programación tienen. En Python es un poco distinto a lo que sería en C, pero el concepto es el mismo. Se trata de una cláusula `if`, `else` que se define en una sola línea y puede ser usado por ejemplo, dentro de un `print()`.
 
-Ver https://peps.python.org/pep-0308/ 
+> Ver https://peps.python.org/pep-0308/ 
 
 x  =  5  print("Es 5"  if  x  ==  5  else  "No es 5")  #Es 5
 
@@ -140,7 +140,7 @@ En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son her
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDY2MzE4NTMsLTE0ODI4ODA2MTUsLT
+eyJoaXN0b3J5IjpbLTEwODQ5NzE1MDIsLTE0ODI4ODA2MTUsLT
 EzNzc0OTcwNDYsMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEyMjUw
 NDI3OTAsMTY5NjkyNDA5OF19
 -->
