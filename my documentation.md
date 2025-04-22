@@ -31,6 +31,12 @@ En caso contrario, el controlador pasa al **primer bloque Elif** para evaluar la
 
 ![](https://db0dce98.rocketcdn.me/es/files/2023/02/if-elfi-else.jpg)
 
+Es muy importante tener en cuenta que la sentencia `if` debe ir terminada por `:` y el bloque de código a ejecutar debe estar indentado. Si usas algún editor de código, seguramente la indentación se producirá automáticamente al presionar enter. Nótese que el bloque de código puede también contener más de una línea, es decir puede contener más de una instrucción.
+
+if  b  !=  0:  c  =  a/b  d  =  c  +  1  print(d)
+
+Todo lo que vaya después del `if` y esté indentado, será parte del bloque de código que se ejecutará si la condición se cumple. Por lo tanto el segundo `print()` “Fuera if” será ejecutado siempre, ya que está fuera del bloque `if`.
+
 
 Tipos de condicionales en Python:
 
@@ -100,6 +106,6 @@ En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son her
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEyMj
-UwNDI3OTAsMTY5NjkyNDA5OF19
+eyJoaXN0b3J5IjpbLTExMTMxNzE3NDQsMTk5NDQ5NTYxMiwtOD
+czOTYxMTUwLDEyMjUwNDI3OTAsMTY5NjkyNDA5OF19
 -->
