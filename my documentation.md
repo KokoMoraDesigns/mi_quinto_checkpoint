@@ -57,6 +57,14 @@ Existen tres partes en un operador ternario, que son exactamente iguales a los q
 # [código si se cumple] if [condición] else [código si no se cumple]
 
 ```
+
+(if <condition>: <expression1> else: <expression2>)
+The resulting expression is evaluated like this:
+
+-   First, <condition> is evaluated.
+-   If <condition> is true, <expression1> is evaluated and is the result of the whole thing.
+-   If <condition> is false, <expression2> is evaluated and is the result of the whole thing.
+- <condition> and <expression1> or <expression2>
 Tipos de condicionales en Python:
 
 -   `if`:
@@ -125,6 +133,7 @@ En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son her
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzc0OTcwNDYsMTk5NDQ5NTYxMiwtOD
-czOTYxMTUwLDEyMjUwNDI3OTAsMTY5NjkyNDA5OF19
+eyJoaXN0b3J5IjpbLTE0ODI4ODA2MTUsLTEzNzc0OTcwNDYsMT
+k5NDQ5NTYxMiwtODczOTYxMTUwLDEyMjUwNDI3OTAsMTY5Njky
+NDA5OF19
 -->
