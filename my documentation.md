@@ -47,7 +47,16 @@ x  =  5  if  x  ==  5:  print("Es 5")  elif  x  ==  6:  print("Es 6")  elif  x  
 
 El operador ternario o `ternary operator` es una herramienta muy potente que muchos lenguajes de programación tienen. En Python es un poco distinto a lo que sería en C, pero el concepto es el mismo. Se trata de una cláusula `if`, `else` que se define en una sola línea y puede ser usado por ejemplo, dentro de un `print()`.
 
+Ver https://peps.python.org/pep-0308/ 
 
+x  =  5  print("Es 5"  if  x  ==  5  else  "No es 5")  #Es 5
+
+Existen tres partes en un operador ternario, que son exactamente iguales a los que había en un `if``else`. Tenemos la condición a evaluar, el código que se ejecuta si se cumple, y el código que se ejecuta si no se cumple. En este caso, tenemos los tres en la misma línea.
+
+```
+# [código si se cumple] if [condición] else [código si no se cumple]
+
+```
 Tipos de condicionales en Python:
 
 -   `if`:
@@ -116,6 +125,6 @@ En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son her
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MDY2NDE1MSwxOTk0NDk1NjEyLC04Nz
-M5NjExNTAsMTIyNTA0Mjc5MCwxNjk2OTI0MDk4XX0=
+eyJoaXN0b3J5IjpbLTEzNzc0OTcwNDYsMTk5NDQ5NTYxMiwtOD
+czOTYxMTUwLDEyMjUwNDI3OTAsMTY5NjkyNDA5OF19
 -->
