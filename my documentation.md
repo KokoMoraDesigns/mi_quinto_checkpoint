@@ -1,7 +1,7 @@
 
 ## ¿Qué es un condicional?
 
-
+> Las sentencias condicionales también se denominan sentencias de decisión. **Se utilizan para ejecutar un bloque específico de código si las condiciones dadas son verdaderas o falsas**. es una forma de controlar el flujo de ejecución del código, permitiendo que se ejecuten diferentes bloques de código en función de si una condición es verdadera o falsa. Las condicionales son fundamentales para crear programas que puedan tomar decisiones y responder de manera diferente a diferentes situaciones.
 
 
 
@@ -34,6 +34,6 @@
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwMDk1MDM0LDEyMjUwNDI3OTAsMTY5Nj
-kyNDA5OF19
+eyJoaXN0b3J5IjpbLTE4ODQ4MzIyNTAsMTIyNTA0Mjc5MCwxNj
+k2OTI0MDk4XX0=
 -->
