@@ -1,7 +1,19 @@
 
 ## ¿Qué es un condicional?
 
-> Las sentencias condicionales también se denominan sentencias de decisión. **Se utilizan para ejecutar un bloque específico de código si las condiciones dadas son verdaderas o falsas**. es una forma de controlar el flujo de ejecución del código, permitiendo que se ejecuten diferentes bloques de código en función de si una condición es verdadera o falsa. Las condicionales son fundamentales para crear programas que puedan tomar decisiones y responder de manera diferente a diferentes situaciones.
+> Las sentencias condicionales también se denominan sentencias de decisión. **Se utilizan para ejecutar un bloque específico de código si las condiciones dadas son verdaderas o falsas**. es una forma de controlar el flujo de ejecución del código, permitiendo que se ejecuten diferentes bloques de código en función de si una condición es verdadera o falsa. Las condicionales son fundamentales para crear programas que puedan tomar decisiones y responder de manera diferente a diferentes situaciones. Utiliza la palabra clave «If» seguida de la condición que debe cumplirse. El programador también elige la acción que se ejecutará si se cumple la condición.
+
+Se comprueba la condición y el conjunto de código del bloque «If» se ejecuta si es verdadera. De lo contrario, el código del bloque «If» no se ejecuta y se ejecuta la sentencia que sigue a la sentencia If.
+
+La sentencia «If» es útil si se puede especificar qué sentencias ejecutar si se cumple una condición. En cambio, para evaluar sentencias que determinan si una condición es verdadera y si otro conjunto de sentencias es falso, se utiliza la **sentencia condicional «if-else»**.
+
+La sentencia «If-else» se utiliza para ejecutar tanto la parte verdadera como la falsa de una condición. Si la condición es verdadera, se ejecuta el **bloque de código If**. Si la condición es falsa, se ejecuta el bloque de código Else.
+
+Se comprueba la expresión de prueba y se ejecutan las sentencias del **cuerpo del bloque de código If**. A continuación, se ejecutan las sentencias situadas debajo del **bloque If**.
+
+Si los resultados de la expresión de prueba son falsos, se ejecutan las sentencias del código Else. A continuación, se ejecutan las sentencias del bloque If-else.
+
+El bloque «Else» solo se ejecutará si las condiciones son falsas. Las acciones de este bloque se ejecutan cuando las condiciones no son verdaderas.
 
 
 Tipos de condicionales en Python:
@@ -72,6 +84,6 @@ En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son her
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Mzk2MTE1MCwxMjI1MDQyNzkwLDE2OT
-Y5MjQwOThdfQ==
+eyJoaXN0b3J5IjpbMTA4MjM4NTIyNiwtODczOTYxMTUwLDEyMj
+UwNDI3OTAsMTY5NjkyNDA5OF19
 -->
