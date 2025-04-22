@@ -15,6 +15,22 @@ Si los resultados de la expresión de prueba son falsos, se ejecutan las sentenc
 
 El bloque «Else» solo se ejecutará si las condiciones son falsas. Las acciones de este bloque se ejecutan cuando las condiciones no son verdaderas.
 
+Cuando una sentencia If o If-else está presente dentro de otro bloque de sentencia If o If-Else, se trata de una **sentencia IF anidada**. Esta situación se produce cuando es necesario filtrar una variable varias veces y comprobar varias condiciones.
+
+En una sentencia IF anidada, la indentación que permite **definir el alcance de cada sentencia** es esencial. El número de anidaciones posibles es ilimitado, pero cada una de ellas reduce la optimización del programa y lo hace más complejo de leer y entender. Por lo tanto, es mejor **reducir al mínimo el número de anidaciones**.
+
+Las sentencias IF e If-else solo son útiles para **situaciones binarias**. En el caso de un problema condicional múltiple, se utiliza la sentencia «if-elif-else».
+
+En primer lugar, se comprueba la condición de la sentencia If. Si es falsa, se evalúa la **sentencia Elif**. Si la condición también es falsa, se evalúa la sentencia Else.
+
+En Python, la sentencia «Elif» se utiliza para comprobar múltiples condiciones si una condición es falsa. Es similar a la sentencia «If-Else», pero la diferencia es que «Elif» evalúa **múltiples condiciones** a diferencia de «Else».
+
+Para probar **varias expresiones**, se puede utilizar una escalera de sentencias Elif. Esto se llama una «Elif ladder” (escalera Elif). El **controlador** comprueba las condiciones de la sentencia if, y si se cumplen, se ejecuta **el conjunto de sentencias de ese bloque**.
+
+En caso contrario, el controlador pasa al **primer bloque Elif** para evaluar las condiciones. El proceso continúa para todas las sentencias Elif, y si determina en la evaluación que todas las condiciones If y Elif se son falsas, se ejecuta el bloque Else.
+
+![](https://db0dce98.rocketcdn.me/es/files/2023/02/if-elfi-else.jpg)
+
 
 Tipos de condicionales en Python:
 
@@ -84,6 +100,6 @@ En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son her
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjM4NTIyNiwtODczOTYxMTUwLDEyMj
+eyJoaXN0b3J5IjpbMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEyMj
 UwNDI3OTAsMTY5NjkyNDA5OF19
 -->
