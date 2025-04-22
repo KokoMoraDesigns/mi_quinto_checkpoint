@@ -41,6 +41,13 @@ Se puede también combinar varias condiciones entre el `if` y los `:`. Por ejemp
 
 Se puede usar también de manera conjunta todo, el `if` con el `elif` y un `else` al final. Es muy importante notar que `if` y `else` solamente puede haber uno, mientras que `elif` puede haber varios.
 
+x  =  5  if  x  ==  5:  print("Es 5")  elif  x  ==  6:  print("Es 6")  elif  x  ==  7:  print("Es 7")
+
+x  =  5  if  x  ==  5:  print("Es 5")  elif  x  ==  6:  print("Es 6")  elif  x  ==  7:  print("Es 7")  else:  print("Es otro")
+
+El operador ternario o `ternary operator` es una herramienta muy potente que muchos lenguajes de programación tienen. En Python es un poco distinto a lo que sería en C, pero el concepto es el mismo. Se trata de una cláusula `if`, `else` que se define en una sola línea y puede ser usado por ejemplo, dentro de un `print()`.
+
+
 Tipos de condicionales en Python:
 
 -   `if`:
@@ -109,6 +116,6 @@ En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son her
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTE3NjE1NCwxOTk0NDk1NjEyLC04Nz
+eyJoaXN0b3J5IjpbLTQ2MDY2NDE1MSwxOTk0NDk1NjEyLC04Nz
 M5NjExNTAsMTIyNTA0Mjc5MCwxNjk2OTI0MDk4XX0=
 -->
