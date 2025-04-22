@@ -38,6 +38,9 @@ if  b  !=  0:  c  =  a/b  d  =  c  +  1  print(d)
 Todo lo que vaya después del `if` y esté indentado, será parte del bloque de código que se ejecutará si la condición se cumple. Por lo tanto el segundo `print()` “Fuera if” será ejecutado siempre, ya que está fuera del bloque `if`.
 
 Se puede también combinar varias condiciones entre el `if` y los `:`. Por ejemplo, se puede requerir que un número sea mayor que 5 y además menor que 15. Tenemos en realidad tres operadores usados conjuntamente, que serán evaluados por separado hasta devolver el resultado final, que será `True` si la condición se cumple o `False` de lo contrario.
+
+Se puede usar también de manera conjunta todo, el `if` con el `elif` y un `else` al final. Es muy importante notar que `if` y `else` solamente puede haber uno, mientras que `elif` puede haber varios.
+
 Tipos de condicionales en Python:
 
 -   `if`:
@@ -106,6 +109,6 @@ En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son her
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDYxOTQwNjIsMTk5NDQ5NTYxMiwtOD
-czOTYxMTUwLDEyMjUwNDI3OTAsMTY5NjkyNDA5OF19
+eyJoaXN0b3J5IjpbMTkzOTE3NjE1NCwxOTk0NDk1NjEyLC04Nz
+M5NjExNTAsMTIyNTA0Mjc5MCwxNjk2OTI0MDk4XX0=
 -->
