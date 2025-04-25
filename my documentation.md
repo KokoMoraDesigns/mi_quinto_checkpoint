@@ -1,7 +1,7 @@
 
-# PYTHON: UN GLOSARIO BREVE 
+# Breve glosario de Python
 
-## ¿Qué es un condicional?
+## Condicional
 
 > Las sentencias condicionales también se denominan sentencias de decisión. **Se utilizan para ejecutar un bloque específico de código si las condiciones dadas son verdaderas o falsas**. es una forma de controlar el flujo de ejecución del código, permitiendo que se ejecuten diferentes bloques de código en función de si una condición es verdadera o falsa. Las condicionales son fundamentales para crear programas que puedan tomar decisiones y responder de manera diferente a diferentes situaciones. Utiliza la palabra clave «If» seguida de la condición que debe cumplirse. El programador también elige la acción que se ejecutará si se cumple la condición. Los elementos que analizaremos a continuación son: elementos de la condicional, sintaxis, tipos de condicionales, operadores de las condicionales, y, por supuesto, ejemplos.
 
@@ -115,7 +115,7 @@ En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son her
 
 
 
-## ¿Cuáles son los diferentes tipos de bucles en Python? ¿Por qué son útiles?
+## Bucle
 
 En Python, los bucles son fundamentales para repetir código. Los dos tipos principales son los bucles  `for`  y los bucles  `while`. Los bucles  `for`  son ideales cuando se conoce de antemano cuántas veces se repetirá el código, mientras que los bucles  `while`  son útiles cuando la cantidad de repeticiones depende de una condición. 
 Cabe destacar que existe dos tipos de bucles, los que tienen un número de iteraciones **no definidas**, y los que tienen un número de iteraciones **definidas**.
@@ -281,9 +281,8 @@ La palabra reservada `while` ejecuta una porción de código una y otra vez hast
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODYwNjgyMiwyMDA4NTI4Nzc0LDE1OT
-g1MDY4MTEsLTU4MjY0MjIxMSwxODE4MzIwNjU2LC0xMDg0OTcx
-NTAyLC0xNDgyODgwNjE1LC0xMzc3NDk3MDQ2LDE5OTQ0OTU2MT
-IsLTg3Mzk2MTE1MCwxMjI1MDQyNzkwLDE2OTY5MjQwOThdfQ==
-
+eyJoaXN0b3J5IjpbNTI0MTk0Mzk3LDIwMDg1Mjg3NzQsMTU5OD
+UwNjgxMSwtNTgyNjQyMjExLDE4MTgzMjA2NTYsLTEwODQ5NzE1
+MDIsLTE0ODI4ODA2MTUsLTEzNzc0OTcwNDYsMTk5NDQ5NTYxMi
+wtODczOTYxMTUwLDEyMjUwNDI3OTAsMTY5NjkyNDA5OF19
 -->
