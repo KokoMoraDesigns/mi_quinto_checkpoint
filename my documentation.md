@@ -167,6 +167,17 @@ for i in range(0, 5):
 for  i  in  "Python":  print(i)  # Salida: # P # y # t # h # o # n
 
 
+-   Los  **iterables**  son aquellos objetos que como su nombre indica pueden ser iterados, lo que dicho de otra forma es, que puedan ser indexados. Si piensas en un array (o una  `list`  en Python), podemos indexarlo con  `lista[1]`  por ejemplo, por lo que sería un iterable.
+-   Los  **iteradores**  son objetos que hacen referencia a un elemento, y que tienen un método  `next`  que permite hacer referencia al siguiente.
+
+Como hemos comentado, los  **iterables**  son objetos que pueden ser iterados o accedidos con un índice. Algunos ejemplos de iterables en Python son las listas, tuplas, cadenas o diccionarios. Sabiendo esto, lo primero que tenemos que tener claro es que en un  `for`, lo que va después del  `in`**deberá ser siempre un iterable**.
+
+```
+#for <variable> in <iterable>:
+#    <Código>
+```
+
+
 ## ¿Qué es una lista por comprensión en Python?
 
 
@@ -189,8 +200,8 @@ for  i  in  "Python":  print(i)  # Salida: # P # y # t # h # o # n
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjg4Njg2MTAsMTgxODMyMDY1NiwtMT
-A4NDk3MTUwMiwtMTQ4Mjg4MDYxNSwtMTM3NzQ5NzA0NiwxOTk0
-NDk1NjEyLC04NzM5NjExNTAsMTIyNTA0Mjc5MCwxNjk2OTI0MD
-k4XX0=
+eyJoaXN0b3J5IjpbLTU4MjY0MjIxMSwxODE4MzIwNjU2LC0xMD
+g0OTcxNTAyLC0xNDgyODgwNjE1LC0xMzc3NDk3MDQ2LDE5OTQ0
+OTU2MTIsLTg3Mzk2MTE1MCwxMjI1MDQyNzkwLDE2OTY5MjQwOT
+hdfQ==
 -->
