@@ -226,6 +226,9 @@ for i in texto[::2]:
 ```
 
 
+cuadrados  =  []  for  i  in  range(5):  cuadrados.append(i**2)  #[0, 1, 4, 9, 16]
+
+
 ## ¿Qué es una lista por comprensión en Python?
 
 
@@ -248,7 +251,7 @@ for i in texto[::2]:
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE1NTQyNywtNTgyNjQyMjExLDE4MT
+eyJoaXN0b3J5IjpbMTE3MDk0NzEyNiwtNTgyNjQyMjExLDE4MT
 gzMjA2NTYsLTEwODQ5NzE1MDIsLTE0ODI4ODA2MTUsLTEzNzc0
 OTcwNDYsMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEyMjUwNDI3OT
 AsMTY5NjkyNDA5OF19
