@@ -116,7 +116,7 @@ En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son her
 ## ¿Cuáles son los diferentes tipos de bucles en Python? ¿Por qué son útiles?
 
 En Python, los bucles son fundamentales para repetir código. Los dos tipos principales son los bucles  `for`  y los bucles  `while`. Los bucles  `for`  son ideales cuando se conoce de antemano cuántas veces se repetirá el código, mientras que los bucles  `while`  son útiles cuando la cantidad de repeticiones depende de una condición. 
-
+Cabe destacar que existe dos tipos de bucles, los que tienen un número de iteraciones **no definidas**, y los que tienen un número de iteraciones **definidas**.
 Bucles  `for`:
 
 -   **Funcionamiento:** Iteran sobre una secuencia (como una lista, tupla, cadena, etc.) o sobre un rango de números.
@@ -229,6 +229,9 @@ for i in texto[::2]:
 cuadrados  =  []  for  i  in  range(5):  cuadrados.append(i**2)  #[0, 1, 4, 9, 16]
 
 
+x  =  5  while  x  >  0:  x  -=1  print(x)  # Salida: 4,3,2,1,0
+
+
 ## ¿Qué es una lista por comprensión en Python?
 
 
@@ -251,8 +254,8 @@ cuadrados  =  []  for  i  in  range(5):  cuadrados.append(i**2)  #[0, 1, 4, 9, 1
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDk0NzEyNiwtNTgyNjQyMjExLDE4MT
-gzMjA2NTYsLTEwODQ5NzE1MDIsLTE0ODI4ODA2MTUsLTEzNzc0
-OTcwNDYsMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEyMjUwNDI3OT
-AsMTY5NjkyNDA5OF19
+eyJoaXN0b3J5IjpbLTE4ODY2NTk1MjQsLTU4MjY0MjIxMSwxOD
+E4MzIwNjU2LC0xMDg0OTcxNTAyLC0xNDgyODgwNjE1LC0xMzc3
+NDk3MDQ2LDE5OTQ0OTU2MTIsLTg3Mzk2MTE1MCwxMjI1MDQyNz
+kwLDE2OTY5MjQwOThdfQ==
 -->
