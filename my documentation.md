@@ -178,6 +178,54 @@ Como hemos comentado, los  **iterables**  son objetos que pueden ser iterados o 
 ```
 
 
+Es posible  **anidar**  los  `for`, es decir,  **meter uno dentro de otro**. Esto puede ser muy útil si queremos iterar algún objeto que en cada elemento, tiene a su vez otra clase iterable. Podemos tener por ejemplo, una lista de listas, una especie de matriz.
+
+```
+lista = [[56, 34, 1],
+         [12, 4, 5],
+         [9, 4, 3]]
+
+```
+
+Si iteramos usando sólo un  `for`, estaremos realmente accediendo a la segunda lista, pero no a los elementos individuales.
+
+```
+for i in lista:
+    print(i)
+#[56, 34, 1]
+#[12, 4, 5]
+#[9, 4, 3]
+
+```
+
+Si queremos acceder a cada elemento individualmente, podemos anidar dos  `for`. Uno de ellos se encargará de iterar las columnas y el otro las filas.
+
+```
+for i in lista:
+    for j in i:
+        print(j)
+# Salida: 56,34,1,12,4,5,9,4,3
+```
+
+
+Iterando cadena al revés. Haciendo uso de  `[::-1]`  se puede iterar la lista desde el último al primer elemento.
+
+```
+texto = "Python"
+for i in texto[::-1]:
+    print(i) #n,o,h,t,y,P
+
+```
+
+Itera la cadena saltándose elementos. Con  `[::2]`  vamos tomando un elemento si y otro no.
+
+```
+texto = "Python"
+for i in texto[::2]:
+    print(i) #P,t,o
+```
+
+
 ## ¿Qué es una lista por comprensión en Python?
 
 
@@ -200,8 +248,8 @@ Como hemos comentado, los  **iterables**  son objetos que pueden ser iterados o 
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MjY0MjIxMSwxODE4MzIwNjU2LC0xMD
-g0OTcxNTAyLC0xNDgyODgwNjE1LC0xMzc3NDk3MDQ2LDE5OTQ0
-OTU2MTIsLTg3Mzk2MTE1MCwxMjI1MDQyNzkwLDE2OTY5MjQwOT
-hdfQ==
+eyJoaXN0b3J5IjpbLTEyNTE1NTQyNywtNTgyNjQyMjExLDE4MT
+gzMjA2NTYsLTEwODQ5NzE1MDIsLTE0ODI4ODA2MTUsLTEzNzc0
+OTcwNDYsMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEyMjUwNDI3OT
+AsMTY5NjkyNDA5OF19
 -->
