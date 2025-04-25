@@ -150,6 +150,22 @@ En resumen:
 -   `while`: Iteración condicionada a una condición.
 
 
+Mientras que en el while la condición era evaluada en cada iteración para decidir si volver a ejecutar o no el código, en el  `for`  no existe tal condición, sino un  `iterable`  que define las veces que se ejecutará el código. En el siguiente ejemplo vemos un bucle  `for`  que se ejecuta 5 veces, y donde la  `i`  incrementa su valor “automáticamente” en 1 en cada iteración.
+
+```
+for i in range(0, 5):
+    print(i)
+
+# Salida:
+# 0
+# 1
+# 2
+# 3
+# 4
+```
+
+for  i  in  "Python":  print(i)  # Salida: # P # y # t # h # o # n
+
 
 ## ¿Qué es una lista por comprensión en Python?
 
@@ -173,8 +189,8 @@ En resumen:
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDYwMDA5MSwxODE4MzIwNjU2LC0xMD
-g0OTcxNTAyLC0xNDgyODgwNjE1LC0xMzc3NDk3MDQ2LDE5OTQ0
-OTU2MTIsLTg3Mzk2MTE1MCwxMjI1MDQyNzkwLDE2OTY5MjQwOT
-hdfQ==
+eyJoaXN0b3J5IjpbLTEyMjg4Njg2MTAsMTgxODMyMDY1NiwtMT
+A4NDk3MTUwMiwtMTQ4Mjg4MDYxNSwtMTM3NzQ5NzA0NiwxOTk0
+NDk1NjEyLC04NzM5NjExNTAsMTIyNTA0Mjc5MCwxNjk2OTI0MD
+k4XX0=
 -->
