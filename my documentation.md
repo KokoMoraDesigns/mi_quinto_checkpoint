@@ -231,6 +231,11 @@ cuadrados  =  []  for  i  in  range(5):  cuadrados.append(i**2)  #[0, 1, 4, 9, 1
 
 x  =  5  while  x  >  0:  x  -=1  print(x)  # Salida: 4,3,2,1,0
 
+En el ejemplo anterior tenemos un caso sencillo de  `while`. Tenemos una condición  `x>0`  y un bloque de código a ejecutar mientras dure esa condición  `x-=1`  y  `print(x)`. Por lo tanto mientras que  `x`  sea mayor que 0, se ejecutará el código. Una vez se llega al final, se vuelve a empezar y si la condición se cumple, se ejecuta otra vez. En este caso se entra al bloque de código 5 veces, hasta que en la sexta,  `x`  vale cero y por lo tanto la condición ya no se cumple. Por lo tanto el  `while`  tiene dos partes:
+
+-   La  **condición**  que se tiene que cumplir para que se ejecute el código.
+-   El  **bloque de código**  que se ejecutará mientras la condición se cumpla.
+
 
 ## ¿Qué es una lista por comprensión en Python?
 
@@ -254,8 +259,8 @@ x  =  5  while  x  >  0:  x  -=1  print(x)  # Salida: 4,3,2,1,0
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODY2NTk1MjQsLTU4MjY0MjIxMSwxOD
-E4MzIwNjU2LC0xMDg0OTcxNTAyLC0xNDgyODgwNjE1LC0xMzc3
-NDk3MDQ2LDE5OTQ0OTU2MTIsLTg3Mzk2MTE1MCwxMjI1MDQyNz
-kwLDE2OTY5MjQwOThdfQ==
+eyJoaXN0b3J5IjpbMTYyOTQ3NzI5NiwtNTgyNjQyMjExLDE4MT
+gzMjA2NTYsLTEwODQ5NzE1MDIsLTE0ODI4ODA2MTUsLTEzNzc0
+OTcwNDYsMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEyMjUwNDI3OT
+AsMTY5NjkyNDA5OF19
 -->
