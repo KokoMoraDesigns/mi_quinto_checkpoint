@@ -237,6 +237,18 @@ En el ejemplo anterior tenemos un caso sencillo de  `while`. Tenemos una condici
 -   El  **bloque de código**  que se ejecutará mientras la condición se cumpla.
 
 
+Algo no muy corriente en otros lenguajes de programación pero si en Python, es el uso de la cláusula  `else`  al final del  `while`. Podemos ver el ejemplo anterior mezclado con el  `else`. La sección de código que se encuentra dentro del  `else`, se ejecutará cuando el bucle termine, pero solo si lo hace “por razones naturales”. Es decir, si el bucle termina porque la condición se deja de cumplir, y no porque se ha hecho uso del  `break`.
+
+```
+x = 5
+while x > 0:
+    x -=1
+    print(x) #4,3,2,1,0
+else:
+    print("El bucle ha finalizado")
+```
+
+
 ## ¿Qué es una lista por comprensión en Python?
 
 
@@ -259,7 +271,7 @@ En el ejemplo anterior tenemos un caso sencillo de  `while`. Tenemos una condici
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyOTQ3NzI5NiwtNTgyNjQyMjExLDE4MT
+eyJoaXN0b3J5IjpbMTU5ODUwNjgxMSwtNTgyNjQyMjExLDE4MT
 gzMjA2NTYsLTEwODQ5NzE1MDIsLTE0ODI4ODA2MTUsLTEzNzc0
 OTcwNDYsMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEyMjUwNDI3OT
 AsMTY5NjkyNDA5OF19
