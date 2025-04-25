@@ -1,4 +1,6 @@
 
+#
+
 ## ¿Qué es un condicional?
 
 > Las sentencias condicionales también se denominan sentencias de decisión. **Se utilizan para ejecutar un bloque específico de código si las condiciones dadas son verdaderas o falsas**. es una forma de controlar el flujo de ejecución del código, permitiendo que se ejecuten diferentes bloques de código en función de si una condición es verdadera o falsa. Las condicionales son fundamentales para crear programas que puedan tomar decisiones y responder de manera diferente a diferentes situaciones. Utiliza la palabra clave «If» seguida de la condición que debe cumplirse. El programador también elige la acción que se ejecutará si se cumple la condición. Los elementos que analizaremos a continuación son: elementos de la condicional, sintaxis, tipos de condicionales, operadores de las condicionales, y, por supuesto, ejemplos.
@@ -252,6 +254,10 @@ La palabra reservada `while` ejecuta una porción de código una y otra vez hast
 
 ¡Genial! Lo que ha ocurrido aquí es lo siguiente: el bucle _for_ ejecuta el bloque de código indentado (en este caso la llamada a `print()`) tantas veces como elementos haya en la colección indicada a la derecha del operador `in`. Pero, cada vez que ese código es ejecutado, la variable `lenguaje` tendrá un valor diferente: en la primera ejecución será igual a `"Python"`; en la segunda, a `"C"`; y así hasta alcanzar el final de la lista.
 
+-   La palabra clave  `while`;
+-   Una afección que se transmite a  `True`  o  `False`; Y
+-   Un bloque de código que quieres ejecutar repetidamente
+
 
 ## ¿Qué es una lista por comprensión en Python?
 
@@ -275,7 +281,7 @@ La palabra reservada `while` ejecuta una porción de código una y otra vez hast
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzUyMTQxOSwyMDA4NTI4Nzc0LDE1OT
+eyJoaXN0b3J5IjpbMTA5OTg5MjI5OSwyMDA4NTI4Nzc0LDE1OT
 g1MDY4MTEsLTU4MjY0MjIxMSwxODE4MzIwNjU2LC0xMDg0OTcx
 NTAyLC0xNDgyODgwNjE1LC0xMzc3NDk3MDQ2LDE5OTQ0OTU2MT
 IsLTg3Mzk2MTE1MCwxMjI1MDQyNzkwLDE2OTY5MjQwOThdfQ==
