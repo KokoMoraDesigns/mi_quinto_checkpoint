@@ -248,6 +248,8 @@ else:
     print("El bucle ha finalizado")
 ```
 
+La palabra reservada `while` ejecuta una porción de código una y otra vez hasta que la condición especificada sea falsa; o, dicho de otro modo, ejecuta una porción de código mientras que la condición sea verdadera.
+
 
 ## ¿Qué es una lista por comprensión en Python?
 
@@ -271,8 +273,8 @@ else:
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODUwNjgxMSwtNTgyNjQyMjExLDE4MT
-gzMjA2NTYsLTEwODQ5NzE1MDIsLTE0ODI4ODA2MTUsLTEzNzc0
-OTcwNDYsMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEyMjUwNDI3OT
-AsMTY5NjkyNDA5OF19
+eyJoaXN0b3J5IjpbMjAwODUyODc3NCwxNTk4NTA2ODExLC01OD
+I2NDIyMTEsMTgxODMyMDY1NiwtMTA4NDk3MTUwMiwtMTQ4Mjg4
+MDYxNSwtMTM3NzQ5NzA0NiwxOTk0NDk1NjEyLC04NzM5NjExNT
+AsMTIyNTA0Mjc5MCwxNjk2OTI0MDk4XX0=
 -->
