@@ -131,6 +131,25 @@ Python
 
 -   **Utilidad:** Ideales para procesar cada elemento de una colección, como imprimir nombres de una lista o realizar cálculos con números dentro de un rango.
 
+Bucles  `while`:
+
+-   **Funcionamiento:** Ejecutan un bloque de código mientras una condición sea verdadera.
+-   **Ejemplo:**
+    
+
+Python
+
+```
+    contador = 0    while contador < 5:        print(contador)        contador += 1
+```
+
+-   **Utilidad:** Útiles cuando no se conoce de antemano cuántas veces se ejecutará el código, como solicitar entrada de usuario hasta que se ingrese un valor válido o realizar operaciones hasta que se cumpla una condición.
+En resumen:
+
+-   `for`: Iteración sobre secuencias conocidas.
+-   `while`: Iteración condicionada a una condición.
+
+
 
 ## ¿Qué es una lista por comprensión en Python?
 
@@ -154,7 +173,8 @@ Python
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxODMyMDY1NiwtMTA4NDk3MTUwMiwtMT
-Q4Mjg4MDYxNSwtMTM3NzQ5NzA0NiwxOTk0NDk1NjEyLC04NzM5
-NjExNTAsMTIyNTA0Mjc5MCwxNjk2OTI0MDk4XX0=
+eyJoaXN0b3J5IjpbLTUxMDYwMDA5MSwxODE4MzIwNjU2LC0xMD
+g0OTcxNTAyLC0xNDgyODgwNjE1LC0xMzc3NDk3MDQ2LDE5OTQ0
+OTU2MTIsLTg3Mzk2MTE1MCwxMjI1MDQyNzkwLDE2OTY5MjQwOT
+hdfQ==
 -->
