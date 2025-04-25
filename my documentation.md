@@ -1,5 +1,5 @@
 
-#
+# PYTHON: UN GLOSARIO BREVE 
 
 ## ¿Qué es un condicional?
 
@@ -281,7 +281,7 @@ La palabra reservada `while` ejecuta una porción de código una y otra vez hast
 
 > Written with [StackEdit](https://stackedit.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTg5MjI5OSwyMDA4NTI4Nzc0LDE1OT
+eyJoaXN0b3J5IjpbLTk5ODYwNjgyMiwyMDA4NTI4Nzc0LDE1OT
 g1MDY4MTEsLTU4MjY0MjIxMSwxODE4MzIwNjU2LC0xMDg0OTcx
 NTAyLC0xNDgyODgwNjE1LC0xMzc3NDk3MDQ2LDE5OTQ0OTU2MT
 IsLTg3Mzk2MTE1MCwxMjI1MDQyNzkwLDE2OTY5MjQwOThdfQ==
