@@ -390,6 +390,18 @@ break con bucles while:
 
 x  =  5  while  True:  x  -=  1  print(x)  if  x  ==  0:  break  print("Fin del bucle")  #4, 3, 2, 1, 0
 
+break con bucles anidados:
+
+Como hemos dicho, el uso de  `break`  rompe el bucle, pero sólo aquel en el que está dentro.
+
+Es decir, si tenemos dos bucles anidados, el  `break`  romperá el bucle anidado, pero no el exterior.
+
+Concretamente,  `continue`  se salta todo el código restante en la iteración actual y vuelve al principio en el caso de que aún queden iteraciones por completar.
+
+La diferencia entre el  `break`  y  `continue`  es que el  `continue`  no rompe el bucle, si no que pasa a la siguiente iteración saltando el código pendiente.
+
+En el siguiente ejemplo vemos como al encontrar la letra  `P`  se llama al continue, lo que hace que se salte el  `print()`. Es por ello por lo que no vemos la letra  `P`  impresa en pantalla.
+
 ## Función Lambda
 
 
@@ -400,10 +412,10 @@ x  =  5  while  True:  x  -=  1  print(x)  if  x  ==  0:  break  print("Fin del 
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2Mzk3MDA5OSwtMjIwNjY1NDQ5LC03ND
-MxNDM1NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMTM0NjUw
-MTYsMjAwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMT
-gxODMyMDY1NiwtMTA4NDk3MTUwMiwtMTQ4Mjg4MDYxNSwtMTM3
-NzQ5NzA0NiwxOTk0NDk1NjEyLC04NzM5NjExNTAsMTIyNTA0Mj
-c5MCwxNjk2OTI0MDk4XX0=
+eyJoaXN0b3J5IjpbLTE2MjE5NTU0NjcsLTIyMDY2NTQ0OSwtNz
+QzMTQzNTU4LC0xNTEwMDg5MjM0LDgwNDczNTkzMCwtMTEzNDY1
+MDE2LDIwMDg1Mjg3NzQsMTU5ODUwNjgxMSwtNTgyNjQyMjExLD
+E4MTgzMjA2NTYsLTEwODQ5NzE1MDIsLTE0ODI4ODA2MTUsLTEz
+Nzc0OTcwNDYsMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEyMjUwND
+I3OTAsMTY5NjkyNDA5OF19
 -->
