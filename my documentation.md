@@ -365,6 +365,25 @@ En Python, la instrucción  `break`  permite salir de un bucle  `for`  o  `while
     
     En bucles anidados,  `break`  interrumpe solo el bucle más interno en el que está.
 
+Un ejemplo un poco más útil, sería el de buscar una letra en una palabra. Se itera toda la palabra y en el momento en el que se encuentra la letra que buscábamos, se rompe el bucle y se sale.
+
+Esto es algo muy útil porque si ya encontramos lo que estábamos buscando, no tendría mucho sentido seguir iterando la lista, ya que desperdiciaríamos recursos.
+
+```
+cadena = 'Python'
+for letra in cadena:
+    if letra == 'h':
+        print("Se encontró la h")
+        break
+    print(letra)
+
+# Salida:
+# P
+# y
+# t
+# Se encontró la h
+```
+
 ## Función Lambda
 
 
@@ -375,10 +394,10 @@ En Python, la instrucción  `break`  permite salir de un bucle  `for`  o  `while
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzODkyNTU0LC0yMjA2NjU0NDksLTc0Mz
-E0MzU1OCwtMTUxMDA4OTIzNCw4MDQ3MzU5MzAsLTExMzQ2NTAx
-NiwyMDA4NTI4Nzc0LDE1OTg1MDY4MTEsLTU4MjY0MjIxMSwxOD
-E4MzIwNjU2LC0xMDg0OTcxNTAyLC0xNDgyODgwNjE1LC0xMzc3
-NDk3MDQ2LDE5OTQ0OTU2MTIsLTg3Mzk2MTE1MCwxMjI1MDQyNz
-kwLDE2OTY5MjQwOThdfQ==
+eyJoaXN0b3J5IjpbNjUyMzEyMTEsLTIyMDY2NTQ0OSwtNzQzMT
+QzNTU4LC0xNTEwMDg5MjM0LDgwNDczNTkzMCwtMTEzNDY1MDE2
+LDIwMDg1Mjg3NzQsMTU5ODUwNjgxMSwtNTgyNjQyMjExLDE4MT
+gzMjA2NTYsLTEwODQ5NzE1MDIsLTE0ODI4ODA2MTUsLTEzNzc0
+OTcwNDYsMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEyMjUwNDI3OT
+AsMTY5NjkyNDA5OF19
 -->
