@@ -258,6 +258,15 @@ Los condicionales utilizan operadores de comparación para evaluar las condicion
 En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son herramientas esenciales para crear programas que puedan adaptarse a diferentes situaciones y tomar decisiones basadas en condiciones específicas.
 
 
+bucles anidados:
+#Take user input
+number = 2 
+
+#condition of the while loop
+while number < 5 :  
+    # condition of the nested while loop    
+    while number % 2 == 0: 
+        print("The number "+ str(number)+" is even")
 
 
 
@@ -272,9 +281,9 @@ En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son her
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDUxNzQ2OCwtMTEzNDY1MDE2LDIwMD
-g1Mjg3NzQsMTU5ODUwNjgxMSwtNTgyNjQyMjExLDE4MTgzMjA2
-NTYsLTEwODQ5NzE1MDIsLTE0ODI4ODA2MTUsLTEzNzc0OTcwND
-YsMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEyMjUwNDI3OTAsMTY5
-NjkyNDA5OF19
+eyJoaXN0b3J5IjpbODA0NzM1OTMwLC0xMTM0NjUwMTYsMjAwOD
+UyODc3NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMTgxODMyMDY1
+NiwtMTA4NDk3MTUwMiwtMTQ4Mjg4MDYxNSwtMTM3NzQ5NzA0Ni
+wxOTk0NDk1NjEyLC04NzM5NjExNTAsMTIyNTA0Mjc5MCwxNjk2
+OTI0MDk4XX0=
 -->
