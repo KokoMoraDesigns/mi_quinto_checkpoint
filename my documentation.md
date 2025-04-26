@@ -323,6 +323,17 @@ I am inner loop iteration 3
 I am inner loop iteration 4
 
 
+Bucle infinito: 
+#Take user input
+number = 2 
+
+#condition of the while loop
+while number < 5 :  
+    # condition of the nested while loop    
+    while number % 2 == 0: 
+        print("The number "+ str(number)+" is even")
+
+
 
 
 ## Función Lambda
@@ -335,9 +346,9 @@ I am inner loop iteration 4
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMT
-M0NjUwMTYsMjAwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIy
-MTEsMTgxODMyMDY1NiwtMTA4NDk3MTUwMiwtMTQ4Mjg4MDYxNS
-wtMTM3NzQ5NzA0NiwxOTk0NDk1NjEyLC04NzM5NjExNTAsMTIy
-NTA0Mjc5MCwxNjk2OTI0MDk4XX0=
+eyJoaXN0b3J5IjpbLTc0MzE0MzU1OCwtMTUxMDA4OTIzNCw4MD
+Q3MzU5MzAsLTExMzQ2NTAxNiwyMDA4NTI4Nzc0LDE1OTg1MDY4
+MTEsLTU4MjY0MjIxMSwxODE4MzIwNjU2LC0xMDg0OTcxNTAyLC
+0xNDgyODgwNjE1LC0xMzc3NDk3MDQ2LDE5OTQ0OTU2MTIsLTg3
+Mzk2MTE1MCwxMjI1MDQyNzkwLDE2OTY5MjQwOThdfQ==
 -->
