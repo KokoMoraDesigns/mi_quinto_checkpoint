@@ -402,6 +402,23 @@ La diferencia entre el  `break`  y  `continue`  es que el  `continue`  no rompe 
 
 En el siguiente ejemplo vemos como al encontrar la letra  `P`  se llama al continue, lo que hace que se salte el  `print()`. Es por ello por lo que no vemos la letra  `P`  impresa en pantalla.
 
+cadena  =  'Python'  for  letra  in  cadena:  if  letra  ==  'P':  continue  print(letra)  # Salida: # y # t # h # o # n
+
+A diferencia del  `break`, el  `continue`  no rompe el bucle sino que finaliza la iteración actual, haciendo que todo el código que va después se salte, y se vuelva al principio a evaluar la condición.
+
+En el siguiente ejemplo podemos ver como cuando la  `x`  vale 3, se llama al  `continue`, lo que hace que se salte el resto de código de la iteración (el  `print()`). Por ello, vemos como el número 3 no se imprime en pantalla.
+
+```
+x = 5
+while x > 0:
+    x -= 1
+    if x == 3:
+        continue
+    print(x)
+
+#Salida: 4, 2, 1, 0
+```
+
 ## Función Lambda
 
 
@@ -412,7 +429,7 @@ En el siguiente ejemplo vemos como al encontrar la letra  `P`  se llama al conti
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE5NTU0NjcsLTIyMDY2NTQ0OSwtNz
+eyJoaXN0b3J5IjpbLTIxMDcxOTg1MTQsLTIyMDY2NTQ0OSwtNz
 QzMTQzNTU4LC0xNTEwMDg5MjM0LDgwNDczNTkzMCwtMTEzNDY1
 MDE2LDIwMDg1Mjg3NzQsMTU5ODUwNjgxMSwtNTgyNjQyMjExLD
 E4MTgzMjA2NTYsLTEwODQ5NzE1MDIsLTE0ODI4ODA2MTUsLTEz
