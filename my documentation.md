@@ -260,6 +260,8 @@ En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son her
 
 
 
+
+
 ## Función Lambda
 
 
@@ -270,9 +272,9 @@ En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son her
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQ2NTAxNiwyMDA4NTI4Nzc0LDE1OT
-g1MDY4MTEsLTU4MjY0MjIxMSwxODE4MzIwNjU2LC0xMDg0OTcx
-NTAyLC0xNDgyODgwNjE1LC0xMzc3NDk3MDQ2LDE5OTQ0OTU2MT
-IsLTg3Mzk2MTE1MCwxMjI1MDQyNzkwLDE2OTY5MjQwOThdfQ==
-
+eyJoaXN0b3J5IjpbLTUzNDUxNzQ2OCwtMTEzNDY1MDE2LDIwMD
+g1Mjg3NzQsMTU5ODUwNjgxMSwtNTgyNjQyMjExLDE4MTgzMjA2
+NTYsLTEwODQ5NzE1MDIsLTE0ODI4ODA2MTUsLTEzNzc0OTcwND
+YsMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEyMjUwNDI3OTAsMTY5
+NjkyNDA5OF19
 -->
