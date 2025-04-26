@@ -354,6 +354,17 @@ Si no agregas esta línea, crearás un  **bucle infinito**.
 
 `numero`  no se incrementaría o actualizaría. Siempre sería fijado en `0`  por tanto la condición  `numero < 10`  será verdadero siempre. Esto significa que el bucle continuará siempre.
 
+En Python, la instrucción  `break`  permite salir de un bucle  `for`  o  `while`  de forma inmediata. Cuando el código encuentra una instrucción  `break`  dentro de un bucle, el bucle se interrumpe y la ejecución del programa continúa con la siguiente línea de código después del bucle.
+
+    for i in range(10):
+        print(i)
+        if i == 5:
+            break
+    print("Fin del bucle")
+-   **Bucle anidados:**
+    
+    En bucles anidados,  `break`  interrumpe solo el bucle más interno en el que está.
+
 ## Función Lambda
 
 
@@ -364,10 +375,10 @@ Si no agregas esta línea, crearás un  **bucle infinito**.
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDY2NTQ0OSwtNzQzMTQzNTU4LC0xNT
-EwMDg5MjM0LDgwNDczNTkzMCwtMTEzNDY1MDE2LDIwMDg1Mjg3
-NzQsMTU5ODUwNjgxMSwtNTgyNjQyMjExLDE4MTgzMjA2NTYsLT
-EwODQ5NzE1MDIsLTE0ODI4ODA2MTUsLTEzNzc0OTcwNDYsMTk5
-NDQ5NTYxMiwtODczOTYxMTUwLDEyMjUwNDI3OTAsMTY5NjkyND
-A5OF19
+eyJoaXN0b3J5IjpbOTkzODkyNTU0LC0yMjA2NjU0NDksLTc0Mz
+E0MzU1OCwtMTUxMDA4OTIzNCw4MDQ3MzU5MzAsLTExMzQ2NTAx
+NiwyMDA4NTI4Nzc0LDE1OTg1MDY4MTEsLTU4MjY0MjIxMSwxOD
+E4MzIwNjU2LC0xMDg0OTcxNTAyLC0xNDgyODgwNjE1LC0xMzc3
+NDk3MDQ2LDE5OTQ0OTU2MTIsLTg3Mzk2MTE1MCwxMjI1MDQyNz
+kwLDE2OTY5MjQwOThdfQ==
 -->
