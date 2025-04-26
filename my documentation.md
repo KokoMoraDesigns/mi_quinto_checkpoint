@@ -369,6 +369,8 @@ Un ejemplo un poco más útil, sería el de buscar una letra en una palabra. Se 
 
 Esto es algo muy útil porque si ya encontramos lo que estábamos buscando, no tendría mucho sentido seguir iterando la lista, ya que desperdiciaríamos recursos.
 
+
+break con bucles for:
 ```
 cadena = 'Python'
 for letra in cadena:
@@ -384,6 +386,10 @@ for letra in cadena:
 # Se encontró la h
 ```
 
+break con bucles while:
+
+x  =  5  while  True:  x  -=  1  print(x)  if  x  ==  0:  break  print("Fin del bucle")  #4, 3, 2, 1, 0
+
 ## Función Lambda
 
 
@@ -394,10 +400,10 @@ for letra in cadena:
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyMzEyMTEsLTIyMDY2NTQ0OSwtNzQzMT
-QzNTU4LC0xNTEwMDg5MjM0LDgwNDczNTkzMCwtMTEzNDY1MDE2
-LDIwMDg1Mjg3NzQsMTU5ODUwNjgxMSwtNTgyNjQyMjExLDE4MT
-gzMjA2NTYsLTEwODQ5NzE1MDIsLTE0ODI4ODA2MTUsLTEzNzc0
-OTcwNDYsMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEyMjUwNDI3OT
-AsMTY5NjkyNDA5OF19
+eyJoaXN0b3J5IjpbLTI2Mzk3MDA5OSwtMjIwNjY1NDQ5LC03ND
+MxNDM1NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMTM0NjUw
+MTYsMjAwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMT
+gxODMyMDY1NiwtMTA4NDk3MTUwMiwtMTQ4Mjg4MDYxNSwtMTM3
+NzQ5NzA0NiwxOTk0NDk1NjEyLC04NzM5NjExNTAsMTIyNTA0Mj
+c5MCwxNjk2OTI0MDk4XX0=
 -->
