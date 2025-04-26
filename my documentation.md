@@ -268,6 +268,60 @@ while number < 5 :
     while number % 2 == 0: 
         print("The number "+ str(number)+" is even")
 
+Verás que el control entra en el primer bucle for y el valor de la variable  `number`  se inicializa como 0. Se imprime la primera sentencia print, y luego el control entra en el segundo bucle for, donde el valor de la variable  `another_number`  se inicializa a  `0`. La primera sentencia print del segundo bucle for se imprime una vez.
+
+Ahora, el control vuelve al bucle for interno una vez más y el valor de  `another_number`  se inicializa de nuevo al siguiente número entero, seguido de la impresión de la declaración dentro de la función  `print()`.
+
+El proceso anterior continúa hasta que el control ha atravesado el final de la función  `range()`, que en este caso es 5, y entonces el control vuelve al bucle exterior, inicializa la variable  `number`  con el siguiente número entero, imprime la sentencia dentro de la función  `print()`, visita el bucle interior y repite todos los pasos anteriores hasta atravesar la función  `range()`.
+
+Este viaje del control desde el bucle exterior, pasando por el bucle interior y volviendo al bucle for exterior continúa hasta que el control ha recorrido todo el rango, que en tu caso es 3 veces.
+
+#Print the below statement 3 times
+for number in range(3) :  
+    print("-------------------------------------------")
+    print("I am outer loop iteration "+str(number))
+    # Inner loop
+    for another_number in range(5):  
+        print("****************************")
+        print("I am inner loop iteration "+str(another_number))
+
+-------------------------------------------
+I am outer loop iteration 0
+****************************
+I am inner loop iteration 0
+****************************
+I am inner loop iteration 1
+****************************
+I am inner loop iteration 2
+****************************
+I am inner loop iteration 3
+****************************
+I am inner loop iteration 4
+-------------------------------------------
+I am outer loop iteration 1
+****************************
+I am inner loop iteration 0
+****************************
+I am inner loop iteration 1
+****************************
+I am inner loop iteration 2
+****************************
+I am inner loop iteration 3
+****************************
+I am inner loop iteration 4
+-------------------------------------------
+I am outer loop iteration 2
+****************************
+I am inner loop iteration 0
+****************************
+I am inner loop iteration 1
+****************************
+I am inner loop iteration 2
+****************************
+I am inner loop iteration 3
+****************************
+I am inner loop iteration 4
+
 
 
 
@@ -281,9 +335,9 @@ while number < 5 :
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0NzM1OTMwLC0xMTM0NjUwMTYsMjAwOD
-UyODc3NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMTgxODMyMDY1
-NiwtMTA4NDk3MTUwMiwtMTQ4Mjg4MDYxNSwtMTM3NzQ5NzA0Ni
-wxOTk0NDk1NjEyLC04NzM5NjExNTAsMTIyNTA0Mjc5MCwxNjk2
-OTI0MDk4XX0=
+eyJoaXN0b3J5IjpbLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMT
+M0NjUwMTYsMjAwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIy
+MTEsMTgxODMyMDY1NiwtMTA4NDk3MTUwMiwtMTQ4Mjg4MDYxNS
+wtMTM3NzQ5NzA0NiwxOTk0NDk1NjEyLC04NzM5NjExNTAsMTIy
+NTA0Mjc5MCwxNjk2OTI0MDk4XX0=
 -->
