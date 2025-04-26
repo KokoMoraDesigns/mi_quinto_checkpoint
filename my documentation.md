@@ -334,7 +334,25 @@ while number < 5 :
         print("The number "+ str(number)+" is even")
 
 
+```python
+numero = 0
+while numero < 10:
+    print(f"Numero es {numero}!")
+    numero = numero + 1
+```
+Aquí, la variable  `numero`  es fijada en  `0`  al inicio.
 
+Antes de que cualquier código sea ejecutado, Python verifica la condición (`numero < 10`). Verifica si la condición es True, imprime el siguiente estado `Number is 0!`  y así mientras que la condición continúa siendo verdadero.
+
+`numero`  es entonces incrementado en `1`. La condición es reevaluada, y si nuevamente es ver verdadero, todo el proceso se repite has que  `numero`  es igual a  `9`.
+
+Ahora cuando llegamos al punto  `Numero es 9!`  y  `numero`  es incrementado en uno,  `numero`  es igual a  `10`  la condición deja de ser verdadero, y se convierte en falso`False`
+
+Cómo viste anteriormente, los bucles  `while`  están acompañados típicamente por una variable cuyo valor cambia a través de la duración del bucle, hasta que finalmente se determina un punto en el cual el bucle llega a su cesación.
+
+Si no agregas esta línea, crearás un  **bucle infinito**.
+
+`numero`  no se incrementaría o actualizaría. Siempre sería fijado en `0`  por tanto la condición  `numero < 10`  será verdadero siempre. Esto significa que el bucle continuará siempre.
 
 ## Función Lambda
 
@@ -346,9 +364,10 @@ while number < 5 :
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzE0MzU1OCwtMTUxMDA4OTIzNCw4MD
-Q3MzU5MzAsLTExMzQ2NTAxNiwyMDA4NTI4Nzc0LDE1OTg1MDY4
-MTEsLTU4MjY0MjIxMSwxODE4MzIwNjU2LC0xMDg0OTcxNTAyLC
-0xNDgyODgwNjE1LC0xMzc3NDk3MDQ2LDE5OTQ0OTU2MTIsLTg3
-Mzk2MTE1MCwxMjI1MDQyNzkwLDE2OTY5MjQwOThdfQ==
+eyJoaXN0b3J5IjpbLTIyMDY2NTQ0OSwtNzQzMTQzNTU4LC0xNT
+EwMDg5MjM0LDgwNDczNTkzMCwtMTEzNDY1MDE2LDIwMDg1Mjg3
+NzQsMTU5ODUwNjgxMSwtNTgyNjQyMjExLDE4MTgzMjA2NTYsLT
+EwODQ5NzE1MDIsLTE0ODI4ODA2MTUsLTEzNzc0OTcwNDYsMTk5
+NDQ5NTYxMiwtODczOTYxMTUwLDEyMjUwNDI3OTAsMTY5NjkyND
+A5OF19
 -->
