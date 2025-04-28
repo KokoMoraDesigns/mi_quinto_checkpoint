@@ -85,8 +85,20 @@ print (add(1,2,3,4,5))
 print (add(10,20))
 #Output:30
 
+Para un argumento de palabra clave arbitrario, se coloca un asterisco doble (**) antes de un parámetro en una función que puede contener argumentos de palabra clave de longitud variable.
+```
 
-
+```
+def fn(**a):
+    for i in a.items():
+        print (i)
+fn(numbers=5,colors="blue",fruits="apple")
+'''
+Output:
+('numbers', 5)
+('colors', 'blue')
+('fruits', 'apple')
+'''
 ```
 
 #### Los argumentos predeterminados deben seguir a los argumentos no predeterminados
@@ -553,11 +565,11 @@ while x > 0:
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1NTkwNTQ0LC01NTAzNDc2MDUsNzk1OD
-E5MDEwLC0yMTA3MTk4NTE0LC0yMjA2NjU0NDksLTc0MzE0MzU1
-OCwtMTUxMDA4OTIzNCw4MDQ3MzU5MzAsLTExMzQ2NTAxNiwyMD
-A4NTI4Nzc0LDE1OTg1MDY4MTEsLTU4MjY0MjIxMSwxODE4MzIw
-NjU2LC0xMDg0OTcxNTAyLC0xNDgyODgwNjE1LC0xMzc3NDk3MD
-Q2LDE5OTQ0OTU2MTIsLTg3Mzk2MTE1MCwxMjI1MDQyNzkwLDE2
-OTY5MjQwOThdfQ==
+eyJoaXN0b3J5IjpbMTY5MjA2MDM3NiwtNTUwMzQ3NjA1LDc5NT
+gxOTAxMCwtMjEwNzE5ODUxNCwtMjIwNjY1NDQ5LC03NDMxNDM1
+NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMTM0NjUwMTYsMj
+AwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMTgxODMy
+MDY1NiwtMTA4NDk3MTUwMiwtMTQ4Mjg4MDYxNSwtMTM3NzQ5Nz
+A0NiwxOTk0NDk1NjEyLC04NzM5NjExNTAsMTIyNTA0Mjc5MCwx
+Njk2OTI0MDk4XX0=
 -->
