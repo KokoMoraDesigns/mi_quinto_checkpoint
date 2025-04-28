@@ -672,6 +672,12 @@ def square1(num):
 print(square(5)) # Resultado: 25
 ```
 
+```py
+lambda_func = lambda x: True if x**2 >= 10 else False
+lambda_func(3) # Retorna False
+lambda_func(4) # Retorna True
+```
+
 ## Lista de comprensión
 
 
@@ -679,11 +685,11 @@ print(square(5)) # Resultado: 25
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTUwNzMzMjEsLTEyNjQyMTQ1NTYsMT
-Y5MjA2MDM3NiwtNTUwMzQ3NjA1LDc5NTgxOTAxMCwtMjEwNzE5
-ODUxNCwtMjIwNjY1NDQ5LC03NDMxNDM1NTgsLTE1MTAwODkyMz
-QsODA0NzM1OTMwLC0xMTM0NjUwMTYsMjAwODUyODc3NCwxNTk4
-NTA2ODExLC01ODI2NDIyMTEsMTgxODMyMDY1NiwtMTA4NDk3MT
-UwMiwtMTQ4Mjg4MDYxNSwtMTM3NzQ5NzA0NiwxOTk0NDk1NjEy
-LC04NzM5NjExNTBdfQ==
+eyJoaXN0b3J5IjpbLTM5NjY2MjkwOSwtMTI2NDIxNDU1NiwxNj
+kyMDYwMzc2LC01NTAzNDc2MDUsNzk1ODE5MDEwLC0yMTA3MTk4
+NTE0LC0yMjA2NjU0NDksLTc0MzE0MzU1OCwtMTUxMDA4OTIzNC
+w4MDQ3MzU5MzAsLTExMzQ2NTAxNiwyMDA4NTI4Nzc0LDE1OTg1
+MDY4MTEsLTU4MjY0MjIxMSwxODE4MzIwNjU2LC0xMDg0OTcxNT
+AyLC0xNDgyODgwNjE1LC0xMzc3NDk3MDQ2LDE5OTQ0OTU2MTIs
+LTg3Mzk2MTE1MF19
 -->
