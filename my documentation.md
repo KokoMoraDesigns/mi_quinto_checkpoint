@@ -57,6 +57,38 @@ def add(a,b=5,c=10):
 Permiten a las funciones recibir un número variable de argumentos.`*args`  se utiliza para argumentos posicionales, mientras que  `**kwargs`  se utiliza para argumentos de palabra clave.
 
 
+[Los argumentos de longitud variable](https://builtin-com.translate.goog/articles/python-variable-in-string?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=rq) también se conocen como argumentos arbitrarios. Si desconocemos de antemano el número de argumentos necesarios para la función, podemos usar argumentos arbitrarios. Estos argumentos son de dos tipos: argumentos posicionales arbitrarios y argumentos de palabras clave arbitrarios.
+
+Para argumentos posicionales arbitrarios, se coloca un [asterisco (*)](https://builtin-com.translate.goog/data-science/merging-lists-in-python?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=rq) antes de un parámetro en la definición de función que puede contener argumentos de longitud variable que no sean palabras clave. Estos argumentos se agruparán en una [tupla](https://builtin-com.translate.goog/software-engineering-perspectives/python-tuples-vs-lists?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=rq) . Antes del número variable de argumentos, pueden aparecer cero o más argumentos normales.
+
+```
+def add(*b):
+    result=0
+    for i in b:
+         result=result+i
+    return result
+
+```
+def add(*b):
+    result=0
+    for i in b:
+         result=result+i
+    return result
+
+print (add(1,2,3,4,5))
+#Output:15
+print (add(10,20))
+#Output:30
+```
+print (add(1,2,3,4,5))
+#Output:15
+print (add(10,20))
+#Output:30
+
+
+
+```
+
 #### Los argumentos predeterminados deben seguir a los argumentos no predeterminados
 
 ```
@@ -521,11 +553,11 @@ while x > 0:
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTE0MzI1OSwtNTUwMzQ3NjA1LDc5NT
-gxOTAxMCwtMjEwNzE5ODUxNCwtMjIwNjY1NDQ5LC03NDMxNDM1
-NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMTM0NjUwMTYsMj
-AwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMTgxODMy
-MDY1NiwtMTA4NDk3MTUwMiwtMTQ4Mjg4MDYxNSwtMTM3NzQ5Nz
-A0NiwxOTk0NDk1NjEyLC04NzM5NjExNTAsMTIyNTA0Mjc5MCwx
-Njk2OTI0MDk4XX0=
+eyJoaXN0b3J5IjpbNDg1NTkwNTQ0LC01NTAzNDc2MDUsNzk1OD
+E5MDEwLC0yMTA3MTk4NTE0LC0yMjA2NjU0NDksLTc0MzE0MzU1
+OCwtMTUxMDA4OTIzNCw4MDQ3MzU5MzAsLTExMzQ2NTAxNiwyMD
+A4NTI4Nzc0LDE1OTg1MDY4MTEsLTU4MjY0MjIxMSwxODE4MzIw
+NjU2LC0xMDg0OTcxNTAyLC0xNDgyODgwNjE1LC0xMzc3NDk3MD
+Q2LDE5OTQ0OTU2MTIsLTg3Mzk2MTE1MCwxMjI1MDQyNzkwLDE2
+OTY5MjQwOThdfQ==
 -->
