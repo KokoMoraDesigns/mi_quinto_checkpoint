@@ -5,7 +5,9 @@
 
 son los valores que se pasan a una función cuando se llama, mientras que los parámetros son los nombres que se utilizan para definir esos valores en la declaración de la función. Los argumentos pueden ser de diferentes tipos: posicionales, de palabra clave, predeterminados, y también existen mecanismos para pasar un número variable de argumentos.
 
-### Argumento posicional
+### Tipos de argumentos
+
+#### Argumento posicional
 
 Se pasan a la función en un orden específico que coincide con el orden de los parámetros en la definición de la función.
 
@@ -25,13 +27,13 @@ print (add(10,c=30,b=20))
 #Output:60
 ```
 
-### Argumento de palabra clave
+#### Argumento de palabra clave
 
 Se pasan a la función especificando el nombre del parámetro y su valor
 
 Durante una llamada a una función, los valores que se pasan a través de argumentos no necesitan estar en el mismo orden que los parámetros en la definición de la función. Esto se puede lograr mediante argumentos de palabra clave.
 
-### Argumento predeterminado
+#### Argumento predeterminado
     
     Son argumentos que tienen un valor predefinido y se pueden omitir en la llamada a la función.
 
@@ -50,9 +52,29 @@ def add(a,b=5,c=10):
 ```
 
 
-### Argumento arbitrario
+#### Argumento arbitrario
 
 Permiten a las funciones recibir un número variable de argumentos.`*args`  se utiliza para argumentos posicionales, mientras que  `**kwargs`  se utiliza para argumentos de palabra clave.
+
+
+>!atención:#### Los argumentos predeterminados deben seguir a los argumentos no predeterminados
+
+```
+def add(a=5,b,c):
+    return (a+b+c)
+
+#Output:SyntaxError: non-default argument follows default argument
+```
+
+#### Los argumentos de palabras clave deben seguir a los argumentos posicionales
+
+```
+def add(a,b,c):
+    return (a+b+c)
+
+print (add(a=10,3,4))
+#Output:SyntaxError: positional argument follows keyword argument
+```
 
 ## Bucle
 
@@ -480,11 +502,11 @@ while x > 0:
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MDM0NzYwNSw3OTU4MTkwMTAsLTIxMD
-cxOTg1MTQsLTIyMDY2NTQ0OSwtNzQzMTQzNTU4LC0xNTEwMDg5
-MjM0LDgwNDczNTkzMCwtMTEzNDY1MDE2LDIwMDg1Mjg3NzQsMT
-U5ODUwNjgxMSwtNTgyNjQyMjExLDE4MTgzMjA2NTYsLTEwODQ5
-NzE1MDIsLTE0ODI4ODA2MTUsLTEzNzc0OTcwNDYsMTk5NDQ5NT
-YxMiwtODczOTYxMTUwLDEyMjUwNDI3OTAsMTY5NjkyNDA5OF19
-
+eyJoaXN0b3J5IjpbMTM0NTMwMTI0NCwtNTUwMzQ3NjA1LDc5NT
+gxOTAxMCwtMjEwNzE5ODUxNCwtMjIwNjY1NDQ5LC03NDMxNDM1
+NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMTM0NjUwMTYsMj
+AwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMTgxODMy
+MDY1NiwtMTA4NDk3MTUwMiwtMTQ4Mjg4MDYxNSwtMTM3NzQ5Nz
+A0NiwxOTk0NDk1NjEyLC04NzM5NjExNTAsMTIyNTA0Mjc5MCwx
+Njk2OTI0MDk4XX0=
 -->
