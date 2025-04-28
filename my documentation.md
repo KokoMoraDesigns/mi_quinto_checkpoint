@@ -226,6 +226,9 @@ print (add(3,4,1,d=2))
 
 def  funcion(a,  b,  *args,  **kwargs):  print("a =",  a)  print("b =",  b)  for  arg  in  args:  print("args =",  arg)  for  key,  value  in  kwargs.items():  print(key,  "=",  value)  funcion(10,  20,  1,  2,  3,  4,  x="Hola",  y="Que",  z="Tal")  #Salida #a = 10 #b = 20 #args = 1 #args = 2 #args = 3 #args = 4 #x = Hola #y = Que #z = Tal
 
+Y por último un truco que no podemos dejar sin mencionar es lo que se conoce como _tuple unpacking_. Haciendo uso de `*`, podemos extraer los valores de una lista o tupla, y que sean pasados como argumentos a la función.
+
+def  funcion(a,  b,  *args,  **kwargs):  print("a =",  a)  print("b =",  b)  for  arg  in  args:  print("args =",  arg)  for  key,  value  in  kwargs.items():  print(key,  "=",  value)  args  =  [1,  2,  3,  4]  kwargs  =  {'x':"Hola",  'y':"Que",  'z':"Tal"}  funcion(10,  20,  *args,  **kwargs)  #Salida #a = 10 #b = 20 #args = 1 #args = 2 #args = 3 #args = 4 #x = Hola #y = Que #z = Tal
 
 ## Bucle
 
@@ -653,7 +656,7 @@ while x > 0:
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4NDM2MjU0LDE2OTIwNjAzNzYsLTU1MD
+eyJoaXN0b3J5IjpbOTUzMDk1Mzc4LDE2OTIwNjAzNzYsLTU1MD
 M0NzYwNSw3OTU4MTkwMTAsLTIxMDcxOTg1MTQsLTIyMDY2NTQ0
 OSwtNzQzMTQzNTU4LC0xNTEwMDg5MjM0LDgwNDczNTkzMCwtMT
 EzNDY1MDE2LDIwMDg1Mjg3NzQsMTU5ODUwNjgxMSwtNTgyNjQy
