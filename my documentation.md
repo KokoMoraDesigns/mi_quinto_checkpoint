@@ -3,6 +3,13 @@
 
 ## Argumento
 
+son los valores que se pasan a una función cuando se llama, mientras que los parámetros son los nombres que se utilizan para definir esos valores en la declaración de la función. Los argumentos pueden ser de diferentes tipos: posicionales, de palabra clave, predeterminados, y también existen mecanismos para pasar un número variable de argumentos.
+
+### Argumento posicional
+
+Se pasan a la función en un orden específico que coincide con el orden de los parámetros en la definición de la función.
+
+
 ## Bucle
 
 En Python, los bucles son fundamentales para repetir código. Los dos tipos principales son los bucles  `for`  y los bucles  `while`. Los bucles  `for`  son ideales cuando se conoce de antemano cuántas veces se repetirá el código, mientras que los bucles  `while`  son útiles cuando la cantidad de repeticiones depende de una condición. 
@@ -429,10 +436,10 @@ while x > 0:
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDcxOTg1MTQsLTIyMDY2NTQ0OSwtNz
-QzMTQzNTU4LC0xNTEwMDg5MjM0LDgwNDczNTkzMCwtMTEzNDY1
-MDE2LDIwMDg1Mjg3NzQsMTU5ODUwNjgxMSwtNTgyNjQyMjExLD
-E4MTgzMjA2NTYsLTEwODQ5NzE1MDIsLTE0ODI4ODA2MTUsLTEz
-Nzc0OTcwNDYsMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEyMjUwND
-I3OTAsMTY5NjkyNDA5OF19
+eyJoaXN0b3J5IjpbMTc1NjQ4ODkzOSwtMjEwNzE5ODUxNCwtMj
+IwNjY1NDQ5LC03NDMxNDM1NTgsLTE1MTAwODkyMzQsODA0NzM1
+OTMwLC0xMTM0NjUwMTYsMjAwODUyODc3NCwxNTk4NTA2ODExLC
+01ODI2NDIyMTEsMTgxODMyMDY1NiwtMTA4NDk3MTUwMiwtMTQ4
+Mjg4MDYxNSwtMTM3NzQ5NzA0NiwxOTk0NDk1NjEyLC04NzM5Nj
+ExNTAsMTIyNTA0Mjc5MCwxNjk2OTI0MDk4XX0=
 -->
