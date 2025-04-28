@@ -3,7 +3,20 @@
 
 ## Argumento
 
+
+En Python, un argumento es un valor que se pasa a una función durante una llamada. Los argumentos son entradas que indican a las funciones qué salida deben dar
 son los valores que se pasan a una función cuando se llama, mientras que los parámetros son los nombres que se utilizan para definir esos valores en la declaración de la función. Los argumentos pueden ser de diferentes tipos: posicionales, de palabra clave, predeterminados, y también existen mecanismos para pasar un número variable de argumentos.
+
+
+def  f(a=2,  /):  
+	pass  
+
+f()  # Allowed, argument is optional  
+
+f(1)  # Allowed, it's a positional argument  
+
+f(a=1)  # Error, positional only argument
+
 
 ### Tipos de argumentos
 
@@ -138,6 +151,74 @@ def add(a,b,c):
 print (add(a=10,3,4))
 #Output:SyntaxError: positional argument follows keyword argument
 ```
+
+
+Para mejorar la legibilidad y el rendimiento, conviene restringir la forma en que se pueden pasar los argumentos, de modo que un desarrollador solo tenga que consultar la definición de la función para determinar si los elementos se pasan por posición, por posición o palabra clave, o por palabra clave.
+
+argumentos solo posicionales:
+
+Los parámetros posicionales se colocan antes de una `/`barra diagonal en la definición de la función. Esto `/`se utiliza para separar lógicamente los parámetros posicionales del resto. Los parámetros que siguen a `/`pueden ser posicionales, de palabra clave o de palabra clave.
+
+```
+def add(a,b,/,c,d):
+    return a+b+c+d
+
+print (add(3,4,5,6))
+#Output:12
+
+print (add(3,4,c=1,d=2))
+#Output:6
+```
+
+Si especificamos argumentos de palabras clave solo para argumentos posicionales, se generará [TypeError](https://builtin-com.translate.goog/articles/typeerror-int-object-is-not-callable?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=rq) .
+
+```
+def add(a,b,/,c,d):
+    return a+b+c+d
+
+print (add(3,b=4,c=1,d=2))
+#Output:TypeError: add() got some positional-only arguments passed as keyword
+```
+
+argumentos solo de palabras clave:
+
+Para marcar parámetros como solo de palabras clave, coloque un `*`en la lista de argumentos justo antes del primer parámetro solo de palabras clave.
+
+```
+def add(a,b,*,c,d):
+    return a+b+c+d
+
+print (add(3,4,c=1,d=2))
+#Output:10
+```
+
+Si especificamos argumentos posicionales para argumentos de solo palabras clave, se generará TypeError **.**
+
+```
+def add(a,b,*,c,d):
+    return a+b+c+d
+
+print (add(3,4,1,d=2))
+#Output:TypeError: add() takes 2 positional arguments but 3 positional argumen
+```
+
+Las tres convenciones de llamada se utilizan en la misma función. En el siguiente ejemplo, la función `add`contiene los tres argumentos:
+
+-   `a`, `b`: Argumentos únicamente posicionales.
+-   `c`:Argumentos posicionales o de palabras clave.
+-   `d`:Argumentos de sólo palabras clave.
+
+```
+def add(a,b,/,c,*,d):
+    return a+b+c+d
+
+print (add(3,4,1,d=2))
+#Output:10
+```
+
+1.  Utilice **solo posicional** si desea que el nombre de los parámetros no esté disponible para el usuario. Esto es útil cuando los nombres de los parámetros no tienen un significado real.
+2.  Utilice **solo posición** si desea imponer el orden de los argumentos cuando se llama a la función.
+3.  Utilice **solo palabras clave** cuando los nombres tengan significado y la definición de la función sea más comprensible al ser explícita con los nombres.
 
 ## Bucle
 
@@ -565,11 +646,11 @@ while x > 0:
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjA2MDM3NiwtNTUwMzQ3NjA1LDc5NT
-gxOTAxMCwtMjEwNzE5ODUxNCwtMjIwNjY1NDQ5LC03NDMxNDM1
-NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMTM0NjUwMTYsMj
-AwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMTgxODMy
-MDY1NiwtMTA4NDk3MTUwMiwtMTQ4Mjg4MDYxNSwtMTM3NzQ5Nz
-A0NiwxOTk0NDk1NjEyLC04NzM5NjExNTAsMTIyNTA0Mjc5MCwx
-Njk2OTI0MDk4XX0=
+eyJoaXN0b3J5IjpbLTYxNTY0MzIzMiwxNjkyMDYwMzc2LC01NT
+AzNDc2MDUsNzk1ODE5MDEwLC0yMTA3MTk4NTE0LC0yMjA2NjU0
+NDksLTc0MzE0MzU1OCwtMTUxMDA4OTIzNCw4MDQ3MzU5MzAsLT
+ExMzQ2NTAxNiwyMDA4NTI4Nzc0LDE1OTg1MDY4MTEsLTU4MjY0
+MjIxMSwxODE4MzIwNjU2LC0xMDg0OTcxNTAyLC0xNDgyODgwNj
+E1LC0xMzc3NDk3MDQ2LDE5OTQ0OTU2MTIsLTg3Mzk2MTE1MCwx
+MjI1MDQyNzkwXX0=
 -->
