@@ -9,11 +9,27 @@ son los valores que se pasan a una función cuando se llama, mientras que los pa
 
 Se pasan a la función en un orden específico que coincide con el orden de los parámetros en la definición de la función.
 
+La función anterior se puede llamar de dos maneras:
+
+En primer lugar, durante la llamada a la función, todos los argumentos se proporcionan como argumentos posicionales. Los valores que se pasan a través de los argumentos se transfieren a los parámetros según su posición. `10`se asigna a `a`, `20`se asigna a `b`y `30`se asigna a `c`.
+
+```
+print (add(10,20,30))
+#Output:60
+```
+
+La segunda forma es combinar argumentos posicionales y de palabras clave. Los argumentos de palabras clave siempre deben ir después de los argumentos posicionales.
+
+```
+print (add(10,c=30,b=20))
+#Output:60
+```
+
 ### Argumento de palabra clave
 
 Se pasan a la función especificando el nombre del parámetro y su valor
 
-
+Durante una llamada a una función, los valores que se pasan a través de argumentos no necesitan estar en el mismo orden que los parámetros en la definición de la función. Esto se puede lograr mediante argumentos de palabra clave.
 
 ### Argumento predeterminado
     
@@ -464,7 +480,7 @@ while x > 0:
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTM0OTc1OCw3OTU4MTkwMTAsLTIxMD
+eyJoaXN0b3J5IjpbLTU1MDM0NzYwNSw3OTU4MTkwMTAsLTIxMD
 cxOTg1MTQsLTIyMDY2NTQ0OSwtNzQzMTQzNTU4LC0xNTEwMDg5
 MjM0LDgwNDczNTkzMCwtMTEzNDY1MDE2LDIwMDg1Mjg3NzQsMT
 U5ODUwNjgxMSwtNTgyNjQyMjExLDE4MTgzMjA2NTYsLTEwODQ5
