@@ -678,6 +678,18 @@ lambda_func(3) # Retorna False
 lambda_func(4) # Retorna True
 ```
 
+
+```python
+mi_lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+filtrado = filter(lambda x: x % 2 != 0, mi_lista)
+
+list(filtrado)
+# [1, 3, 5, 7, 9]
+```
+
+¿Entonces qué ha ocurrido? Le dijiste a `filter` que tomara cada elemento en `mi_lista` y aplicara la expresión lambda. Los valores que devuelven `False` se filtran.
+
 ## Lista de comprensión
 
 
@@ -685,11 +697,11 @@ lambda_func(4) # Retorna True
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjY2MjkwOSwtMTI2NDIxNDU1NiwxNj
-kyMDYwMzc2LC01NTAzNDc2MDUsNzk1ODE5MDEwLC0yMTA3MTk4
-NTE0LC0yMjA2NjU0NDksLTc0MzE0MzU1OCwtMTUxMDA4OTIzNC
-w4MDQ3MzU5MzAsLTExMzQ2NTAxNiwyMDA4NTI4Nzc0LDE1OTg1
-MDY4MTEsLTU4MjY0MjIxMSwxODE4MzIwNjU2LC0xMDg0OTcxNT
-AyLC0xNDgyODgwNjE1LC0xMzc3NDk3MDQ2LDE5OTQ0OTU2MTIs
-LTg3Mzk2MTE1MF19
+eyJoaXN0b3J5IjpbNDE4MjY2MDgsLTEyNjQyMTQ1NTYsMTY5Mj
+A2MDM3NiwtNTUwMzQ3NjA1LDc5NTgxOTAxMCwtMjEwNzE5ODUx
+NCwtMjIwNjY1NDQ5LC03NDMxNDM1NTgsLTE1MTAwODkyMzQsOD
+A0NzM1OTMwLC0xMTM0NjUwMTYsMjAwODUyODc3NCwxNTk4NTA2
+ODExLC01ODI2NDIyMTEsMTgxODMyMDY1NiwtMTA4NDk3MTUwMi
+wtMTQ4Mjg4MDYxNSwtMTM3NzQ5NzA0NiwxOTk0NDk1NjEyLC04
+NzM5NjExNTBdfQ==
 -->
