@@ -230,6 +230,7 @@ Y por último un truco que no podemos dejar sin mencionar es lo que se conoce co
 
 def  funcion(a,  b,  *args,  **kwargs):  print("a =",  a)  print("b =",  b)  for  arg  in  args:  print("args =",  arg)  for  key,  value  in  kwargs.items():  print(key,  "=",  value)  args  =  [1,  2,  3,  4]  kwargs  =  {'x':"Hola",  'y':"Que",  'z':"Tal"}  funcion(10,  20,  *args,  **kwargs)  #Salida #a = 10 #b = 20 #args = 1 #args = 2 #args = 3 #args = 4 #x = Hola #y = Que #z = Tal
 
+
 ## Bucle
 
 En Python, los bucles son fundamentales para repetir código. Los dos tipos principales son los bucles  `for`  y los bucles  `while`. Los bucles  `for`  son ideales cuando se conoce de antemano cuántas veces se repetirá el código, mientras que los bucles  `while`  son útiles cuando la cantidad de repeticiones depende de una condición. 
@@ -656,11 +657,11 @@ while x > 0:
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzMDk1Mzc4LDE2OTIwNjAzNzYsLTU1MD
-M0NzYwNSw3OTU4MTkwMTAsLTIxMDcxOTg1MTQsLTIyMDY2NTQ0
-OSwtNzQzMTQzNTU4LC0xNTEwMDg5MjM0LDgwNDczNTkzMCwtMT
-EzNDY1MDE2LDIwMDg1Mjg3NzQsMTU5ODUwNjgxMSwtNTgyNjQy
-MjExLDE4MTgzMjA2NTYsLTEwODQ5NzE1MDIsLTE0ODI4ODA2MT
-UsLTEzNzc0OTcwNDYsMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEy
-MjUwNDI3OTBdfQ==
+eyJoaXN0b3J5IjpbLTEyNjQyMTQ1NTYsMTY5MjA2MDM3NiwtNT
+UwMzQ3NjA1LDc5NTgxOTAxMCwtMjEwNzE5ODUxNCwtMjIwNjY1
+NDQ5LC03NDMxNDM1NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC
+0xMTM0NjUwMTYsMjAwODUyODc3NCwxNTk4NTA2ODExLC01ODI2
+NDIyMTEsMTgxODMyMDY1NiwtMTA4NDk3MTUwMiwtMTQ4Mjg4MD
+YxNSwtMTM3NzQ5NzA0NiwxOTk0NDk1NjEyLC04NzM5NjExNTAs
+MTIyNTA0Mjc5MF19
 -->
