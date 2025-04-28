@@ -19,6 +19,20 @@ Se pasan a la función especificando el nombre del parámetro y su valor
     
     Son argumentos que tienen un valor predefinido y se pueden omitir en la llamada a la función.
 
+-   Los argumentos predeterminados son valores que se proporcionan al definir funciones.
+-   El operador de asignación `=`se utiliza para asignar un valor predeterminado al argumento.
+-   Los argumentos predeterminados se vuelven opcionales durante las llamadas de función.
+-   Si proporcionamos un valor a los argumentos predeterminados durante las llamadas de función, anula el valor predeterminado.
+-   La función puede tener cualquier número de argumentos predeterminados.
+-   Los argumentos predeterminados deben seguir a los argumentos no predeterminados.
+
+En el siguiente ejemplo, el valor predeterminado se asigna al argumento `b` y `c`.
+
+```
+def add(a,b=5,c=10):
+    return (a+b+c
+```
+
 
 ### Argumento arbitrario
 
@@ -450,10 +464,11 @@ while x > 0:
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1ODE5MDEwLC0yMTA3MTk4NTE0LC0yMj
-A2NjU0NDksLTc0MzE0MzU1OCwtMTUxMDA4OTIzNCw4MDQ3MzU5
-MzAsLTExMzQ2NTAxNiwyMDA4NTI4Nzc0LDE1OTg1MDY4MTEsLT
-U4MjY0MjIxMSwxODE4MzIwNjU2LC0xMDg0OTcxNTAyLC0xNDgy
-ODgwNjE1LC0xMzc3NDk3MDQ2LDE5OTQ0OTU2MTIsLTg3Mzk2MT
-E1MCwxMjI1MDQyNzkwLDE2OTY5MjQwOThdfQ==
+eyJoaXN0b3J5IjpbMTM0NTM0OTc1OCw3OTU4MTkwMTAsLTIxMD
+cxOTg1MTQsLTIyMDY2NTQ0OSwtNzQzMTQzNTU4LC0xNTEwMDg5
+MjM0LDgwNDczNTkzMCwtMTEzNDY1MDE2LDIwMDg1Mjg3NzQsMT
+U5ODUwNjgxMSwtNTgyNjQyMjExLDE4MTgzMjA2NTYsLTEwODQ5
+NzE1MDIsLTE0ODI4ODA2MTUsLTEzNzc0OTcwNDYsMTk5NDQ5NT
+YxMiwtODczOTYxMTUwLDEyMjUwNDI3OTAsMTY5NjkyNDA5OF19
+
 -->
