@@ -56,6 +56,24 @@ def add(a,b=5,c=10):
 
 Permiten a las funciones recibir un número variable de argumentos.`*args`  se utiliza para argumentos posicionales, mientras que  `**kwargs`  se utiliza para argumentos de palabra clave.
 
+#### Los argumentos predeterminados deben seguir a los argumentos no predeterminados
+
+```
+def add(a=5,b,c):
+    return (a+b+c)
+
+#Output:SyntaxError: non-default argument follows default argument
+```
+
+#### Los argumentos de palabras clave deben seguir a los argumentos posicionales
+
+```
+def add(a,b,c):
+    return (a+b+c)
+
+print (add(a=10,3,4))
+#Output:SyntaxError: positional argument follows keyword argument
+```
 
 >!atención:#### Los argumentos predeterminados deben seguir a los argumentos no predeterminados
 
@@ -502,7 +520,7 @@ while x > 0:
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTMwMTI0NCwtNTUwMzQ3NjA1LDc5NT
+eyJoaXN0b3J5IjpbMTA3NzQ4MDg4NywtNTUwMzQ3NjA1LDc5NT
 gxOTAxMCwtMjEwNzE5ODUxNCwtMjIwNjY1NDQ5LC03NDMxNDM1
 NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMTM0NjUwMTYsMj
 AwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMTgxODMy
