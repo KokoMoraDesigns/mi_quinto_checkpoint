@@ -649,6 +649,28 @@ while x > 0:
 
 ## Función Lambda
 
+Las expresiones lambda se usan idealmente cuando necesitamos hacer algo simple y estamos más interesados en hacer el trabajo rápidamente en lugar de nombrar formalmente la función. Las expresiones lambda también se conocen como funciones anónimas.
+
+Las expresiones lambda en Python son una forma corta de declarar funciones pequeñas y anónimas (no es necesario proporcionar un nombre para las funciones lambda).
+
+Las funciones Lambda se comportan como funciones normales declaradas con la palabra clave `def`. Resultan útiles cuando se desea definir una función pequeña de forma concisa. Pueden contener solo una expresión, por lo que no son las más adecuadas para funciones con instrucciones de flujo de control.
+
+**Sintaxis de una función Lambda**
+
+`lambda argumentos: expresión`
+
+Las funciones Lambda pueden tener cualquier número de argumentos, pero solo una expresión.
+
+```py
+# Función Lambda para calcular el cuadrado de un número
+square = lambda x: x ** 2
+print(square(3)) # Resultado: 9
+
+# Funcion tradicional para calcular el cuadrado de un numero
+def square1(num):
+  return num ** 2
+print(square(5)) # Resultado: 25
+```
 
 ## Lista de comprensión
 
@@ -657,11 +679,11 @@ while x > 0:
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQyMTQ1NTYsMTY5MjA2MDM3NiwtNT
-UwMzQ3NjA1LDc5NTgxOTAxMCwtMjEwNzE5ODUxNCwtMjIwNjY1
-NDQ5LC03NDMxNDM1NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC
-0xMTM0NjUwMTYsMjAwODUyODc3NCwxNTk4NTA2ODExLC01ODI2
-NDIyMTEsMTgxODMyMDY1NiwtMTA4NDk3MTUwMiwtMTQ4Mjg4MD
-YxNSwtMTM3NzQ5NzA0NiwxOTk0NDk1NjEyLC04NzM5NjExNTAs
-MTIyNTA0Mjc5MF19
+eyJoaXN0b3J5IjpbLTEwNTUwNzMzMjEsLTEyNjQyMTQ1NTYsMT
+Y5MjA2MDM3NiwtNTUwMzQ3NjA1LDc5NTgxOTAxMCwtMjEwNzE5
+ODUxNCwtMjIwNjY1NDQ5LC03NDMxNDM1NTgsLTE1MTAwODkyMz
+QsODA0NzM1OTMwLC0xMTM0NjUwMTYsMjAwODUyODc3NCwxNTk4
+NTA2ODExLC01ODI2NDIyMTEsMTgxODMyMDY1NiwtMTA4NDk3MT
+UwMiwtMTQ4Mjg4MDYxNSwtMTM3NzQ5NzA0NiwxOTk0NDk1NjEy
+LC04NzM5NjExNTBdfQ==
 -->
