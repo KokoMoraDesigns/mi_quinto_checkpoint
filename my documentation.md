@@ -223,6 +223,10 @@ print (add(3,4,1,d=2))
 2.  Utilice **solo posición** si desea imponer el orden de los argumentos cuando se llama a la función.
 3.  Utilice **solo palabras clave** cuando los nombres tengan significado y la definición de la función sea más comprensible al ser explícita con los nombres.
 
+
+def  funcion(a,  b,  *args,  **kwargs):  print("a =",  a)  print("b =",  b)  for  arg  in  args:  print("args =",  arg)  for  key,  value  in  kwargs.items():  print(key,  "=",  value)  funcion(10,  20,  1,  2,  3,  4,  x="Hola",  y="Que",  z="Tal")  #Salida #a = 10 #b = 20 #args = 1 #args = 2 #args = 3 #args = 4 #x = Hola #y = Que #z = Tal
+
+
 ## Bucle
 
 En Python, los bucles son fundamentales para repetir código. Los dos tipos principales son los bucles  `for`  y los bucles  `while`. Los bucles  `for`  son ideales cuando se conoce de antemano cuántas veces se repetirá el código, mientras que los bucles  `while`  son útiles cuando la cantidad de repeticiones depende de una condición. 
@@ -649,7 +653,7 @@ while x > 0:
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3MDc3MzkzLDE2OTIwNjAzNzYsLTU1MD
+eyJoaXN0b3J5IjpbMzQ4NDM2MjU0LDE2OTIwNjAzNzYsLTU1MD
 M0NzYwNSw3OTU4MTkwMTAsLTIxMDcxOTg1MTQsLTIyMDY2NTQ0
 OSwtNzQzMTQzNTU4LC0xNTEwMDg5MjM0LDgwNDczNTkzMCwtMT
 EzNDY1MDE2LDIwMDg1Mjg3NzQsMTU5ODUwNjgxMSwtNTgyNjQy
