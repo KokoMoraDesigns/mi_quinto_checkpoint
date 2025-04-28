@@ -9,6 +9,20 @@ son los valores que se pasan a una función cuando se llama, mientras que los pa
 
 Se pasan a la función en un orden específico que coincide con el orden de los parámetros en la definición de la función.
 
+### Argumento de palabra clave
+
+Se pasan a la función especificando el nombre del parámetro y su valor
+
+
+
+### Argumento predeterminado
+    
+    Son argumentos que tienen un valor predefinido y se pueden omitir en la llamada a la función.
+
+
+### Argumento arbitrario
+
+Permiten a las funciones recibir un número variable de argumentos.`*args`  se utiliza para argumentos posicionales, mientras que  `**kwargs`  se utiliza para argumentos de palabra clave.
 
 ## Bucle
 
@@ -436,10 +450,10 @@ while x > 0:
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NjQ4ODkzOSwtMjEwNzE5ODUxNCwtMj
-IwNjY1NDQ5LC03NDMxNDM1NTgsLTE1MTAwODkyMzQsODA0NzM1
-OTMwLC0xMTM0NjUwMTYsMjAwODUyODc3NCwxNTk4NTA2ODExLC
-01ODI2NDIyMTEsMTgxODMyMDY1NiwtMTA4NDk3MTUwMiwtMTQ4
-Mjg4MDYxNSwtMTM3NzQ5NzA0NiwxOTk0NDk1NjEyLC04NzM5Nj
-ExNTAsMTIyNTA0Mjc5MCwxNjk2OTI0MDk4XX0=
+eyJoaXN0b3J5IjpbNzk1ODE5MDEwLC0yMTA3MTk4NTE0LC0yMj
+A2NjU0NDksLTc0MzE0MzU1OCwtMTUxMDA4OTIzNCw4MDQ3MzU5
+MzAsLTExMzQ2NTAxNiwyMDA4NTI4Nzc0LDE1OTg1MDY4MTEsLT
+U4MjY0MjIxMSwxODE4MzIwNjU2LC0xMDg0OTcxNTAyLC0xNDgy
+ODgwNjE1LC0xMzc3NDk3MDQ2LDE5OTQ0OTU2MTIsLTg3Mzk2MT
+E1MCwxMjI1MDQyNzkwLDE2OTY5MjQwOThdfQ==
 -->
