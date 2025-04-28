@@ -18,6 +18,9 @@ f(1)  # Allowed, it's a positional argument
 f(a=1)  # Error, positional only argument
 
 
+def  f(a):  pass  f()  # Error, argument required  f(1)  # Allowed, it's a positional argument  f(a=1)  # Allowed, it's a keyword argument  # De hecho esta funcion equivale a:  def  f(*,  a,  /):  pass
+
+
 ### Tipos de argumentos
 
 #### Argumento posicional
@@ -646,11 +649,11 @@ while x > 0:
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTY0MzIzMiwxNjkyMDYwMzc2LC01NT
-AzNDc2MDUsNzk1ODE5MDEwLC0yMTA3MTk4NTE0LC0yMjA2NjU0
-NDksLTc0MzE0MzU1OCwtMTUxMDA4OTIzNCw4MDQ3MzU5MzAsLT
-ExMzQ2NTAxNiwyMDA4NTI4Nzc0LDE1OTg1MDY4MTEsLTU4MjY0
-MjIxMSwxODE4MzIwNjU2LC0xMDg0OTcxNTAyLC0xNDgyODgwNj
-E1LC0xMzc3NDk3MDQ2LDE5OTQ0OTU2MTIsLTg3Mzk2MTE1MCwx
-MjI1MDQyNzkwXX0=
+eyJoaXN0b3J5IjpbODA3MDc3MzkzLDE2OTIwNjAzNzYsLTU1MD
+M0NzYwNSw3OTU4MTkwMTAsLTIxMDcxOTg1MTQsLTIyMDY2NTQ0
+OSwtNzQzMTQzNTU4LC0xNTEwMDg5MjM0LDgwNDczNTkzMCwtMT
+EzNDY1MDE2LDIwMDg1Mjg3NzQsMTU5ODUwNjgxMSwtNTgyNjQy
+MjExLDE4MTgzMjA2NTYsLTEwODQ5NzE1MDIsLTE0ODI4ODA2MT
+UsLTEzNzc0OTcwNDYsMTk5NDQ5NTYxMiwtODczOTYxMTUwLDEy
+MjUwNDI3OTBdfQ==
 -->
