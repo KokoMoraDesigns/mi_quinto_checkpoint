@@ -660,7 +660,14 @@ Las llamamos “funciones anónimas” porque técnicamente carecen de nombre.
 
 Al contrario que una función normal, no la definimos con la palabra clave estándar  _def_  que utilizamos en  _Python_. En su lugar, las funciones Lambda se definen como una  **línea que ejecuta una sola expresión**. Este tipo de funciones pueden tomar cualquier número de argumentos, pero solo pueden tener una expresión.
 
+
+Si una función es utilizada una sola vez, lo mejor es usar una función lambda para evitar código innecesario y desorganizado.
+
 **Sintaxis de una función Lambda**
+
+La sintaxis de una función lambda es  `lambda args: expresión`. Primero escribes la palabra clave  `lambda`, dejas un espacio, después los argumentos que necesites separados por coma, dos puntos  `:`, y por último la expresión que será el cuerpo de la función.
+
+Recuerda que no puedes darle un nombre a una función lambda, ya que estas son anónimas (sin nombre) por definición.
 
 `lambda argumentos: expresión`
 
@@ -741,11 +748,11 @@ print(x(3, 9))
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTQwMjg4MywtMTI0NjM0MDAwMSw3OD
-E0NTQyMyw0MTgyNjYwOCwtMTI2NDIxNDU1NiwxNjkyMDYwMzc2
-LC01NTAzNDc2MDUsNzk1ODE5MDEwLC0yMTA3MTk4NTE0LC0yMj
-A2NjU0NDksLTc0MzE0MzU1OCwtMTUxMDA4OTIzNCw4MDQ3MzU5
-MzAsLTExMzQ2NTAxNiwyMDA4NTI4Nzc0LDE1OTg1MDY4MTEsLT
-U4MjY0MjIxMSwxODE4MzIwNjU2LC0xMDg0OTcxNTAyLC0xNDgy
-ODgwNjE1XX0=
+eyJoaXN0b3J5IjpbMjEwOTMwNzc1MSwtNDU1NDAyODgzLC0xMj
+Q2MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4LC0xMjY0MjE0NTU2
+LDE2OTIwNjAzNzYsLTU1MDM0NzYwNSw3OTU4MTkwMTAsLTIxMD
+cxOTg1MTQsLTIyMDY2NTQ0OSwtNzQzMTQzNTU4LC0xNTEwMDg5
+MjM0LDgwNDczNTkzMCwtMTEzNDY1MDE2LDIwMDg1Mjg3NzQsMT
+U5ODUwNjgxMSwtNTgyNjQyMjExLDE4MTgzMjA2NTYsLTEwODQ5
+NzE1MDJdfQ==
 -->
