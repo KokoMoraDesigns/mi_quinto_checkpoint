@@ -741,6 +741,22 @@ print(x(3, 9))
 # Salida (9,3)
 ```
 
+
+También es posible que una función devuelva una función lambda.
+
+Si necesitas funciones que multipliquen diferentes números, por ejemplo, duplicar, triplicar, etc... una función lambda puede ser útil
+
+En lugar de crear múltiples funciones, puedes crear una sola función  `multiplicar_por()`  y llamarla con diferentes argumentos para crear una función que duplique o triplique.
+
+```python
+def multiplicar_por (n):
+  return lambda x: x * n
+  
+duplicar = multiplicar_por(2)
+triplicar = multiplicar_por(3)
+diez_veces = multiplicar_por(10)
+```
+
 ## Lista de comprensión
 
 
@@ -748,7 +764,7 @@ print(x(3, 9))
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTMwNzc1MSwtNDU1NDAyODgzLC0xMj
+eyJoaXN0b3J5IjpbLTg2MDczMzc1MiwtNDU1NDAyODgzLC0xMj
 Q2MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4LC0xMjY0MjE0NTU2
 LDE2OTIwNjAzNzYsLTU1MDM0NzYwNSw3OTU4MTkwMTAsLTIxMD
 cxOTg1MTQsLTIyMDY2NTQ0OSwtNzQzMTQzNTU4LC0xNTEwMDg5
