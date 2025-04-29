@@ -694,6 +694,26 @@ una función `lambda` no tiene un nombre, y por lo tanto salvo que sea asignada 
 
 suma  =  lambda  a,  b:  a  +  b
 
+Es posible tener argumentos con valor asignado por defecto.
+
+```
+(lambda a, b, c=3: a + b + c)(1, 2) # 6
+
+```
+
+También se pueden pasar los parámetros indicando su nombre.
+
+```
+(lambda a, b, c: a + b + c)(a=1, b=2, c=3) # 6
+
+```
+
+Al igual que en las funciones se puede tener un número variable de argumentos haciendo uso de  `*`, lo conocido como  **tuple unpacking**.
+
+```
+(lambda *args: sum(args))(1, 2, 3) # 6
+```
+
 ## Lista de comprensión
 
 
@@ -701,11 +721,11 @@ suma  =  lambda  a,  b:  a  +  b
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxNDU0MjMsNDE4MjY2MDgsLTEyNjQyMT
-Q1NTYsMTY5MjA2MDM3NiwtNTUwMzQ3NjA1LDc5NTgxOTAxMCwt
-MjEwNzE5ODUxNCwtMjIwNjY1NDQ5LC03NDMxNDM1NTgsLTE1MT
-AwODkyMzQsODA0NzM1OTMwLC0xMTM0NjUwMTYsMjAwODUyODc3
-NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMTgxODMyMDY1NiwtMT
-A4NDk3MTUwMiwtMTQ4Mjg4MDYxNSwtMTM3NzQ5NzA0NiwxOTk0
-NDk1NjEyXX0=
+eyJoaXN0b3J5IjpbLTEyNDYzNDAwMDEsNzgxNDU0MjMsNDE4Mj
+Y2MDgsLTEyNjQyMTQ1NTYsMTY5MjA2MDM3NiwtNTUwMzQ3NjA1
+LDc5NTgxOTAxMCwtMjEwNzE5ODUxNCwtMjIwNjY1NDQ5LC03ND
+MxNDM1NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMTM0NjUw
+MTYsMjAwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMT
+gxODMyMDY1NiwtMTA4NDk3MTUwMiwtMTQ4Mjg4MDYxNSwtMTM3
+NzQ5NzA0Nl19
 -->
