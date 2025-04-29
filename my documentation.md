@@ -714,6 +714,21 @@ Al igual que en las funciones se puede tener un número variable de argumentos h
 (lambda *args: sum(args))(1, 2, 3) # 6
 ```
 
+Y si tenemos los parámetros de entrada almacenados en forma de  `key`  y  `value`como si fuera un diccionario, también es posible llamar a la función.
+
+```
+(lambda **kwargs: sum(kwargs.values()))(a=1, b=2, c=3) # 6
+
+```
+
+Por último, es posible devolver más de un valor.
+
+```
+x = lambda a, b: (b, a)
+print(x(3, 9))
+# Salida (9,3)
+```
+
 ## Lista de comprensión
 
 
@@ -721,11 +736,11 @@ Al igual que en las funciones se puede tener un número variable de argumentos h
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDYzNDAwMDEsNzgxNDU0MjMsNDE4Mj
-Y2MDgsLTEyNjQyMTQ1NTYsMTY5MjA2MDM3NiwtNTUwMzQ3NjA1
-LDc5NTgxOTAxMCwtMjEwNzE5ODUxNCwtMjIwNjY1NDQ5LC03ND
-MxNDM1NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMTM0NjUw
-MTYsMjAwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMT
-gxODMyMDY1NiwtMTA4NDk3MTUwMiwtMTQ4Mjg4MDYxNSwtMTM3
-NzQ5NzA0Nl19
+eyJoaXN0b3J5IjpbODMwNDA4NDU0LC0xMjQ2MzQwMDAxLDc4MT
+Q1NDIzLDQxODI2NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYs
+LTU1MDM0NzYwNSw3OTU4MTkwMTAsLTIxMDcxOTg1MTQsLTIyMD
+Y2NTQ0OSwtNzQzMTQzNTU4LC0xNTEwMDg5MjM0LDgwNDczNTkz
+MCwtMTEzNDY1MDE2LDIwMDg1Mjg3NzQsMTU5ODUwNjgxMSwtNT
+gyNjQyMjExLDE4MTgzMjA2NTYsLTEwODQ5NzE1MDIsLTE0ODI4
+ODA2MTVdfQ==
 -->
