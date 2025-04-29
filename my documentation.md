@@ -655,6 +655,11 @@ Las expresiones lambda en Python son una forma corta de declarar funciones peque
 
 Las funciones Lambda se comportan como funciones normales declaradas con la palabra clave `def`. Resultan útiles cuando se desea definir una función pequeña de forma concisa. Pueden contener solo una expresión, por lo que no son las más adecuadas para funciones con instrucciones de flujo de control.
 
+
+Las llamamos “funciones anónimas” porque técnicamente carecen de nombre.
+
+Al contrario que una función normal, no la definimos con la palabra clave estándar  _def_  que utilizamos en  _Python_. En su lugar, las funciones Lambda se definen como una  **línea que ejecuta una sola expresión**. Este tipo de funciones pueden tomar cualquier número de argumentos, pero solo pueden tener una expresión.
+
 **Sintaxis de una función Lambda**
 
 `lambda argumentos: expresión`
@@ -736,11 +741,11 @@ print(x(3, 9))
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwNDA4NDU0LC0xMjQ2MzQwMDAxLDc4MT
-Q1NDIzLDQxODI2NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYs
-LTU1MDM0NzYwNSw3OTU4MTkwMTAsLTIxMDcxOTg1MTQsLTIyMD
-Y2NTQ0OSwtNzQzMTQzNTU4LC0xNTEwMDg5MjM0LDgwNDczNTkz
-MCwtMTEzNDY1MDE2LDIwMDg1Mjg3NzQsMTU5ODUwNjgxMSwtNT
-gyNjQyMjExLDE4MTgzMjA2NTYsLTEwODQ5NzE1MDIsLTE0ODI4
-ODA2MTVdfQ==
+eyJoaXN0b3J5IjpbLTQ1NTQwMjg4MywtMTI0NjM0MDAwMSw3OD
+E0NTQyMyw0MTgyNjYwOCwtMTI2NDIxNDU1NiwxNjkyMDYwMzc2
+LC01NTAzNDc2MDUsNzk1ODE5MDEwLC0yMTA3MTk4NTE0LC0yMj
+A2NjU0NDksLTc0MzE0MzU1OCwtMTUxMDA4OTIzNCw4MDQ3MzU5
+MzAsLTExMzQ2NTAxNiwyMDA4NTI4Nzc0LDE1OTg1MDY4MTEsLT
+U4MjY0MjIxMSwxODE4MzIwNjU2LC0xMDg0OTcxNTAyLC0xNDgy
+ODgwNjE1XX0=
 -->
