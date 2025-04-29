@@ -690,6 +690,10 @@ list(filtrado)
 
 ¿Entonces qué ha ocurrido? Le dijiste a `filter` que tomara cada elemento en `mi_lista` y aplicara la expresión lambda. Los valores que devuelven `False` se filtran.
 
+una función `lambda` no tiene un nombre, y por lo tanto salvo que sea asignada a una variable, es totalmente inútil. Para ello debemos.
+
+suma  =  lambda  a,  b:  a  +  b
+
 ## Lista de comprensión
 
 
@@ -697,11 +701,11 @@ list(filtrado)
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4MjY2MDgsLTEyNjQyMTQ1NTYsMTY5Mj
-A2MDM3NiwtNTUwMzQ3NjA1LDc5NTgxOTAxMCwtMjEwNzE5ODUx
-NCwtMjIwNjY1NDQ5LC03NDMxNDM1NTgsLTE1MTAwODkyMzQsOD
-A0NzM1OTMwLC0xMTM0NjUwMTYsMjAwODUyODc3NCwxNTk4NTA2
-ODExLC01ODI2NDIyMTEsMTgxODMyMDY1NiwtMTA4NDk3MTUwMi
-wtMTQ4Mjg4MDYxNSwtMTM3NzQ5NzA0NiwxOTk0NDk1NjEyLC04
-NzM5NjExNTBdfQ==
+eyJoaXN0b3J5IjpbNzgxNDU0MjMsNDE4MjY2MDgsLTEyNjQyMT
+Q1NTYsMTY5MjA2MDM3NiwtNTUwMzQ3NjA1LDc5NTgxOTAxMCwt
+MjEwNzE5ODUxNCwtMjIwNjY1NDQ5LC03NDMxNDM1NTgsLTE1MT
+AwODkyMzQsODA0NzM1OTMwLC0xMTM0NjUwMTYsMjAwODUyODc3
+NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMTgxODMyMDY1NiwtMT
+A4NDk3MTUwMiwtMTQ4Mjg4MDYxNSwtMTM3NzQ5NzA0NiwxOTk0
+NDk1NjEyXX0=
 -->
