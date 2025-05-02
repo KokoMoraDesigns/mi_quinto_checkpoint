@@ -781,15 +781,24 @@ veamos la sintaxis general de las comprensiones de listas.
 ```
 # lista = [expresión for elemento in iterable]
 ```
+
+Es decir, por un lado tenemos el  `for elemento in iterable`, que itera un determinado iterable y “almacena” cada uno de los elementos en  `elemento`  [como vimos en este otro post sobre el for](https://ellibrodepython.com/for-python/). Por otro lado, tenemos la  `expresión`, que es lo que será añadido a la lista en cada iteración.
+
+La expresión puede ser una operación como hemos visto anteriormente  `i**2`, pero también puede ser un valor constante. El siguiente ejemplo genera una lista de cinco unos.
+
+```
+unos = [1 for i in range(5)]
+#[1, 1, 1, 1, 1]
+```
 ## Paquete pip
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjg4ODUxNzUsLTg2MDczMzc1MiwtND
-U1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4
-LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0NzYwNSw3OT
-U4MTkwMTAsLTIxMDcxOTg1MTQsLTIyMDY2NTQ0OSwtNzQzMTQz
-NTU4LC0xNTEwMDg5MjM0LDgwNDczNTkzMCwtMTEzNDY1MDE2LD
-IwMDg1Mjg3NzQsMTU5ODUwNjgxMSwtNTgyNjQyMjExLDE4MTgz
-MjA2NTZdfQ==
+eyJoaXN0b3J5IjpbMjAzMjExNzkyMywtODYwNzMzNzUyLC00NT
+U0MDI4ODMsLTEyNDYzNDAwMDEsNzgxNDU0MjMsNDE4MjY2MDgs
+LTEyNjQyMTQ1NTYsMTY5MjA2MDM3NiwtNTUwMzQ3NjA1LDc5NT
+gxOTAxMCwtMjEwNzE5ODUxNCwtMjIwNjY1NDQ5LC03NDMxNDM1
+NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMTM0NjUwMTYsMj
+AwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMTgxODMy
+MDY1Nl19
 -->
