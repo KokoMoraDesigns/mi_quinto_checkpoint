@@ -828,15 +828,17 @@ erres = [i for i in frase if i == 'r']
 Lo que hace el código anterior es iterar cada letra de la frase, y si es una  `r`, se añade a la lista.
 
 
+Siempre que tengamos una colección iterable que queramos modificar, son una buena opción para evitar tener que escribir bucles for.
+
 ## Paquete pip
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDA4Nzc0MTAsLTg2MDczMzc1MiwtND
-U1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4
-LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0NzYwNSw3OT
-U4MTkwMTAsLTIxMDcxOTg1MTQsLTIyMDY2NTQ0OSwtNzQzMTQz
-NTU4LC0xNTEwMDg5MjM0LDgwNDczNTkzMCwtMTEzNDY1MDE2LD
-IwMDg1Mjg3NzQsMTU5ODUwNjgxMSwtNTgyNjQyMjExLDE4MTgz
-MjA2NTZdfQ==
+eyJoaXN0b3J5IjpbMTM3ODYzNzIyMiwtODYwNzMzNzUyLC00NT
+U0MDI4ODMsLTEyNDYzNDAwMDEsNzgxNDU0MjMsNDE4MjY2MDgs
+LTEyNjQyMTQ1NTYsMTY5MjA2MDM3NiwtNTUwMzQ3NjA1LDc5NT
+gxOTAxMCwtMjEwNzE5ODUxNCwtMjIwNjY1NDQ5LC03NDMxNDM1
+NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMTM0NjUwMTYsMj
+AwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMTgxODMy
+MDY1Nl19
 -->
