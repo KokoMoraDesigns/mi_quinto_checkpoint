@@ -759,16 +759,37 @@ diez_veces = multiplicar_por(10)
 
 ## Lista de comprensión
 
+Vayamos al grano, las  _list comprehension_  nos permiten crear listas de elementos en una sola línea de código. Por ejemplo, podemos crear una lista con los cuadrados de los primeros 5 números de la siguiente forma
 
+```
+cuadrados = [i**2 for i in range(5)]
+#[0, 1, 4, 9, 16]
+
+```
+
+De no existir, podríamos hacer lo mismo de la siguiente forma, pero necesitamos alguna que otra línea más de código.
+
+```
+cuadrados = []
+for i in range(5):
+    cuadrados.append(i**2)
+#[0, 1, 4, 9, 16]
+```
+
+veamos la sintaxis general de las comprensiones de listas.
+
+```
+# lista = [expresión for elemento in iterable]
+```
 ## Paquete pip
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MDczMzc1MiwtNDU1NDAyODgzLC0xMj
-Q2MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4LC0xMjY0MjE0NTU2
-LDE2OTIwNjAzNzYsLTU1MDM0NzYwNSw3OTU4MTkwMTAsLTIxMD
-cxOTg1MTQsLTIyMDY2NTQ0OSwtNzQzMTQzNTU4LC0xNTEwMDg5
-MjM0LDgwNDczNTkzMCwtMTEzNDY1MDE2LDIwMDg1Mjg3NzQsMT
-U5ODUwNjgxMSwtNTgyNjQyMjExLDE4MTgzMjA2NTYsLTEwODQ5
-NzE1MDJdfQ==
+eyJoaXN0b3J5IjpbLTEyMjg4ODUxNzUsLTg2MDczMzc1MiwtND
+U1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4
+LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0NzYwNSw3OT
+U4MTkwMTAsLTIxMDcxOTg1MTQsLTIyMDY2NTQ0OSwtNzQzMTQz
+NTU4LC0xNTEwMDg5MjM0LDgwNDczNTkzMCwtMTEzNDY1MDE2LD
+IwMDg1Mjg3NzQsMTU5ODUwNjgxMSwtNTgyNjQyMjExLDE4MTgz
+MjA2NTZdfQ==
 -->
