@@ -809,16 +809,34 @@ nueva_lista = [i/10 for i in lista]
 #[1.0, 2.0, 3.0, 4.0, 5.0]
 ```
 
+Pero, ¿y si quisiéramos realizar la operación sobre el elemento sólo si una determinada condición se cumple? Pues tenemos buenas noticias, porque es posible añadir un condicional  `if`. La expresión genérica sería la siguiente.
+
+```
+# lista = [expresión for elemento in iterable if condición]
+
+```
+
+Por lo tanto la  `expresión`  sólo se aplicará al  `elemento`  si se cumple la  `condición`. Veamos un ejemplo con una frase, de la que queremos saber el número de erres que tiene.
+
+```
+frase = "El perro de san roque no tiene rabo"
+erres = [i for i in frase if i == 'r']
+#['r', 'r', 'r', 'r']
+
+```
+
+Lo que hace el código anterior es iterar cada letra de la frase, y si es una  `r`, se añade a la lista.
+
 
 ## Paquete pip
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODExNDc2NiwtODYwNzMzNzUyLC00NT
-U0MDI4ODMsLTEyNDYzNDAwMDEsNzgxNDU0MjMsNDE4MjY2MDgs
-LTEyNjQyMTQ1NTYsMTY5MjA2MDM3NiwtNTUwMzQ3NjA1LDc5NT
-gxOTAxMCwtMjEwNzE5ODUxNCwtMjIwNjY1NDQ5LC03NDMxNDM1
-NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMTM0NjUwMTYsMj
-AwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMTgxODMy
-MDY1Nl19
+eyJoaXN0b3J5IjpbLTExOTM2NDc4MzAsLTg2MDczMzc1MiwtND
+U1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4
+LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0NzYwNSw3OT
+U4MTkwMTAsLTIxMDcxOTg1MTQsLTIyMDY2NTQ0OSwtNzQzMTQz
+NTU4LC0xNTEwMDg5MjM0LDgwNDczNTkzMCwtMTEzNDY1MDE2LD
+IwMDg1Mjg3NzQsMTU5ODUwNjgxMSwtNTgyNjQyMjExLDE4MTgz
+MjA2NTZdfQ==
 -->
