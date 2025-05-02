@@ -790,11 +790,31 @@ La expresión puede ser una operación como hemos visto anteriormente  `i**2`, p
 unos = [1 for i in range(5)]
 #[1, 1, 1, 1, 1]
 ```
+
+La expresión también puede ser una llamada a una función. Se podría escribir el ejemplo anterior del cálculo de cuadrados de la siguiente manera.
+
+```
+def eleva_al_2(i):
+    return i**2
+
+cuadrados = [eleva_al_2(i) for i in range(5)]
+#[0, 1, 4, 9, 16]
+```
+
+Como puedes observar, las posibilidades son bastante amplias. Cualquier elemento que sea iterable puede ser usado con las  _list comprehensions_. Anteriormente hemos iterado  `range()`  pero podemos hacer lo mismo para una lista. En el siguiente ejemplo vemos como dividir todos los números de una lista entre 10.
+
+```
+lista = [10, 20, 30, 40 , 50]
+nueva_lista = [i/10 for i in lista]
+#[1.0, 2.0, 3.0, 4.0, 5.0]
+```
+
+
 ## Paquete pip
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMjExNzkyMywtODYwNzMzNzUyLC00NT
+eyJoaXN0b3J5IjpbLTIzODExNDc2NiwtODYwNzMzNzUyLC00NT
 U0MDI4ODMsLTEyNDYzNDAwMDEsNzgxNDU0MjMsNDE4MjY2MDgs
 LTEyNjQyMTQ1NTYsMTY5MjA2MDM3NiwtNTUwMzQ3NjA1LDc5NT
 gxOTAxMCwtMjEwNzE5ODUxNCwtMjIwNjY1NDQ5LC03NDMxNDM1
