@@ -830,15 +830,18 @@ Lo que hace el código anterior es iterar cada letra de la frase, y si es una  `
 
 Siempre que tengamos una colección iterable que queramos modificar, son una buena opción para evitar tener que escribir bucles for.
 
+
+!hay que tener cuidado con su uso y no abusar de ellas. Resulta fácil caer en la tentación de acabar escribiendo comprensiones que son tan largas que prácticamente son imposibles de leer, algo que puede no ser muy buena idea.
+
 ## Paquete pip
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODYzNzIyMiwtODYwNzMzNzUyLC00NT
-U0MDI4ODMsLTEyNDYzNDAwMDEsNzgxNDU0MjMsNDE4MjY2MDgs
-LTEyNjQyMTQ1NTYsMTY5MjA2MDM3NiwtNTUwMzQ3NjA1LDc5NT
-gxOTAxMCwtMjEwNzE5ODUxNCwtMjIwNjY1NDQ5LC03NDMxNDM1
-NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMTM0NjUwMTYsMj
-AwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIyMTEsMTgxODMy
-MDY1Nl19
+eyJoaXN0b3J5IjpbNjI1MTE5MjY4LC04NjA3MzM3NTIsLTQ1NT
+QwMjg4MywtMTI0NjM0MDAwMSw3ODE0NTQyMyw0MTgyNjYwOCwt
+MTI2NDIxNDU1NiwxNjkyMDYwMzc2LC01NTAzNDc2MDUsNzk1OD
+E5MDEwLC0yMTA3MTk4NTE0LC0yMjA2NjU0NDksLTc0MzE0MzU1
+OCwtMTUxMDA4OTIzNCw4MDQ3MzU5MzAsLTExMzQ2NTAxNiwyMD
+A4NTI4Nzc0LDE1OTg1MDY4MTEsLTU4MjY0MjIxMSwxODE4MzIw
+NjU2XX0=
 -->
