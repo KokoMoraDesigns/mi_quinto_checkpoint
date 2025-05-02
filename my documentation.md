@@ -757,7 +757,7 @@ triplicar = multiplicar_por(3)
 diez_veces = multiplicar_por(10)
 ```
 
-## Lista de comprensión
+## Comprensión de lista
 
 Vayamos al grano, las  _list comprehension_  nos permiten crear listas de elementos en una sola línea de código. Por ejemplo, podemos crear una lista con los cuadrados de los primeros 5 números de la siguiente forma
 
@@ -832,7 +832,7 @@ Lo que hace el código anterior es iterar cada letra de la frase, y si es una  `
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTM2NDc4MzAsLTg2MDczMzc1MiwtND
+eyJoaXN0b3J5IjpbLTEzMDA4Nzc0MTAsLTg2MDczMzc1MiwtND
 U1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4
 LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0NzYwNSw3OT
 U4MTkwMTAsLTIxMDcxOTg1MTQsLTIyMDY2NTQ0OSwtNzQzMTQz
