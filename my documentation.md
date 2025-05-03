@@ -782,6 +782,8 @@ veamos la sintaxis general de las comprensiones de listas.
 # lista = [expresión for elemento in iterable]
 ```
 
+list_variable =  [x for x in iterable]
+
 Es decir, por un lado tenemos el  `for elemento in iterable`, que itera un determinado iterable y “almacena” cada uno de los elementos en  `elemento`  [como vimos en este otro post sobre el for](https://ellibrodepython.com/for-python/). Por otro lado, tenemos la  `expresión`, que es lo que será añadido a la lista en cada iteración.
 
 La expresión puede ser una operación como hemos visto anteriormente  `i**2`, pero también puede ser un valor constante. El siguiente ejemplo genera una lista de cinco unos.
@@ -837,11 +839,11 @@ Siempre que tengamos una colección iterable que queramos modificar, son una bue
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI1MTE5MjY4LC04NjA3MzM3NTIsLTQ1NT
-QwMjg4MywtMTI0NjM0MDAwMSw3ODE0NTQyMyw0MTgyNjYwOCwt
-MTI2NDIxNDU1NiwxNjkyMDYwMzc2LC01NTAzNDc2MDUsNzk1OD
-E5MDEwLC0yMTA3MTk4NTE0LC0yMjA2NjU0NDksLTc0MzE0MzU1
-OCwtMTUxMDA4OTIzNCw4MDQ3MzU5MzAsLTExMzQ2NTAxNiwyMD
-A4NTI4Nzc0LDE1OTg1MDY4MTEsLTU4MjY0MjIxMSwxODE4MzIw
-NjU2XX0=
+eyJoaXN0b3J5IjpbNTc1MTU2NDE2LDYyNTExOTI2OCwtODYwNz
+MzNzUyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEsNzgxNDU0MjMs
+NDE4MjY2MDgsLTEyNjQyMTQ1NTYsMTY5MjA2MDM3NiwtNTUwMz
+Q3NjA1LDc5NTgxOTAxMCwtMjEwNzE5ODUxNCwtMjIwNjY1NDQ5
+LC03NDMxNDM1NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMT
+M0NjUwMTYsMjAwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIy
+MTFdfQ==
 -->
