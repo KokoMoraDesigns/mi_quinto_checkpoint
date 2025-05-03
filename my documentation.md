@@ -759,6 +759,7 @@ diez_veces = multiplicar_por(10)
 
 ## Comprensión de lista
 
+La comprensión de listas es una forma de recorrer una lista para producir una nueva lista basada en algunas condiciones.
 Vayamos al grano, las  _list comprehension_  nos permiten crear listas de elementos en una sola línea de código. Por ejemplo, podemos crear una lista con los cuadrados de los primeros 5 números de la siguiente forma
 
 ```
@@ -839,11 +840,11 @@ Siempre que tengamos una colección iterable que queramos modificar, son una bue
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1MTU2NDE2LDYyNTExOTI2OCwtODYwNz
-MzNzUyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEsNzgxNDU0MjMs
-NDE4MjY2MDgsLTEyNjQyMTQ1NTYsMTY5MjA2MDM3NiwtNTUwMz
-Q3NjA1LDc5NTgxOTAxMCwtMjEwNzE5ODUxNCwtMjIwNjY1NDQ5
-LC03NDMxNDM1NTgsLTE1MTAwODkyMzQsODA0NzM1OTMwLC0xMT
-M0NjUwMTYsMjAwODUyODc3NCwxNTk4NTA2ODExLC01ODI2NDIy
+eyJoaXN0b3J5IjpbLTIwMTk4NjU4Miw1NzUxNTY0MTYsNjI1MT
+E5MjY4LC04NjA3MzM3NTIsLTQ1NTQwMjg4MywtMTI0NjM0MDAw
+MSw3ODE0NTQyMyw0MTgyNjYwOCwtMTI2NDIxNDU1NiwxNjkyMD
+YwMzc2LC01NTAzNDc2MDUsNzk1ODE5MDEwLC0yMTA3MTk4NTE0
+LC0yMjA2NjU0NDksLTc0MzE0MzU1OCwtMTUxMDA4OTIzNCw4MD
+Q3MzU5MzAsLTExMzQ2NTAxNiwyMDA4NTI4Nzc0LDE1OTg1MDY4
 MTFdfQ==
 -->
