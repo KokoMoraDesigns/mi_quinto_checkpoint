@@ -872,6 +872,14 @@ La llamada  [Biblioteca Estándar de Python](https://docs.python.org/3/library/)
 
 Sin embargo, a veces no encontrarás la herramienta que buscas en Python o en su Biblioteca Estándar. En estos casos, tendrás que conseguir nuevas herramientas en otro lugar. Afortunadamente, Internet es un inmenso almacén donde puedes encontrar cientos de miles de paquetes desarrollados por desarrolladores de Python para todo tipo de propósitos.
 
+Un gestor de paquetes (también llamado sistema de gestión de paquetes) es una herramienta que automatiza el proceso de instalación, actualización, configuración y eliminación de paquetes de un ordenador de forma coherente.
+
+Los gestores de paquetes están diseñados para eliminar la necesidad de instalaciones y actualizaciones manuales, garantizando así que un paquete se instala junto con todas las dependencias que necesita para funcionar. Asimismo, como los gestores de paquetes aprovechan la información almacenada en repositorios de paquetes certificados, como PyPi y  [Anaconda](https://anaconda.org/anaconda/repo), garantizan la integridad y autenticidad de los paquetes.
+
+El gestor de paquetes más popular para Python es pip. Desarrollado en 2008, pip (acrónimo de "pip Install Packages") es hoy la  [herramienta estándar](https://packaging.python.org/en/latest/guides/tool-recommendations/)  para instalar paquetes de Python y sus dependencias de forma segura. Las distribuciones más recientes de Python vienen con pip preinstalado. Python 2.7.9 y Python 3.4 y versiones posteriores incluyen pip por defecto.
+
+Pip es una herramienta potente y fácil de usar que te permite gestionar paquetes de Python utilizando un puñado de comandos. 
+
 -   **Instalación de paquetes:**
     
     `pip install <nombre_paquete>`  permite instalar paquetes desde el repositorio oficial de Python Package Index (PyPI) o desde otras fuentes.
@@ -897,7 +905,7 @@ Sin embargo, a veces no encontrarás la herramienta que buscas en Python o en su
     Permite instalar versiones específicas de un paquete (e.g.,  `pip install pandas==1.3.4`).
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDU0MTQ2NiwxMDk4MDI1OTE4LC0xMj
+eyJoaXN0b3J5IjpbLTE0MTQ4ODUyOSwxMDk4MDI1OTE4LC0xMj
 A3OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOTI2
 OCwtODYwNzMzNzUyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEsNz
 gxNDU0MjMsNDE4MjY2MDgsLTEyNjQyMTQ1NTYsMTY5MjA2MDM3
