@@ -890,6 +890,10 @@ Pip te permite instalar una lista de paquetes a la vez utilizando un archivo de 
 
 ![requisitos de pip install](https://images.datacamp.com/image/upload/v1676550998/pip_install_requirements_dd5b541997.png)
 
+Si quieres crear un archivo de requisitos para compartirlo con el resto del equipo, puedes utilizar la siguiente instrucción:
+
+`>>pip freeze > requirements.txt`
+
 Para instalar los paquetes enumerados en un archivo requirements.txt, sólo tenemos que ejecutar
 
 `>>pip install -r requirements.txt`
@@ -920,7 +924,7 @@ Para instalar los paquetes enumerados en un archivo requirements.txt, sólo tene
     Permite instalar versiones específicas de un paquete (e.g.,  `pip install pandas==1.3.4`).
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjM1MjEwNSwtMTY4NTExMTgyMSwxMD
+eyJoaXN0b3J5IjpbLTEyNTA4MTI1NywtMTY4NTExMTgyMSwxMD
 k4MDI1OTE4LC0xMjA3OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2
 NDE2LDYyNTExOTI2OCwtODYwNzMzNzUyLC00NTU0MDI4ODMsLT
 EyNDYzNDAwMDEsNzgxNDU0MjMsNDE4MjY2MDgsLTEyNjQyMTQ1
