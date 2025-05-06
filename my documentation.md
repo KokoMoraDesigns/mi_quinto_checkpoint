@@ -859,9 +859,33 @@ lista_1 = [i if i%2==0 else i*-1 for i in range(10)]
 ## Paquete pip
 
 `pip`  es el gestor de paquetes principal para Python. Sirve para instalar, actualizar y eliminar paquetes de software en Python. Es una herramienta esencial para el desarrollo en Python, ya que facilita la gestión de dependencias y la reutilización de código.
+
+-   **Instalación de paquetes:**
+    
+    `pip install <nombre_paquete>`  permite instalar paquetes desde el repositorio oficial de Python Package Index (PyPI) o desde otras fuentes.
+    
+-   **Actualización de paquetes:**
+    
+    `pip install --upgrade <nombre_paquete>`  actualiza un paquete a la última versión disponible.
+    
+-   **Eliminación de paquetes:**
+    
+    `pip uninstall <nombre_paquete>`  elimina un paquete del entorno de Python.
+    
+-   **Gestión de dependencias:**
+    
+    `pip freeze`  permite crear un archivo  `requirements.txt`  con la lista de paquetes y versiones instaladas en un entorno, facilitando la replicación de entornos en otros sistemas.
+    
+-   **Entornos virtuales:**
+    
+    `pip`  es compatible con entornos virtuales, lo que permite aislar las dependencias de diferentes proyectos.
+    
+-   **Versiones específicas:**
+    
+    Permite instalar versiones específicas de un paquete (e.g.,  `pip install pandas==1.3.4`).
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDA4NDU2NywtMTIwNzk2NjUwOSwtMj
+eyJoaXN0b3J5IjpbLTc4MjgwNDY2MiwtMTIwNzk2NjUwOSwtMj
 AxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1
 MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxOD
 I2NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0NzYw
