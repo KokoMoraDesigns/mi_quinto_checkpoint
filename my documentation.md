@@ -880,6 +880,11 @@ El gestor de paquetes más popular para Python es pip. Desarrollado en 2008, pip
 
 Pip es una herramienta potente y fácil de usar que te permite gestionar paquetes de Python utilizando un puñado de comandos. 
 
+En caso de que quieras instalar un paquete que cumpla determinadas condiciones en cuanto a versiones, pip te permite utilizar ciertas condiciones booleanas. Por ejemplo, si quieres instalar una versión de pandas mayor o igual que v.1.0.0 y menor que 1.5:
+
+`>>pip install pandas>=1.0.0,<1.5.0`
+
+
 -   **Instalación de paquetes:**
     
     `pip install <nombre_paquete>`  permite instalar paquetes desde el repositorio oficial de Python Package Index (PyPI) o desde otras fuentes.
@@ -905,11 +910,11 @@ Pip es una herramienta potente y fácil de usar que te permite gestionar paquete
     Permite instalar versiones específicas de un paquete (e.g.,  `pip install pandas==1.3.4`).
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQ4ODUyOSwxMDk4MDI1OTE4LC0xMj
-A3OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOTI2
-OCwtODYwNzMzNzUyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEsNz
-gxNDU0MjMsNDE4MjY2MDgsLTEyNjQyMTQ1NTYsMTY5MjA2MDM3
-NiwtNTUwMzQ3NjA1LDc5NTgxOTAxMCwtMjEwNzE5ODUxNCwtMj
-IwNjY1NDQ5LC03NDMxNDM1NTgsLTE1MTAwODkyMzQsODA0NzM1
-OTMwXX0=
+eyJoaXN0b3J5IjpbLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMT
+IwNzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTky
+NjgsLTg2MDczMzc1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLD
+c4MTQ1NDIzLDQxODI2NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAz
+NzYsLTU1MDM0NzYwNSw3OTU4MTkwMTAsLTIxMDcxOTg1MTQsLT
+IyMDY2NTQ0OSwtNzQzMTQzNTU4LC0xNTEwMDg5MjM0LDgwNDcz
+NTkzMF19
 -->
