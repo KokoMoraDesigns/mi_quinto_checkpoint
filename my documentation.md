@@ -865,6 +865,13 @@ pip (también conocido por el alias pip3 de Python 3) es **un sistema de gestió
 Aunque Python por sí solo ya es capaz de hacer muchas cosas geniales, los profesionales de los datos -y, más ampliamente, los desarrolladores de software- suelen hacer uso de paquetes adicionales -también conocidos como bibliotecas- para facilitarles la vida. Un paquete es una colección de archivos, módulos y dependencias relacionados que pueden utilizarse repetidamente en diferentes aplicaciones y problemas.
 
 Uno de los principales puntos fuertes de Python es su amplio catálogo de bibliotecas bien documentadas y completas. ¿Dónde están alojadas estas bibliotecas? ¿Cómo puedes instalar y gestionar los paquetes que te interesan?
+
+Utilicemos una metáfora para entender qué es pip. Imagina que Python es una caja de herramientas bonita y equilibrada con los elementos esenciales que necesitarás para codificar. Cuando compras (instalas) Python en tu ordenador, viene con una amplia colección de herramientas adicionales (paquetes) que puedes utilizar en cualquier momento.
+
+La llamada  [Biblioteca Estándar de Python](https://docs.python.org/3/library/)  es un amplio conjunto de paquetes incorporados que proporciona soluciones estandarizadas para muchos problemas que surgen en la programación cotidiana. Como estos paquetes vienen incluidos en las distribuciones modernas de Python, puedes utilizarlos sin necesidad de ninguna instalación adicional. Sólo tienes que "importarlos" a tu espacio de trabajo (más adelante hablaremos de ello).
+
+Sin embargo, a veces no encontrarás la herramienta que buscas en Python o en su Biblioteca Estándar. En estos casos, tendrás que conseguir nuevas herramientas en otro lugar. Afortunadamente, Internet es un inmenso almacén donde puedes encontrar cientos de miles de paquetes desarrollados por desarrolladores de Python para todo tipo de propósitos.
+
 -   **Instalación de paquetes:**
     
     `pip install <nombre_paquete>`  permite instalar paquetes desde el repositorio oficial de Python Package Index (PyPI) o desde otras fuentes.
@@ -890,7 +897,7 @@ Uno de los principales puntos fuertes de Python es su amplio catálogo de biblio
     Permite instalar versiones específicas de un paquete (e.g.,  `pip install pandas==1.3.4`).
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTg2NjI4NywxMDk4MDI1OTE4LC0xMj
+eyJoaXN0b3J5IjpbMTM3MDU0MTQ2NiwxMDk4MDI1OTE4LC0xMj
 A3OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOTI2
 OCwtODYwNzMzNzUyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEsNz
 gxNDU0MjMsNDE4MjY2MDgsLTEyNjQyMTQ1NTYsMTY5MjA2MDM3
