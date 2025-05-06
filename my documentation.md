@@ -884,7 +884,11 @@ En caso de que quieras instalar un paquete que cumpla determinadas condiciones e
 
 `>>pip install pandas>=1.0.0,<1.5.0`
 
+Cuando trabajas en proyectos colaborativos, es muy habitual que todos los miembros del equipo utilicen los mismos paquetes con las mismas versiones. Para asegurarte de ello, la mejor forma es instalar paquetes utilizando un archivo de requisitos. Suele ser un archivo de texto que contiene todos los paquetes, junto con sus respectivas versiones, que se utilizan en el proyecto.
 
+Pip te permite instalar una lista de paquetes a la vez utilizando un archivo de requisitos. Por ejemplo, si necesitamos para nuestro proyecto los paquetes  [numpy](https://www.datacamp.com/es/courses/introduction-to-numpy?),  [pandas](https://www.datacamp.com/es/courses/data-manipulation-with-pandas)  y  [TensorFlow](https://www.datacamp.com/es/courses/introduction-to-tensorflow-in-python), podríamos incluirlos, junto con las versiones deseadas, en un archivo requirements.txt, como se muestra a continuación:
+
+![requisitos de pip install](https://images.datacamp.com/image/upload/v1676550998/pip_install_requirements_dd5b541997.png)
 -   **Instalación de paquetes:**
     
     `pip install <nombre_paquete>`  permite instalar paquetes desde el repositorio oficial de Python Package Index (PyPI) o desde otras fuentes.
@@ -910,11 +914,11 @@ En caso de que quieras instalar un paquete que cumpla determinadas condiciones e
     Permite instalar versiones específicas de un paquete (e.g.,  `pip install pandas==1.3.4`).
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMT
-IwNzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTky
-NjgsLTg2MDczMzc1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLD
-c4MTQ1NDIzLDQxODI2NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAz
-NzYsLTU1MDM0NzYwNSw3OTU4MTkwMTAsLTIxMDcxOTg1MTQsLT
-IyMDY2NTQ0OSwtNzQzMTQzNTU4LC0xNTEwMDg5MjM0LDgwNDcz
-NTkzMF19
+eyJoaXN0b3J5IjpbLTU0NTg4OTg0NSwtMTY4NTExMTgyMSwxMD
+k4MDI1OTE4LC0xMjA3OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2
+NDE2LDYyNTExOTI2OCwtODYwNzMzNzUyLC00NTU0MDI4ODMsLT
+EyNDYzNDAwMDEsNzgxNDU0MjMsNDE4MjY2MDgsLTEyNjQyMTQ1
+NTYsMTY5MjA2MDM3NiwtNTUwMzQ3NjA1LDc5NTgxOTAxMCwtMj
+EwNzE5ODUxNCwtMjIwNjY1NDQ5LC03NDMxNDM1NTgsLTE1MTAw
+ODkyMzRdfQ==
 -->
