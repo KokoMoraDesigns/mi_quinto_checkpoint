@@ -858,13 +858,14 @@ lista_1 = [i if i%2==0 else i*-1 for i in range(10)]
 
 ## Paquete pip
 
+`pip`  es el gestor de paquetes principal para Python. Sirve para instalar, actualizar y eliminar paquetes de software en Python. Es una herramienta esencial para el desarrollo en Python, ya que facilita la gestión de dependencias y la reutilización de código.
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDc5NjY1MDksLTIwMTk4NjU4Miw1Nz
-UxNTY0MTYsNjI1MTE5MjY4LC04NjA3MzM3NTIsLTQ1NTQwMjg4
-MywtMTI0NjM0MDAwMSw3ODE0NTQyMyw0MTgyNjYwOCwtMTI2ND
-IxNDU1NiwxNjkyMDYwMzc2LC01NTAzNDc2MDUsNzk1ODE5MDEw
-LC0yMTA3MTk4NTE0LC0yMjA2NjU0NDksLTc0MzE0MzU1OCwtMT
-UxMDA4OTIzNCw4MDQ3MzU5MzAsLTExMzQ2NTAxNiwyMDA4NTI4
-Nzc0XX0=
+eyJoaXN0b3J5IjpbLTY2NDA4NDU2NywtMTIwNzk2NjUwOSwtMj
+AxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1
+MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxOD
+I2NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0NzYw
+NSw3OTU4MTkwMTAsLTIxMDcxOTg1MTQsLTIyMDY2NTQ0OSwtNz
+QzMTQzNTU4LC0xNTEwMDg5MjM0LDgwNDczNTkzMCwtMTEzNDY1
+MDE2XX0=
 -->
