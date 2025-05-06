@@ -898,6 +898,18 @@ Para instalar los paquetes enumerados en un archivo requirements.txt, sólo tene
 
 `>>pip install -r requirements.txt`
 
+A veces necesitarás actualizar a una versión más reciente un paquete que ya tengas instalado en tu ordenador. Pip hace que este proceso sea extremadamente fácil. Por ejemplo, si quieres actualizar pandas a la última versión:
+
+`>>pip install --upgrade pandas`
+
+[POWERED BY](https://www.datacamp.com/datalab) 
+
+En caso de que quieras actualizar todos los paquetes enumerados en un requirements.txt, podrías utilizar:
+
+`>>pip install -r requirements.txt --upgrade`
+
+
+
 
 -   **Instalación de paquetes:**
     
@@ -924,11 +936,11 @@ Para instalar los paquetes enumerados en un archivo requirements.txt, sólo tene
     Permite instalar versiones específicas de un paquete (e.g.,  `pip install pandas==1.3.4`).
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTA4MTI1NywtMTY4NTExMTgyMSwxMD
-k4MDI1OTE4LC0xMjA3OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2
-NDE2LDYyNTExOTI2OCwtODYwNzMzNzUyLC00NTU0MDI4ODMsLT
-EyNDYzNDAwMDEsNzgxNDU0MjMsNDE4MjY2MDgsLTEyNjQyMTQ1
-NTYsMTY5MjA2MDM3NiwtNTUwMzQ3NjA1LDc5NTgxOTAxMCwtMj
-EwNzE5ODUxNCwtMjIwNjY1NDQ5LC03NDMxNDM1NTgsLTE1MTAw
-ODkyMzRdfQ==
+eyJoaXN0b3J5IjpbLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMT
+A5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1
+NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1MiwtNDU1NDAyODgzLC
+0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4LC0xMjY0MjE0
+NTU2LDE2OTIwNjAzNzYsLTU1MDM0NzYwNSw3OTU4MTkwMTAsLT
+IxMDcxOTg1MTQsLTIyMDY2NTQ0OSwtNzQzMTQzNTU4LC0xNTEw
+MDg5MjM0XX0=
 -->
