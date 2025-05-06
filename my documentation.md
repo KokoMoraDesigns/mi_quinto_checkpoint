@@ -862,7 +862,9 @@ lista_1 = [i if i%2==0 else i*-1 for i in range(10)]
 
 pip (también conocido por el alias pip3 de Python 3) es **un sistema de gestión de paquetes escrito en Python y se utiliza para instalar y administrar paquetes de software**
 
+Aunque Python por sí solo ya es capaz de hacer muchas cosas geniales, los profesionales de los datos -y, más ampliamente, los desarrolladores de software- suelen hacer uso de paquetes adicionales -también conocidos como bibliotecas- para facilitarles la vida. Un paquete es una colección de archivos, módulos y dependencias relacionados que pueden utilizarse repetidamente en diferentes aplicaciones y problemas.
 
+Uno de los principales puntos fuertes de Python es su amplio catálogo de bibliotecas bien documentadas y completas. ¿Dónde están alojadas estas bibliotecas? ¿Cómo puedes instalar y gestionar los paquetes que te interesan?
 -   **Instalación de paquetes:**
     
     `pip install <nombre_paquete>`  permite instalar paquetes desde el repositorio oficial de Python Package Index (PyPI) o desde otras fuentes.
@@ -888,11 +890,11 @@ pip (también conocido por el alias pip3 de Python 3) es **un sistema de gestió
     Permite instalar versiones específicas de un paquete (e.g.,  `pip install pandas==1.3.4`).
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMj
-AxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1
-MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxOD
-I2NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0NzYw
-NSw3OTU4MTkwMTAsLTIxMDcxOTg1MTQsLTIyMDY2NTQ0OSwtNz
-QzMTQzNTU4LC0xNTEwMDg5MjM0LDgwNDczNTkzMCwtMTEzNDY1
-MDE2XX0=
+eyJoaXN0b3J5IjpbLTY0MTg2NjI4NywxMDk4MDI1OTE4LC0xMj
+A3OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOTI2
+OCwtODYwNzMzNzUyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEsNz
+gxNDU0MjMsNDE4MjY2MDgsLTEyNjQyMTQ1NTYsMTY5MjA2MDM3
+NiwtNTUwMzQ3NjA1LDc5NTgxOTAxMCwtMjEwNzE5ODUxNCwtMj
+IwNjY1NDQ5LC03NDMxNDM1NTgsLTE1MTAwODkyMzQsODA0NzM1
+OTMwXX0=
 -->
