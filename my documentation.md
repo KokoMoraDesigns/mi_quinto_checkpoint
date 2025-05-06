@@ -858,6 +858,13 @@ lista_1 = [i if i%2==0 else i*-1 for i in range(10)]
 
 ## Paquete pip
 
+Paquete:
+
+Gestor de paquetes:
+
+Dependencias:
+
+
 `pip`  es el gestor de paquetes principal para Python. Sirve para instalar, actualizar y eliminar paquetes de software en Python. Es una herramienta esencial para el desarrollo en Python, ya que facilita la gestión de dependencias y la reutilización de código.
 
 pip (también conocido por el alias pip3 de Python 3) es **un sistema de gestión de paquetes escrito en Python y se utiliza para instalar y administrar paquetes de software**
@@ -948,7 +955,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjMxMzU4OTAsLTExMTM3Njk0OTYsLT
+eyJoaXN0b3J5IjpbLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLT
 E2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAx
 OTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1Mi
 wtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxODI2
