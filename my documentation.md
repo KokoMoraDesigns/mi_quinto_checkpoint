@@ -833,18 +833,38 @@ Lo que hace el código anterior es iterar cada letra de la frase, y si es una  `
 
 Siempre que tengamos una colección iterable que queramos modificar, son una buena opción para evitar tener que escribir bucles for.
 
+La comprensión de listas también puede contener condiciones if anidadas. Considera el siguiente bucle:
 
+```py
+divisible = list()
+for i in range(50):
+  if i%2 == 0:
+    if i%3 == 0:
+      divisible.append(i)
+```
+
+Usando la comprensión de listas, esto se puede escribir como:
+
+```py
+divisible = [i for i in range(50) if i%2==0 if i%3==0]
+```
+
+La sentencia If-Else también se puede utilizar junto con la comprensión de listas.
+
+```py
+lista_1 = [i if i%2==0 else i*-1 for i in range(10)]
+```
 !hay que tener cuidado con su uso y no abusar de ellas. Resulta fácil caer en la tentación de acabar escribiendo comprensiones que son tan largas que prácticamente son imposibles de leer, algo que puede no ser muy buena idea.
 
 ## Paquete pip
 
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTk4NjU4Miw1NzUxNTY0MTYsNjI1MT
-E5MjY4LC04NjA3MzM3NTIsLTQ1NTQwMjg4MywtMTI0NjM0MDAw
-MSw3ODE0NTQyMyw0MTgyNjYwOCwtMTI2NDIxNDU1NiwxNjkyMD
-YwMzc2LC01NTAzNDc2MDUsNzk1ODE5MDEwLC0yMTA3MTk4NTE0
-LC0yMjA2NjU0NDksLTc0MzE0MzU1OCwtMTUxMDA4OTIzNCw4MD
-Q3MzU5MzAsLTExMzQ2NTAxNiwyMDA4NTI4Nzc0LDE1OTg1MDY4
-MTFdfQ==
+eyJoaXN0b3J5IjpbLTEyMDc5NjY1MDksLTIwMTk4NjU4Miw1Nz
+UxNTY0MTYsNjI1MTE5MjY4LC04NjA3MzM3NTIsLTQ1NTQwMjg4
+MywtMTI0NjM0MDAwMSw3ODE0NTQyMyw0MTgyNjYwOCwtMTI2ND
+IxNDU1NiwxNjkyMDYwMzc2LC01NTAzNDc2MDUsNzk1ODE5MDEw
+LC0yMTA3MTk4NTE0LC0yMjA2NjU0NDksLTc0MzE0MzU1OCwtMT
+UxMDA4OTIzNCw4MDQ3MzU5MzAsLTExMzQ2NTAxNiwyMDA4NTI4
+Nzc0XX0=
 -->
