@@ -934,13 +934,25 @@ En caso de que quieras actualizar todos los paquetes enumerados en un requiremen
 -   **Versiones específicas:**
     
     Permite instalar versiones específicas de un paquete (e.g.,  `pip install pandas==1.3.4`).
+
+Si necesitas información adicional sobre los distintos comandos pip disponibles y cómo utilizarlos, ejecútalos:
+
+`>>pip help`
+
+Para listar todos los paquetes instalados en tu entorno:
+
+`>>pip list`
+
+Para ver un resumen de un paquete de tu interés:
+
+`>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMT
-A5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1
-NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1MiwtNDU1NDAyODgzLC
-0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4LC0xMjY0MjE0
-NTU2LDE2OTIwNjAzNzYsLTU1MDM0NzYwNSw3OTU4MTkwMTAsLT
-IxMDcxOTg1MTQsLTIyMDY2NTQ0OSwtNzQzMTQzNTU4LC0xNTEw
-MDg5MjM0XX0=
+eyJoaXN0b3J5IjpbLTEwMjMxMzU4OTAsLTExMTM3Njk0OTYsLT
+E2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAx
+OTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1Mi
+wtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxODI2
+NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0NzYwNS
+w3OTU4MTkwMTAsLTIxMDcxOTg1MTQsLTIyMDY2NTQ0OSwtNzQz
+MTQzNTU4XX0=
 -->
