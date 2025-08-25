@@ -13,9 +13,9 @@ A continuación unos ejemplos según los distintos tipos de argumentos que exist
 El orden en que se incluyen los argumentos al declarar la función **debe ser el mismo** orden que utilizaste al formular los parámetros de la función. 
 
 
-    sum (a, b, c) --> a, b y c siendo los parámetros de la función
+    sum (a, b, c) --> a, b y c siendo los *parámetros* de la función
 
-	sum (4, 8, 9) --> 4, 8 y 9 siendo los argumentos de la función
+	sum (4, 8, 9) --> 4, 8 y 9 siendo los *argumentos* de la función
 
 	salida = print(sum (4, 8, 9)) = a + b `c = 4 + 8 + 9 = 21
 
@@ -26,10 +26,11 @@ El orden en que se incluyen los argumentos al declarar la función **debe ser el
 El orden en que se incluyen los argumentos al declarar la función **no es relevante**, dado que vamos a puntualizar en la declaración a qué parámetro  estamos haciendo referencia
 
     sum (a=4, c=9, b=8)
+    
+    salida = print(sum(a=4, c=9, b=8)) = 21
 
 
-
-La segunda forma es combinar argumentos posicionales y de palabras clave. Los argumentos de palabras clave siempre deben ir después de los argumentos posicionales.
+Existe la posibilidad de combinar en una llamada a la función argumentos posicionales y de palabrLa segunda forma es combinar argumentos posicionales y de palabras clave. Los argumentos de palabras clave siempre deben ir después de los argumentos posicionales.
 
 
 print (add(10,c=30,b=20))
@@ -967,7 +968,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwMDEzOTUyLC0xMTMyMjcyNjA1LC0xMT
+eyJoaXN0b3J5IjpbMTA5NzY0MzkxLC0xMTMyMjcyNjA1LC0xMT
 EzNzY5NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgsLTEyMDc5
 NjY1MDksLTIwMTk4NjU4Miw1NzUxNTY0MTYsNjI1MTE5MjY4LC
 04NjA3MzM3NTIsLTQ1NTQwMjg4MywtMTI0NjM0MDAwMSw3ODE0
