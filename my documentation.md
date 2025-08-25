@@ -12,7 +12,11 @@ A continuación unos ejemplos según los distintos tipos de argumentos que exist
 
 El orden en que se incluyen los argumentos al declarar la función debe ser el mismo orden que utilizaste al formular los parámetros de la función. 
 
+sum(a, b, c) 
 
+    sum (a, b, c) --> a, b y c siendo los parámetros de la función
+
+	sum (4, 
 
 
 ```
@@ -962,7 +966,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTU5NjA5NiwtMTEzMjI3MjYwNSwtMT
+eyJoaXN0b3J5IjpbMTM5MTU4NDU5MCwtMTEzMjI3MjYwNSwtMT
 ExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0xMjA3
 OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOTI2OC
 wtODYwNzMzNzUyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEsNzgx
