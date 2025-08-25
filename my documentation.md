@@ -12,14 +12,16 @@ A continuación unos ejemplos según los distintos tipos de argumentos que exist
 
 El orden en que se incluyen los argumentos al declarar la función debe ser el mismo orden que utilizaste al formular los parámetros de la función. 
 
-sum(a, b, c) 
 
     sum (a, b, c) --> a, b y c siendo los parámetros de la función
 
-	sum (4, 
+	sum (4, 8, 9) --> 4, 8 y 9 siendo los argumentos de la función
 
-
+	salida = a + b `c = 4 + 8 + 9
 ```
+
+
+
 print (add(10,20,30))
 #Output:60
 ```
@@ -966,11 +968,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTU4NDU5MCwtMTEzMjI3MjYwNSwtMT
-ExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0xMjA3
-OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOTI2OC
-wtODYwNzMzNzUyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEsNzgx
-NDU0MjMsNDE4MjY2MDgsLTEyNjQyMTQ1NTYsMTY5MjA2MDM3Ni
-wtNTUwMzQ3NjA1LDc5NTgxOTAxMCwtMjEwNzE5ODUxNCwtMjIw
-NjY1NDQ5XX0=
+eyJoaXN0b3J5IjpbLTEwNTY5MTkzOTUsLTExMzIyNzI2MDUsLT
+ExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIw
+Nzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNj
+gsLTg2MDczMzc1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4
+MTQ1NDIzLDQxODI2NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAzNz
+YsLTU1MDM0NzYwNSw3OTU4MTkwMTAsLTIxMDcxOTg1MTQsLTIy
+MDY2NTQ0OV19
 -->
