@@ -18,15 +18,20 @@ El orden en que se incluyen los argumentos al declarar la función debe ser el m
 	sum (4, 8, 9) --> 4, 8 y 9 siendo los argumentos de la función
 
 	salida = print(sum (4, 8, 9)) = a + b `c = 4 + 8 + 9 = 21
-```
 
 
-dcasc
+
+#### Argumento de palabra clave
+
+El orden en que se inc
+Se pasan a la función especificando el nombre del parámetro y su valor
+
+Durante una llamada a una función, los valores que se pasan a través de argumentos no necesitan estar en el mismo orden que los parámetros en la definición de la función. Esto se puede lograr mediante argumentos de palabra clave.
 
 
 La segunda forma es combinar argumentos posicionales y de palabras clave. Los argumentos de palabras clave siempre deben ir después de los argumentos posicionales.
 
-```
+
 print (add(10,c=30,b=20))
 #Output:60
 ```
@@ -54,11 +59,7 @@ def  f(a):  pass  f()  # Error, argument required  f(1)  # Allowed, it's a posit
 
 
 
-#### Argumento de palabra clave
 
-Se pasan a la función especificando el nombre del parámetro y su valor
-
-Durante una llamada a una función, los valores que se pasan a través de argumentos no necesitan estar en el mismo orden que los parámetros en la definición de la función. Esto se puede lograr mediante argumentos de palabra clave.
 
 #### Argumento predeterminado
     
@@ -966,11 +967,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1OTU1ODUxNywtMTEzMjI3MjYwNSwtMT
-ExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0xMjA3
-OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOTI2OC
-wtODYwNzMzNzUyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEsNzgx
-NDU0MjMsNDE4MjY2MDgsLTEyNjQyMTQ1NTYsMTY5MjA2MDM3Ni
-wtNTUwMzQ3NjA1LDc5NTgxOTAxMCwtMjEwNzE5ODUxNCwtMjIw
-NjY1NDQ5XX0=
+eyJoaXN0b3J5IjpbLTEwMjA1NTMxMzgsLTExMzIyNzI2MDUsLT
+ExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIw
+Nzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNj
+gsLTg2MDczMzc1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4
+MTQ1NDIzLDQxODI2NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAzNz
+YsLTU1MDM0NzYwNSw3OTU4MTkwMTAsLTIxMDcxOTg1MTQsLTIy
+MDY2NTQ0OV19
 -->
