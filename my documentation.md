@@ -55,14 +55,6 @@ f(a=1)  # Error, positional only argument
 
 def  f(a):  pass  f()  # Error, argument required  f(1)  # Allowed, it's a positional argument  f(a=1)  # Allowed, it's a keyword argument  # De hecho esta funcion equivale a:  def  f(*,  a,  /):  pass
 
-
-### Tipos de argumentos
-
-
-
-
-
-
 #### Argumento predeterminado
     
     Son argumentos que tienen un valor predefinido y se pueden omitir en la llamada a la función.
@@ -969,7 +961,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1MDg1NDUzLC0xMTMyMjcyNjA1LC0xMT
+eyJoaXN0b3J5IjpbMTM3OTEzODM3LC0xMTMyMjcyNjA1LC0xMT
 EzNzY5NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgsLTEyMDc5
 NjY1MDksLTIwMTk4NjU4Miw1NzUxNTY0MTYsNjI1MTE5MjY4LC
 04NjA3MzM3NTIsLTQ1NTQwMjg4MywtMTI0NjM0MDAwMSw3ODE0
