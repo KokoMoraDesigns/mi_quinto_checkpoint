@@ -3,12 +3,14 @@
 
 ## Argumento
 
-En Python, un argumento es la explicación que le das a una función determinada sobre cuál es la salida que estás tratando de lograr.
+En Python, un argumento es la indicación que le das a una función determinada sobre cuál es la salida que estás tratando de lograr. El parámetro, por otro lado, es el nombre que le asignas a dicho argumento al formular la función.
 
-A continuación los distintos tipos de argumentos que existen.
+A continuación unos ejemplos según los distintos tipos de argumentos que existen.
 
 
 #### Argumento posicional
+
+El orden en que se 
 
 Se pasan a la función en un orden específico que coincide con el orden de los parámetros en la definición de la función.
 
@@ -963,7 +965,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM3MzQwNzMsLTExMzIyNzI2MDUsLT
+eyJoaXN0b3J5IjpbLTE4ODQxMjk0ODAsLTExMzIyNzI2MDUsLT
 ExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIw
 Nzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNj
 gsLTg2MDczMzc1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4
