@@ -23,12 +23,10 @@ El orden en que se incluyen los argumentos al declarar la función **debe ser el
 
 #### Argumento de palabra clave
 
-El orden en que se incluyen los argumentos al declarar la función **no es relevante**, dado que vamos a indicar 
+El orden en que se incluyen los argumentos al declarar la función **no es relevante**, dado que vamos a puntualizar en la declaración a qué parámetro  estamos haciendo referencia
 
+    sum (a=4, c=9, b=8)
 
-Se pasan a la función especificando el nombre del parámetro y su valor
-
-Durante una llamada a una función, los valores que se pasan a través de argumentos no necesitan estar en el mismo orden que los parámetros en la definición de la función. Esto se puede lograr mediante argumentos de palabra clave.
 
 
 La segunda forma es combinar argumentos posicionales y de palabras clave. Los argumentos de palabras clave siempre deben ir después de los argumentos posicionales.
@@ -969,11 +967,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Nzk2ODY1MywtMTEzMjI3MjYwNSwtMT
-ExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0xMjA3
-OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOTI2OC
-wtODYwNzMzNzUyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEsNzgx
-NDU0MjMsNDE4MjY2MDgsLTEyNjQyMTQ1NTYsMTY5MjA2MDM3Ni
-wtNTUwMzQ3NjA1LDc5NTgxOTAxMCwtMjEwNzE5ODUxNCwtMjIw
-NjY1NDQ5XX0=
+eyJoaXN0b3J5IjpbOTgwMDEzOTUyLC0xMTMyMjcyNjA1LC0xMT
+EzNzY5NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgsLTEyMDc5
+NjY1MDksLTIwMTk4NjU4Miw1NzUxNTY0MTYsNjI1MTE5MjY4LC
+04NjA3MzM3NTIsLTQ1NTQwMjg4MywtMTI0NjM0MDAwMSw3ODE0
+NTQyMyw0MTgyNjYwOCwtMTI2NDIxNDU1NiwxNjkyMDYwMzc2LC
+01NTAzNDc2MDUsNzk1ODE5MDEwLC0yMTA3MTk4NTE0LC0yMjA2
+NjU0NDldfQ==
 -->
