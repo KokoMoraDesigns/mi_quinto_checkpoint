@@ -3,6 +3,7 @@
 
 ## Argumento
 
+Un argumento de Python consiste en 
 
 En Python, un argumento es un valor que se pasa a una función durante una llamada. Los argumentos son entradas que indican a las funciones qué salida deben dar
 son los valores que se pasan a una función cuando se llama, mientras que los parámetros son los nombres que se utilizan para definir esos valores en la declaración de la función. Los argumentos pueden ser de diferentes tipos: posicionales, de palabra clave, predeterminados, y también existen mecanismos para pasar un número variable de argumentos.
@@ -955,11 +956,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLT
-E2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAx
-OTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1Mi
-wtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxODI2
-NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0NzYwNS
-w3OTU4MTkwMTAsLTIxMDcxOTg1MTQsLTIyMDY2NTQ0OSwtNzQz
-MTQzNTU4XX0=
+eyJoaXN0b3J5IjpbMTI3MjEyNTkwNCwtMTEzMjI3MjYwNSwtMT
+ExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0xMjA3
+OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOTI2OC
+wtODYwNzMzNzUyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEsNzgx
+NDU0MjMsNDE4MjY2MDgsLTEyNjQyMTQ1NTYsMTY5MjA2MDM3Ni
+wtNTUwMzQ3NjA1LDc5NTgxOTAxMCwtMjEwNzE5ODUxNCwtMjIw
+NjY1NDQ5XX0=
 -->
