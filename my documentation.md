@@ -10,7 +10,7 @@ A continuación unos ejemplos según los distintos tipos de argumentos que exist
 
 #### Argumento posicional
 
-El orden en que se incluyen los argumentos al declarar la función debe ser el mismo orden que utilizaste al formular los parámetros de la función. 
+El orden en que se incluyen los argumentos al declarar la función **debe ser el mismo** orden que utilizaste al formular los parámetros de la función. 
 
 
     sum (a, b, c) --> a, b y c siendo los parámetros de la función
@@ -23,7 +23,9 @@ El orden en que se incluyen los argumentos al declarar la función debe ser el m
 
 #### Argumento de palabra clave
 
-El orden en que se inc
+El orden en que se incluyen los argumentos al declarar la función **no es relevante**, dado que vamos a indicar 
+
+
 Se pasan a la función especificando el nombre del parámetro y su valor
 
 Durante una llamada a una función, los valores que se pasan a través de argumentos no necesitan estar en el mismo orden que los parámetros en la definición de la función. Esto se puede lograr mediante argumentos de palabra clave.
@@ -967,11 +969,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjA1NTMxMzgsLTExMzIyNzI2MDUsLT
-ExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIw
-Nzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNj
-gsLTg2MDczMzc1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4
-MTQ1NDIzLDQxODI2NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAzNz
-YsLTU1MDM0NzYwNSw3OTU4MTkwMTAsLTIxMDcxOTg1MTQsLTIy
-MDY2NTQ0OV19
+eyJoaXN0b3J5IjpbLTg3Nzk2ODY1MywtMTEzMjI3MjYwNSwtMT
+ExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0xMjA3
+OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOTI2OC
+wtODYwNzMzNzUyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEsNzgx
+NDU0MjMsNDE4MjY2MDgsLTEyNjQyMTQ1NTYsMTY5MjA2MDM3Ni
+wtNTUwMzQ3NjA1LDc5NTgxOTAxMCwtMjEwNzE5ODUxNCwtMjIw
+NjY1NDQ5XX0=
 -->
