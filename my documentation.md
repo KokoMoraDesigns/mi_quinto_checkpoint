@@ -10,13 +10,10 @@ A continuación unos ejemplos según los distintos tipos de argumentos que exist
 
 #### Argumento posicional
 
-El orden en que se 
+El orden en que se incluyen los argumentos al declarar la función debe ser el mismo orden que utilizaste al formular los parámetros de la función. 
 
-Se pasan a la función en un orden específico que coincide con el orden de los parámetros en la definición de la función.
 
-La función anterior se puede llamar de dos maneras:
 
-En primer lugar, durante la llamada a la función, todos los argumentos se proporcionan como argumentos posicionales. Los valores que se pasan a través de los argumentos se transfieren a los parámetros según su posición. `10`se asigna a `a`, `20`se asigna a `b`y `30`se asigna a `c`.
 
 ```
 print (add(10,20,30))
@@ -965,11 +962,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQxMjk0ODAsLTExMzIyNzI2MDUsLT
-ExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIw
-Nzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNj
-gsLTg2MDczMzc1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4
-MTQ1NDIzLDQxODI2NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAzNz
-YsLTU1MDM0NzYwNSw3OTU4MTkwMTAsLTIxMDcxOTg1MTQsLTIy
-MDY2NTQ0OV19
+eyJoaXN0b3J5IjpbMTU4OTU5NjA5NiwtMTEzMjI3MjYwNSwtMT
+ExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0xMjA3
+OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOTI2OC
+wtODYwNzMzNzUyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEsNzgx
+NDU0MjMsNDE4MjY2MDgsLTEyNjQyMTQ1NTYsMTY5MjA2MDM3Ni
+wtNTUwMzQ3NjA1LDc5NTgxOTAxMCwtMjEwNzE5ODUxNCwtMjIw
+NjY1NDQ5XX0=
 -->
