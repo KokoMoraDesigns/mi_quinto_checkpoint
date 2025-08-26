@@ -338,6 +338,10 @@ También puedes iterar una cadena **saltando elementos**:
 ## Condicional
 
 ### Sentencia condicional if
+
+Ejecuta un bloque de código si la condición es verdadera. Si la condición es falsa, el bloque de código no se ejecuta.
+    
+    
 Se comprueba la condición y el conjunto de código del bloque «If» se ejecuta si es verdadera. De lo contrario, el código del bloque «If» no se ejecuta y se ejecuta la sentencia que sigue a la sentencia If.
 
 La sentencia «If» es útil si se puede especificar qué sentencias ejecutar si se cumple una condición. 
@@ -362,6 +366,8 @@ The resulting expression is evaluated like this:
 - <condition> and <expression1> or <expression2>
 
 ### Sentencia condicional if-else
+
+Ejecuta un bloque de código si la condición es verdadera, y otro bloque de código si la condición es falsa.
 
 En cambio, para evaluar sentencias que determinan si una condición es verdadera y si otro conjunto de sentencias es falso, se utiliza la **sentencia condicional «if-else»**.
 
@@ -443,25 +449,13 @@ Existen tres partes en un operador ternario, que son exactamente iguales a los q
 
 
 
-En ciertas ocasiones necesitamos añadir código auxiliar a nuestros programas. Por ejemplo, añadimos una sentencia `if` que completamos posteriormente con su código a ejecutar. Como en Python se usa la indentación para delimitar las sentencias condicionales, si el intérprete no encuentra código indentado después de una sentencia `if`, lanza un error de tipo `IndentationError`. Este tipo de errores los puede detectar automáticamente un IDE para Python o una aplicación como [Atom con el paquete linter-flake8](https://www.programaenpython.com/miscelanea/configurar-atom-para-programar-en-python/). En cualquier caso, como se ilustra en el siguiente bloque de código, siempre podemos hacer uso de una sentencia `pass` la cual actúa como un marcador que hace que el interprete no nos lance un error.
 
-if Ture:
-	pass
-print('Seguir...')
 
-Tipos de condicionales en Python:
+    
+    
 
--   `if`:
     
-    Ejecuta un bloque de código si la condición es verdadera. Si la condición es falsa, el bloque de código no se ejecuta.
-    
--   `if-else`:
-    
-    Ejecuta un bloque de código si la condición es verdadera, y otro bloque de código si la condición es falsa.
-    
--   `if-elif-else`:
-    
-    Permite evaluar múltiples condiciones. Se evalúa la condición en el  `if`. Si es falsa, se evalúa la condición en el  `elif`, y así sucesivamente. Si ninguna condición es verdadera, se ejecuta el bloque de código en el  `else`.
+
 
 
 edad = 20
@@ -956,11 +950,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODkxMDg4NCwxNjQ2MjIzMjMsMjA4NT
-A4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4
-OSwyMzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0ND
-M4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUz
-LDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNT
-k4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3
-OTk0NDFdfQ==
+eyJoaXN0b3J5IjpbLTE1MzY1OTkzNTMsMTY0NjIyMzIzLDIwOD
+UwODQzNjcsLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEy
+ODksMjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1ND
+QzODA0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1
+MywxNTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMT
+U5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1
+Nzk5NDQxXX0=
 -->
