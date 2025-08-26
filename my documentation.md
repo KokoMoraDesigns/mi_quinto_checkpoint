@@ -339,7 +339,7 @@ También puedes iterar una cadena **saltando elementos**:
 
 Se ejecutarán bloques de código diferentes en dependencia de si una condición determinada resulta ser verdadera o resulta ser falsa, esto le da independencia al programa para tomar decisiones *(de hecho, también se puede llamar sentencia de decisión a la sentencia condicional)* según el contexto en que se encuentre. Es decir:
 
-    edad = 25
+   
     
     if edad >= 18:
     
@@ -348,6 +348,11 @@ Se ejecutarán bloques de código diferentes en dependencia de si una condición
     else:
     
 	    print('es aconsejable que la policía no te vea bebiendo alcohol')
+	    
+	 edad = 25 (es decir, la condicion 'if' es verdadera) --> salida: puedes beber alcohol delante de la policía edad = 25 (es decir, la condicion 'if' es verdadera) --> salida: puedes beber alcohol delante de la policía
+
+
+
 	    
 
 	
@@ -933,7 +938,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzQ0MDE0MywxOTgxMTUxMjg5LDIzNz
+eyJoaXN0b3J5IjpbLTMwODQwODE5MSwxOTgxMTUxMjg5LDIzNz
 IxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDUs
 LTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMsMTU4OD
 M4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OTg0ODYy
