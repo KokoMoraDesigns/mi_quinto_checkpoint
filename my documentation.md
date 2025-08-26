@@ -357,14 +357,6 @@ Se ejecutarán bloques de código diferentes en dependencia de si una condición
 
 
 	    
-
-	
-
-edad = 20
-if edad >= 18:
-    print("Eres mayor de edad")
-
-
 Se comprueba la condición y el conjunto de código del bloque «If» se ejecuta si es verdadera. De lo contrario, el código del bloque «If» no se ejecuta y se ejecuta la sentencia que sigue a la sentencia If.
 
 La sentencia «If» es útil si se puede especificar qué sentencias ejecutar si se cumple una condición. En cambio, para evaluar sentencias que determinan si una condición es verdadera y si otro conjunto de sentencias es falso, se utiliza la **sentencia condicional «if-else»**.
@@ -941,11 +933,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2OTc4NSw4MTY0MDkzNzUsMTk4MTE1MT
-I4OSwyMzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0
-NDM4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5Mz
-UzLDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwx
-NTk4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05Mz
-U3OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3
-XX0=
+eyJoaXN0b3J5IjpbLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5OD
+ExNTEyODksMjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQs
+MTY1NDQzODA0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NT
+UyOTM1MywxNTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4
+MTEsMTU5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNy
+wtOTM1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkx
+MzgzN119
 -->
