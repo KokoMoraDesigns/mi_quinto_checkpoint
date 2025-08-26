@@ -400,7 +400,7 @@ El código indentado después de *if* forma parte del condicional, mientras que 
 
 ### Sentencia condicional if-else
 
-Si la condición es verdadera, ejecutará el siguiente bloque de código y no leerá más, si la condición es falsa, leeráejecutará el otro bloque de código. 
+Si la condición es verdadera, ejecutará el bloque de código y no leerá más, si la condición es falsa, seguirá leyendo y ejecutará el otro bloque de código (el que sigue a *else*. 
 
 (if <condition>: <expression1> else: <expression2>)
 The resulting expression is evaluated like this:
@@ -824,7 +824,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg2MzQ1MzksLTExNjE3MzI1MjAsMT
+eyJoaXN0b3J5IjpbLTE3NDQ3NTAxODcsLTExNjE3MzI1MjAsMT
 k0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAz
 NzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNj
 I2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2
