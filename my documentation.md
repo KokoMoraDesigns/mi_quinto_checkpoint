@@ -474,24 +474,12 @@ Los condicionales utilizan operadores de comparación para evaluar las condicion
 -   `>=`  (mayor o igual que)
 -   `<=`  (menor o igual que)
 
-En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son herramientas esenciales para crear programas que puedan adaptarse a diferentes situaciones y tomar decisiones basadas en condiciones específicas.
 
 
-bucles anidados:
-#Take user input
-number = 2 
 
-#condition of the while loop
-while number < 5 :  
-    # condition of the nested while loop    
-    while number % 2 == 0: 
-        print("The number "+ str(number)+" is even")
 
-Verás que el control entra en el primer bucle for y el valor de la variable  `number`  se inicializa como 0. Se imprime la primera sentencia print, y luego el control entra en el segundo bucle for, donde el valor de la variable  `another_number`  se inicializa a  `0`. La primera sentencia print del segundo bucle for se imprime una vez.
 
-Ahora, el control vuelve al bucle for interno una vez más y el valor de  `another_number`  se inicializa de nuevo al siguiente número entero, seguido de la impresión de la declaración dentro de la función  `print()`.
 
-El proceso anterior continúa hasta que el control ha atravesado el final de la función  `range()`, que en este caso es 5, y entonces el control vuelve al bucle exterior, inicializa la variable  `number`  con el siguiente número entero, imprime la sentencia dentro de la función  `print()`, visita el bucle interior y repite todos los pasos anteriores hasta atravesar la función  `range()`.
 
 Este viaje del control desde el bucle exterior, pasando por el bucle interior y volviendo al bucle for exterior continúa hasta que el control ha recorrido todo el rango, que en tu caso es 3 veces.
 
@@ -946,11 +934,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MD
-g0MzY3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5
-LDIzNzIxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0Mz
-gwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMs
-MTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OT
-g0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5
-OTQ0MV19
+eyJoaXN0b3J5IjpbMTcwMTM2ODAyOSwtNTMwODQ5ODMsMTY0Nj
+IyMzIzLDIwODUwODQzNjcsLTEzMzAzMDEwNzcsODE2NDA5Mzc1
+LDE5ODExNTEyODksMjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1ND
+c5NzQsMTY1NDQzODA0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5
+LDQ3NTUyOTM1MywxNTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNz
+Q3MzU4MTEsMTU5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5
+OTEwN119
 -->
