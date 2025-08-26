@@ -89,11 +89,11 @@ Separas mediante '/' los parámetros obligatoriamente posicionales (que *quedan 
 	    return a+b+c+d
 	    
 	    
-	sum(4,8,9,5) --> 26 --> correcto
+	sum(4,8,9,5) --> salida: 26 --> correcto
 	
-	sum(4,8,d=5,c=9) --> 26 --> correcto
+	sum(4,8,d=5,c=9) --> salida: 26 --> correcto
 	
-	sum(b=8,a=4,c=8,d=9) --> TypeError: sum() got some positional-only arguments passed as keyword arguments: 'a, b'
+	sum(b=8,a=4,c=8,d=9) --> salida: TypeError: sum() got some positional-only arguments passed as keyword arguments: 'a, b'
 
 
 **Trabajando con argumentos obligatoriamente de palabras clave**
@@ -105,11 +105,11 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
 	    return a+b+c+d
 	    
 	    
-	sum(4,8,c=9,d=5) --> 26 --> correcto
+	sum(4,8,c=9,d=5) --> salida: 26 --> correcto
 	
-	sum(b=8,a=4,d=5,c=9) --> 26 --> correcto
+	sum(b=8,a=4,d=5,c=9) --> salida: 26 --> correcto
 	
-	sum(4,8,8,d=5) --> TypeError: sum() takes 2 positional arguments but 3 positional arguments (and 1 keyword-only argument) were given
+	sum(4,8,8,d=5) --> salida: TypeError: sum() takes 2 positional arguments but 3 positional arguments (and 1 keyword-only argument) were given
 
 
 **Trabajando con argumentos obligatoriamente posicionales y obligatoriamente de palabras clave**
@@ -117,6 +117,9 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
     def sum(a,b,/,c,*,d):
     
 	    return a+b+c+d
+	    
+	sum(4,8,9,d=5) --> salida: 26
+
 
 Las tres convenciones de llamada se utilizan en la misma función. En el siguiente ejemplo, la función `add`contiene los tres argumentos:
 
@@ -868,11 +871,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczODI2NDQxLC0xMTc0NzM1ODExLDE1OT
-g0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5
-OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLT
-ExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5
-ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1Nj
-QxNiw2MjUxMTkyNjgsLTg2MDczMzc1MiwtNDU1NDAyODgzLC0x
-MjQ2MzQwMDAxXX0=
+eyJoaXN0b3J5IjpbLTE3NzY5OTc5NjYsLTExNzQ3MzU4MTEsMT
+U5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1
+Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNy
+wtMTEzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwx
+MDk4MDI1OTE4LC0xMjA3OTY2NTA5LC0yMDE5ODY1ODIsNTc1MT
+U2NDE2LDYyNTExOTI2OCwtODYwNzMzNzUyLC00NTU0MDI4ODMs
+LTEyNDYzNDAwMDFdfQ==
 -->
