@@ -86,7 +86,11 @@ son los valores que se pasan a una función cuando se llama, mientras que los pa
 
 **Trabajando con argumentos solo posicionales:**
 
-    def sum(a,b,/,c,d
+    def sum(a,b,/,c,d)
+    
+	    return a+b+c
+	print(sum(4,8,9,5))
+	print(sum(4,8,d=5,c=9
 
 
 Los parámetros posicionales se colocan antes de una `/`barra diagonal en la definición de la función. Esto `/`se utiliza para separar lógicamente los parámetros posicionales del resto. Los parámetros que siguen a `/`pueden ser posicionales, de palabra clave o de palabra clave.
@@ -884,7 +888,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODI2OTA3NywtMTYwMzI5OTEwNywtOT
+eyJoaXN0b3J5IjpbMTUwMTExNzE3NywtMTYwMzI5OTEwNywtOT
 M1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgz
 NywtMTEzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMS
 wxMDk4MDI1OTE4LC0xMjA3OTY2NTA5LC0yMDE5ODY1ODIsNTc1
