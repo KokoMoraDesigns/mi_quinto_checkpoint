@@ -344,11 +344,13 @@ La orden *break* interrumpirá el bucle de inmediato y pasará a ejecutar la sig
 	for num in range(8):
     
 		cuadrados = num**2
-		print(cuadrados)
-		    
+		
 		if cuadrados == 16:
+			print(f'el número que buscamos es {num})
 			break
-			print(num)
+			
+		print(cuadrados)
+		  
 
     
 ## Condicional
@@ -871,11 +873,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTgwMzc1NiwyNDgyMDczMzgsNjYwOD
-M2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5ODMs
-MTY0NjIyMzIzLDIwODUwODQzNjcsLTEzMzAzMDEwNzcsODE2ND
-A5Mzc1LDE5ODExNTEyODksMjM3MjE0NzQ5LC0xMzQyNDUyMDAz
-LDI1NDc5NzQsMTY1NDQzODA0NSwtMjExNzY1OTA5MSwxNDAzMD
-Q1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0ODY2LDIwODg3NTc5NjJd
-fQ==
+eyJoaXN0b3J5IjpbLTIwMjY5MDU4ODEsLTE0MTgwMzc1NiwyND
+gyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIx
+NSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwODQzNjcsLTEzMz
+AzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODksMjM3MjE0NzQ5
+LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NSwtMjExNz
+Y1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0ODY2
+XX0=
 -->
