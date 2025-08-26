@@ -117,15 +117,7 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
 	print(sum(b=8,a=4,8,9)) --> TypeError: sum() got some positional-only arguments passed as keyword
 
 
-```
-def add(a,b,*,c,d):
-    return a+b+c+d
 
-print (add(3,4,c=1,d=2))
-#Output:10
-```
-
-Si especificamos argumentos posicionales para argumentos de solo palabras clave, se generará TypeError **.**
 
 ```
 def add(a,b,*,c,d):
@@ -885,7 +877,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTgxMjE1NSwtMTYwMzI5OTEwNywtOT
+eyJoaXN0b3J5IjpbLTgxMDA1Mjg1NywtMTYwMzI5OTEwNywtOT
 M1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgz
 NywtMTEzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMS
 wxMDk4MDI1OTE4LC0xMjA3OTY2NTA5LC0yMDE5ODY1ODIsNTc1
