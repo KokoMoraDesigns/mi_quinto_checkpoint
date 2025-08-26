@@ -142,7 +142,7 @@ Los bucles se utilizan para el código reiterativo, existiendo dos tipos princip
 ### Bucle *for*
 Itera sobre una lista, tupla, cadena..., es útil cuando ya sabes el número de veces en que se va a repetir el código.
 
-    mis_libros = ['amarilla', 'biciosas', 'la isla de las medusas', 'el escondite']
+    mis_libros = ['amarilla', 'biciosas', 'la isla de las medusas', 'sparkling']
 
 ### Bucle *while*
 Ejecuta un bloque de código mientras un factor condicionante sea verdadero, útil cuando el número de veces en que el código se repita queda en dependencia de algún factor condicionante.
@@ -866,11 +866,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTMzMDkyMywxNDAzMDQ1NzA5LDQ3NT
-UyOTM1MywxNTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4
-MTEsMTU5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNy
-wtOTM1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkx
-MzgzNywtMTEzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4NTExMT
-gyMSwxMDk4MDI1OTE4LC0xMjA3OTY2NTA5LC0yMDE5ODY1ODIs
-NTc1MTU2NDE2XX0=
+eyJoaXN0b3J5IjpbODgxNzI1ODAzLDE0MDMwNDU3MDksNDc1NT
+I5MzUzLDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgx
+MSwxNTk4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC
+05MzU3OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEz
+ODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTExOD
+IxLDEwOTgwMjU5MTgsLTEyMDc5NjY1MDksLTIwMTk4NjU4Miw1
+NzUxNTY0MTZdfQ==
 -->
