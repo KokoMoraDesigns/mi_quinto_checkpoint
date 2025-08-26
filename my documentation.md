@@ -453,7 +453,7 @@ Una sentencia condicional puede contener en su interior otro bloque con otra sen
 
 ### Sentencia condicional no binaria
 
-Similar a *if*-*else*, solo que en lugar de una sola, examina múltiples condiciones: si la sentencia *if* es falsa, sigue leyendo de una en una el resto de sentencias *elif* (*else if*) que hayas introducido hasta encontrar la verdadera y ejecutar su código, y si todas las condiciones resultan ser falsas, ejecuta el código que se encuentre después de la sentencia *else*.
+Similar a *if*-*else*, solo que en lugar de una sola, examina múltiples condiciones: si la sentencia *if* es falsa, sigue leyendo de una en una el resto de sentencias *elif* (*else if*) que hayas introducido hasta encontrar la verdadera y ejecutar su código, y si todas las condiciones resultan ser falsas, ejecuta el código que se encuentre después de la sentencia *else*. 
 
 
     seres_queridos = ['persona_uno', 'persona_dos', 'persona_tres']
@@ -473,15 +473,14 @@ Similar a *if*-*else*, solo que en lugar de una sola, examina múltiples condici
 		print('todavía no nos conocemos, pero me haría muy feliz charlar contigo para descubrir si conectamos')
 
     
-    
-
-
 ### Operador ternario
 
-El operador ternario o `ternary operator` es una herramienta muy potente que muchos lenguajes de programación tienen. En Python es un poco distinto a lo que sería en C, pero el concepto es el mismo. Se trata de una cláusula `if`, `else` que se define en una sola línea y puede ser usado por ejemplo, dentro de un `print()`.
+Sirve para resumir el código en una sola línea, y se define de la siguiente manera:
 
-> Ver https://peps.python.org/pep-0308/ 
 
+
+
+>
 x  =  5  print("Es 5"  if  x  ==  5  else  "No es 5")  #Es 5
 
 Existen tres partes en un operador ternario, que son exactamente iguales a los que había en un `if``else`. Tenemos la condición a evaluar, el código que se ejecuta si se cumple, y el código que se ejecuta si no se cumple. En este caso, tenemos los tres en la misma línea.
@@ -811,7 +810,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MDE4MDcyMiwtMTkwMzA1OTkzNSwtMT
+eyJoaXN0b3J5IjpbMjA3NTc3MjM2NSwtMTkwMzA1OTkzNSwtMT
 E2MTczMjUyMCwxOTQ3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQz
 NDk4LC0xNDE4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMT
 ExMDY5NDIxMiw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMy
