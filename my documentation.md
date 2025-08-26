@@ -456,13 +456,6 @@ Una sentencia condicional puede contener en su interior otro bloque con otra sen
 Similar a *if*-*else*, solo que en lugar de una sola, examina múltiples condiciones: si la sentencia *if* es falsa, sigue leyendo de una en una el resto de sentencias *elif* (*else if*) que hayas introducido hasta encontrar la verdadera y ejecutar su código, y si todas las condiciones resultan ser falsas, ejecuta el código que se encuentre después de la sentencia *else*.
 
 
-Se puede usar también de manera conjunta todo, el `if` con el `elif` y un `else` al final. Es muy importante notar que `if` y `else` solamente puede haber uno, mientras que `elif` puede haber varios.
-
-x  =  5 
- if  x  ==  5:  print("Es 5")  elif  x  ==  6:  print("Es 6")  elif  x  ==  7:  print("Es 7")
-
-x  =  5  if  x  ==  5:  print("Es 5")  elif  x  ==  6:  print("Es 6")  elif  x  ==  7:  print("Es 7")  else:  print("Es otro")
-
     seres_queridos = ['persona_uno', 'persona_dos', 'persona_tres']
 
     personas_desgraciadamente_conocidas = ['persona_siete', 'persona_ocho']
@@ -818,7 +811,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTk0NTMyNywtMTkwMzA1OTkzNSwtMT
+eyJoaXN0b3J5IjpbMTc1MDE4MDcyMiwtMTkwMzA1OTkzNSwtMT
 E2MTczMjUyMCwxOTQ3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQz
 NDk4LC0xNDE4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMT
 ExMDY5NDIxMiw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMy
