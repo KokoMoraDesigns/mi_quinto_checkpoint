@@ -141,9 +141,9 @@ Los bucles se utilizan para el código reiterativo, existiendo dos tipos princip
 
 ### Bucle *for*
 
-¡Genial! Lo que ha ocurrido aquí es lo siguiente: el bucle _for_ ejecuta el bloque de código indentado (en este caso la llamada a `print()`) tantas veces como elementos haya en la colección indicada a la derecha del operador `in`. Pero, cada vez que ese código es ejecutado, la variable `lenguaje` tendrá un valor diferente: en la primera ejecución será igual a `"Python"`; en la segunda, a `"C"`; y así hasta alcanzar el final de la lista.
+Pero, cada vez que ese código es ejecutado, la variable `lenguaje` tendrá un valor diferente: en la primera ejecución será igual a `"Python"`; en la segunda, a `"C"`; y así hasta alcanzar el final de la lista.
 
-**Itera sobre una secuencia**  (lista, tupla, cadena....) **de la que tienes conocimiento previo**, con lo que ya sabes el número de veces en que se va a repetir el código; por ejemplo, si deseas imprimir el contenido de una colección o efectuar cálculos con los números contenido en un rango ya determinado
+**Itera sobre una secuencia**  (lista, tupla, cadena....) **de la que tienes conocimiento previo**, con lo que ya sabes el número de veces en que se va a repetir el código; por ejemplo, si deseas imprimir el contenido de una colección o efectuar cálculos con los números contenidos en un rango ya determinado, se repetirá el código tantas veces como elementos tengas en la colección que hayas colocado a la derecha de la cláusula (el operador) 'in'.
 
     mis_libros = ['amarilla', 'biciosas', 'la isla de las medusas', 'pirómanas', 'brillando']
     
@@ -923,11 +923,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTg5Nzc2NywtMTM0MjQ1MjAwMywyNT
-Q3OTc0LDE2NTQ0MzgwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcw
-OSw0NzU1MjkzNTMsMTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMT
-c0NzM1ODExLDE1OTg0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMy
-OTkxMDcsLTkzNTc5OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOS
-wxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2
-ODUxMTE4MjFdfQ==
+eyJoaXN0b3J5IjpbNDY5Mzk2MTIsLTEzNDI0NTIwMDMsMjU0Nz
+k3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDks
+NDc1NTI5MzUzLDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3ND
+czNTgxMSwxNTk4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5
+MTA3LC05MzU3OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMT
+M3OTEzODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1
+MTExODIxXX0=
 -->
