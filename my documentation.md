@@ -211,7 +211,7 @@ En la operación anterior, 'perros' equivale al **iterable**, es decir, al objet
 
 #### Bucles anidados
 
-Si estás trabajando con un objeto que, en su interior, contiene otro objeto iterable, puedes crear un bucle *for* anidado. Por ejemplo:
+Si estás trabajando con un objeto iteradle que, en su interior, contiene otro objeto iterable, puedes crear un bucle *for* anidado. Por ejemplo:
 
     mi_cine = [['us', 'oddity', 'seven veils', 'heretic', 'the shining'], ['bottoms', 'bullet train', 'the blackening', 'heathers']]
     
@@ -224,21 +224,13 @@ Si estás trabajando con un objeto que, en su interior, contiene otro objeto ite
     salida: ['us', 'oddity', 'seven veils', 'heretic', 'the shining']
 		    ['bottoms', 'bullet train', 'the blackening', 'heathers']
 
-
+Con el bucle *for* simple anterior estamos accediendo únicamente al objeto iteradle exterior; no obstante, si ahora anidamos un segundo bucle 
 
 
 -   Los  **iteradores**  son objetos que hacen referencia a un elemento, y que tienen un método  `next`  que permite hacer referencia al siguiente.
 
 
 
-Es posible  **anidar**  los  `for`, es decir,  **meter uno dentro de otro**. Esto puede ser muy útil si queremos iterar algún objeto que en cada elemento, tiene a su vez otra clase iterable. Podemos tener por ejemplo, una lista de listas, una especie de matriz.
-
-```
-lista = [[56, 34, 1],
-         [12, 4, 5],
-         [9, 4, 3]]
-
-```
 
 Si iteramos usando sólo un  `for`, estaremos realmente accediendo a la segunda lista, pero no a los elementos individuales.
 
@@ -890,11 +882,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3Nj
-U5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4NjYs
-MjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC0xMj
-g4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1MDY2
-NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNjA1LC
-0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgsLTEy
-MDc5NjY1MDldfQ==
+eyJoaXN0b3J5IjpbLTE0ODUxNjYzNjgsMjU0Nzk3NCwxNjU0ND
+M4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUz
+LDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNT
+k4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3
+OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC
+0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEw
+OTgwMjU5MThdfQ==
 -->
