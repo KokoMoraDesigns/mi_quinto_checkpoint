@@ -369,6 +369,8 @@ La orden *break* interrumpirá el bucle de inmediato y, en caso de existir, pasa
     
 ## Condicional
 
+Una condicional permite que se ejecuten bloques de código diferentes en dependencia de si una condición determinada resulta ser verdadera o resulta ser falsa, esto le da independencia al programa para tomar decisiones *(de hecho, a la sentencia condiciónal también se puede llamar sentencia de decisión)* según el contexto en que se encuentre. Es decir:
+
 Los condicionales en Python, como  `if`,  `else`  y  `elif`, son herramientas esenciales para crear programas que puedan adaptarse a diferentes situaciones y tomar decisiones basadas en condiciones específicas.
 
 ### Sentencia condicional if
@@ -428,9 +430,6 @@ Si los resultados de la expresión de prueba son falsos, se ejecutan las sentenc
 
 El bloque «Else» solo se ejecutará si las condiciones son falsas. Las acciones de este bloque se ejecutan cuando las condiciones no son verdaderas.
 
-
-
-Se ejecutarán bloques de código diferentes en dependencia de si una condición determinada resulta ser verdadera o resulta ser falsa, esto le da independencia al programa para tomar decisiones *(de hecho, a la sentencia condiciónal también se puede llamar sentencia de decisión)* según el contexto en que se encuentre. Es decir:
 
    
     
@@ -818,11 +817,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODI0MDcyNCwyNTA1NDM0OTgsLTE0MT
-gwMzc1NiwyNDgyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEy
-LDYyNjAwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwOD
-QzNjcsLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODks
-MjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzOD
-A0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1M119
+eyJoaXN0b3J5IjpbODkxOTM5MTE1LC00MDgyNDA3MjQsMjUwNT
+QzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwt
+MTExMDY5NDIxMiw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMj
+MyMywyMDg1MDg0MzY3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwx
+OTgxMTUxMjg5LDIzNzIxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OT
+c0LDE2NTQ0MzgwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOV19
 
 -->
