@@ -102,10 +102,8 @@ Separas mediante '/' los parámetros obligatoriamente posicionales (que *quedan 
 
 **Trabajando con argumentos obligatoriamente de palabras clave**
 
-Separas mediante *' los parámetros obligatoriamente posicionales (que *quedan a la izquierda del signo*) del resto, que podrán ser tanto posicionales como de palabra clave.
+Separas mediante un asterisco los parámetros obligatoriamente de palabras clave (que *quedan a la derecha del signo*) del resto, que podrán ser tanto posicionales como de palabra clave.
 
-
-Para marcar parámetros como solo de palabras clave, coloque un `*`en la lista de argumentos justo antes del primer parámetro solo de palabras clave.
 
 ```
 def add(a,b,*,c,d):
@@ -875,7 +873,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1Njc3NDcwMywtMTYwMzI5OTEwNywtOT
+eyJoaXN0b3J5IjpbMTY3MTkxMTUxOCwtMTYwMzI5OTEwNywtOT
 M1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgz
 NywtMTEzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMS
 wxMDk4MDI1OTE4LC0xMjA3OTY2NTA5LC0yMDE5ODY1ODIsNTc1
