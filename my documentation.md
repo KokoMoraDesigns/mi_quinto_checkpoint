@@ -352,6 +352,15 @@ Todo lo que vaya después del `if` y esté indentado, será parte del bloque de 
 Se puede también combinar varias condiciones entre el `if` y los `:`. Por ejemplo, se puede requerir que un número sea mayor que 5 y además menor que 15. Tenemos en realidad tres operadores usados conjuntamente, que serán evaluados por separado hasta devolver el resultado final, que será `True` si la condición se cumple o `False` de lo contrario.
 
 
+
+(if <condition>: <expression1> else: <expression2>)
+The resulting expression is evaluated like this:
+
+-   First, <condition> is evaluated.
+-   If <condition> is true, <expression1> is evaluated and is the result of the whole thing.
+-   If <condition> is false, <expression2> is evaluated and is the result of the whole thing.
+- <condition> and <expression1> or <expression2>
+
 ### Sentencia condicional if-else
 
 En cambio, para evaluar sentencias que determinan si una condición es verdadera y si otro conjunto de sentencias es falso, se utiliza la **sentencia condicional «if-else»**.
@@ -429,18 +438,10 @@ x  =  5  print("Es 5"  if  x  ==  5  else  "No es 5")  #Es 5
 
 Existen tres partes en un operador ternario, que son exactamente iguales a los que había en un `if``else`. Tenemos la condición a evaluar, el código que se ejecuta si se cumple, y el código que se ejecuta si no se cumple. En este caso, tenemos los tres en la misma línea.
 
-```
-# [código si se cumple] if [condición] else [código si no se cumple]
 
-```
+#[código si se cumple] if [condición] else [código si no se cumple]
 
-(if <condition>: <expression1> else: <expression2>)
-The resulting expression is evaluated like this:
 
--   First, <condition> is evaluated.
--   If <condition> is true, <expression1> is evaluated and is the result of the whole thing.
--   If <condition> is false, <expression2> is evaluated and is the result of the whole thing.
-- <condition> and <expression1> or <expression2>
 
 En ciertas ocasiones necesitamos añadir código auxiliar a nuestros programas. Por ejemplo, añadimos una sentencia `if` que completamos posteriormente con su código a ejecutar. Como en Python se usa la indentación para delimitar las sentencias condicionales, si el intérprete no encuentra código indentado después de una sentencia `if`, lanza un error de tipo `IndentationError`. Este tipo de errores los puede detectar automáticamente un IDE para Python o una aplicación como [Atom con el paquete linter-flake8](https://www.programaenpython.com/miscelanea/configurar-atom-para-programar-en-python/). En cualquier caso, como se ilustra en el siguiente bloque de código, siempre podemos hacer uso de una sentencia `pass` la cual actúa como un marcador que hace que el interprete no nos lance un error.
 
@@ -955,11 +956,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDU3NTM4MzgsMTY0NjIyMzIzLDIwOD
-UwODQzNjcsLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEy
-ODksMjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1ND
-QzODA0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1
-MywxNTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMT
-U5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1
-Nzk5NDQxXX0=
+eyJoaXN0b3J5IjpbMTE0ODkxMDg4NCwxNjQ2MjIzMjMsMjA4NT
+A4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4
+OSwyMzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0ND
+M4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUz
+LDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNT
+k4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3
+OTk0NDFdfQ==
 -->
