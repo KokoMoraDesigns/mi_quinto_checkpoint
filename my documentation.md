@@ -192,10 +192,9 @@ En la operación del bucle *while*, tras cada iteración volvía a analizarse si
 			o
 			s
 
-En la operación anterior, 'perros' equivale al **iterable**, es decir, al objeto que va a ser iterado *(indexado)* en la operación.
+En la operación anterior, 'perros' equivale al **iterable**, es decir, al objeto que va a ser iterado *(e indexado, es decir, que podrás acceder al mismo mediante un índice)* en la operación. En un bucle *for*, lo que coloques después de 'in' equivaldrá al iterable.
 
 
--   Los  **iterables**  son aquellos objetos que como su nombre indica pueden ser iterados, lo que dicho de otra forma es, que puedan ser indexados. Si piensas en un array (o una  `list`  en Python), podemos indexarlo con  `lista[1]`  por ejemplo, por lo que sería un iterable.
 -   Los  **iteradores**  son objetos que hacen referencia a un elemento, y que tienen un método  `next`  que permite hacer referencia al siguiente.
 
 Como hemos comentado, los  **iterables**  son objetos que pueden ser iterados o accedidos con un índice. Algunos ejemplos de iterables en Python son las listas, tuplas, cadenas o diccionarios. Sabiendo esto, lo primero que tenemos que tener claro es que en un  `for`, lo que va después del  `in`**deberá ser siempre un iterable**.
@@ -865,11 +864,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM3MTA1OTYsMTY1NDQzODA0NSwtMj
-ExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0
-ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5MS
-wtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5
-NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMTEzMjI3Mj
-YwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4
-LC0xMjA3OTY2NTA5XX0=
+eyJoaXN0b3J5IjpbLTUyNTQ1NTY3MSwxNjU0NDM4MDQ1LC0yMT
+E3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4
+NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC
+0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1
+MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNj
+A1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgs
+LTEyMDc5NjY1MDldfQ==
 -->
