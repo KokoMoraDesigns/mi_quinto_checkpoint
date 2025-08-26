@@ -215,6 +215,7 @@ Si estás trabajando con un objeto que, en su interior, contiene otro objeto ite
 
     mi_cine = [['us', 'oddity', 'seven veils', 'heretic', 'the shining'], ['bottoms', 'bullet train', 'the blackening', 'heathers']]
     
+    
     for genero in mi_cine:
     
     	print(genero)
@@ -889,11 +890,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDQ2MzQ0OCwxNjU0NDM4MDQ1LC0yMT
-E3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4
-NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC
-0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1
-MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNj
-A1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgs
-LTEyMDc5NjY1MDldfQ==
+eyJoaXN0b3J5IjpbMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3Nj
+U5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4NjYs
+MjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC0xMj
+g4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1MDY2
+NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNjA1LC
+0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgsLTEy
+MDc5NjY1MDldfQ==
 -->
