@@ -217,6 +217,8 @@ También puedes incluir la cláusula *else*, que entrará en acción una vez el 
 			nos quedan 1 horchatas
 			deberíamos comprar más horchata
 
+> Si no creas la cláusula *while*, crearás un bucle infinito, dado q
+
 Estructura del bucle *while/else*:
    
     while 'condición':
@@ -486,7 +488,6 @@ Los condicionales utilizan operadores de comparación para evaluar las condicion
 
 
 
-Cómo viste anteriormente, los bucles  `while`  están acompañados típicamente por una variable cuyo valor cambia a través de la duración del bucle, hasta que finalmente se determina un punto en el cual el bucle llega a su cesación.
 
 Si no agregas esta línea, crearás un  **bucle infinito**.
 
@@ -865,11 +866,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwMTU3NDg1LC0xMTEwNjk0MjEyLDYyNj
-AwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwODQzNjcs
-LTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODksMjM3Mj
-E0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NSwt
-MjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mz
-g0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5
-MV19
+eyJoaXN0b3J5IjpbMTgyODMzNzUxMiwtMTExMDY5NDIxMiw2Mj
+YwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3
+LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNz
+IxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDUs
+LTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMsMTU4OD
+M4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OTg0ODYy
+OTFdfQ==
 -->
