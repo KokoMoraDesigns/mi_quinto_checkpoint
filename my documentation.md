@@ -252,20 +252,23 @@ Con el bucle *for* simple del ejemplo *mi_cine* estamos accediendo únicamente a
 
 #### Bucles según su índice
 
-También podemos iterar una cadena **en sentido inverso**:
+También puedes iterar una cadena **en sentido inverso**:
 
     color_ojos ='marrón'
+    
     for i in color_ojos[::-1]:
+    print(i)
+    
+    
+    salida: n
+		    ó
+		    r
+		    r
+		    a
+		    m
 
 
-Iterando cadena al revés. Haciendo uso de  `[::-1]`  se puede iterar la lista desde el último al primer elemento.
-
-```
-texto = "Python"
-for i in texto[::-1]:
-    print(i) #n,o,h,t,y,P
-
-```
+También puedes iterar una cadena **saltando elementos**:
 
 Itera la cadena saltándose elementos. Con  `[::2]`  vamos tomando un elemento si y otro no.
 
@@ -887,11 +890,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MzM1MDE1LDI1NDc5NzQsMTY1NDQzOD
-A0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1Mywx
-NTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5OD
-Q4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5
-NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMT
-EzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4
-MDI1OTE4XX0=
+eyJoaXN0b3J5IjpbLTE1MTk2MjE5MTAsMjU0Nzk3NCwxNjU0ND
+M4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUz
+LDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNT
+k4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3
+OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC
+0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEw
+OTgwMjU5MThdfQ==
 -->
