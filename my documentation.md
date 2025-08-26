@@ -337,6 +337,12 @@ También puedes iterar una cadena **saltando elementos**:
 
 ## Condicional
 
+### Sentencia condicional if
+Se comprueba la condición y el conjunto de código del bloque «If» se ejecuta si es verdadera. De lo contrario, el código del bloque «If» no se ejecuta y se ejecuta la sentencia que sigue a la sentencia If.
+
+La sentencia «If» es útil si se puede especificar qué sentencias ejecutar si se cumple una condición. 
+
+### Sentencia condicional if-else
 Se ejecutarán bloques de código diferentes en dependencia de si una condición determinada resulta ser verdadera o resulta ser falsa, esto le da independencia al programa para tomar decisiones *(de hecho, a la sentencia condiciónal también se puede llamar sentencia de decisión)* según el contexto en que se encuentre. Es decir:
 
    
@@ -357,9 +363,8 @@ Se ejecutarán bloques de código diferentes en dependencia de si una condición
 
 
 	    
-Se comprueba la condición y el conjunto de código del bloque «If» se ejecuta si es verdadera. De lo contrario, el código del bloque «If» no se ejecuta y se ejecuta la sentencia que sigue a la sentencia If.
 
-La sentencia «If» es útil si se puede especificar qué sentencias ejecutar si se cumple una condición. En cambio, para evaluar sentencias que determinan si una condición es verdadera y si otro conjunto de sentencias es falso, se utiliza la **sentencia condicional «if-else»**.
+En cambio, para evaluar sentencias que determinan si una condición es verdadera y si otro conjunto de sentencias es falso, se utiliza la **sentencia condicional «if-else»**.
 
 La sentencia «If-else» se utiliza para ejecutar tanto la parte verdadera como la falsa de una condición. Si la condición es verdadera, se ejecuta el **bloque de código If**. Si la condición es falsa, se ejecuta el bloque de código Else.
 
@@ -933,11 +938,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5OD
-ExNTEyODksMjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQs
-MTY1NDQzODA0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NT
-UyOTM1MywxNTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4
-MTEsMTU5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNy
-wtOTM1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkx
-MzgzN119
+eyJoaXN0b3J5IjpbMTM0NzAyMjU0NywtMTMzMDMwMTA3Nyw4MT
+Y0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NTIw
+MDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkxLDE0MD
+MwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4NjYsMjA4ODc1Nzk2
+MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC0xMjg4MjE4NjgzLC
+0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1MDY2NzIwLDIwNTY5
+MjUwMTldfQ==
 -->
