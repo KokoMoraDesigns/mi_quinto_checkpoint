@@ -349,7 +349,8 @@ Se ejecutarán bloques de código diferentes en dependencia de si una condición
     
 	    print('es aconsejable que la policía no te vea bebiendo alcohol')
 	    
-	 edad = 25 (es decir, la condicion 'if' es verdadera) --> salida: puedes beber alcohol delante de la policía edad = 25 (es decir, la condicion 'if' es verdadera) --> salida: puedes beber alcohol delante de la policía
+	 edad = 25 (es decir, la condicion 'if' es verdadera) --> salida: puedes beber alcohol delante de la policía 
+	 edad = 25 (es decir, la condicion 'if' es verdadera) --> salida: puedes beber alcohol delante de la policía
 
 
 
@@ -938,11 +939,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODQwODE5MSwxOTgxMTUxMjg5LDIzNz
-IxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDUs
-LTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMsMTU4OD
-M4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OTg0ODYy
-OTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5OTQ0MS
-w2OTUwNjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLTExMzIy
-NzI2MDVdfQ==
+eyJoaXN0b3J5IjpbODE2NDA5Mzc1LDE5ODExNTEyODksMjM3Mj
+E0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NSwt
+MjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mz
+g0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5
+MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLD
+Y5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMTEzMjI3
+MjYwNV19
 -->
