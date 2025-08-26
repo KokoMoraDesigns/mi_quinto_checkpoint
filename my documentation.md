@@ -475,7 +475,13 @@ Similar a *if*-*else*, solo que en lugar de una sola, examina múltiples condici
     
 ### Operador ternario
 
-Resume el código en una sola línea, que se divide en tres partes difern
+Resume el código en una sola línea, que se divide en tres partes diferentes: 
+
+ 1. La condición que estamos evaluando.
+ 2. El código que queremos ejecutar si la condición es verdadera.
+ 3. El código que queremos ejecutar si la condición es falsa.
+
+
 
 
 >
@@ -808,11 +814,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTI1OTk3NSwtMTkwMzA1OTkzNSwtMT
-E2MTczMjUyMCwxOTQ3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQz
-NDk4LC0xNDE4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMT
-ExMDY5NDIxMiw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMy
-MywyMDg1MDg0MzY3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOT
-gxMTUxMjg5LDIzNzIxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0
-XX0=
+eyJoaXN0b3J5IjpbLTExMTQ3NTE5OTgsLTE5MDMwNTk5MzUsLT
+ExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0
+MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLT
+ExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIz
+MjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMT
+k4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3
+NF19
 -->
