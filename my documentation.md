@@ -112,7 +112,11 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
 	sum(4,8,8,d=5) --> TypeError: sum() takes 2 positional arguments but 3 positional arguments (and 1 keyword-only argument) were given
 
 
+**Trabajando con argumentos obligatoriamente posicionales y obligatoriamente de palabras clave**
 
+    def sum(a,b,/,c,*,d):
+    
+	    return a+b+c+d
 
 Las tres convenciones de llamada se utilizan en la misma función. En el siguiente ejemplo, la función `add`contiene los tres argumentos:
 
@@ -864,11 +868,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQ3MzU4MTEsMTU5ODQ4NjI5MSwtMT
-I4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5NTA2
-NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMTEzMjI3MjYwNS
-wtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0x
-MjA3OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOT
-I2OCwtODYwNzMzNzUyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEs
-NzgxNDU0MjNdfQ==
+eyJoaXN0b3J5IjpbMjczODI2NDQxLC0xMTc0NzM1ODExLDE1OT
+g0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5
+OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLT
+ExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5
+ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1Nj
+QxNiw2MjUxMTkyNjgsLTg2MDczMzc1MiwtNDU1NDAyODgzLC0x
+MjQ2MzQwMDAxXX0=
 -->
