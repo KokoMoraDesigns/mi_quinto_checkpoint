@@ -217,7 +217,7 @@ También puedes incluir la cláusula *else*, que entrará en acción una vez el 
 			nos quedan 1 horchatas
 			deberíamos comprar más horchata
 
-> Si no creas la cláusula *while*, crearás un bucle infinito, dado q
+> Si no defines la cláusula *while*, crearás **un bucle infinito**, dado que no existirá un momento en que la declaración sea falsa.
 
 Estructura del bucle *while/else*:
    
@@ -866,7 +866,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODMzNzUxMiwtMTExMDY5NDIxMiw2Mj
+eyJoaXN0b3J5IjpbLTEzOTUyMzgyNiwtMTExMDY5NDIxMiw2Mj
 YwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3
 LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNz
 IxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDUs
