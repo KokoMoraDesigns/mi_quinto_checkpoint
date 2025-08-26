@@ -453,7 +453,7 @@ Una sentencia condicional puede contener en su interior otro bloque con otra sen
 
 ### Sentencia condicional no binaria
 
-Se utiliza cuando eSi la sentencia *if* es falsa, sigue leyendo, de una en una, el resto de sentencias *elif* (*else if*) que hayas introducido hasta encontrar la verdadera, si ninguna resulta ser verdadera, ejecuta el código que esté después de la sentencia *else*.
+Similar a *if*-*else*, solo que en lugar de una sola, examina múltiples condiciones: si la sentencia *if* es falsa, sigue leyendo de una en una el resto de sentencias *elif* (*else if*) que hayas introducido hasta encontrar la verdadera, y si ninguna resulta ser verdadera, ejecuta el código que se encuentre después de la sentencia *else*.
 
 
 En Python, la sentencia «Elif» se utiliza para comprobar múltiples condiciones si una condición es falsa. Es similar a la sentencia «If-Else», pero la diferencia es que «Elif» evalúa **múltiples condiciones** a diferencia de «Else».
@@ -827,11 +827,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5MzUyMjI2LC0xOTAzMDU5OTM1LC0xMT
-YxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0MDcyNCwyNTA1NDM0
-OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNjYwODM2MTExLC0xMT
-EwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIz
-LDIwODUwODQzNjcsLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5OD
-ExNTEyODksMjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzRd
-fQ==
+eyJoaXN0b3J5IjpbMTgwMzg3Mzc2MiwtMTkwMzA1OTkzNSwtMT
+E2MTczMjUyMCwxOTQ3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQz
+NDk4LC0xNDE4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMT
+ExMDY5NDIxMiw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMy
+MywyMDg1MDg0MzY3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOT
+gxMTUxMjg5LDIzNzIxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0
+XX0=
 -->
