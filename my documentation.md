@@ -225,7 +225,7 @@ Si estás trabajando con un objeto iteradle que, en su interior, contiene otro o
 		    ['bottoms', 'bullet train', 'the blackening', 'heathers']
 
 
-Con el bucle *for* simple del ejemplo *mi_cine* estamos accediendo únicamente al objeto iterable exterior; no obstante, si ahora anidamos un segundo bucle *for* podremos acceder también a los elementos internos, ya que uno de los iterd:
+Con el bucle *for* simple del ejemplo *mi_cine* estamos accediendo únicamente al objeto iterable exterior; no obstante, si ahora anidamos un segundo bucle *for* podremos acceder también a los elementos internos, ya que el primer *for* iterará sobre la primera lista, y el segundo *for* sobre la lista anidada a la primera:
 
     for genero in mi_cine:
     
@@ -250,16 +250,6 @@ Con el bucle *for* simple del ejemplo *mi_cine* estamos accediendo únicamente a
 
 
 
-
-
-Si queremos acceder a cada elemento individualmente, podemos anidar dos  `for`. Uno de ellos se encargará de iterar las columnas y el otro las filas.
-
-```
-for i in lista:
-    for j in i:
-        print(j)
-# Salida: 56,34,1,12,4,5,9,4,3
-```
 
 
 Iterando cadena al revés. Haciendo uso de  `[::-1]`  se puede iterar la lista desde el último al primer elemento.
@@ -891,7 +881,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTczMDc0NiwyNTQ3OTc0LDE2NTQ0Mz
+eyJoaXN0b3J5IjpbMjAwNTYxNDUzNCwyNTQ3OTc0LDE2NTQ0Mz
 gwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMs
 MTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OT
 g0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5
