@@ -185,19 +185,14 @@ En la operación del bucle *while*, tras cada iteración volvía a analizarse si
 	    print(i)
 
 
-```
-for i in range(0, 5):
-    print(i)
+	salida: p
+			e
+			r
+			r
+			o
+			s
 
-# Salida:
-# 0
-# 1
-# 2
-# 3
-# 4
-```
-
-for  i  in  "Python":  print(i)  # Salida: # P # y # t # h # o # n
+En la operación anterior, 'perros' equivale al iter
 
 
 -   Los  **iterables**  son aquellos objetos que como su nombre indica pueden ser iterados, lo que dicho de otra forma es, que puedan ser indexados. Si piensas en un array (o una  `list`  en Python), podemos indexarlo con  `lista[1]`  por ejemplo, por lo que sería un iterable.
@@ -870,11 +865,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTk0OTM2MzAsMTY1NDQzODA0NSwtMj
-ExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0
-ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5MS
-wtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5
-NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMTEzMjI3Mj
-YwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4
-LC0xMjA3OTY2NTA5XX0=
+eyJoaXN0b3J5IjpbMTI3ODc2ODQ1OSwxNjU0NDM4MDQ1LC0yMT
+E3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4
+NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC
+0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1
+MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNj
+A1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgs
+LTEyMDc5NjY1MDldfQ==
 -->
