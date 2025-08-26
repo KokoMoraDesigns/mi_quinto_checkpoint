@@ -375,6 +375,7 @@ Una condicional permite que se ejecuten bloques de código diferentes en depende
 
 Si la condición es verdadera, ejecutará el siguiente bloque de código, si la condición es falsa, no la ejecutará. Puede haber una condición, o múltiples condiciones.
 
+pers
     personas_invitadas = ['persona_uno', 'persona_dos', 'persona_tres', 'persona_cuatro', 'persona_cinco', 'persona_seis', 'persona_siete']
     
     personas_aceptaron = ['persona_uno', 'persona_cuatro', 'persona_cinco', 'persona_seis']
@@ -817,11 +818,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwNTA4MDg5LDE5NDc2MTIxMzEsLTQwOD
-I0MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgs
-NjYwODM2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIxNSwtNTMwOD
-Q5ODMsMTY0NjIyMzIzLDIwODUwODQzNjcsLTEzMzAzMDEwNzcs
-ODE2NDA5Mzc1LDE5ODExNTEyODksMjM3MjE0NzQ5LC0xMzQyND
-UyMDAzLDI1NDc5NzQsMTY1NDQzODA0NSwtMjExNzY1OTA5MV19
-
+eyJoaXN0b3J5IjpbLTExODIwNTk5MTksMTk0NzYxMjEzMSwtND
+A4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMz
+OCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01Mz
+A4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3
+Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzND
+I0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkx
+XX0=
 -->
