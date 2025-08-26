@@ -454,13 +454,13 @@ Una sentencia condicional puede contener en su interior otro bloque con otra sen
 ### Sentencia condicional no binaria
 
 
-    amistades = ['persona_uno', 'persona_dos', 'persona_tres']
+    seres_queridos = ['persona_uno', 'persona_dos', 'persona_tres']
     
     personas_desconocidas = ['persona_cuatro', 'persona_cinco', 'persona_seis']
     
     personas_desgraciadamente_conocidas = ['persona_siete', 'persona_ocho']
     
-    if amistades:
+    if seres_queridos:
 	    print('te quiero, me haría muy feliz hacer un viaje contigo')
 	    else if personas_desgraciadamente_conocidas:
 		    print('me haría muy feliz no tener que volver a intercambiar una palabra contigo :)')
@@ -826,11 +826,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMjQ2MjI1LC0xMTYxNzMyNTIwLDE5ND
-c2MTIxMzEsLTQwODI0MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1
-NiwyNDgyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEyLDYyNj
-AwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwODQzNjcs
-LTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODksMjM3Mj
-E0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NV19
-
+eyJoaXN0b3J5IjpbLTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMT
+k0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAz
+NzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNj
+I2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2
+NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMz
+cyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1
+XX0=
 -->
