@@ -385,22 +385,7 @@ Si la condición es verdadera, ejecutará el siguiente bloque de código, si la 
 	    if persona in personas_aceptaron:
 		    print(f'{persona} ha confirmado que viene al viaje')
 		    
-	print('Quiénes venimos')
-
-			
-
-
-
-
-
-Todo el contenido que está intentado después de *if* forma parte del contexto condicional, el resto, sin embargo, se ejecutará siempre.
-
-
-
-if  b  !=  0:  
-	c  =  a/b  
-	d  =  c  +  1  
-		print(d)
+	
 
 
 
@@ -832,11 +817,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MD
-U0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEs
-LTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2Mj
-IzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUs
-MTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nz
-k3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDld
-fQ==
+eyJoaXN0b3J5IjpbNjgwNTA4MDg5LDE5NDc2MTIxMzEsLTQwOD
+I0MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgs
+NjYwODM2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIxNSwtNTMwOD
+Q5ODMsMTY0NjIyMzIzLDIwODUwODQzNjcsLTEzMzAzMDEwNzcs
+ODE2NDA5Mzc1LDE5ODExNTEyODksMjM3MjE0NzQ5LC0xMzQyND
+UyMDAzLDI1NDc5NzQsMTY1NDQzODA0NSwtMjExNzY1OTA5MV19
+
 -->
