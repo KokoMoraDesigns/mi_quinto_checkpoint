@@ -343,7 +343,12 @@ Se ejecutarán bloques de código diferentes en dependencia de si una condición
     
     if edad >= 18:
     
-    	print('puedes beber delante de la policía')
+    	print('puedes beber alcohol delante de la policía')
+    	
+    else:
+    
+	    print('mejor que la policía no te vea bebiendo alcohol')
+	    
 
 	
 
@@ -928,11 +933,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzc0NDA3MjIsMjM3MjE0NzQ5LC0xMz
-QyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NSwtMjExNzY1OTA5
-MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0ODY2LDIwOD
-g3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5MSwtMTI4ODIx
-ODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5NTA2NjcyMC
-wyMDU2OTI1MDE5LDEzNzkxMzgzNywtMTEzMjI3MjYwNSwtMTEx
-Mzc2OTQ5Nl19
+eyJoaXN0b3J5IjpbMTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzND
+I0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkx
+LDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4NjYsMjA4OD
+c1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC0xMjg4MjE4
+NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1MDY2NzIwLD
+IwNTY5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNjA1LC0xMTEz
+NzY5NDk2XX0=
 -->
