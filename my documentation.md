@@ -171,7 +171,7 @@ Estructura del bucle *for*:
 
     horchata = 7 
     
-    while horchata > 0:
+    while horchata > 1:
     
 	    horchata -=1
 	    print(horchata)
@@ -183,7 +183,7 @@ Estructura del bucle *for*:
 			3
 			2
 			1
-			0
+			
 
 Estructura del bucle *while*:
    
@@ -212,17 +212,15 @@ También puedes incluir la cláusula *else*, que entrará en acción una vez el 
 			1
 			deberíamos comprar más horchata
 
+Estructura del bucle *while/else*:
+   
+    while 'condición':
 
-
-Algo no muy corriente en otros lenguajes de programación pero si en Python, es el uso de la cláusula  `else`  al final del  `while`. Podemos ver el ejemplo anterior mezclado con el  `else`. La sección de código que se encuentra dentro del  `else`, se ejecutará cuando el bucle termine, pero solo si lo hace “por razones naturales”. Es decir, si el bucle termina porque la condición se deja de cumplir, y no porque se ha hecho uso del  `break`.
-```
-x = 5
-while x > 0:
-    x -=1
-    print(x) #4,3,2,1,0
-else:
-    print("El bucle ha finalizado")
-```
+	    'bloque de código a ejecutar'
+	    
+	else:
+	
+		'nuevo código a ejecutar'
 
 En la operación del bucle *while*, tras cada iteración volvía a analizarse si 'horchata' seguía siendo mayor que 0, para decidir si volvía a ejecutarse el código, o no; en la operación del bucle *for*, el **iterable** era el que decidía el número de veces en que se ejecutaría el código.
 
@@ -938,11 +936,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0ND
-M4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUz
-LDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNT
-k4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3
-OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC
-0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEw
-OTgwMjU5MThdfQ==
+eyJoaXN0b3J5IjpbMTc4MDgxMzg1NiwtMTM0MjQ1MjAwMywyNT
+Q3OTc0LDE2NTQ0MzgwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcw
+OSw0NzU1MjkzNTMsMTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMT
+c0NzM1ODExLDE1OTg0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMy
+OTkxMDcsLTkzNTc5OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOS
+wxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2
+ODUxMTE4MjFdfQ==
 -->
