@@ -40,13 +40,9 @@ Existe la posibilidad de combinar en una llamada a la función argumentos posici
 
 #### Argumento predeterminado
 
-El argumento se declara al definir la función, por eso más adelante no es necesario incluir dicho argumento en la llamada de la función.
+El argumento **se declara al definir la función**, por eso más adelante no es necesario incluir dicho argumento en la llamada de la función (si en la llamada incluyeras otro valor para ese argumento, estarías sobreescribiendo el que declaraste al principio
     
-    Son argumentos que tienen un valor predefinido y se pueden omitir en la llamada a la función.
-
--   Los argumentos predeterminados son valores que se proporcionan al definir funciones.
--   El operador de asignación `=`se utiliza para asignar un valor predeterminado al argumento.
--   Los argumentos predeterminados se vuelven opcionales durante las llamadas de función.
+    
 -   Si proporcionamos un valor a los argumentos predeterminados durante las llamadas de función, anula el valor predeterminado.
 -   La función puede tener cualquier número de argumentos predeterminados.
 -   Los argumentos predeterminados deben seguir a los argumentos no predeterminados.
@@ -964,11 +960,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQ2MzQ2MzMsMjA1NjkyNTAxOSwxMz
-c5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUx
-MTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NT
-gyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1MiwtNDU1
-NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4LC
-0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0NzYwNSw3OTU4
-MTkwMTBdfQ==
+eyJoaXN0b3J5IjpbMzU4MzYxMTE4LDIwNTY5MjUwMTksMTM3OT
+EzODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTEx
+ODIxLDEwOTgwMjU5MTgsLTEyMDc5NjY1MDksLTIwMTk4NjU4Mi
+w1NzUxNTY0MTYsNjI1MTE5MjY4LC04NjA3MzM3NTIsLTQ1NTQw
+Mjg4MywtMTI0NjM0MDAwMSw3ODE0NTQyMyw0MTgyNjYwOCwtMT
+I2NDIxNDU1NiwxNjkyMDYwMzc2LC01NTAzNDc2MDUsNzk1ODE5
+MDEwXX0=
 -->
