@@ -53,19 +53,17 @@ El argumento **se declara al definir la función**, por eso más adelante no es 
 
 
 
-#### Argumento arbitrario
+#### Argumento arbitrario o de longitud variable
 
 Los utilizas en funciones con argumentos variables, cuando no conoces de antemano el número exacto de argumentos que vas a incluir en la función. 
 
 
 
-***args** lo utilizarás para argumentos posicionales, y ****kwargs** para argumentos de palabra clave.
+***args** lo utilizarás en argumentos posicionales, y ****kwargs** en argumentos de palabra clave.
 
 
 
-[Los argumentos de longitud variable](https://builtin-com.translate.goog/articles/python-variable-in-string?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=rq) también se conocen como argumentos arbitrarios. Si desconocemos de antemano el número de argumentos necesarios para la función, podemos usar argumentos arbitrarios. Estos argumentos son de dos tipos: argumentos posicionales arbitrarios y argumentos de palabras clave arbitrarios.
-
-Para argumentos posicionales arbitrarios, se coloca un [asterisco (*)](https://builtin-com.translate.goog/data-science/merging-lists-in-python?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=rq) antes de un parámetro en la definición de función que puede contener argumentos de longitud variable que no sean palabras clave. Estos argumentos se agruparán en una [tupla](https://builtin-com.translate.goog/software-engineering-perspectives/python-tuples-vs-lists?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=rq) . Antes del número variable de argumentos, pueden aparecer cero o más argumentos normales.
+Antes del número variable de argumentos, pueden aparecer cero o más argumentos normales.
 
 ```
 def add(*b):
@@ -963,7 +961,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjYxMTIwMCw2OTUwNjY3MjAsMjA1Nj
+eyJoaXN0b3J5IjpbMTAzNTU0OTc5Myw2OTUwNjY3MjAsMjA1Nj
 kyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0
 OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOS
 wtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDcz
