@@ -48,7 +48,7 @@ El argumento **se declara al definir la función**, por eso más adelante no es 
     
     salida = print(sum(4,b,c)) = 4 + 8 + 9 = 21
 
-   Los argumentos predeterminados **deben ir a continuación de los no predeterminados.**
+   Los argumentos predeterminados **deben ir a continuación de los no predeterminados** --> def sum(a=5,b,c) --> ¡error!
 
 
 
@@ -79,6 +79,26 @@ Un argumento variable **puede ir precedido por otros argumentos no variables.**
 son los valores que se pasan a una función cuando se llama, mientras que los parámetros son los nombres que se utilizan para definir esos valores en la declaración de la función. Los argumentos pueden ser de diferentes tipos: posicionales, de palabra clave, predeterminados, y también existen mecanismos para pasar un número variable de argumentos.*
 
 
+#### Los argumentos predeterminados deben seguir a los argumentos no predeterminados
+
+```
+def add(a=5,b,c):
+    return (a+b+c)
+
+#Output:SyntaxError: non-default argument follows default argument
+```
+
+#### Los argumentos de palabras clave deben seguir a los argumentos posicionales
+
+```
+def add(a,b,c):
+    return (a+b+c)
+
+print (add(a=10,3,4))
+#Output:SyntaxError: positional argument follows keyword argument
+```
+
+>!atención:#### Los argumentos predeterminados deben seguir a los argumentos no predeterminados
 
 ```
 def add(a=5,b,c):
@@ -897,11 +917,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMjA0NDc5OCw2OTUwNjY3MjAsMjA1Nj
-kyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0
-OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOS
-wtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDcz
-Mzc1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLD
-QxODI2NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0
-NzYwNV19
+eyJoaXN0b3J5IjpbMTkyNTQ2NjMsNjk1MDY2NzIwLDIwNTY5Mj
+UwMTksMTM3OTEzODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2
+LC0xNjg1MTExODIxLDEwOTgwMjU5MTgsLTEyMDc5NjY1MDksLT
+IwMTk4NjU4Miw1NzUxNTY0MTYsNjI1MTE5MjY4LC04NjA3MzM3
+NTIsLTQ1NTQwMjg4MywtMTI0NjM0MDAwMSw3ODE0NTQyMyw0MT
+gyNjYwOCwtMTI2NDIxNDU1NiwxNjkyMDYwMzc2LC01NTAzNDc2
+MDVdfQ==
 -->
