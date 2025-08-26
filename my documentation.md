@@ -89,11 +89,11 @@ Separas mediante '/' los parámetros obligatoriamente posicionales (que *quedan 
 	    return a+b+c+d
 	    
 	    
-	print(sum(4,8,9,5)) --> correcto
+	sum(4,8,9,5) --> 26 --> correcto
 	
-	print(sum(4,8,d=5,c=9)) --> correcto
+	sum(4,8,d=5,c=9) --> 26 --> correcto
 	
-	print(sum(b=8,a=4,8,9)) --> SyntaxError
+	sum(b=8,a=4,8,9) --> SyntaxError: positional argument follows keyword argument
 
 
 **Trabajando con argumentos obligatoriamente de palabras clave**
@@ -105,7 +105,7 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
 	    return a+b+c+d
 	    
 	    
-	print(sum(4,8,c=9,d=5)) --> correcto
+	sum(4,8,c=9,d=5)) --> correcto
 	
 	print(sum(b=8,a=4,d=5,c=9)) --> correcto
 	
@@ -864,11 +864,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODQ4NjI5MSwtMTI4ODIxODY4MywtMT
-YwMzI5OTEwNywtOTM1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1
-MDE5LDEzNzkxMzgzNywtMTEzMjI3MjYwNSwtMTExMzc2OTQ5Ni
-wtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0xMjA3OTY2NTA5LC0y
-MDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOTI2OCwtODYwNzMzNz
-UyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEsNzgxNDU0MjMsNDE4
-MjY2MDhdfQ==
+eyJoaXN0b3J5IjpbLTIwOTY5MTU2NDUsMTU5ODQ4NjI5MSwtMT
+I4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5NTA2
+NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMTEzMjI3MjYwNS
+wtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0x
+MjA3OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOT
+I2OCwtODYwNzMzNzUyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEs
+NzgxNDU0MjNdfQ==
 -->
