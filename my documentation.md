@@ -379,7 +379,7 @@ Se ejecutarán bloques de código diferentes en dependencia de si una condición
 Una sentencia *if* o *if-else* contiene en su interior otro bloque con una sentencia *if* o *if-else*. 
 
 > **MEJORES PRÁCTICAS:**
->Si bien existe la posibilidad de utilizar un número ilimitado de indentacione
+>Si bien existe la posibilidad de utilizar un número ilimitado de anidaciones, con cada una de ellas el código será más difícil de leer e interpretar, con lo que resulta recomendable hacer un uso responsable de dichas anidaciones
 
 
 Esta situación se produce cuando es necesario filtrar una variable varias veces y comprobar varias condiciones.
@@ -946,11 +946,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODQ1NjEsMjA4NTA4NDM2NywtMTMzMD
-MwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDks
-LTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3Nj
-U5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4NjYs
-MjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC0xMj
-g4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1MDY2
-NzIwXX0=
+eyJoaXN0b3J5IjpbLTExMDM5MzY0ODgsMjA4NTA4NDM2NywtMT
+MzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3
+NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMT
+E3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4
+NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC
+0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1
+MDY2NzIwXX0=
 -->
