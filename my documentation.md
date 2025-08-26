@@ -348,7 +348,7 @@ La orden *break* interrumpirá el bucle de inmediato y pasará a ejecutar la sig
 		    
 		if cuadrados == 16:
 			break
-			print('lo encontramos')
+			print(num)
 
     
 ## Condicional
@@ -871,11 +871,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMD
-Y5NDIxMiw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywy
-MDg1MDg0MzY3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMT
-UxMjg5LDIzNzIxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2
-NTQ0MzgwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1Mj
-kzNTMsMTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODEx
-XX0=
+eyJoaXN0b3J5IjpbLTE0MTgwMzc1NiwyNDgyMDczMzgsNjYwOD
+M2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5ODMs
+MTY0NjIyMzIzLDIwODUwODQzNjcsLTEzMzAzMDEwNzcsODE2ND
+A5Mzc1LDE5ODExNTEyODksMjM3MjE0NzQ5LC0xMzQyNDUyMDAz
+LDI1NDc5NzQsMTY1NDQzODA0NSwtMjExNzY1OTA5MSwxNDAzMD
+Q1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0ODY2LDIwODg3NTc5NjJd
+fQ==
 -->
