@@ -424,10 +424,17 @@ Si la condición es verdadera, ejecutará el primer bloque de código y no leer�
 	    
 Una sentencia condicional puede contener en su interior otro bloque con otra sentencia condicional. 
 
-    frances = 9.
-    ingles = 9
-    japones = 9
-    guarani= 9
+    frances = 9.5
+    ingles = 9.7
+    japones = 9.8
+    guarani= 9.9
+    
+    idiomas = (frances + ingles + japones + guarani) / 4
+    
+    
+    if idiomas >=8:
+	    print(f'tienes una
+
 
 > **MEJORES PRÁCTICAS:**
 > 
@@ -805,7 +812,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NjQwMTk4LC0xMTYxNzMyNTIwLDE5ND
+eyJoaXN0b3J5IjpbNTcwMTk4MjE4LC0xMTYxNzMyNTIwLDE5ND
 c2MTIxMzEsLTQwODI0MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1
 NiwyNDgyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEyLDYyNj
 AwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwODQzNjcs
