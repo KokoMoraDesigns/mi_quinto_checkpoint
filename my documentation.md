@@ -453,6 +453,25 @@ Una sentencia condicional puede contener en su interior otro bloque con otra sen
 
 ### Sentencia condicional no binaria
 
+Si la sentencia *if* es falsa, sigue leyendo, de una en una, el resto de sentencias *elif* (*else if*) que hayas introducido hasta encontrar la verdadera, si ninguna es verdadera
+Permite evaluar múltiples condiciones. Se evalúa la condición en el  `if`. Si es falsa, se evalúa la condición en el  `elif`, y así sucesivamente. Si ninguna condición es verdadera, se ejecuta el bloque de código en el  `else`.
+
+
+En Python, la sentencia «Elif» se utiliza para comprobar múltiples condiciones si una condición es falsa. Es similar a la sentencia «If-Else», pero la diferencia es que «Elif» evalúa **múltiples condiciones** a diferencia de «Else».
+
+Para probar **varias expresiones**, se puede utilizar una escalera de sentencias Elif. Esto se llama una «Elif ladder” (escalera Elif). El **controlador** comprueba las condiciones de la sentencia if, y si se cumplen, se ejecuta **el conjunto de sentencias de ese bloque**.
+
+En caso contrario, el controlador pasa al **primer bloque Elif** para evaluar las condiciones. El proceso continúa para todas las sentencias Elif, y si determina en la evaluación que todas las condiciones If y Elif se son falsas, se ejecuta el bloque Else.
+
+![](https://db0dce98.rocketcdn.me/es/files/2023/02/if-elfi-else.jpg)
+
+
+Se puede usar también de manera conjunta todo, el `if` con el `elif` y un `else` al final. Es muy importante notar que `if` y `else` solamente puede haber uno, mientras que `elif` puede haber varios.
+
+x  =  5 
+ if  x  ==  5:  print("Es 5")  elif  x  ==  6:  print("Es 6")  elif  x  ==  7:  print("Es 7")
+
+x  =  5  if  x  ==  5:  print("Es 5")  elif  x  ==  6:  print("Es 6")  elif  x  ==  7:  print("Es 7")  else:  print("Es otro")
 
     seres_queridos = ['persona_uno', 'persona_dos', 'persona_tres']
 
@@ -471,24 +490,8 @@ Una sentencia condicional puede contener en su interior otro bloque con otra sen
 		print('todavía no nos conocemos, pero me haría muy feliz charlar contigo para descubrir si conectamos')
 
     
-    Permite evaluar múltiples condiciones. Se evalúa la condición en el  `if`. Si es falsa, se evalúa la condición en el  `elif`, y así sucesivamente. Si ninguna condición es verdadera, se ejecuta el bloque de código en el  `else`.
+    
 
-
-En Python, la sentencia «Elif» se utiliza para comprobar múltiples condiciones si una condición es falsa. Es similar a la sentencia «If-Else», pero la diferencia es que «Elif» evalúa **múltiples condiciones** a diferencia de «Else».
-
-Para probar **varias expresiones**, se puede utilizar una escalera de sentencias Elif. Esto se llama una «Elif ladder” (escalera Elif). El **controlador** comprueba las condiciones de la sentencia if, y si se cumplen, se ejecuta **el conjunto de sentencias de ese bloque**.
-
-En caso contrario, el controlador pasa al **primer bloque Elif** para evaluar las condiciones. El proceso continúa para todas las sentencias Elif, y si determina en la evaluación que todas las condiciones If y Elif se son falsas, se ejecuta el bloque Else.
-
-![](https://db0dce98.rocketcdn.me/es/files/2023/02/if-elfi-else.jpg)
-
-
-Se puede usar también de manera conjunta todo, el `if` con el `elif` y un `else` al final. Es muy importante notar que `if` y `else` solamente puede haber uno, mientras que `elif` puede haber varios.
-
-x  =  5 
- if  x  ==  5:  print("Es 5")  elif  x  ==  6:  print("Es 6")  elif  x  ==  7:  print("Es 7")
-
-x  =  5  if  x  ==  5:  print("Es 5")  elif  x  ==  6:  print("Es 6")  elif  x  ==  7:  print("Es 7")  else:  print("Es otro")
 
 ### Operador ternario
 
@@ -825,11 +828,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDY0MzU4NywtMTkwMzA1OTkzNSwtMT
-E2MTczMjUyMCwxOTQ3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQz
-NDk4LC0xNDE4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMT
-ExMDY5NDIxMiw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMy
-MywyMDg1MDg0MzY3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOT
-gxMTUxMjg5LDIzNzIxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0
-XX0=
+eyJoaXN0b3J5IjpbLTEwMzIyMzk1NDMsLTE5MDMwNTk5MzUsLT
+ExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0
+MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLT
+ExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIz
+MjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMT
+k4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3
+NF19
 -->
