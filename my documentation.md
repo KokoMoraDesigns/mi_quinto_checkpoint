@@ -351,15 +351,6 @@ La orden *break* interrumpirá el bucle de inmediato y pasará a ejecutar la sig
 			print('lo encontramos')
 
     
-
-En Python, la instrucción  `break`  permite salir de un bucle  `for`  o  `while`  de forma inmediata. Cuando el código encuentra una instrucción  `break`  dentro de un bucle, el bucle se interrumpe y la ejecución del programa continúa con la siguiente línea de código después del bucle.
-
-    for i in range(10):
-        print(i)
-        if i == 5:
-            break
-    print("Fin del bucle")
-
 ## Condicional
 
 En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son herramientas esenciales para crear programas que puedan adaptarse a diferentes situaciones y tomar decisiones basadas en condiciones específicas.
@@ -880,11 +871,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwODM2MTExLC0xMTEwNjk0MjEyLDYyNj
-AwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwODQzNjcs
-LTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODksMjM3Mj
-E0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NSwt
-MjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mz
-g0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5
-MV19
+eyJoaXN0b3J5IjpbMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMD
+Y5NDIxMiw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywy
+MDg1MDg0MzY3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMT
+UxMjg5LDIzNzIxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2
+NTQ0MzgwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1Mj
+kzNTMsMTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODEx
+XX0=
 -->
