@@ -257,7 +257,7 @@ También puedes iterar una cadena **en sentido inverso**:
     color_ojos ='marrón'
     
     for i in color_ojos[::-1]:
-    print(i)
+	    print(i)
     
     
     salida: n
@@ -270,13 +270,17 @@ También puedes iterar una cadena **en sentido inverso**:
 
 También puedes iterar una cadena **saltando elementos**:
 
-Itera la cadena saltándose elementos. Con  `[::2]`  vamos tomando un elemento si y otro no.
+    color_ojos ='marrón'
+    
+    for i in color_ojos[::2]:
+    
+	    print(i)
+	    
+	    
+	salida: m
+			r
+			ó
 
-```
-texto = "Python"
-for i in texto[::2]:
-    print(i) #P,t,o
-```
 
 
 cuadrados  =  []  for  i  in  range(5):  cuadrados.append(i**2)  #[0, 1, 4, 9, 16]
@@ -890,11 +894,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTk2MjE5MTAsMjU0Nzk3NCwxNjU0ND
-M4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUz
-LDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNT
-k4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3
-OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC
-0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEw
-OTgwMjU5MThdfQ==
+eyJoaXN0b3J5IjpbLTI2NDAzNTExNywyNTQ3OTc0LDE2NTQ0Mz
+gwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMs
+MTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OT
+g0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5
+OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLT
+ExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5
+ODAyNTkxOF19
 -->
