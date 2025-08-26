@@ -281,9 +281,15 @@ También puedes iterar una cadena **saltando elementos**:
 			r
 			ó
 
+#### Bucles con operaciones
+
+    multiplos = []
 
 
-cuadrados  =  []  for  i  in  range(5):  cuadrados.append(i**2)  #[0, 1, 4, 9, 16]
+cuadrados  =  []  
+	for  i  in  range(5):  
+		cuadrados.append(i**2)  
+#[0, 1, 4, 9, 16]
 
 
 x  =  5  while  x  >  0:  x  -=1  print(x)  # Salida: 4,3,2,1,0
@@ -894,7 +900,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDAzNTExNywyNTQ3OTc0LDE2NTQ0Mz
+eyJoaXN0b3J5IjpbMTE3NDkzMzczOSwyNTQ3OTc0LDE2NTQ0Mz
 gwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMs
 MTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OT
 g0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5
