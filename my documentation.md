@@ -335,9 +335,9 @@ También puedes iterar una cadena **saltando elementos**:
 
 	cuadrados = [0, 1, 4, 9, 16, 25, 36, 49]
 
-#### Break
+#### Bucle con orden *break*
 
-La orden break
+La orden *break* interrumpirá el bucle de inmediato y pasará a ejecutar
 
 cuadrados = []
     
@@ -872,7 +872,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTc1Nzg4MSwtMTExMDY5NDIxMiw2Mj
+eyJoaXN0b3J5IjpbMjExMTA4ODYxMCwtMTExMDY5NDIxMiw2Mj
 YwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3
 LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNz
 IxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDUs
