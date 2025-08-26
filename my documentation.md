@@ -79,36 +79,6 @@ Un argumento variable **puede ir precedido por otros argumentos no variables.**
 son los valores que se pasan a una función cuando se llama, mientras que los parámetros son los nombres que se utilizan para definir esos valores en la declaración de la función. Los argumentos pueden ser de diferentes tipos: posicionales, de palabra clave, predeterminados, y también existen mecanismos para pasar un número variable de argumentos.*
 
 
-#### Los argumentos de palabras clave deben seguir a los argumentos posicionales
-
-```
-def add(a,b,c):
-    return (a+b+c)
-
-print (add(a=10,3,4))
-#Output:SyntaxError: positional argument follows keyword argument
-```
-
->!atención:#### Los argumentos predeterminados deben seguir a los argumentos no predeterminados
-
-```
-def add(a=5,b,c):
-    return (a+b+c)
-
-#Output:SyntaxError: non-default argument follows default argument
-```
-
-#### Los argumentos de palabras clave deben seguir a los argumentos posicionales
-
-```
-def add(a,b,c):
-    return (a+b+c)
-
-print (add(a=10,3,4))
-#Output:SyntaxError: positional argument follows keyword argument
-```
-
-
 Para mejorar la legibilidad y el rendimiento, conviene restringir la forma en que se pueden pasar los argumentos, de modo que un desarrollador solo tenga que consultar la definición de la función para determinar si los elementos se pasan por posición, por posición o palabra clave, o por palabra clave.
 
 argumentos solo posicionales:
@@ -908,7 +878,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDM3NDY1NSw2OTUwNjY3MjAsMjA1Nj
+eyJoaXN0b3J5IjpbLTkzNTc5OTQ0MSw2OTUwNjY3MjAsMjA1Nj
 kyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0
 OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOS
 wtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDcz
