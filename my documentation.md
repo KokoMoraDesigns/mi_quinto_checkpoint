@@ -384,7 +384,11 @@ Si la condición es verdadera, ejecutará el siguiente bloque de código, si la 
 
 	enviar_billetes = []
 	
-	if (persona in personas_invitadas and persona in si
+	if persona in personas_invitadas and persona in si
+	
+		enviar_billetes.append(persona)
+		
+	print(enviar_billetes)
 
 
     
@@ -829,11 +833,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5OTI0MDksMTk0NzYxMjEzMSwtNDA4Mj
-QwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2
-NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4ND
-k4MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4
-MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NT
-IwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkxXX0=
-
+eyJoaXN0b3J5IjpbLTE4OTc0NjY0MzgsMTk0NzYxMjEzMSwtND
+A4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMz
+OCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01Mz
+A4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3
+Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzND
+I0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkx
+XX0=
 -->
