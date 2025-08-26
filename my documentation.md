@@ -371,6 +371,8 @@ La orden *break* interrumpirá el bucle de inmediato y, en caso de existir, pasa
 
 Una condicional permite que se ejecuten bloques de código diferentes en dependencia de si una condición determinada resulta ser verdadera o resulta ser falsa, esto le da independencia al programa para tomar decisiones *(de hecho, a la sentencia condiciónal también se puede llamar sentencia de decisión)* según el contexto en que se encuentre. 
 
+La indentación es extremadamente importante para definir el alcance de cada sentencia condicional.
+
 ### Sentencia condicional *if*
 
 Si la condición es verdadera, ejecutará el siguiente bloque de código, si la condición es falsa, no la ejecutará. Puede haber una condición, o múltiples condiciones.
@@ -420,14 +422,12 @@ Si la condición es verdadera, ejecutará el primer bloque de código y no leer�
 
 ### Sentencia condicional anidada
 	    
-Una sentencia *if* o *if-else* contiene en su interior otro bloque con una sentencia *if* o *if-else*. 
+Una sentencia condicional puede contener en su interior otro bloque con una sentencia *if* o *if-else*. 
 
 > **MEJORES PRÁCTICAS:**
-> - Si bien existe la posibilidad de utilizar un número ilimitado de
-   anidaciones, con cada una de ellas el código será más difícil de leer
-   e interpretar, con lo que resulta recomendable hacer un uso
-   responsable de dichas anidaciones.
-   >- La indentación es extremadamente importante para definir el alcance de cada sentencia condicional.
+> 
+> Si bien existe la posibilidad de utilizar un número ilimitado de anidaciones, con cada una de ellas el código será más difícil de leer e interpretar, con lo que resulta recomendable hacer un uso responsable de dichas anidaciones.
+   
    
 
 ### Sentencia condicional no binaria
@@ -800,7 +800,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTgwNjY2MywtMTE2MTczMjUyMCwxOT
+eyJoaXN0b3J5IjpbMTY4NzcxNDExOSwtMTE2MTczMjUyMCwxOT
 Q3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3
 NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2Mj
 YwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3
