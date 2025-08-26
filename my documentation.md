@@ -455,15 +455,16 @@ Una sentencia condicional puede contener en su interior otro bloque con otra sen
 
 
     seres_queridos = ['persona_uno', 'persona_dos', 'persona_tres']
-    
-    personas_desconocidas = ['persona_cuatro', 'persona_cinco', 'persona_seis']
-    
+
     personas_desgraciadamente_conocidas = ['persona_siete', 'persona_ocho']
+    
     
     if persona in seres_queridos:
 	    print('te quiero, me haría muy feliz hacer un viaje contigo')
+	    
 	elif persona in personas_desgraciadamente_conocidas:
 		print('me haría muy feliz no tener que volver a intercambiar una palabra contigo :)')
+		
 	else:
 		print('todavía no nos conocemos, pero me haría muy feliz charlar contigo para descubrir si conectamos')
 
@@ -826,7 +827,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzM3NTY5MywtMTkwMzA1OTkzNSwtMT
+eyJoaXN0b3J5IjpbMjEyNzkzMDk0OCwtMTkwMzA1OTkzNSwtMT
 E2MTczMjUyMCwxOTQ3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQz
 NDk4LC0xNDE4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMT
 ExMDY5NDIxMiw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMy
