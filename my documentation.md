@@ -153,8 +153,13 @@ Itera sobre una lista, tupla, cadena.... Es útil cuando ya sabes el número de 
 Ejecuta un bloque de código mientras un factor condicionante sea verdadero, útil cuando el número de veces en que el código se repita queda en dependencia de algún factor condicionante.
 
     horchata = 7 
+    
     while horchata > 0:
-	    horchata -
+    
+	    horchata -= 1
+
+
+	print(horchata)
 
 Bucles  `while`:
 
@@ -862,11 +867,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTUzMDQ2NSwxNDAzMDQ1NzA5LDQ3NT
-UyOTM1MywxNTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4
-MTEsMTU5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNy
-wtOTM1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkx
-MzgzNywtMTEzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4NTExMT
-gyMSwxMDk4MDI1OTE4LC0xMjA3OTY2NTA5LC0yMDE5ODY1ODIs
-NTc1MTU2NDE2XX0=
+eyJoaXN0b3J5IjpbLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0Nz
+U1MjkzNTMsMTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1
+ODExLDE1OTg0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMD
+csLTkzNTc5OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOSwxMzc5
+MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUxMT
+E4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NTgy
+LDU3NTE1NjQxNl19
 -->
