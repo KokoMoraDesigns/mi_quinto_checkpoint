@@ -343,6 +343,15 @@ Se comprueba la condición y el conjunto de código del bloque «If» se ejecuta
 La sentencia «If» es útil si se puede especificar qué sentencias ejecutar si se cumple una condición. 
 
 ### Sentencia condicional if-else
+
+En cambio, para evaluar sentencias que determinan si una condición es verdadera y si otro conjunto de sentencias es falso, se utiliza la **sentencia condicional «if-else»**.
+
+La sentencia «If-else» se utiliza para ejecutar tanto la parte verdadera como la falsa de una condición. Si la condición es verdadera, se ejecuta el **bloque de código If**. Si la condición es falsa, se ejecuta el bloque de código Else.
+
+
+
+
+
 Se ejecutarán bloques de código diferentes en dependencia de si una condición determinada resulta ser verdadera o resulta ser falsa, esto le da independencia al programa para tomar decisiones *(de hecho, a la sentencia condiciónal también se puede llamar sentencia de decisión)* según el contexto en que se encuentre. Es decir:
 
    
@@ -364,9 +373,8 @@ Se ejecutarán bloques de código diferentes en dependencia de si una condición
 
 	    
 
-En cambio, para evaluar sentencias que determinan si una condición es verdadera y si otro conjunto de sentencias es falso, se utiliza la **sentencia condicional «if-else»**.
 
-La sentencia «If-else» se utiliza para ejecutar tanto la parte verdadera como la falsa de una condición. Si la condición es verdadera, se ejecuta el **bloque de código If**. Si la condición es falsa, se ejecuta el bloque de código Else.
+
 
 Se comprueba la expresión de prueba y se ejecutan las sentencias del **cuerpo del bloque de código If**. A continuación, se ejecutan las sentencias situadas debajo del **bloque If**.
 
@@ -938,7 +946,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NzAyMjU0NywtMTMzMDMwMTA3Nyw4MT
+eyJoaXN0b3J5IjpbMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MT
 Y0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NTIw
 MDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkxLDE0MD
 MwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4NjYsMjA4ODc1Nzk2
