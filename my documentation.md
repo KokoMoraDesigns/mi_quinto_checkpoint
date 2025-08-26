@@ -40,10 +40,14 @@ Existe la posibilidad de combinar en una llamada a la función argumentos posici
 
 #### Argumento predeterminado
 
-El argumento **se declara al definir la función**, por eso más adelante no es necesario incluir dicho argumento en la llamada de la función (si en la llamada incluyeras otro valor para ese argumento, estarías sobreescribiendo el que declaraste al principio
+El argumento **se declara al definir la función**, por eso más adelante no es necesario incluir dicho argumento en la llamada de la función (si en la llamada incluyeras otro valor para ese argumento, estarías sobreescribiendo el que declaraste al principio.
+
+    def sum(a
+
+def sum(a, b=
     
     
--   Si proporcionamos un valor a los argumentos predeterminados durante las llamadas de función, anula el valor predeterminado.
+
 -   La función puede tener cualquier número de argumentos predeterminados.
 -   Los argumentos predeterminados deben seguir a los argumentos no predeterminados.
 
@@ -960,7 +964,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4MzYxMTE4LDIwNTY5MjUwMTksMTM3OT
+eyJoaXN0b3J5IjpbMzY5OTc3NjQ0LDIwNTY5MjUwMTksMTM3OT
 EzODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTEx
 ODIxLDEwOTgwMjU5MTgsLTEyMDc5NjY1MDksLTIwMTk4NjU4Mi
 w1NzUxNTY0MTYsNjI1MTE5MjY4LC04NjA3MzM3NTIsLTQ1NTQw
