@@ -460,7 +460,7 @@ Similar a *if*-*else*, solo que en lugar de una sola, examina múltiples condici
 
     personas_desgraciadamente_conocidas = ['persona_siete', 'persona_ocho']
 
-	mandar_mensaje = ['persona_cuatro']
+	mandar_mensaje = 'persona_cuatro'
     
     
     if mandar_mensaje in seres_queridos:
@@ -480,10 +480,10 @@ Resume el código en una sola línea, que se divide en tres partes diferentes:
  1. El código que queremos ejecutar si la condición es verdadera.
  2. La condición que estamos evaluando.
  4. El código que queremos ejecutar si la condición es falsa.
-
-zona_horaria = 'dia'
-
-print('buenos días' if zona_horaria == 'dia' else 'buenas noches')
+        
+        zona_horaria = 'dia'
+        
+        print('buenos días' if zona_horaria == 'dia' else 'buenas noches')
 
 
 
@@ -795,11 +795,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjI3ODExNzIsLTE5MDMwNTk5MzUsLT
-ExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0
-MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLT
-ExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIz
-MjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMT
-k4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3
-NF19
+eyJoaXN0b3J5IjpbLTIzNjY3MjA4LC0xOTAzMDU5OTM1LC0xMT
+YxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0MDcyNCwyNTA1NDM0
+OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNjYwODM2MTExLC0xMT
+EwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIz
+LDIwODUwODQzNjcsLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5OD
+ExNTEyODksMjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzRd
+fQ==
 -->
