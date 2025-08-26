@@ -417,7 +417,9 @@ Una sentencia *if* o *if-else* contiene en su interior otro bloque con una sente
 ### Sentencia condicional no binaria
 
 
-amistad
+amistades = ['persona_uno', 'persona_dos', 'persona_tres']
+personas_desconocidas = ['persona_cuatro', 'persona_cinco', 'persona_tres']
+personas_desgraciadamente_conocidas = 
 En este caso necesitarás utilizar una sentencia *if-elif-else*.
 
  `if-elif-else`:
@@ -937,7 +939,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDAxMDU3NiwxNjQ2MjIzMjMsMjA4NT
+eyJoaXN0b3J5IjpbMTg1NzEwODI2NSwxNjQ2MjIzMjMsMjA4NT
 A4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4
 OSwyMzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0ND
 M4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUz
