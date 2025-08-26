@@ -337,7 +337,7 @@ También puedes iterar una cadena **saltando elementos**:
 
 #### Bucle con orden *break*
 
-La orden *break* interrumpirá el bucle de inmediato y pasará a ejecutar la siguiente línea del código:
+La orden *break* interrumpirá el bucle de inmediato y, en caso de existir, pasará a ejecutar la siguiente línea del código:
 
   
     
@@ -349,7 +349,7 @@ La orden *break* interrumpirá el bucle de inmediato y pasará a ejecutar la sig
 			print(f'el número que buscamos es {num}')
 			break
 			
-		print(cuadrados)
+		
 		  
 
     
@@ -873,11 +873,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4ODA0NjIyMiwtMTQxODAzNzU2LDI0OD
-IwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1
-LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMD
-MwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDks
-LTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3Nj
-U5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4NjZd
-fQ==
+eyJoaXN0b3J5IjpbLTExNzU2MTA5NDAsLTE0MTgwMzc1NiwyND
+gyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIx
+NSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwODQzNjcsLTEzMz
+AzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODksMjM3MjE0NzQ5
+LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NSwtMjExNz
+Y1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0ODY2
+XX0=
 -->
