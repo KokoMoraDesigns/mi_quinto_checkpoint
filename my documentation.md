@@ -400,17 +400,7 @@ El código indentado después de *if* forma parte del condicional, mientras que 
 
 ### Sentencia condicional if-else
 
-Si la condición es verdadera, ejecutará el bloque de código y no leerá más, si la condición es falsa, seguirá leyendo y ejecutará el otro bloque de código (el que sigue a *else*. 
-
-(if <condition>: <expression1> else: <expression2>)
-The resulting expression is evaluated like this:
-
--   First, <condition> is evaluated.
--   If <condition> is true, <expression1> is evaluated and is the result of the whole thing.
--   If <condition> is false, <expression2> is evaluated and is the result of the whole thing.
-- <condition> and <expression1> or <expression2>
-- 
-
+Si la condición es verdadera, ejecutará el primer bloque de código y no leerá más, si la condición es falsa, seguirá leyendo y ejecutará el otro bloque de código (el que sigue a *else*). 
 
 
     if edad >= 18:
@@ -426,20 +416,6 @@ The resulting expression is evaluated like this:
 	 
 	 edad = 17 (es decir, la condicion 'if' es falsa) --> salida: es aconsejable que la policía no te vea bebiendo alcohol
 
-
-En cambio, para evaluar sentencias que determinan si una condición es verdadera y si otro conjunto de sentencias es falso, se utiliza la **sentencia condicional «if-else»**.
-
-La sentencia «If-else» se utiliza para ejecutar tanto la parte verdadera como la falsa de una condición. Si la condición es verdadera, se ejecuta el **bloque de código If**. Si la condición es falsa, se ejecuta el bloque de código Else.
-
-Se comprueba la expresión de prueba y se ejecutan las sentencias del **cuerpo del bloque de código If**. A continuación, se ejecutan las sentencias situadas debajo del **bloque If**.
-
-Si los resultados de la expresión de prueba son falsos, se ejecutan las sentencias del código Else. A continuación, se ejecutan las sentencias del bloque If-else.
-
-El bloque «Else» solo se ejecutará si las condiciones son falsas. Las acciones de este bloque se ejecutan cuando las condiciones no son verdaderas.
-
-
-   
-    
 
 
 ### Sentencia condicional anidada
@@ -824,11 +800,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ3NTAxODcsLTExNjE3MzI1MjAsMT
-k0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAz
-NzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNj
-I2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2
-NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMz
-cyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1
-XX0=
+eyJoaXN0b3J5IjpbMTYwOTgwNjY2MywtMTE2MTczMjUyMCwxOT
+Q3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3
+NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2Mj
+YwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3
+LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNz
+IxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDVd
+fQ==
 -->
