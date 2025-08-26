@@ -28,7 +28,7 @@ El orden en que se incluyen los argumentos al declarar la función **no es relev
     
 
 
-Existe la posibilidad de combinar en una llamada a la función argumentos posicionales y de palabras clave, en cuyo caso, **los argumentos posicionales deben ir al principio** de la declaración --> sum(a=4,8,9) : ¡error! 
+Existe la posibilidad de combinar en una llamada a la función argumentos posicionales y de palabras clave, en cuyo caso, **los argumentos posicionales deben ir al principio** de la declaración --> sum(a=4,8,9) : *SyntaxError: invalid syntax* 
 
     sum (4,c=9,b=8):
     
@@ -43,7 +43,7 @@ El argumento **se declara al definir la función**, por eso más adelante no es 
     
     salida = print(sum(4,b,c)) = 4 + 8 + 9 = 21
 
-   Los argumentos predeterminados **deben ir a continuación de los no predeterminados** --> def sum(a=5,b,c) : ¡error!
+   Los argumentos predeterminados **deben ir a continuación de los no predeterminados** --> def sum(a=5,b,c) : *SyntaxError: parameter without a default follows parameter with a default*
 
 
 
@@ -864,11 +864,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzAxNDc0MzksLTEyODgyMTg2ODMsLT
-E2MDMyOTkxMDcsLTkzNTc5OTQ0MSw2OTUwNjY3MjAsMjA1Njky
-NTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OT
-YsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwt
-MjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMz
-c1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQx
-ODI2NjA4XX0=
+eyJoaXN0b3J5IjpbMTU5ODQ4NjI5MSwtMTI4ODIxODY4MywtMT
+YwMzI5OTEwNywtOTM1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1
+MDE5LDEzNzkxMzgzNywtMTEzMjI3MjYwNSwtMTExMzc2OTQ5Ni
+wtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0xMjA3OTY2NTA5LC0y
+MDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOTI2OCwtODYwNzMzNz
+UyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEsNzgxNDU0MjMsNDE4
+MjY2MDhdfQ==
 -->
