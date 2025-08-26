@@ -31,13 +31,21 @@ El orden en que se incluyen los argumentos al declarar la función **debe ser el
 
 El orden en que se incluyen los argumentos al declarar la función **no es relevante**, dado que vamos a puntualizar en la declaración a qué parámetro  estamos haciendo referencia.
 
+    def sum(a,b,c):
+    
+	    return a+b+c
+    
     sum(a=4,c=9,b=8)
     
 
 
 Existe la posibilidad de combinar en una llamada a la función argumentos posicionales y de palabras clave, en cuyo caso, **los argumentos posicionales deben ir al principio** de la declaración --> sum(a=4,8,9) : *SyntaxError: invalid syntax* 
 
-    sum (4,c=9,b=8):
+    def sum(a,b,c):
+    
+	    return a+b+c
+	    
+    sum (4,c=9,b=8)
     
 
 #### Argumento predeterminado
@@ -849,11 +857,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzU0OTEzMjMsMTU4ODM4NDg2NiwyMD
-g4NzU3OTYyLC0xMTc0NzM1ODExLDE1OTg0ODYyOTEsLTEyODgy
-MTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5OTQ0MSw2OTUwNjY3Mj
-AsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTEx
-MTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNz
-k2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgs
-LTg2MDczMzc1Ml19
+eyJoaXN0b3J5IjpbNDc1NTI5MzUzLDE1ODgzODQ4NjYsMjA4OD
+c1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC0xMjg4MjE4
+NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1MDY2NzIwLD
+IwNTY5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNjA1LC0xMTEz
+NzY5NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgsLTEyMDc5Nj
+Y1MDksLTIwMTk4NjU4Miw1NzUxNTY0MTYsNjI1MTE5MjY4LC04
+NjA3MzM3NTJdfQ==
 -->
