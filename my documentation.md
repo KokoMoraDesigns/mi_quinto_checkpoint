@@ -39,6 +39,8 @@ Existe la posibilidad de combinar en una llamada a la función argumentos posici
 
 
 #### Argumento predeterminado
+
+El argumento se declara al definir la función, por eso más adelante no es necesario incluir dicho argumento en la llamada de la función.
     
     Son argumentos que tienen un valor predefinido y se pueden omitir en la llamada a la función.
 
@@ -962,11 +964,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjkyNTAxOSwxMzc5MTM4MzcsLTExMz
-IyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAy
-NTkxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNi
-w2MjUxMTkyNjgsLTg2MDczMzc1MiwtNDU1NDAyODgzLC0xMjQ2
-MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4LC0xMjY0MjE0NTU2LD
-E2OTIwNjAzNzYsLTU1MDM0NzYwNSw3OTU4MTkwMTAsLTIxMDcx
-OTg1MTRdfQ==
+eyJoaXN0b3J5IjpbLTEyMDQ2MzQ2MzMsMjA1NjkyNTAxOSwxMz
+c5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUx
+MTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NT
+gyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1MiwtNDU1
+NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4LC
+0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0NzYwNSw3OTU4
+MTkwMTBdfQ==
 -->
