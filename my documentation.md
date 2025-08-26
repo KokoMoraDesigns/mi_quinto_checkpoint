@@ -347,7 +347,7 @@ Se ejecutarán bloques de código diferentes en dependencia de si una condición
     	
     else:
     
-	    print('mejor que la policía no te vea bebiendo alcohol')
+	    print('es aconsejable que la policía no te vea bebiendo alcohol')
 	    
 
 	
@@ -933,11 +933,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzND
-I0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkx
-LDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4NjYsMjA4OD
-c1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC0xMjg4MjE4
-NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1MDY2NzIwLD
-IwNTY5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNjA1LC0xMTEz
-NzY5NDk2XX0=
+eyJoaXN0b3J5IjpbMTYxNzQ0MDE0MywxOTgxMTUxMjg5LDIzNz
+IxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDUs
+LTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMsMTU4OD
+M4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OTg0ODYy
+OTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5OTQ0MS
+w2OTUwNjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLTExMzIy
+NzI2MDVdfQ==
 -->
