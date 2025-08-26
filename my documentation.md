@@ -213,7 +213,7 @@ En la operación anterior, 'perros' equivale al **iterable**, es decir, al objet
 
 Si estás trabajando con un objeto que, en su interior, contiene otro objeto iterable, puedes crear un bucle *for* anidado. Por ejemplo:
 
-mi_cine = [[us, oddity, seven veils], 
+mi_cine = [[us, oddity, seven veils, heretic, the shining], [bottoms, bullet train, the blackening,  
 
 
 
@@ -880,7 +880,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODU2NjE5ODAsMTY1NDQzODA0NSwtMj
+eyJoaXN0b3J5IjpbLTIwNDQwNTA5MzUsMTY1NDQzODA0NSwtMj
 ExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0
 ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5MS
 wtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5
