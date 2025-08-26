@@ -377,22 +377,10 @@ Si la condición es verdadera, ejecutará el siguiente bloque de código, si la 
 
 
     personas_invitadas = ['persona_uno', 'persona_dos', 'persona_tres', 'persona_cuatro', 'persona_cinco', 'persona_seis', 'persona_siete']
-
-	si = ['persona_uno', 'persona_dos', 'persona_tres']
-
-	no= ['persona_cuatro', 'persona_cinco', 'persona_seis', 'persona_siete']
-
-	enviar_billetes = []
-	
-	if persona in personas_invitadas and persona in si:
-	
-		enviar_billetes.append(persona)
-		
-	print(enviar_billetes)
-
-
-    
+ 
     personas_aceptaron = ['persona_uno', 'persona_cuatro', 'persona_cinco', 'persona_seis']
+    
+
     
     
     for persona in personas_invitadas:
@@ -400,6 +388,7 @@ Si la condición es verdadera, ejecutará el siguiente bloque de código, si la 
 	    if persona in personas_aceptaron:
 	    
 		    print(f'{persona} ha confirmado que viene al viaje')
+		    enviar_billetes.append(persona)
 		    
 	
 
@@ -833,11 +822,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtND
-A4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMz
-OCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01Mz
-A4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3
-Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzND
-I0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkx
-XX0=
+eyJoaXN0b3J5IjpbLTYwNDgzMDcwMCwtMTE2MTczMjUyMCwxOT
+Q3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3
+NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2Mj
+YwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3
+LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNz
+IxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDVd
+fQ==
 -->
