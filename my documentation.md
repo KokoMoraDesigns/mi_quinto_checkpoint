@@ -458,13 +458,13 @@ Una sentencia condicional puede contener en su interior otro bloque con otra sen
 
     personas_desgraciadamente_conocidas = ['persona_siete', 'persona_ocho']
 
-	mandar_mensaje = 'persona_cuatro'
+	mandar_mensaje = ['persona_cuatro', 'persona_dos']
     
     
     if mandar_mensaje in seres_queridos:
 	    print('te quiero, me haría muy feliz hacer un viaje contigo')
 	    
-	elif persona in personas_desgraciadamente_conocidas:
+	elif mandar_mensaje in personas_desgraciadamente_conocidas:
 		print('me haría muy feliz no tener que volver a intercambiar una palabra contigo :)')
 		
 	else:
@@ -829,11 +829,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDU3OTk1OTgsLTE5MDMwNTk5MzUsLT
-ExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0
-MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLT
-ExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIz
-MjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMT
-k4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3
-NF19
+eyJoaXN0b3J5IjpbNDUxNzcwMzg2LC0xOTAzMDU5OTM1LC0xMT
+YxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0MDcyNCwyNTA1NDM0
+OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNjYwODM2MTExLC0xMT
+EwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIz
+LDIwODUwODQzNjcsLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5OD
+ExNTEyODksMjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzRd
+fQ==
 -->
