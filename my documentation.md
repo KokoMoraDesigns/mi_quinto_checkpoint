@@ -286,6 +286,7 @@ También puedes iterar una cadena **saltando elementos**:
     multiplos = []
 
 
+
 cuadrados  =  []  
 	for  i  in  range(5):  
 		cuadrados.append(i**2)  
@@ -900,11 +901,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NDkzMzczOSwyNTQ3OTc0LDE2NTQ0Mz
-gwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMs
-MTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OT
-g0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5
-OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLT
-ExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5
-ODAyNTkxOF19
+eyJoaXN0b3J5IjpbLTc5NDg4Mjk1LDI1NDc5NzQsMTY1NDQzOD
+A0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1Mywx
+NTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5OD
+Q4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5
+NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMT
+EzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4
+MDI1OTE4XX0=
 -->
