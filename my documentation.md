@@ -354,9 +354,16 @@ La orden *break* interrumpirá el bucle de inmediato y, en caso de existir, pasa
 
 #### Bucle con orden *continue*		  
  
- En lugar de interrumpir la ejecución del código, la orden *continue* lo que hará será saltarse el código que vaya después de la orden y volver al comienzo, analizando la condición para el resto de valores que le queden y continuar su iteración reproduciendo el resto del código.
+ En lugar de interrumpir la ejecución del código, la orden *continue* lo que hará será saltarse el código que vaya después de la orden y volver al comienzo, analizando la condición para el resto de valores que le queden.
  
-peliculas_por_ver = ['us', 'oddity', 'seven veils', 'heretic', 'the shining']
+
+    peliculas_por_ver = ['us', 'oddity', 'seven veils', 'heretic', 'the shining']
+    
+    for opcion in peliculas_por_ver:
+	    print(opcion)
+
+	
+	
 
 
 
@@ -827,11 +834,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODg2OTc5NDQsMjUwNTQzNDk4LC0xND
-E4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIx
-Miw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MD
-g0MzY3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5
-LDIzNzIxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0Mz
-gwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTNd
-fQ==
+eyJoaXN0b3J5IjpbNjQ0MTM0MjI3LDI1MDU0MzQ5OCwtMTQxOD
+AzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIs
+NjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4ND
+M2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwy
+MzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MD
+Q1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzXX0=
+
 -->
