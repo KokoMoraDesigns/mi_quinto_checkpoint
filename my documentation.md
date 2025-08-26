@@ -111,22 +111,10 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
     
 	    return a+b+c+d
 	    
-	sum(4,8,9,d=5) --> salida: 26 --> a y b son arobligatoriamente posicionales, c, posicional o de palabra clave, y de obligatoriamente de palabra clave.
+	sum(4,8,9,d=5) --> salida: 26 --> 'a' y 'b' son argumentos obligatoriamente posicionales, 'c' posicional o de palabra clave, y 'd' obligatoriamente de palabra clave.
 
+> Es aconsejable hacer uso de argumentos obligatoriamente posiciona
 
-Las tres convenciones de llamada se utilizan en la misma función. En el siguiente ejemplo, la función `add`contiene los tres argumentos:
-
--   `a`, `b`: Argumentos únicamente posicionales.
--   `c`:Argumentos posicionales o de palabras clave.
--   `d`:Argumentos de sólo palabras clave.
-
-```
-def add(a,b,/,c,*,d):
-    return a+b+c+d
-
-print (add(3,4,1,d=2))
-#Output:10
-```
 
 1.  Utilice **solo posicional** si desea que el nombre de los parámetros no esté disponible para el usuario. Esto es útil cuando los nombres de los parámetros no tienen un significado real.
 2.  Utilice **solo posición** si desea imponer el orden de los argumentos cuando se llama a la función.
@@ -864,11 +852,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjI3NDk1NjIsMjA4ODc1Nzk2MiwtMT
-E3NDczNTgxMSwxNTk4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAz
-Mjk5MTA3LC05MzU3OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMT
-ksMTM3OTEzODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0x
-Njg1MTExODIxLDEwOTgwMjU5MTgsLTEyMDc5NjY1MDksLTIwMT
-k4NjU4Miw1NzUxNTY0MTYsNjI1MTE5MjY4LC04NjA3MzM3NTIs
-LTQ1NTQwMjg4M119
+eyJoaXN0b3J5IjpbMTM2MDYzMTgzNSwyMDg4NzU3OTYyLC0xMT
+c0NzM1ODExLDE1OTg0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMy
+OTkxMDcsLTkzNTc5OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOS
+wxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2
+ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAxOT
+g2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1Miwt
+NDU1NDAyODgzXX0=
 -->
