@@ -177,7 +177,8 @@ Los bucles se utilizan para el código reiterativo, existiendo dos tipos princip
 			1
 			0
 
-En esta operación, tras cada iteración volvía a analizarse si 'horchata' seguía siendo mayor que 0, para decidir si volvía a ejecutarse el código, o no.
+
+En la operación del bucle *while*, tras cada iteración volvía a analizarse si 'horchata' seguía siendo mayor que 0, para decidir si volvía a ejecutarse el código, o no; en la operación del bucle *for*, el **iterable**
 
 
 
@@ -868,11 +869,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3MTg0MjczLDE2NTQ0MzgwNDUsLTIxMT
-c2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMsMTU4ODM4NDg2
-NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OTg0ODYyOTEsLT
-EyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5OTQ0MSw2OTUw
-NjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MD
-UsLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwt
-MTIwNzk2NjUwOV19
+eyJoaXN0b3J5IjpbOTQ3MTQwMjksMTY1NDQzODA0NSwtMjExNz
+Y1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0ODY2
+LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5MSwtMT
+I4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5NTA2
+NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMTEzMjI3MjYwNS
+wtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0x
+MjA3OTY2NTA5XX0=
 -->
