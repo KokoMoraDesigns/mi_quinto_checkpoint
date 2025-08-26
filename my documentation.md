@@ -13,6 +13,7 @@ A continuación unos ejemplos según los distintos tipos de argumentos que exist
 El orden en que se incluyen los argumentos al declarar la función **debe ser el mismo** orden que utilizaste al formular los parámetros de la función. 
 
 
+    
     sum(a,b,c) --> a, b y c siendo los *parámetros* de la función
 
 	sum(4,8,9) --> 4, 8 y 9 siendo los *argumentos* de la función
@@ -842,11 +843,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTA0MzcxOTAsMTU4ODM4NDg2NiwyMD
-g4NzU3OTYyLC0xMTc0NzM1ODExLDE1OTg0ODYyOTEsLTEyODgy
-MTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5OTQ0MSw2OTUwNjY3Mj
-AsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTEx
-MTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNz
-k2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgs
-LTg2MDczMzc1Ml19
+eyJoaXN0b3J5IjpbNTA0NTMwMjUyLDE1ODgzODQ4NjYsMjA4OD
+c1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC0xMjg4MjE4
+NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1MDY2NzIwLD
+IwNTY5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNjA1LC0xMTEz
+NzY5NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgsLTEyMDc5Nj
+Y1MDksLTIwMTk4NjU4Miw1NzUxNTY0MTYsNjI1MTE5MjY4LC04
+NjA3MzM3NTJdfQ==
 -->
