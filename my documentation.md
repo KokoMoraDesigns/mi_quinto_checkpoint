@@ -30,7 +30,7 @@ El orden en que se incluyen los argumentos al declarar la función **no es relev
     salida = print(sum(a=4,c=9,b=8)) = 21
 
 
-Existe la posibilidad de combinar en una llamada a la función argumentos posicionales y de palabras clave, en cuyo caso, **los argumentos posicionales deben ir al principio** de la declaración --> sum
+Existe la posibilidad de combinar en una llamada a la función argumentos posicionales y de palabras clave, en cuyo caso, **los argumentos posicionales deben ir al principio** de la declaración --> sum(a=4,8,9) : ¡error! 
 
     def sum (4,c=9,b=8)
     
@@ -78,15 +78,6 @@ Un argumento variable **puede ir precedido por otros argumentos no variables.**
 *En Python, un argumento es un valor que se pasa a una función durante una llamada. Los argumentos son entradas que indican a las funciones qué salida deben dar
 son los valores que se pasan a una función cuando se llama, mientras que los parámetros son los nombres que se utilizan para definir esos valores en la declaración de la función. Los argumentos pueden ser de diferentes tipos: posicionales, de palabra clave, predeterminados, y también existen mecanismos para pasar un número variable de argumentos.*
 
-
-#### Los argumentos predeterminados deben seguir a los argumentos no predeterminados
-
-```
-def add(a=5,b,c):
-    return (a+b+c)
-
-#Output:SyntaxError: non-default argument follows default argument
-```
 
 #### Los argumentos de palabras clave deben seguir a los argumentos posicionales
 
@@ -917,7 +908,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTQzNjgyNSw2OTUwNjY3MjAsMjA1Nj
+eyJoaXN0b3J5IjpbMTk1NDM3NDY1NSw2OTUwNjY3MjAsMjA1Nj
 kyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0
 OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOS
 wtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDcz
