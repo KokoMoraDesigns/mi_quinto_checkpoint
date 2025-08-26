@@ -382,7 +382,11 @@ Si la condición es verdadera, ejecutará el siguiente bloque de código, si la 
 
 	no= ['persona_cuatro', 'persona_cinco', 'persona_seis', 'persona_siete']
 
-	enviar_bil
+	enviar_billetes = []
+	
+	if (persona in personas_invitadas and persona in si
+
+
     
     personas_aceptaron = ['persona_uno', 'persona_cuatro', 'persona_cinco', 'persona_seis']
     
@@ -825,7 +829,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyMDE0NTIsMTk0NzYxMjEzMSwtNDA4Mj
+eyJoaXN0b3J5IjpbNTA5OTI0MDksMTk0NzYxMjEzMSwtNDA4Mj
 QwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2
 NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4ND
 k4MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4
