@@ -477,17 +477,18 @@ Similar a *if*-*else*, solo que en lugar de una sola, examina múltiples condici
 
 Resume el código en una sola línea, que se divide en tres partes diferentes: 
 
- 1. La condición que estamos evaluando.
- 2. El código que queremos ejecutar si la condición es verdadera.
- 3. El código que queremos ejecutar si la condición es falsa.
+ 1. El código que queremos ejecutar si la condición es verdadera.
+ 2. La condición que estamos evaluando.
+ 4. El código que queremos ejecutar si la condición es falsa.
+
+zona_horaria = dia
+print('buenos días') if zona_horaria 
 
 
 
+x  =  5  
+print("Es 5"  if  x  ==  5  else  "No es 5")  #Es 5
 
->
-x  =  5  print("Es 5"  if  x  ==  5  else  "No es 5")  #Es 5
-
-Existen tres partes en un operador ternario, que son exactamente iguales a los que había en un `if``else`. Tenemos la condición a evaluar, el código que se ejecuta si se cumple, y el código que se ejecuta si no se cumple. En este caso, tenemos los tres en la misma línea.
 
 
 #[código si se cumple] if [condición] else [código si no se cumple]
@@ -814,11 +815,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQ3NTE5OTgsLTE5MDMwNTk5MzUsLT
-ExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0
-MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLT
-ExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIz
-MjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMT
-k4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3
-NF19
+eyJoaXN0b3J5IjpbNTYzODE4MTYwLC0xOTAzMDU5OTM1LC0xMT
+YxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0MDcyNCwyNTA1NDM0
+OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNjYwODM2MTExLC0xMT
+EwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIz
+LDIwODUwODQzNjcsLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5OD
+ExNTEyODksMjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzRd
+fQ==
 -->
