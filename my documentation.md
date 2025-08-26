@@ -42,24 +42,13 @@ Existe la posibilidad de combinar en una llamada a la función argumentos posici
 
 El argumento **se declara al definir la función**, por eso más adelante no es necesario incluir dicho argumento en la llamada de la función (si en la llamada incluyeras otro valor para ese argumento, estarías sobreescribiendo el que declaraste al principio.
 
-    def sum(a,b=8,c)
+    def sum(a,b=8,c=9)
     
     return a+b+c
     
-    salida = print(sum(4,b,9)) = 4 + 8 + 9 = 21
+    salida = print(sum(4,b,c)) = 4 + 8 + 9 = 21
 
-
-    
-    
-
--   La función puede tener cualquier número de argumentos predeterminados.
--   Los argumentos predeterminados deben seguir a los argumentos no predeterminados.
-
-En el siguiente ejemplo, el valor predeterminado se asigna al argumento `b` y `c`.
-
-```
-def add(a,b=5,c=10):
-    return (a+b+c
+   Los argumentos predeterminados deben ir a continuación de los no predeterminados.
 ```
 
 
@@ -968,11 +957,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OT
-EzODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTEx
-ODIxLDEwOTgwMjU5MTgsLTEyMDc5NjY1MDksLTIwMTk4NjU4Mi
-w1NzUxNTY0MTYsNjI1MTE5MjY4LC04NjA3MzM3NTIsLTQ1NTQw
-Mjg4MywtMTI0NjM0MDAwMSw3ODE0NTQyMyw0MTgyNjYwOCwtMT
-I2NDIxNDU1NiwxNjkyMDYwMzc2LC01NTAzNDc2MDUsNzk1ODE5
-MDEwXX0=
+eyJoaXN0b3J5IjpbLTIwMTQ0NTAzOTIsNjk1MDY2NzIwLDIwNT
+Y5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5
+NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgsLTEyMDc5NjY1MD
+ksLTIwMTk4NjU4Miw1NzUxNTY0MTYsNjI1MTE5MjY4LC04NjA3
+MzM3NTIsLTQ1NTQwMjg4MywtMTI0NjM0MDAwMSw3ODE0NTQyMy
+w0MTgyNjYwOCwtMTI2NDIxNDU1NiwxNjkyMDYwMzc2LC01NTAz
+NDc2MDVdfQ==
 -->
