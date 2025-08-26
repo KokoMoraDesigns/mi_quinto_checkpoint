@@ -17,7 +17,7 @@ El orden en que se incluyen los argumentos al declarar la función **debe ser el
 
 	sum (4, 8, 9) --> 4, 8 y 9 siendo los *argumentos* de la función
 
-	salida = print(sum (4, 8, 9)) = a + b `c = 4 + 8 + 9 = 21
+	salida = print(sum (4,8, 9)) = a + b `c = 4 + 8 + 9 = 21
 
 
 
@@ -44,9 +44,11 @@ El argumento **se declara al definir la función**, por eso más adelante no es 
 
     def sum(a, b=8, c)
     
-    return
+    return a+b+c
+    
+    salida = print(sum(4,b,9)) = 21
 
-def sum(a, b=
+
     
     
 
@@ -966,7 +968,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODAwOTAxMTMsMjA1NjkyNTAxOSwxMz
+eyJoaXN0b3J5IjpbLTIxMTIyNjM1MzEsMjA1NjkyNTAxOSwxMz
 c5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUx
 MTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NT
 gyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1MiwtNDU1
