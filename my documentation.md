@@ -379,13 +379,15 @@ Si la condición es verdadera, ejecutará el siguiente bloque de código, si la 
     personas_invitadas = ['persona_uno', 'persona_dos', 'persona_tres', 'persona_cuatro', 'persona_cinco', 'persona_seis', 'persona_siete']
  
     personas_aceptaron = ['persona_uno', 'persona_cuatro', 'persona_cinco', 'persona_seis']
+
+	personas_vacunadas = ['persona_uno', 'persona_cuatro', 'persona_cinco']
     
     enviar_billetes = []    
 
 
     for persona in personas_invitadas:
     
-	    if persona in personas_aceptaron:
+	    if persona in personas_aceptaron and persona in personas_vacunadas:
 	    
 		    print(f'{persona} ha confirmado que viene al viaje')
 		    enviar_billetes.append(persona)
@@ -824,7 +826,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NDAyMzQ1MywtMTE2MTczMjUyMCwxOT
+eyJoaXN0b3J5IjpbMTY3NzY2MTA3MywtMTE2MTczMjUyMCwxOT
 Q3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3
 NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2Mj
 YwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3
