@@ -335,7 +335,22 @@ También puedes iterar una cadena **saltando elementos**:
 
 	cuadrados = [0, 1, 4, 9, 16, 25, 36, 49]
 
+#### Break
 
+La orden break
+
+cuadrados = []
+    
+    for num in range(8):
+    
+	    cuadrados.append(num**2)
+En Python, la instrucción  `break`  permite salir de un bucle  `for`  o  `while`  de forma inmediata. Cuando el código encuentra una instrucción  `break`  dentro de un bucle, el bucle se interrumpe y la ejecución del programa continúa con la siguiente línea de código después del bucle.
+
+    for i in range(10):
+        print(i)
+        if i == 5:
+            break
+    print("Fin del bucle")
 
 ## Condicional
 
@@ -489,17 +504,8 @@ Los condicionales utilizan operadores de comparación para evaluar las condicion
 
 
 
-Si no agregas esta línea, crearás un  **bucle infinito**.
 
-`numero`  no se incrementaría o actualizaría. Siempre sería fijado en `0`  por tanto la condición  `numero < 10`  será verdadero siempre. Esto significa que el bucle continuará siempre.
 
-En Python, la instrucción  `break`  permite salir de un bucle  `for`  o  `while`  de forma inmediata. Cuando el código encuentra una instrucción  `break`  dentro de un bucle, el bucle se interrumpe y la ejecución del programa continúa con la siguiente línea de código después del bucle.
-
-    for i in range(10):
-        print(i)
-        if i == 5:
-            break
-    print("Fin del bucle")
 -   **Bucle anidados:**
     
     En bucles anidados,  `break`  interrumpe solo el bucle más interno en el que está.
@@ -866,7 +872,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTUyMzgyNiwtMTExMDY5NDIxMiw2Mj
+eyJoaXN0b3J5IjpbLTcxMTc1Nzg4MSwtMTExMDY5NDIxMiw2Mj
 YwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3
 LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNz
 IxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDUs
