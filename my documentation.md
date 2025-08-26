@@ -369,7 +369,7 @@ La orden *break* interrumpirá el bucle de inmediato y, en caso de existir, pasa
     
 ## Condicional
 
-En resumen: Los condicionales en Python, como  `if`,  `else`  y  `elif`, son herramientas esenciales para crear programas que puedan adaptarse a diferentes situaciones y tomar decisiones basadas en condiciones específicas.
+Los condicionales en Python, como  `if`,  `else`  y  `elif`, son herramientas esenciales para crear programas que puedan adaptarse a diferentes situaciones y tomar decisiones basadas en condiciones específicas.
 
 ### Sentencia condicional if
 
@@ -818,11 +818,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODc4Njg4MzYsMjUwNTQzNDk4LC0xND
-E4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIx
-Miw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MD
-g0MzY3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5
-LDIzNzIxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0Mz
-gwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTNd
-fQ==
+eyJoaXN0b3J5IjpbLTQwODI0MDcyNCwyNTA1NDM0OTgsLTE0MT
+gwMzc1NiwyNDgyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEy
+LDYyNjAwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwOD
+QzNjcsLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODks
+MjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzOD
+A0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1M119
+
 -->
