@@ -137,7 +137,11 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
 
 ## Bucle
 
-En Python, los bucles son fundamentales para repetir código. Los dos tipos principales son los bucles  `for`  y los bucles  `while`. Los bucles  `for`  son ideales cuando se conoce de antemano cuántas veces se repetirá el código, mientras que los bucles  `while`  son útiles cuando la cantidad de repeticiones depende de una condición. 
+Los bucles se utilizan para el código reiterativo, existiendo dos tipos principales de bucles: *for* y *while*. 
+
+### Bucle for
+
+Los bucles  `for`  son ideales cuando se conoce de antemano cuántas veces se repetirá el código, mientras que los bucles  `while`  son útiles cuando la cantidad de repeticiones depende de una condición. 
 Cabe destacar que existe dos tipos de bucles, los que tienen un número de iteraciones **no definidas**, y los que tienen un número de iteraciones **definidas**.
 Bucles  `for`:
 
@@ -859,11 +863,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzA0NTcwOSw0NzU1MjkzNTMsMTU4OD
-M4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OTg0ODYy
-OTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5OTQ0MS
-w2OTUwNjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLTExMzIy
-NzI2MDUsLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNT
-kxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNiw2
-MjUxMTkyNjhdfQ==
+eyJoaXN0b3J5IjpbLTEzMzUxNzg0NzksMTQwMzA0NTcwOSw0Nz
+U1MjkzNTMsMTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1
+ODExLDE1OTg0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMD
+csLTkzNTc5OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOSwxMzc5
+MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUxMT
+E4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NTgy
+LDU3NTE1NjQxNl19
 -->
