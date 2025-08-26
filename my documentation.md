@@ -413,12 +413,13 @@ En caso contrario, el controlador pasa al **primer bloque Elif** para evaluar la
 ![](https://db0dce98.rocketcdn.me/es/files/2023/02/if-elfi-else.jpg)
 
 
-
 Se puede usar también de manera conjunta todo, el `if` con el `elif` y un `else` al final. Es muy importante notar que `if` y `else` solamente puede haber uno, mientras que `elif` puede haber varios.
 
 x  =  5  if  x  ==  5:  print("Es 5")  elif  x  ==  6:  print("Es 6")  elif  x  ==  7:  print("Es 7")
 
 x  =  5  if  x  ==  5:  print("Es 5")  elif  x  ==  6:  print("Es 6")  elif  x  ==  7:  print("Es 7")  else:  print("Es otro")
+
+### Operador ternario
 
 El operador ternario o `ternary operator` es una herramienta muy potente que muchos lenguajes de programación tienen. En Python es un poco distinto a lo que sería en C, pero el concepto es el mismo. Se trata de una cláusula `if`, `else` que se define en una sola línea y puede ser usado por ejemplo, dentro de un `print()`.
 
@@ -954,11 +955,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjIyMzIzLDIwODUwODQzNjcsLTEzMz
-AzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODksMjM3MjE0NzQ5
-LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NSwtMjExNz
-Y1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0ODY2
-LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5MSwtMT
-I4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5NTA2
-NjcyMF19
+eyJoaXN0b3J5IjpbLTEwNDU3NTM4MzgsMTY0NjIyMzIzLDIwOD
+UwODQzNjcsLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEy
+ODksMjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1ND
+QzODA0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1
+MywxNTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMT
+U5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1
+Nzk5NDQxXX0=
 -->
