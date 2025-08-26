@@ -191,8 +191,12 @@ Estructura del bucle *while*:
 
 	    'bloque de código a ejecutar'
 
-También puedes incluir 
+También puedes incluir la cl
 
+
+
+
+Algo no muy corriente en otros lenguajes de programación pero si en Python, es el uso de la cláusula  `else`  al final del  `while`. Podemos ver el ejemplo anterior mezclado con el  `else`. La sección de código que se encuentra dentro del  `else`, se ejecutará cuando el bucle termine, pero solo si lo hace “por razones naturales”. Es decir, si el bucle termina porque la condición se deja de cumplir, y no porque se ha hecho uso del  `break`.
 ```
 x = 5
 while x > 0:
@@ -316,7 +320,7 @@ También puedes iterar una cadena **saltando elementos**:
 
 
 
-Algo no muy corriente en otros lenguajes de programación pero si en Python, es el uso de la cláusula  `else`  al final del  `while`. Podemos ver el ejemplo anterior mezclado con el  `else`. La sección de código que se encuentra dentro del  `else`, se ejecutará cuando el bucle termine, pero solo si lo hace “por razones naturales”. Es decir, si el bucle termina porque la condición se deja de cumplir, y no porque se ha hecho uso del  `break`.
+
 
 ```
 x = 5
@@ -916,11 +920,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzMwNjk5LDI1NDc5NzQsMTY1NDQzOD
-A0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1Mywx
-NTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5OD
-Q4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5
-NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMT
-EzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4
-MDI1OTE4XX0=
+eyJoaXN0b3J5IjpbLTE5MjY5MDY3OTksMjU0Nzk3NCwxNjU0ND
+M4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUz
+LDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNT
+k4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3
+OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC
+0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEw
+OTgwMjU5MThdfQ==
 -->
