@@ -178,11 +178,10 @@ Los bucles se utilizan para el código reiterativo, existiendo dos tipos princip
 			0
 
 
-En la operación del bucle *while*, tras cada iteración volvía a analizarse si 'horchata' seguía siendo mayor que 0, para decidir si volvía a ejecutarse el código, o no; en la operación del bucle *for*, el **iterable**
+En la operación del bucle *while*, tras cada iteración volvía a analizarse si 'horchata' seguía siendo mayor que 0, para decidir si volvía a ejecutarse el código, o no; en la operación del bucle *for*, el **iterable** era el que decidía el número de veces en que se ejecutaría el código.
 
+Los iterases 
 
-
-Mientras que en el while la condición era evaluada en cada iteración para decidir si volver a ejecutar o no el código, en el  `for`  no existe tal condición, sino un  `iterable`  que define las veces que se ejecutará el código. En el siguiente ejemplo vemos un bucle  `for`  que se ejecuta 5 veces, y donde la  `i`  incrementa su valor “automáticamente” en 1 en cada iteración.
 
 ```
 for i in range(0, 5):
@@ -869,11 +868,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3MTQwMjksMTY1NDQzODA0NSwtMjExNz
-Y1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0ODY2
-LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5MSwtMT
-I4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5NTA2
-NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMTEzMjI3MjYwNS
-wtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0x
-MjA3OTY2NTA5XX0=
+eyJoaXN0b3J5IjpbMTcyNDc1NTE4MywxNjU0NDM4MDQ1LC0yMT
+E3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4
+NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC
+0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1
+MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNj
+A1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgs
+LTEyMDc5NjY1MDldfQ==
 -->
