@@ -44,7 +44,7 @@ El argumento **se declara al definir la función**, por eso más adelante no es 
 
     def sum(a,b=8,c=9)
     
-    return a+b+c
+	    return a+b+c
     
     salida = print(sum(4,b,c)) = 4 + 8 + 9 = 21
 
@@ -61,10 +61,16 @@ Los utilizas en funciones con argumentos variables, cuando no conoces de anteman
 
 ***args** hace referencia a argumentos posicionales (incluyes un asterisco antes del parámetro variables), y ****kwargs** a argumentos de palabra clave (incluyes dos asteriscos antes del parámetro variable).
 
+    def sum(a,*b)
+    
+	    return a+b
+	    
+	salida = print(sum(4,b,c)) = 4 + 8 + 9 = 21
 
-Un argumento variable puede ir precedido por otros tipos de argumentos.
+Un argumento variable **puede ir precedido por otros argumentos no variables.**
 
-Antes del número variable de argumentos, pueden aparecer cero o más argumentos normales.
+    
+
 
 ```
 def add(*b):
@@ -962,11 +968,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDY0MDM3MDMsNjk1MDY2NzIwLDIwNT
-Y5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5
-NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgsLTEyMDc5NjY1MD
-ksLTIwMTk4NjU4Miw1NzUxNTY0MTYsNjI1MTE5MjY4LC04NjA3
-MzM3NTIsLTQ1NTQwMjg4MywtMTI0NjM0MDAwMSw3ODE0NTQyMy
-w0MTgyNjYwOCwtMTI2NDIxNDU1NiwxNjkyMDYwMzc2LC01NTAz
-NDc2MDVdfQ==
+eyJoaXN0b3J5IjpbMTc0MDU2MTUxNSw2OTUwNjY3MjAsMjA1Nj
+kyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0
+OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOS
+wtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDcz
+Mzc1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLD
+QxODI2NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0
+NzYwNV19
 -->
