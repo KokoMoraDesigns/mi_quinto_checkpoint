@@ -375,7 +375,6 @@ Una condicional permite que se ejecuten bloques de código diferentes en depende
 
 Si la condición es verdadera, ejecutará el siguiente bloque de código, si la condición es falsa, no la ejecutará. Puede haber una condición, o múltiples condiciones.
 
-
     personas_invitadas = ['persona_uno', 'persona_dos', 'persona_tres', 'persona_cuatro', 'persona_cinco', 'persona_seis', 'persona_siete']
  
     personas_aceptaron = ['persona_uno', 'persona_cuatro', 'persona_cinco', 'persona_seis']
@@ -399,7 +398,9 @@ Si la condición es verdadera, ejecutará el siguiente bloque de código, si la 
 El código indentado después de *if* forma parte del condicional, mientras que el resto ( *print(enviar_billetes* ) se reproducirá tanto si se cumple la condición como si no se cumple. Además, en este ejemplo no solamente tenemos un condicional, sino que tenemos dos, y ambos deberán ser verdaderos para que el código condicional en su conjunto resulte verdadero y se ejecute.
 
 
+### Sentencia condicional if-else
 
+Si la condición es verdadera, ejecutará el siguiente bloque de código, si la condición es falsa, ejecutará el otro bloque de código. 
 
 (if <condition>: <expression1> else: <expression2>)
 The resulting expression is evaluated like this:
@@ -408,10 +409,8 @@ The resulting expression is evaluated like this:
 -   If <condition> is true, <expression1> is evaluated and is the result of the whole thing.
 -   If <condition> is false, <expression2> is evaluated and is the result of the whole thing.
 - <condition> and <expression1> or <expression2>
+- 
 
-### Sentencia condicional if-else
-
-Ejecuta un bloque de código si la condición es verdadera, y otro bloque de código si la condición es falsa.
 
 
     if edad >= 18:
@@ -825,11 +824,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDM0Njk2OSwtMTE2MTczMjUyMCwxOT
-Q3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3
-NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2Mj
-YwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3
-LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNz
-IxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDVd
-fQ==
+eyJoaXN0b3J5IjpbLTIxNDU2MzcxOTIsLTExNjE3MzI1MjAsMT
+k0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAz
+NzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNj
+I2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2
+NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMz
+cyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1
+XX0=
 -->
