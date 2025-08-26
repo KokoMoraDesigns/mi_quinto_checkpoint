@@ -461,7 +461,8 @@ Una sentencia condicional puede contener en su interior otro bloque con otra sen
     personas_desgraciadamente_conocidas = ['persona_siete', 'persona_ocho']
     
     if amistades:
-	    print('me haría muy feliz hacer un viaje contigo en mi cumpleaños')
+	    print('te quiero, me haría muy feliz hacer un viaje contigo')
+	    else if personas_desconocidas:
 
 
 En este caso necesitarás utilizar una sentencia *if-elif-else*.
@@ -482,7 +483,8 @@ En caso contrario, el controlador pasa al **primer bloque Elif** para evaluar la
 
 Se puede usar también de manera conjunta todo, el `if` con el `elif` y un `else` al final. Es muy importante notar que `if` y `else` solamente puede haber uno, mientras que `elif` puede haber varios.
 
-x  =  5  if  x  ==  5:  print("Es 5")  elif  x  ==  6:  print("Es 6")  elif  x  ==  7:  print("Es 7")
+x  =  5 
+ if  x  ==  5:  print("Es 5")  elif  x  ==  6:  print("Es 6")  elif  x  ==  7:  print("Es 7")
 
 x  =  5  if  x  ==  5:  print("Es 5")  elif  x  ==  6:  print("Es 6")  elif  x  ==  7:  print("Es 7")  else:  print("Es otro")
 
@@ -821,11 +823,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODUwMjc2MSwtMTE2MTczMjUyMCwxOT
-Q3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3
-NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2Mj
-YwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3
-LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNz
-IxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDVd
-fQ==
+eyJoaXN0b3J5IjpbNDA4NTgyMDEzLC0xMTYxNzMyNTIwLDE5ND
+c2MTIxMzEsLTQwODI0MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1
+NiwyNDgyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEyLDYyNj
+AwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwODQzNjcs
+LTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODksMjM3Mj
+E0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NV19
+
 -->
