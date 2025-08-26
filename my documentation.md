@@ -204,7 +204,7 @@ También puedes incluir la cláusula *else*, que entrará en acción una vez el 
     while horchata > 1:
     
 	    horchata -=1
-	    print(horchata)
+	    print('nos quedan {horchata} horchatas')
 	    
 	else:
 	    print('deberíamos comprar más horchata')
@@ -885,7 +885,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDA3MTA4NTcsNjI2MDA4MjE1LC01Mz
+eyJoaXN0b3J5IjpbLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01Mz
 A4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3
 Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzND
 I0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkx
