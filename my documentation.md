@@ -140,7 +140,7 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
 Los bucles se utilizan para el código reiterativo, existiendo dos tipos principales de bucles: *for* y *while*. 
 
 ### Bucle *for*
-Itera sobre una secuencia que yalista, tupla, cadena.... Es útil cuando ya sabes el número de veces en que se va a repetir el código, por ejemplo, deseas imprimir el contenido de una colección o efectuar cálculos con los números contenido en un rango ya determinado.
+Itera sobre una secuencia  (lista, tupla, cadena....) de la que tienes conocimiento previo, con lo que ya sabes el número de veces en que se va a repetir el código; por ejemplo, deseas imprimir el contenido de una colección o efectuar cálculos con los números contenido en un rango ya determinado.
 
     mis_libros = ['amarilla', 'biciosas', 'la isla de las medusas', 'pirómanas', 'brillando']
     
@@ -159,7 +159,7 @@ Itera sobre una secuencia que yalista, tupla, cadena.... Es útil cuando ya sabe
 
 
 ### Bucle *while*
-Ejecuta un bloque de código mientras un factor condicionante sea verdadero, útil cuando el número de veces en que el código se repita queda en dependencia de algún factor condicionante.
+Ejecuta un bloque de código siempre y cuando un factor condicionante determinado se mantenga verdadero, útil cuando el número de veces en que el código se repita queda en dependencia de algún factor condicionante.
 
     horchata = 7 
     
@@ -874,11 +874,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDU2OTg3OSwtMjExNzY1OTA5MSwxND
-AzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0ODY2LDIwODg3NTc5
-NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5MSwtMTI4ODIxODY4My
-wtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2
-OTI1MDE5LDEzNzkxMzgzNywtMTEzMjI3MjYwNSwtMTExMzc2OT
-Q5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0xMjA3OTY2NTA5
-LC0yMDE5ODY1ODJdfQ==
+eyJoaXN0b3J5IjpbMjM0NDYxMjQzLC0yMTE3NjU5MDkxLDE0MD
+MwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4NjYsMjA4ODc1Nzk2
+MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC0xMjg4MjE4NjgzLC
+0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1MDY2NzIwLDIwNTY5
+MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5ND
+k2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgsLTEyMDc5NjY1MDks
+LTIwMTk4NjU4Ml19
 -->
