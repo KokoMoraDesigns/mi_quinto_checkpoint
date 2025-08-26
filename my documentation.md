@@ -213,11 +213,16 @@ En la operación anterior, 'perros' equivale al **iterable**, es decir, al objet
 
 Si estás trabajando con un objeto que, en su interior, contiene otro objeto iterable, puedes crear un bucle *for* anidado. Por ejemplo:
 
-    mi_cine = [[us, oddity, seven veils, heretic, the shining], [bottoms, bullet train, the blackening, heathers]]
+    mi_cine = [['us', 'oddity', 'seven veils', 'heretic', 'the shining'], ['bottoms', 'bullet train', 'the blackening', 'heathers']]
     
     for genero in mi_cine:
     
-    	print(genero) 
+    	print(genero)
+    	
+
+    salida: ['us', 'oddity', 'seven veils', 'heretic', 'the shining']
+		    ['bottoms', 'bullet train', 'the blackening', 'heathers']
+
 
 
 
@@ -884,7 +889,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0ODc0MzQ5OSwxNjU0NDM4MDQ1LC0yMT
+eyJoaXN0b3J5IjpbMTY5MDQ2MzQ0OCwxNjU0NDM4MDQ1LC0yMT
 E3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4
 NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC
 0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1
