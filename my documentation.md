@@ -156,10 +156,8 @@ Ejecuta un bloque de código mientras un factor condicionante sea verdadero, út
     
     while horchata > 0:
     
-	    horchata -= 1
-
-
-	print(horchata)
+	    horchata -=1
+	    print(horchata)
 
 Bucles  `while`:
 
@@ -867,11 +865,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0Nz
-U1MjkzNTMsMTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1
-ODExLDE1OTg0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMD
-csLTkzNTc5OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOSwxMzc5
-MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUxMT
-E4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NTgy
-LDU3NTE1NjQxNl19
+eyJoaXN0b3J5IjpbMTMwNjIxNzc4MywtMjExNzY1OTA5MSwxND
+AzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0ODY2LDIwODg3NTc5
+NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5MSwtMTI4ODIxODY4My
+wtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2
+OTI1MDE5LDEzNzkxMzgzNywtMTEzMjI3MjYwNSwtMTExMzc2OT
+Q5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0xMjA3OTY2NTA5
+LC0yMDE5ODY1ODJdfQ==
 -->
