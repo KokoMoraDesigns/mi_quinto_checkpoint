@@ -284,6 +284,13 @@ También puedes iterar una cadena **saltando elementos**:
 #### Bucles con operaciones
 
     multiplos = []
+    
+    for num in [3, 6, 9]:
+    
+	    multiplos.append(num*3)
+	    
+	    
+	multiplos = [9, 18, 27]
 
 
 
@@ -901,7 +908,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDg4Mjk1LDI1NDc5NzQsMTY1NDQzOD
+eyJoaXN0b3J5IjpbMzQ5MzY1NDg5LDI1NDc5NzQsMTY1NDQzOD
 A0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1Mywx
 NTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5OD
 Q4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5
