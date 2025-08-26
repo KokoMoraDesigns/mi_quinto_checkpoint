@@ -141,9 +141,9 @@ Los bucles se utilizan para el código reiterativo, existiendo dos tipos princip
 
 ### Bucle *for*
 
-Pero, cada vez que ese código es ejecutado, la variable `lenguaje` tendrá un valor diferente: en la primera ejecución será igual a `"Python"`; en la segunda, a `"C"`; y así hasta alcanzar el final de la lista.
 
-**Itera sobre una secuencia**  (lista, tupla, cadena....) **de la que tienes conocimiento previo**, con lo que ya sabes el número de veces en que se va a repetir el código; por ejemplo, si deseas imprimir el contenido de una colección o efectuar cálculos con los números contenidos en un rango ya determinado, se repetirá el código tantas veces como elementos tengas en la colección que hayas colocado a la derecha de la cláusula (el operador) 'in'.
+
+**Itera sobre una secuencia**  (lista, tupla, cadena....) **de la que tienes conocimiento previo**, con lo que ya sabes el número de veces en que se va a repetir el código; por ejemplo, si deseas imprimir el contenido de una colección o efectuar cálculos con los números contenidos en un rango ya determinado, se repetirá el código tantas veces como elementos tengas en la colección que hayas colocado a la derecha de la cláusula *(el operador)* 'in'.
 
     mis_libros = ['amarilla', 'biciosas', 'la isla de las medusas', 'pirómanas', 'brillando']
     
@@ -159,6 +159,8 @@ Pero, cada vez que ese código es ejecutado, la variable `lenguaje` tendrá un v
 			brillando
 
 
+
+Cada vez que se ha ejecutado el código, la variable 'libro' ha contenido en su interior un elemento diferente.
 
 
 Estructura del bucle *for*:
@@ -276,9 +278,6 @@ Con el bucle *for* simple del ejemplo *mi_cine* estamos accediendo únicamente a
 			the blackening
 			heathers
 
-
-
--   Los  **iteradores**  son objetos que hacen referencia a un elemento, y que tienen un método  `next`  que permite hacer referencia al siguiente.
 
 
 
@@ -923,11 +922,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5Mzk2MTIsLTEzNDI0NTIwMDMsMjU0Nz
-k3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDks
-NDc1NTI5MzUzLDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3ND
-czNTgxMSwxNTk4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5
-MTA3LC05MzU3OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMT
-M3OTEzODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1
-MTExODIxXX0=
+eyJoaXN0b3J5IjpbMTAwODYzNjA0LC0xMzQyNDUyMDAzLDI1ND
+c5NzQsMTY1NDQzODA0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5
+LDQ3NTUyOTM1MywxNTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNz
+Q3MzU4MTEsMTU5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5
+OTEwNywtOTM1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LD
+EzNzkxMzgzNywtMTEzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4
+NTExMTgyMV19
 -->
