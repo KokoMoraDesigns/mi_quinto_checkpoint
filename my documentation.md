@@ -3,7 +3,7 @@
 
 ## Argumento
 
-En Python, un argumento es la indicación que le das a una función determinada sobre cuál es la salida que estás tratando de lograr. El parámetro, por otro lado, es el nombre que le asignas a dicho argumento al formular la función.
+En Python, un argumento es la indicación que le das a una función determinada sobre cuál es la salida que deseas lograr; el parámetro, por otro lado, es el nombre que le asignas a dicho argumento al formular la función.
 
 A continuación unos ejemplos según los distintos tipos de argumentos que existen.
 
@@ -116,10 +116,6 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
 > Es aconsejable hacer uso de argumentos **obligatoriamente posicionales** cuando deseas imponer un orden al llamar a los argumentos de la función, y de argumentos **obligatoriamente de palabras clave** cuando los nombres de los parámetros sean significativos y apoyen a la correcta comprensión de la función (por ejemplo: *def name(first,last):* .
 
 
-
-Y por último un truco que no podemos dejar sin mencionar es lo que se conoce como _tuple unpacking_. Haciendo uso de `*`, podemos extraer los valores de una lista o tupla, y que sean pasados como argumentos a la función.
-
-def  funcion(a,  b,  *args,  **kwargs):  print("a =",  a)  print("b =",  b)  for  arg  in  args:  print("args =",  arg)  for  key,  value  in  kwargs.items():  print(key,  "=",  value)  args  =  [1,  2,  3,  4]  kwargs  =  {'x':"Hola",  'y':"Que",  'z':"Tal"}  funcion(10,  20,  *args,  **kwargs)  #Salida #a = 10 #b = 20 #args = 1 #args = 2 #args = 3 #args = 4 #x = Hola #y = Que #z = Tal
 
 
 ## Bucle
@@ -846,11 +842,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMT
-c0NzM1ODExLDE1OTg0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMy
-OTkxMDcsLTkzNTc5OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOS
-wxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2
-ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAxOT
-g2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1Miwt
-NDU1NDAyODgzXX0=
+eyJoaXN0b3J5IjpbLTEyNTA0MzcxOTAsMTU4ODM4NDg2NiwyMD
+g4NzU3OTYyLC0xMTc0NzM1ODExLDE1OTg0ODYyOTEsLTEyODgy
+MTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5OTQ0MSw2OTUwNjY3Mj
+AsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTEx
+MTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNz
+k2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgs
+LTg2MDczMzc1Ml19
 -->
