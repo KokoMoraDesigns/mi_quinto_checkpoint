@@ -59,9 +59,10 @@ Los utilizas en funciones con argumentos variables, cuando no conoces de anteman
 
 
 
-***args** hace referencia a argumentos posicionales (incl, y ****kwargs** en argumentos de palabra clave.
+***args** hace referencia a argumentos posicionales (incluyes un asterisco antes del parámetro variables), y ****kwargs** a argumentos de palabra clave (incluyes dos asteriscos antes del parámetro variable).
 
 
+Un argumento variable puede ir precedido por otros tipos de argumentos.
 
 Antes del número variable de argumentos, pueden aparecer cero o más argumentos normales.
 
@@ -961,7 +962,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTczMDkyNjcsNjk1MDY2NzIwLDIwNT
+eyJoaXN0b3J5IjpbLTIxMDY0MDM3MDMsNjk1MDY2NzIwLDIwNT
 Y5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5
 NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgsLTEyMDc5NjY1MD
 ksLTIwMTk4NjU4Miw1NzUxNTY0MTYsNjI1MTE5MjY4LC04NjA3
