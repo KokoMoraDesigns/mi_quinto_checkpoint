@@ -250,7 +250,9 @@ Con el bucle *for* simple del ejemplo *mi_cine* estamos accediendo únicamente a
 
 
 
+#### Bucles según su índice
 
+También podemos iterar una cadena en sentido inverso:
 
 Iterando cadena al revés. Haciendo uso de  `[::-1]`  se puede iterar la lista desde el último al primer elemento.
 
@@ -881,7 +883,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNTYxNDUzNCwyNTQ3OTc0LDE2NTQ0Mz
+eyJoaXN0b3J5IjpbMjA2NjQ3NzU3MCwyNTQ3OTc0LDE2NTQ0Mz
 gwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMs
 MTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OT
 g0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5
