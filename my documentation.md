@@ -354,14 +354,11 @@ La orden *break* interrumpirá el bucle de inmediato y, en caso de existir, pasa
 
 #### Bucle con orden *continue*		  
  
- En lugar de interrumpir la ejecución del código, la orden *continue* lo que hará será saltarse el valor que le indiques y continuar reproduciendo el resto del código.
+ En lugar de interrumpir la ejecución del código, la orden *continue* lo que hará será saltarse el código que vaya desp y continuar su iteración reproduciendo el resto del código.
+ 
 peliculas_por_ver = ['us', 'oddity', 'seven veils', 'heretic', 'the shining']
 
-La diferencia entre el  `break`  y  `continue`  es que el  `continue`  no rompe el bucle, si no que pasa a la siguiente iteración saltando el código pendiente.
 
-En el siguiente ejemplo vemos como al encontrar la letra  `P`  se llama al continue, lo que hace que se salte el  `print()`. Es por ello por lo que no vemos la letra  `P`  impresa en pantalla.
-
-cadena  =  'Python'  for  letra  in  cadena:  if  letra  ==  'P':  continue  print(letra)  # Salida: # y # t # h # o # n
 
 A diferencia del  `break`, el  `continue`  no rompe el bucle sino que finaliza la iteración actual, haciendo que todo el código que va después se salte, y se vuelva al principio a evaluar la condición.
 
@@ -830,11 +827,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc5NjQ4MTMsMjUwNTQzNDk4LC0xNDE4MD
-M3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2
-MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0Mz
-Y3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIz
-NzIxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwND
-UsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTNdfQ==
+eyJoaXN0b3J5IjpbMjAwNTkwOTY1OCwyNTA1NDM0OTgsLTE0MT
+gwMzc1NiwyNDgyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEy
+LDYyNjAwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwOD
+QzNjcsLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODks
+MjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzOD
+A0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1M119
 
 -->
