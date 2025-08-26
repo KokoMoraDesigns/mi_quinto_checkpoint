@@ -369,6 +369,21 @@ The resulting expression is evaluated like this:
 
 Ejecuta un bloque de código si la condición es verdadera, y otro bloque de código si la condición es falsa.
 
+
+    if edad >= 18:
+    
+    	print('puedes beber alcohol delante de la policía')
+    	
+    else:
+    
+	    print('es aconsejable que la policía no te vea bebiendo alcohol')
+	    
+	    
+	 edad = 25 (es decir, la condicion 'if' es verdadera) --> salida: puedes beber alcohol delante de la policía 
+	 
+	 edad = 17 (es decir, la condicion 'if' es falsa) --> salida: es aconsejable que la policía no te vea bebiendo alcohol
+
+
 En cambio, para evaluar sentencias que determinan si una condición es verdadera y si otro conjunto de sentencias es falso, se utiliza la **sentencia condicional «if-else»**.
 
 La sentencia «If-else» se utiliza para ejecutar tanto la parte verdadera como la falsa de una condición. Si la condición es verdadera, se ejecuta el **bloque de código If**. Si la condición es falsa, se ejecuta el bloque de código Else.
@@ -385,19 +400,6 @@ Se ejecutarán bloques de código diferentes en dependencia de si una condición
 
    
     
-    if edad >= 18:
-    
-    	print('puedes beber alcohol delante de la policía')
-    	
-    else:
-    
-	    print('es aconsejable que la policía no te vea bebiendo alcohol')
-	    
-	    
-	 edad = 25 (es decir, la condicion 'if' es verdadera) --> salida: puedes beber alcohol delante de la policía 
-	 
-	 edad = 17 (es decir, la condicion 'if' es falsa) --> salida: es aconsejable que la policía no te vea bebiendo alcohol
-
 
 
 ### Sentencia condicional anidada
@@ -414,9 +416,13 @@ Una sentencia *if* o *if-else* contiene en su interior otro bloque con una sente
 
 ### Sentencia condicional no binaria
 
+
+amistad
 En este caso necesitarás utilizar una sentencia *if-elif-else*.
 
-
+ `if-elif-else`:
+    
+    Permite evaluar múltiples condiciones. Se evalúa la condición en el  `if`. Si es falsa, se evalúa la condición en el  `elif`, y así sucesivamente. Si ninguna condición es verdadera, se ejecuta el bloque de código en el  `else`.
 
 
 En Python, la sentencia «Elif» se utiliza para comprobar múltiples condiciones si una condición es falsa. Es similar a la sentencia «If-Else», pero la diferencia es que «Elif» evalúa **múltiples condiciones** a diferencia de «Else».
@@ -446,25 +452,6 @@ Existen tres partes en un operador ternario, que son exactamente iguales a los q
 
 
 #[código si se cumple] if [condición] else [código si no se cumple]
-
-
-
-
-
-    
-    
-
-    
-
-
-
-edad = 20
-if edad >= 18:
-    print("Eres mayor de edad")
-else:
-    print("Eres menor de edad")
-
-En este ejemplo, el código dentro del bloque  `if`  se ejecutará si la variable  `edad`  es mayor o igual a 18. De lo contrario, se ejecutará el código dentro del bloque  `else`.
 
 
 Operadores de comparación:
@@ -950,11 +937,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzY1OTkzNTMsMTY0NjIyMzIzLDIwOD
-UwODQzNjcsLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEy
-ODksMjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1ND
-QzODA0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1
-MywxNTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMT
-U5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1
-Nzk5NDQxXX0=
+eyJoaXN0b3J5IjpbMTUzNDAxMDU3NiwxNjQ2MjIzMjMsMjA4NT
+A4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4
+OSwyMzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0ND
+M4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUz
+LDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNT
+k4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3
+OTk0NDFdfQ==
 -->
