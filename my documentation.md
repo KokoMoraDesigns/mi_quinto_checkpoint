@@ -119,14 +119,6 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
 
 
 
-```
-def add(a,b,*,c,d):
-    return a+b+c+d
-
-print (add(3,4,1,d=2))
-#Output:TypeError: add() takes 2 positional arguments but 3 positional argumen
-```
-
 Las tres convenciones de llamada se utilizan en la misma función. En el siguiente ejemplo, la función `add`contiene los tres argumentos:
 
 -   `a`, `b`: Argumentos únicamente posicionales.
@@ -877,7 +869,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MzU3MTk1MSwtMTI4ODIxODY4MywtMT
+eyJoaXN0b3J5IjpbLTc0NjgxNjAzOSwtMTI4ODIxODY4MywtMT
 YwMzI5OTEwNywtOTM1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1
 MDE5LDEzNzkxMzgzNywtMTEzMjI3MjYwNSwtMTExMzc2OTQ5Ni
 wtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0xMjA3OTY2NTA5LC0y
