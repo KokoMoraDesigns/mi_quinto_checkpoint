@@ -177,7 +177,7 @@ Los bucles se utilizan para el código reiterativo, existiendo dos tipos princip
 			1
 			0
 
-En esta operación, tras cada iteración se volvía a analizar si horchata > 0
+En esta operación, tras cada iteración volvía a analizarse si horchata seguía siendo mayor que 0, para decidir si volvía a ejecutarse el código
 
 
 
@@ -868,11 +868,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTMwODE0NjcsMTY1NDQzODA0NSwtMj
-ExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0
-ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5MS
-wtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5
-NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMTEzMjI3Mj
-YwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4
-LC0xMjA3OTY2NTA5XX0=
+eyJoaXN0b3J5IjpbLTcxMTczNDU3LDE2NTQ0MzgwNDUsLTIxMT
+c2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMsMTU4ODM4NDg2
+NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OTg0ODYyOTEsLT
+EyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5OTQ0MSw2OTUw
+NjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MD
+UsLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwt
+MTIwNzk2NjUwOV19
 -->
