@@ -82,11 +82,12 @@ son los valores que se pasan a una función cuando se llama, mientras que los pa
 
 
 > **MEJORES PRÁCTICAS:**
-> Que solo sea necesario mirar la definición de la función para conocer con qué tipo de parámetros estamos trabajando, solo posicionales, solo por palabra clave, o una mezcla de ambos.
+> Que solo sea necesario mirar la definición de la función para conocer con qué tipo de argumentos estamos trabajando.
 
+**Trabajando con argumentos solo posicionales:**
 
+    def sum(a,b,/,c,d
 
-argumentos solo posicionales:
 
 Los parámetros posicionales se colocan antes de una `/`barra diagonal en la definición de la función. Esto `/`se utiliza para separar lógicamente los parámetros posicionales del resto. Los parámetros que siguen a `/`pueden ser posicionales, de palabra clave o de palabra clave.
 
@@ -883,11 +884,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODA0OTA3MzEsLTE2MDMyOTkxMDcsLT
-kzNTc5OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4
-MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUxMTE4Mj
-EsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NTgyLDU3
-NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1MiwtNDU1NDAyOD
-gzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4LC0xMjY0
-MjE0NTU2XX0=
+eyJoaXN0b3J5IjpbMTM3ODI2OTA3NywtMTYwMzI5OTEwNywtOT
+M1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgz
+NywtMTEzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMS
+wxMDk4MDI1OTE4LC0xMjA3OTY2NTA5LC0yMDE5ODY1ODIsNTc1
+MTU2NDE2LDYyNTExOTI2OCwtODYwNzMzNzUyLC00NTU0MDI4OD
+MsLTEyNDYzNDAwMDEsNzgxNDU0MjMsNDE4MjY2MDgsLTEyNjQy
+MTQ1NTZdfQ==
 -->
