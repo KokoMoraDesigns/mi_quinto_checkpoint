@@ -345,7 +345,10 @@ La orden *break* interrumpirá el bucle de inmediato y pasará a ejecutar la sig
     
 		    cuadrados.append(num**2)
 		    print(cuadrados)
-		    if
+		    
+		    if cuadrados == 16:
+			    break
+			    print('lo encontramos')
 
     
 
@@ -877,11 +880,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDAwMDQxMDQsLTExMTA2OTQyMTIsNj
-I2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2
-NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMz
-cyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1
-LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1OD
-gzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2
-MjkxXX0=
+eyJoaXN0b3J5IjpbNDc1MTIwMTU4LC0xMTEwNjk0MjEyLDYyNj
+AwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwODQzNjcs
+LTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODksMjM3Mj
+E0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NSwt
+MjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mz
+g0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5
+MV19
 -->
