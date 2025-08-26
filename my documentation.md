@@ -350,7 +350,31 @@ La orden *break* interrumpirá el bucle de inmediato y, en caso de existir, pasa
 			break
 			
 		
-		  
+#### Bucle con orden *continue*		  
+ Es decir, si tenemos dos bucles anidados, el  `break`  romperá el bucle anidado, pero no el exterior.
+
+Concretamente,  `continue`  se salta todo el código restante en la iteración actual y vuelve al principio en el caso de que aún queden iteraciones por completar.
+
+La diferencia entre el  `break`  y  `continue`  es que el  `continue`  no rompe el bucle, si no que pasa a la siguiente iteración saltando el código pendiente.
+
+En el siguiente ejemplo vemos como al encontrar la letra  `P`  se llama al continue, lo que hace que se salte el  `print()`. Es por ello por lo que no vemos la letra  `P`  impresa en pantalla.
+
+cadena  =  'Python'  for  letra  in  cadena:  if  letra  ==  'P':  continue  print(letra)  # Salida: # y # t # h # o # n
+
+A diferencia del  `break`, el  `continue`  no rompe el bucle sino que finaliza la iteración actual, haciendo que todo el código que va después se salte, y se vuelva al principio a evaluar la condición.
+
+En el siguiente ejemplo podemos ver como cuando la  `x`  vale 3, se llama al  `continue`, lo que hace que se salte el resto de código de la iteración (el  `print()`). Por ello, vemos como el número 3 no se imprime en pantalla.
+
+```
+x = 5
+while x > 0:
+    x -= 1
+    if x == 3:
+        continue
+    print(x)
+
+#Salida: 4, 2, 1, 0
+```
 
     
 ## Condicional
@@ -495,45 +519,6 @@ Los condicionales utilizan operadores de comparación para evaluar las condicion
 -   `<=`  (menor o igual que)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Es decir, si tenemos dos bucles anidados, el  `break`  romperá el bucle anidado, pero no el exterior.
-
-Concretamente,  `continue`  se salta todo el código restante en la iteración actual y vuelve al principio en el caso de que aún queden iteraciones por completar.
-
-La diferencia entre el  `break`  y  `continue`  es que el  `continue`  no rompe el bucle, si no que pasa a la siguiente iteración saltando el código pendiente.
-
-En el siguiente ejemplo vemos como al encontrar la letra  `P`  se llama al continue, lo que hace que se salte el  `print()`. Es por ello por lo que no vemos la letra  `P`  impresa en pantalla.
-
-cadena  =  'Python'  for  letra  in  cadena:  if  letra  ==  'P':  continue  print(letra)  # Salida: # y # t # h # o # n
-
-A diferencia del  `break`, el  `continue`  no rompe el bucle sino que finaliza la iteración actual, haciendo que todo el código que va después se salte, y se vuelva al principio a evaluar la condición.
-
-En el siguiente ejemplo podemos ver como cuando la  `x`  vale 3, se llama al  `continue`, lo que hace que se salte el resto de código de la iteración (el  `print()`). Por ello, vemos como el número 3 no se imprime en pantalla.
-
-```
-x = 5
-while x > 0:
-    x -= 1
-    if x == 3:
-        continue
-    print(x)
-
-#Salida: 4, 2, 1, 0
-```
 
 ## Función Lambda
 
@@ -843,11 +828,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4Mj
-A3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgyMTUs
-LTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3LC0xMzMwMz
-AxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNzIxNDc0OSwt
-MTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDUsLTIxMTc2NT
-kwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMsMTU4ODM4NDg2Nl19
-
+eyJoaXN0b3J5IjpbLTEzNTI4MzE3MTYsMjUwNTQzNDk4LC0xND
+E4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIx
+Miw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MD
+g0MzY3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5
+LDIzNzIxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0Mz
+gwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTNd
+fQ==
 -->
