@@ -481,57 +481,6 @@ Los condicionales utilizan operadores de comparación para evaluar las condicion
 
 
 
-
-
-
-
-#Print the below statement 3 times
-for number in range(3) :  
-    print("-------------------------------------------")
-    print("I am outer loop iteration "+str(number))
-    # Inner loop
-    for another_number in range(5):  
-        print("****************************")
-        print("I am inner loop iteration "+str(another_number))
-
--------------------------------------------
-I am outer loop iteration 0
-****************************
-I am inner loop iteration 0
-****************************
-I am inner loop iteration 1
-****************************
-I am inner loop iteration 2
-****************************
-I am inner loop iteration 3
-****************************
-I am inner loop iteration 4
--------------------------------------------
-I am outer loop iteration 1
-****************************
-I am inner loop iteration 0
-****************************
-I am inner loop iteration 1
-****************************
-I am inner loop iteration 2
-****************************
-I am inner loop iteration 3
-****************************
-I am inner loop iteration 4
--------------------------------------------
-I am outer loop iteration 2
-****************************
-I am inner loop iteration 0
-****************************
-I am inner loop iteration 1
-****************************
-I am inner loop iteration 2
-****************************
-I am inner loop iteration 3
-****************************
-I am inner loop iteration 4
-
-
 Bucle infinito: 
 #Take user input
 number = 2 
@@ -936,11 +885,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2Mj
-IzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUs
-MTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nz
-k3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDks
-NDc1NTI5MzUzLDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3ND
-czNTgxMSwxNTk4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5
-MTA3XX0=
+eyJoaXN0b3J5IjpbLTIwNDA3MTA4NTcsNjI2MDA4MjE1LC01Mz
+A4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3
+Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzND
+I0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkx
+LDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4NjYsMjA4OD
+c1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC0xMjg4MjE4
+NjgzXX0=
 -->
