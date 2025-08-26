@@ -507,38 +507,8 @@ Los condicionales utilizan operadores de comparación para evaluar las condicion
 
 
 
--   **Bucle anidados:**
-    
-    En bucles anidados,  `break`  interrumpe solo el bucle más interno en el que está.
-
-Un ejemplo un poco más útil, sería el de buscar una letra en una palabra. Se itera toda la palabra y en el momento en el que se encuentra la letra que buscábamos, se rompe el bucle y se sale.
-
-Esto es algo muy útil porque si ya encontramos lo que estábamos buscando, no tendría mucho sentido seguir iterando la lista, ya que desperdiciaríamos recursos.
 
 
-break con bucles for:
-```
-cadena = 'Python'
-for letra in cadena:
-    if letra == 'h':
-        print("Se encontró la h")
-        break
-    print(letra)
-
-# Salida:
-# P
-# y
-# t
-# Se encontró la h
-```
-
-break con bucles while:
-
-x  =  5  while  True:  x  -=  1  print(x)  if  x  ==  0:  break  print("Fin del bucle")  #4, 3, 2, 1, 0
-
-break con bucles anidados:
-
-Como hemos dicho, el uso de  `break`  rompe el bucle, pero sólo aquel en el que está dentro.
 
 Es decir, si tenemos dos bucles anidados, el  `break`  romperá el bucle anidado, pero no el exterior.
 
@@ -873,11 +843,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzU2MTA5NDAsLTE0MTgwMzc1NiwyND
-gyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIx
-NSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwODQzNjcsLTEzMz
-AzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODksMjM3MjE0NzQ5
-LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NSwtMjExNz
-Y1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0ODY2
-XX0=
+eyJoaXN0b3J5IjpbMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4Mj
+A3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgyMTUs
+LTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3LC0xMzMwMz
+AxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNzIxNDc0OSwt
+MTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDUsLTIxMTc2NT
+kwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMsMTU4ODM4NDg2Nl19
+
 -->
