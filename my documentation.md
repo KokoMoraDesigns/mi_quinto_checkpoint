@@ -93,7 +93,7 @@ Separas mediante '/' los parámetros obligatoriamente posicionales (que *quedan 
 	
 	sum(4,8,d=5,c=9) --> 26 --> correcto
 	
-	sum(b=8,a=4,c=8,d=9) --> SyntaxError: positional argument follows keyword argument
+	sum(b=8,a=4,c=8,d=9) --> TypeError: sum() got some positional-only arguments passed as keyword arguments: 'a, b'
 
 
 **Trabajando con argumentos obligatoriamente de palabras clave**
@@ -109,7 +109,7 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
 	
 	sum(b=8,a=4,d=5,c=9) --> 26 --> correcto
 	
-	sum(b=8,a=4,c=8,d=9) --> SyntaxError: positional argument follows keyword argument
+	sum(b=8,a=4,c=8,d=5) --> SyntaxError: positional argument follows keyword argument
 
 
 
@@ -864,11 +864,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwNjg5ODA1LDE1OTg0ODYyOTEsLTEyOD
-gyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5OTQ0MSw2OTUwNjY3
-MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MDUsLT
-ExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIw
-Nzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNj
-gsLTg2MDczMzc1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4
-MTQ1NDIzXX0=
+eyJoaXN0b3J5IjpbLTExNzU2ODg2NDgsMTU5ODQ4NjI5MSwtMT
+I4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5NTA2
+NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMTEzMjI3MjYwNS
+wtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0x
+MjA3OTY2NTA5LC0yMDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOT
+I2OCwtODYwNzMzNzUyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEs
+NzgxNDU0MjNdfQ==
 -->
