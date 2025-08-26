@@ -437,7 +437,9 @@ Una sentencia condicional puede contener en su interior otro bloque con otra sen
 	else:
 	
 		if idiomas >=5:
-			print(f'tienes una media de {idiomas} en idiomas, 
+			print(f'tienes una media de {idiomas} en idiomas, estás almacenando mucho conocimiento para viajar por el mundo')
+		else:
+			print(f'tienes una media de {idiomas} en idiomas, ¿crees que necesitas refuerzo o prefieres 
 
 
 > **MEJORES PRÁCTICAS:**
@@ -816,11 +818,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODI3MTY5MTUsLTExNjE3MzI1MjAsMT
-k0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAz
-NzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNj
-I2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2
-NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMz
-cyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1
-XX0=
+eyJoaXN0b3J5IjpbMTgzODk1ODE0MSwtMTE2MTczMjUyMCwxOT
+Q3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3
+NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2Mj
+YwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3
+LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNz
+IxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDVd
+fQ==
 -->
