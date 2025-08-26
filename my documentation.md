@@ -65,7 +65,10 @@ Los utilizas en funciones con argumentos variables, cuando no conoces de anteman
     
 	    return a+b
 	    
-	salida = print(sum(4,b,c)) = 4 + 8 + 9 = 21
+	salida = print(sum(4,8,9)) = 4 + 8 + 9 = 21
+	
+	*En dicha salida --> *a=4 b=8,9
+
 
 Un argumento variable **puede ir precedido por otros argumentos no variables.**
 
@@ -968,11 +971,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDU2MTUxNSw2OTUwNjY3MjAsMjA1Nj
-kyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0
-OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOS
-wtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDcz
-Mzc1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLD
-QxODI2NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0
-NzYwNV19
+eyJoaXN0b3J5IjpbLTE5NzU5ODU0ODMsNjk1MDY2NzIwLDIwNT
+Y5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5
+NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgsLTEyMDc5NjY1MD
+ksLTIwMTk4NjU4Miw1NzUxNTY0MTYsNjI1MTE5MjY4LC04NjA3
+MzM3NTIsLTQ1NTQwMjg4MywtMTI0NjM0MDAwMSw3ODE0NTQyMy
+w0MTgyNjYwOCwtMTI2NDIxNDU1NiwxNjkyMDYwMzc2LC01NTAz
+NDc2MDVdfQ==
 -->
