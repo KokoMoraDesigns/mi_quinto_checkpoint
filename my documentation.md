@@ -342,6 +342,16 @@ Se comprueba la condición y el conjunto de código del bloque «If» se ejecuta
 
 La sentencia «If» es útil si se puede especificar qué sentencias ejecutar si se cumple una condición. 
 
+Es muy importante tener en cuenta que la sentencia `if` debe ir terminada por `:` y el bloque de código a ejecutar debe estar indentado. Si usas algún editor de código, seguramente la indentación se producirá automáticamente al presionar enter. Nótese que el bloque de código puede también contener más de una línea, es decir puede contener más de una instrucción.
+
+if  b  !=  0:  
+c  =  a/b  d  =  c  +  1  print(d)
+
+Todo lo que vaya después del `if` y esté indentado, será parte del bloque de código que se ejecutará si la condición se cumple. Por lo tanto el segundo `print()` “Fuera if” será ejecutado siempre, ya que está fuera del bloque `if`.
+
+Se puede también combinar varias condiciones entre el `if` y los `:`. Por ejemplo, se puede requerir que un número sea mayor que 5 y además menor que 15. Tenemos en realidad tres operadores usados conjuntamente, que serán evaluados por separado hasta devolver el resultado final, que será `True` si la condición se cumple o `False` de lo contrario.
+
+
 ### Sentencia condicional if-else
 
 En cambio, para evaluar sentencias que determinan si una condición es verdadera y si otro conjunto de sentencias es falso, se utiliza la **sentencia condicional «if-else»**.
@@ -373,7 +383,7 @@ Se ejecutarán bloques de código diferentes en dependencia de si una condición
 	 
 	 edad = 17 (es decir, la condicion 'if' es falsa) --> salida: es aconsejable que la policía no te vea bebiendo alcohol
 
-### Sentencia condicional Elif
+
 
 ### Sentencia condicional anidada
 	    
@@ -402,13 +412,7 @@ En caso contrario, el controlador pasa al **primer bloque Elif** para evaluar la
 
 ![](https://db0dce98.rocketcdn.me/es/files/2023/02/if-elfi-else.jpg)
 
-Es muy importante tener en cuenta que la sentencia `if` debe ir terminada por `:` y el bloque de código a ejecutar debe estar indentado. Si usas algún editor de código, seguramente la indentación se producirá automáticamente al presionar enter. Nótese que el bloque de código puede también contener más de una línea, es decir puede contener más de una instrucción.
 
-if  b  !=  0:  c  =  a/b  d  =  c  +  1  print(d)
-
-Todo lo que vaya después del `if` y esté indentado, será parte del bloque de código que se ejecutará si la condición se cumple. Por lo tanto el segundo `print()` “Fuera if” será ejecutado siempre, ya que está fuera del bloque `if`.
-
-Se puede también combinar varias condiciones entre el `if` y los `:`. Por ejemplo, se puede requerir que un número sea mayor que 5 y además menor que 15. Tenemos en realidad tres operadores usados conjuntamente, que serán evaluados por separado hasta devolver el resultado final, que será `True` si la condición se cumple o `False` de lo contrario.
 
 Se puede usar también de manera conjunta todo, el `if` con el `elif` y un `else` al final. Es muy importante notar que `if` y `else` solamente puede haber uno, mientras que `elif` puede haber varios.
 
@@ -950,11 +954,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODYwMDg4NjUsMjA4NTA4NDM2NywtMT
-MzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3
-NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMT
-E3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4
-NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC
-0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1
-MDY2NzIwXX0=
+eyJoaXN0b3J5IjpbMTY0NjIyMzIzLDIwODUwODQzNjcsLTEzMz
+AzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODksMjM3MjE0NzQ5
+LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NSwtMjExNz
+Y1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0ODY2
+LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5MSwtMT
+I4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5NTA2
+NjcyMF19
 -->
