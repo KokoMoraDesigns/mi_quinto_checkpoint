@@ -162,7 +162,7 @@ Estructura del bucle *for*:
    
     for 'variable' in 'iterable':
 
-	    'código a ejecutar'
+	    'bloque de código a ejecutar'
 
 
 
@@ -189,9 +189,18 @@ Estructura del bucle *while*:
    
     while 'condición':
 
-	    'bloque de código'
+	    'bloque de código a ejecutar'
 
+También puedes incluir 
 
+```
+x = 5
+while x > 0:
+    x -=1
+    print(x) #4,3,2,1,0
+else:
+    print("El bucle ha finalizado")
+```
 
 En la operación del bucle *while*, tras cada iteración volvía a analizarse si 'horchata' seguía siendo mayor que 0, para decidir si volvía a ejecutarse el código, o no; en la operación del bucle *for*, el **iterable** era el que decidía el número de veces en que se ejecutaría el código.
 
@@ -907,11 +916,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODU3NjI5MTAsMjU0Nzk3NCwxNjU0ND
-M4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUz
-LDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNT
-k4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3
-OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC
-0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEw
-OTgwMjU5MThdfQ==
+eyJoaXN0b3J5IjpbLTIzNzMwNjk5LDI1NDc5NzQsMTY1NDQzOD
+A0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1Mywx
+NTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5OD
+Q4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5
+NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMT
+EzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4
+MDI1OTE4XX0=
 -->
