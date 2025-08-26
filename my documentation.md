@@ -389,14 +389,14 @@ Si la condición es verdadera, ejecutará el siguiente bloque de código, si la 
     
 	    if persona in personas_aceptaron and persona in personas_vacunadas:
 	    
-		    print(f'{persona} viene sin duda alguna')
+		    print(f'{persona} viene al viaje sin duda alguna')
 		    enviar_billetes.append(persona)
 		    
 	print(enviar_billetes)
 		    
 	
 
-
+El código indentado después de *if* forma parte del condicional, mientras que el resto del código se reproducirá 
 
 Se puede también combinar varias condiciones entre el `if` y los `:`. Por ejemplo, se puede requerir que un número sea mayor que 5 y además menor que 15. Tenemos en realidad tres operadores usados conjuntamente, que serán evaluados por separado hasta devolver el resultado final, que será `True` si la condición se cumple o `False` de lo contrario.
 
@@ -826,11 +826,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczNDkxMDksLTExNjE3MzI1MjAsMTk0Nz
-YxMjEzMSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2
-LDI0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MD
-A4MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2Nywt
-MTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMT
-Q3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1XX0=
-
+eyJoaXN0b3J5IjpbLTc3OTg5MzAwMywtMTE2MTczMjUyMCwxOT
+Q3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3
+NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2Mj
+YwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3
+LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNz
+IxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDVd
+fQ==
 -->
