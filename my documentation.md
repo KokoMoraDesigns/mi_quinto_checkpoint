@@ -177,14 +177,8 @@ Los bucles se utilizan para el código reiterativo, existiendo dos tipos princip
 			1
 			0
 
+En esta operación, tras cada iteración se volvía a analizar si horchata > 0
 
-
-
--   **Utilidad:** Útiles cuando no se conoce de antemano cuántas veces se ejecutará el código, como solicitar entrada de usuario hasta que se ingrese un valor válido o realizar operaciones hasta que se cumpla una condición.
-En resumen:
-
--   `for`: Iteración sobre secuencias conocidas.
--   `while`: Iteración condicionada a una condición.
 
 
 Mientras que en el while la condición era evaluada en cada iteración para decidir si volver a ejecutar o no el código, en el  `for`  no existe tal condición, sino un  `iterable`  que define las veces que se ejecutará el código. En el siguiente ejemplo vemos un bucle  `for`  que se ejecuta 5 veces, y donde la  `i`  incrementa su valor “automáticamente” en 1 en cada iteración.
@@ -874,7 +868,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTA5NjQwODksMTY1NDQzODA0NSwtMj
+eyJoaXN0b3J5IjpbLTEwMTMwODE0NjcsMTY1NDQzODA0NSwtMj
 ExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0
 ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5MS
 wtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5
