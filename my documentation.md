@@ -439,7 +439,7 @@ Una sentencia condicional puede contener en su interior otro bloque con otra sen
 		if idiomas >=5:
 			print(f'tienes una media de {idiomas} en idiomas, estás almacenando mucho conocimiento para viajar por el mundo')
 		else:
-			print(f'tienes una media de {idiomas} en idiomas, ¿crees que necesitas refuerzo o prefieres 
+			print(f'tienes una media de {idiomas} en idiomas, ¿crees que necesitas refuerzo o prefieres investigar qué otras áreas puedes estudiar?')
 
 
 > **MEJORES PRÁCTICAS:**
@@ -818,7 +818,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODk1ODE0MSwtMTE2MTczMjUyMCwxOT
+eyJoaXN0b3J5IjpbMTk0NTgyODY5MSwtMTE2MTczMjUyMCwxOT
 Q3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3
 NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2Mj
 YwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3
