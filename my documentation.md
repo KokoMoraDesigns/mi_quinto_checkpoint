@@ -249,7 +249,7 @@ En la operación anterior, 'perros' equivale al **iterable**, es decir, al objet
 
 Si estás trabajando con un objeto iteradle que, en su interior, contiene otro objeto iterable, puedes crear un bucle *for* anidado. Por ejemplo:
 
-    mi_cine = [['us', 'oddity', 'seven veils', 'heretic', 'the shining'], ['bottoms', 'bullet train', 'the blackening', 'heathers']]
+    mi_cine = [terror['us', 'oddity', 'seven veils', 'heretic', 'the shining'], comedia['bottoms', 'bullet train', 'the blackening', 'heathers']]
     
     
     for genero in mi_cine:
@@ -828,11 +828,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTI4MzE3MTYsMjUwNTQzNDk4LC0xND
-E4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIx
-Miw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MD
-g0MzY3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5
-LDIzNzIxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0Mz
-gwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTNd
-fQ==
+eyJoaXN0b3J5IjpbMTQ0OTQyMTkwLDI1MDU0MzQ5OCwtMTQxOD
+AzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIs
+NjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4ND
+M2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwy
+MzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MD
+Q1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzXX0=
+
 -->
