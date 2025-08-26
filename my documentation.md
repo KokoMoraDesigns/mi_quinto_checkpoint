@@ -337,7 +337,7 @@ También puedes iterar una cadena **saltando elementos**:
 
 ## Condicional
 
-Se ejecutarán bloques de código diferentes en dependencia de si una condición determinada resulta ser verdadera o resulta ser falsa, esto le da independencia al programa para tomar decisiones *(de hecho, también se puede llamar sentencia de decisión a la sentencia condicional)* según el contexto en que se encuentre. Es decir:
+Se ejecutarán bloques de código diferentes en dependencia de si una condición determinada resulta ser verdadera o resulta ser falsa, esto le da independencia al programa para tomar decisiones *(de hecho, a la sentencia condiciónal también se puede llamar sentencia de decisión)* según el contexto en que se encuentre. Es decir:
 
    
     
@@ -349,8 +349,10 @@ Se ejecutarán bloques de código diferentes en dependencia de si una condición
     
 	    print('es aconsejable que la policía no te vea bebiendo alcohol')
 	    
+	    
 	 edad = 25 (es decir, la condicion 'if' es verdadera) --> salida: puedes beber alcohol delante de la policía 
-	 edad = 25 (es decir, la condicion 'if' es verdadera) --> salida: puedes beber alcohol delante de la policía
+	 
+	 edad = 17 (es decir, la condicion 'if' es falsa) --> salida: es aconsejable que la policía no te vea bebiendo alcohol
 
 
 
@@ -939,11 +941,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2NDA5Mzc1LDE5ODExNTEyODksMjM3Mj
-E0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NSwt
-MjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mz
-g0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5
-MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLD
-Y5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMTEzMjI3
-MjYwNV19
+eyJoaXN0b3J5IjpbNjM2OTc4NSw4MTY0MDkzNzUsMTk4MTE1MT
+I4OSwyMzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0
+NDM4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5Mz
+UzLDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwx
+NTk4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05Mz
+U3OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3
+XX0=
 -->
