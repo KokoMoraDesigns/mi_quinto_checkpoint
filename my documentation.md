@@ -48,12 +48,14 @@ El argumento **se declara al definir la función**, por eso más adelante no es 
     
     salida = print(sum(4,b,c)) = 4 + 8 + 9 = 21
 
-   Los argumentos predeterminados deben ir a continuación de los no predeterminados.
-```
+   Los argumentos predeterminados **deben ir a continuación de los no predeterminados.**
+
+
 
 
 #### Argumento arbitrario
 
+Los utilizas en funccuando no conoces de antemano el número exacto de argumentos que vas a incluir en la función. 
 Permiten a las funciones recibir un número variable de argumentos.`*args`  se utiliza para argumentos posicionales, mientras que  `**kwargs`  se utiliza para argumentos de palabra clave.
 
 
@@ -957,11 +959,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTQ0NTAzOTIsNjk1MDY2NzIwLDIwNT
-Y5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5
-NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgsLTEyMDc5NjY1MD
-ksLTIwMTk4NjU4Miw1NzUxNTY0MTYsNjI1MTE5MjY4LC04NjA3
-MzM3NTIsLTQ1NTQwMjg4MywtMTI0NjM0MDAwMSw3ODE0NTQyMy
-w0MTgyNjYwOCwtMTI2NDIxNDU1NiwxNjkyMDYwMzc2LC01NTAz
-NDc2MDVdfQ==
+eyJoaXN0b3J5IjpbLTIzMjc0MDI1OSw2OTUwNjY3MjAsMjA1Nj
+kyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0
+OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOS
+wtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDcz
+Mzc1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLD
+QxODI2NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0
+NzYwNV19
 -->
