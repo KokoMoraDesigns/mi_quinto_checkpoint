@@ -140,16 +140,14 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
 Los bucles se utilizan para el código reiterativo, existiendo dos tipos principales de bucles: *for* y *while*. 
 
 ### Bucle *for*
-Itera sob; el bucle *for* es útil cuando ya sabes el número de veces en que se va a repetir el código.
+Itera sobre una lista, tupla, cadena..., es útil cuando ya sabes el número de veces en que se va a repetir el código.
 
 ### Bucle *while*
-Útil cuando el número de veces en que el código se repita queda en dependencia de algún factor condicionante.
+Ejecuta un bloque de código mientras un factor condicionante sea verdadero, útil cuando el número de veces en que el código se repita queda en dependencia de algún factor condicionante.
 
 
 Bucles  `for`:
 
--   **Funcionamiento:** Iteran sobre una secuencia (como una lista, tupla, cadena, etc.) o sobre un rango de números.
--   **Ejemplo:**
     
 
 Python
@@ -866,7 +864,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTc5NDAxNSwxNDAzMDQ1NzA5LDQ3NT
+eyJoaXN0b3J5IjpbMTkzMzczNDc0MSwxNDAzMDQ1NzA5LDQ3NT
 UyOTM1MywxNTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4
 MTEsMTU5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNy
 wtOTM1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkx
