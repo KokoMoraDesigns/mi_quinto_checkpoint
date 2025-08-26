@@ -109,7 +109,7 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
 	
 	sum(b=8,a=4,d=5,c=9) --> 26 --> correcto
 	
-	sum(b=8,a=4,c=8,d=5) --> SyntaxError: positional argument follows keyword argument
+	sum(4,8,8,d=5) --> TypeError: sum() takes 2 positional arguments but 3 positional arguments (and 1 keyword-only argument) were given
 
 
 
@@ -864,7 +864,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzU2ODg2NDgsMTU5ODQ4NjI5MSwtMT
+eyJoaXN0b3J5IjpbLTExNzQ3MzU4MTEsMTU5ODQ4NjI5MSwtMT
 I4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5NTA2
 NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMTEzMjI3MjYwNS
 wtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0x
