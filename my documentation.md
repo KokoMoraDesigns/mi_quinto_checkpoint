@@ -462,10 +462,10 @@ Una sentencia condicional puede contener en su interior otro bloque con otra sen
     
     if amistades:
 	    print('te quiero, me haría muy feliz hacer un viaje contigo')
-	    else if personas_desconocidas:
-		    print('todavía no nos conocemos, pero me haría muy feliz poder profundizar en nuestra relación')
+	    else if personas_desgraciadamente_conocidas:
+		    print('me haría muy feliz no tener que volver a intercambiar una palabra contigo :)')
 		else:
-			print(
+			print('todavía no nos conocemos, pero me haría muy feliz charlar contigo para descubrir si conectamos')
 
 
 En este caso necesitarás utilizar una sentencia *if-elif-else*.
@@ -826,11 +826,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzMyMzIzMCwtMTE2MTczMjUyMCwxOT
-Q3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3
-NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2Mj
-YwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3
-LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNz
-IxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDVd
-fQ==
+eyJoaXN0b3J5IjpbMjAzMjQ2MjI1LC0xMTYxNzMyNTIwLDE5ND
+c2MTIxMzEsLTQwODI0MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1
+NiwyNDgyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEyLDYyNj
+AwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwODQzNjcs
+LTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODksMjM3Mj
+E0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NV19
+
 -->
