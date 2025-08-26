@@ -140,7 +140,7 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
 Los bucles se utilizan para el código reiterativo, existiendo dos tipos principales de bucles: *for* y *while*. 
 
 ### Bucle *for*
-Itera sobre una lista, tupla, cadena.... Es útil cuando ya sabes el número de veces en que se va a repetir el código y deseas imprimir el contenido de una colección o efectuar cálculos con número contenido en un rango determinado
+Itera sobre una lista, tupla, cadena.... Es útil cuando ya sabes el número de veces en que se va a repetir el código y deseas imprimir el contenido de una colección o efectuar cálculos con los números contenido en un rango ya determinado.
 
     mis_libros = ['amarilla', 'biciosas', 'la isla de las medusas', 'brillando']
     
@@ -152,8 +152,9 @@ Itera sobre una lista, tupla, cadena.... Es útil cuando ya sabes el número de 
 ### Bucle *while*
 Ejecuta un bloque de código mientras un factor condicionante sea verdadero, útil cuando el número de veces en que el código se repita queda en dependencia de algún factor condicionante.
 
-
--   **Utilidad:** Ideales para procesar cada elemento de una colección, como imprimir nombres de una lista o realizar cálculos con números dentro de un rango.
+    horchata = 7 
+    while horchata > 0:
+	    horchata -
 
 Bucles  `while`:
 
@@ -861,11 +862,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwNzc4MDYyLDE0MDMwNDU3MDksNDc1NT
-I5MzUzLDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgx
-MSwxNTk4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC
-05MzU3OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEz
-ODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTExOD
-IxLDEwOTgwMjU5MTgsLTEyMDc5NjY1MDksLTIwMTk4NjU4Miw1
-NzUxNTY0MTZdfQ==
+eyJoaXN0b3J5IjpbMTUwMTUzMDQ2NSwxNDAzMDQ1NzA5LDQ3NT
+UyOTM1MywxNTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4
+MTEsMTU5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNy
+wtOTM1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkx
+MzgzNywtMTEzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4NTExMT
+gyMSwxMDk4MDI1OTE4LC0xMjA3OTY2NTA5LC0yMDE5ODY1ODIs
+NTc1MTU2NDE2XX0=
 -->
