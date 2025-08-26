@@ -196,13 +196,13 @@ También puedes incluir la cláusula *else*, que entrará en acción una vez el 
 
     horchata = 7 
     
-    while horchata > 0:
+    while horchata > 1:
     
 	    horchata -=1
 	    print(horchata)
 	    
 	else:
-	    print('
+	    print('deberíamos comprar más horchata')
 	    
 	salida: 6
 			5
@@ -210,7 +210,7 @@ También puedes incluir la cláusula *else*, que entrará en acción una vez el 
 			3
 			2
 			1
-			0
+			deberíamos comprar más horchata
 
 
 
@@ -938,11 +938,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDM3MTI1MiwyNTQ3OTc0LDE2NTQ0Mz
-gwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMs
-MTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OT
-g0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5
-OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLT
-ExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5
-ODAyNTkxOF19
+eyJoaXN0b3J5IjpbLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0ND
+M4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUz
+LDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNT
+k4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3
+OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC
+0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEw
+OTgwMjU5MThdfQ==
 -->
