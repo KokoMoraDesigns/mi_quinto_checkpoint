@@ -375,15 +375,15 @@ Una condicional permite que se ejecuten bloques de código diferentes en depende
 
 Si la condición es verdadera, ejecutará el siguiente bloque de código, si la condición es falsa, no la ejecutará. Puede haber una condición, o múltiples condiciones.
 
-    personas_invitadas = [persona_uno, persona_dos, persona_tres, persona_cuatro, persona_cinco, persona_seis, persona_siete]
+    personas_invitadas = ['persona_uno', 'persona_dos', 'persona_tres', 'persona_cuatro', 'persona_cinco', 'persona_seis', 'persona_siete']
     
-    personas_aceptaron = [persona_uno, persona_cuatro, persona_cinco, persona_seis]
+    personas_aceptaron = ['persona_uno', 'persona_cuatro', 'persona_cinco', 'persona_seis']
     
     
     for persona in personas_invitadas:
     
 	    if persona in personas_aceptaron:
-		    print(f'{persona} ha confirmado que viene al viaje)
+		    print(f'{persona} ha confirmado que viene al viaje')
 		    
 	print('Quiénes venimos')
 
@@ -832,7 +832,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTk3NDQwMiwtNDA4MjQwNzI0LDI1MD
+eyJoaXN0b3J5IjpbMTk0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MD
 U0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEs
 LTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2Mj
 IzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUs
