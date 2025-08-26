@@ -177,7 +177,7 @@ Los bucles se utilizan para el código reiterativo, existiendo dos tipos princip
 			1
 			0
 
-En esta operación, tras cada iteración volvía a analizarse si horchata seguía siendo mayor que 0, para decidir si volvía a ejecutarse el código
+En esta operación, tras cada iteración volvía a analizarse si 'horchata' seguía siendo mayor que 0, para decidir si volvía a ejecutarse el código, o no.
 
 
 
@@ -868,7 +868,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTczNDU3LDE2NTQ0MzgwNDUsLTIxMT
+eyJoaXN0b3J5IjpbOTg3MTg0MjczLDE2NTQ0MzgwNDUsLTIxMT
 c2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMsMTU4ODM4NDg2
 NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OTg0ODYyOTEsLT
 EyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5OTQ0MSw2OTUw
