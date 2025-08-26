@@ -38,23 +38,6 @@ Existe la posibilidad de combinar en una llamada a la función argumentos posici
 
 
 
-
-*En Python, un argumento es un valor que se pasa a una función durante una llamada. Los argumentos son entradas que indican a las funciones qué salida deben dar
-son los valores que se pasan a una función cuando se llama, mientras que los parámetros son los nombres que se utilizan para definir esos valores en la declaración de la función. Los argumentos pueden ser de diferentes tipos: posicionales, de palabra clave, predeterminados, y también existen mecanismos para pasar un número variable de argumentos.*
-
-
-def  f(a=2,  /):  
-	pass  
-
-f()  # Allowed, argument is optional  
-
-f(1)  # Allowed, it's a positional argument  
-
-f(a=1)  # Error, positional only argument
-
-
-def  f(a):  pass  f()  # Error, argument required  f(1)  # Allowed, it's a positional argument  f(a=1)  # Allowed, it's a keyword argument  # De hecho esta funcion equivale a:  def  f(*,  a,  /):  pass
-
 #### Argumento predeterminado
     
     Son argumentos que tienen un valor predefinido y se pueden omitir en la llamada a la función.
@@ -122,6 +105,24 @@ Output:
 ('fruits', 'apple')
 '''
 ```
+*En Python, un argumento es un valor que se pasa a una función durante una llamada. Los argumentos son entradas que indican a las funciones qué salida deben dar
+son los valores que se pasan a una función cuando se llama, mientras que los parámetros son los nombres que se utilizan para definir esos valores en la declaración de la función. Los argumentos pueden ser de diferentes tipos: posicionales, de palabra clave, predeterminados, y también existen mecanismos para pasar un número variable de argumentos.*
+
+
+def  f(a=2,  /):  
+	pass  
+
+f()  # Allowed, argument is optional  
+
+f(1)  # Allowed, it's a positional argument  
+
+f(a=1)  # Error, positional only argument
+
+
+def  f(a):  pass  f()  # Error, argument required  f(1)  # Allowed, it's a positional argument  f(a=1)  # Allowed, it's a keyword argument  # De hecho esta funcion equivale a:  def  f(*,  a,  /):  pass
+
+
+
 
 #### Los argumentos predeterminados deben seguir a los argumentos no predeterminados
 
@@ -961,11 +962,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTEzODM3LC0xMTMyMjcyNjA1LC0xMT
-EzNzY5NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgsLTEyMDc5
-NjY1MDksLTIwMTk4NjU4Miw1NzUxNTY0MTYsNjI1MTE5MjY4LC
-04NjA3MzM3NTIsLTQ1NTQwMjg4MywtMTI0NjM0MDAwMSw3ODE0
-NTQyMyw0MTgyNjYwOCwtMTI2NDIxNDU1NiwxNjkyMDYwMzc2LC
-01NTAzNDc2MDUsNzk1ODE5MDEwLC0yMTA3MTk4NTE0LC0yMjA2
-NjU0NDldfQ==
+eyJoaXN0b3J5IjpbMjA1NjkyNTAxOSwxMzc5MTM4MzcsLTExMz
+IyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAy
+NTkxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNi
+w2MjUxMTkyNjgsLTg2MDczMzc1MiwtNDU1NDAyODgzLC0xMjQ2
+MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4LC0xMjY0MjE0NTU2LD
+E2OTIwNjAzNzYsLTU1MDM0NzYwNSw3OTU4MTkwMTAsLTIxMDcx
+OTg1MTRdfQ==
 -->
