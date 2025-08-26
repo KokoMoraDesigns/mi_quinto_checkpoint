@@ -156,6 +156,15 @@ Los bucles se utilizan para el código reiterativo, existiendo dos tipos princip
 			brillando
 
 
+En un bucle *for*, lo que coloques después de 'in' equivaldrá al iterable.
+
+    ESTRUCTURA DEL BUCLE FOR:
+    
+
+    for 'variable' in 'iterable':
+    
+	    'código a ejecutar'
+
 
 
 ### Bucle *while*
@@ -194,11 +203,6 @@ En la operación del bucle *while*, tras cada iteración volvía a analizarse si
 
 En la operación anterior, 'perros' equivale al **iterable**, es decir, al objeto que va a ser iterado *(e indexado, es decir, que podrás acceder al mismo mediante un índice)* en la operación. 
 
-En un bucle *for*, lo que coloques después de 'in' equivaldrá al iterable, es decir, la estructura de un bucle *for* es la siguiente:
-
-    for 'variable' in 'iterable':
-    
-	    'código a ejecutar'
 
 
 
@@ -866,11 +870,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDU5NTQ3MSwxNjU0NDM4MDQ1LC0yMT
-E3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4
-NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC
-0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1
-MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNj
-A1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgs
-LTEyMDc5NjY1MDldfQ==
+eyJoaXN0b3J5IjpbOTM0MTU1ODQwLDE2NTQ0MzgwNDUsLTIxMT
+c2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMsMTU4ODM4NDg2
+NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OTg0ODYyOTEsLT
+EyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5OTQ0MSw2OTUw
+NjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MD
+UsLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwt
+MTIwNzk2NjUwOV19
 -->
