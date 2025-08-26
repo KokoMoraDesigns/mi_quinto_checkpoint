@@ -82,7 +82,7 @@ son los valores que se pasan a una función cuando se llama, mientras que los pa
 
 
 > **MEJORES PRÁCTICAS:**
-> Restringir de qué manera pueden pasarse los argumentos, de modo que solo sea necesario mirar la definición de la función para conocer con qué tipo de parámetros estamos trabajando, solo posicionales, solo por palabra clave, o una mezcla de ambos.
+> Que solo sea necesario mirar la definición de la función para conocer con qué tipo de parámetros estamos trabajando, solo posicionales, solo por palabra clave, o una mezcla de ambos.
 
 
 
@@ -883,11 +883,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDMyOTkxMDcsLTkzNTc5OTQ0MSw2OT
-UwNjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2
-MDUsLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOC
-wtMTIwNzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUx
-MTkyNjgsLTg2MDczMzc1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMD
-AxLDc4MTQ1NDIzLDQxODI2NjA4LC0xMjY0MjE0NTU2LDE2OTIw
-NjAzNzZdfQ==
+eyJoaXN0b3J5IjpbLTE1ODA0OTA3MzEsLTE2MDMyOTkxMDcsLT
+kzNTc5OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4
+MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUxMTE4Mj
+EsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NTgyLDU3
+NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1MiwtNDU1NDAyOD
+gzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4LC0xMjY0
+MjE0NTU2XX0=
 -->
