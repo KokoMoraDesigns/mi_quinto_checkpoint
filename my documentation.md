@@ -32,7 +32,7 @@ El orden en que se incluyen los argumentos al declarar la función **no es relev
 
 Existe la posibilidad de combinar en una llamada a la función argumentos posicionales y de palabras clave, en cuyo caso, **los argumentos posicionales deben ir al principio** de la declaración --> sum(a=4,8,9) : ¡error! 
 
-    def sum (4,c=9,b=8)
+    def sum (4,c=9,b=8):
     
     salida = print(sum(4, c=9, b=8)) = 21
 
@@ -42,7 +42,7 @@ Existe la posibilidad de combinar en una llamada a la función argumentos posici
 
 El argumento **se declara al definir la función**, por eso más adelante no es necesario incluir dicho argumento en la llamada de la función (si en la llamada incluyeras otro valor para ese argumento, estarías sobreescribiendo el que declaraste al principio.
 
-    def sum(a,b=8,c=9)
+    def sum(a,b=8,c=9):
     
 	    return a+b+c
     
@@ -61,7 +61,7 @@ Los utilizas en funciones con argumentos variables, cuando no conoces de anteman
 
 ***args** hace referencia a argumentos posicionales (incluyes un asterisco antes del parámetro variables), y ****kwargs** a argumentos de palabra clave (incluyes dos asteriscos antes del parámetro variable).
 
-    def sum(a,*b)
+    def sum(a,*b):
     
 	    return a+b
 	    
@@ -89,7 +89,7 @@ son los valores que se pasan a una función cuando se llama, mientras que los pa
 Separas mediante '/' los parámetros obligatoriamente posicionales (que *quedan a la izquierda del signo*) del resto, que podrán ser tanto posicionales como de palabra clave.
 
 
-    def sum(a,b,/,c,d)
+    def sum(a,b,/,c,d):
     
 	    return a+b+c+d
 	    
@@ -105,7 +105,7 @@ Separas mediante '/' los parámetros obligatoriamente posicionales (que *quedan 
 
 Separas mediante un asterisco los parámetros obligatoriamente de palabras clave (que *quedan a la derecha del signo*) del resto, que podrán ser tanto posicionales como de palabra clave.
 
-    def sum(a,b,*,c,d)
+    def sum(a,b,*,c,d):
     
 	    return a+b+c+d
 	    
@@ -877,11 +877,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzI2MzE1MTUsLTEyODgyMTg2ODMsLT
-E2MDMyOTkxMDcsLTkzNTc5OTQ0MSw2OTUwNjY3MjAsMjA1Njky
-NTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OT
-YsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwt
-MjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMz
-c1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQx
-ODI2NjA4XX0=
+eyJoaXN0b3J5IjpbMjA0MzU3MTk1MSwtMTI4ODIxODY4MywtMT
+YwMzI5OTEwNywtOTM1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1
+MDE5LDEzNzkxMzgzNywtMTEzMjI3MjYwNSwtMTExMzc2OTQ5Ni
+wtMTY4NTExMTgyMSwxMDk4MDI1OTE4LC0xMjA3OTY2NTA5LC0y
+MDE5ODY1ODIsNTc1MTU2NDE2LDYyNTExOTI2OCwtODYwNzMzNz
+UyLC00NTU0MDI4ODMsLTEyNDYzNDAwMDEsNzgxNDU0MjMsNDE4
+MjY2MDhdfQ==
 -->
