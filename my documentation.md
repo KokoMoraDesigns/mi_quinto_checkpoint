@@ -222,7 +222,7 @@ Estructura del bucle *while/else*:
 	
 		'nuevo código a ejecutar'
 
-En la operación del bucle *while*, tras cada iteración volvía a analizarse si 'horchata' seguía siendo mayor que 0, para decidir si volvía a ejecutarse el código, o no; en la operación del bucle *for*, el **iterable** era el que decidía el número de veces en que se ejecutaría el código.
+En la operación del bucle *while* y *while/else*, tras cada iteración volvía a analizarse si 'horchata' seguía siendo mayor que 1, para decidir si volver a ejecutar el código o no; en la operación del bucle *for*, el iterable era el que decidía el número de veces en que se ejecutaría el código.
 
     for i in 'perros':
     
@@ -936,11 +936,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDgxMzg1NiwtMTM0MjQ1MjAwMywyNT
-Q3OTc0LDE2NTQ0MzgwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcw
-OSw0NzU1MjkzNTMsMTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMT
-c0NzM1ODExLDE1OTg0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMy
-OTkxMDcsLTkzNTc5OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOS
-wxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2
-ODUxMTE4MjFdfQ==
+eyJoaXN0b3J5IjpbODExMzkxNDE0LC0xMzQyNDUyMDAzLDI1ND
+c5NzQsMTY1NDQzODA0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5
+LDQ3NTUyOTM1MywxNTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNz
+Q3MzU4MTEsMTU5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5
+OTEwNywtOTM1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LD
+EzNzkxMzgzNywtMTEzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4
+NTExMTgyMV19
 -->
