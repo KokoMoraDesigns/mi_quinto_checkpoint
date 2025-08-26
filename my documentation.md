@@ -460,12 +460,12 @@ Una sentencia condicional puede contener en su interior otro bloque con otra sen
     
     personas_desgraciadamente_conocidas = ['persona_siete', 'persona_ocho']
     
-    if seres_queridos:
+    if persona in seres_queridos:
 	    print('te quiero, me haría muy feliz hacer un viaje contigo')
-	    else if personas_desgraciadamente_conocidas:
-		    print('me haría muy feliz no tener que volver a intercambiar una palabra contigo :)')
-		else:
-			print('todavía no nos conocemos, pero me haría muy feliz charlar contigo para descubrir si conectamos')
+	elif personapersonas_desgraciadamente_conocidas:
+		print('me haría muy feliz no tener que volver a intercambiar una palabra contigo :)')
+	else:
+		print('todavía no nos conocemos, pero me haría muy feliz charlar contigo para descubrir si conectamos')
 
 
 En este caso necesitarás utilizar una sentencia *if-elif-else*.
@@ -826,11 +826,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMT
-k0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAz
-NzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNj
-I2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2
-NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMz
-cyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1
-XX0=
+eyJoaXN0b3J5IjpbLTE2OTU3NjMxMjIsLTE5MDMwNTk5MzUsLT
+ExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0
+MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLT
+ExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIz
+MjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMT
+k4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3
+NF19
 -->
