@@ -93,7 +93,7 @@ Separas mediante '/' los parámetros obligatoriamente posicionales (que *quedan 
 	
 	sum(4,8,d=5,c=9) --> 26 --> correcto
 	
-	sum(b=8,a=4,8,9) --> SyntaxError: positional argument follows keyword argument
+	sum(b=8,a=4,c=8,d=9) --> SyntaxError: positional argument follows keyword argument
 
 
 **Trabajando con argumentos obligatoriamente de palabras clave**
@@ -109,7 +109,7 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
 	
 	sum(b=8,a=4,d=5,c=9) --> 26 --> correcto
 	
-	sum(b=8,a=4,8,9) --> SyntaxError: positional argument follows keyword argument
+	sum(b=8,a=4,c=8,d=9) --> SyntaxError: positional argument follows keyword argument
 
 
 
@@ -864,7 +864,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTYyNDQ1LDE1OTg0ODYyOTEsLTEyOD
+eyJoaXN0b3J5IjpbNDIwNjg5ODA1LDE1OTg0ODYyOTEsLTEyOD
 gyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5OTQ0MSw2OTUwNjY3
 MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MDUsLT
 ExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIw
