@@ -97,12 +97,24 @@ Separas mediante '/' los parámetros obligatoriamente posicionales (que *quedan 
 	print(sum(4,8,9,5)) --> correcto
 	
 	print(sum(4,8,d=5,c=9)) --> correcto
+	
 	print(sum(b=8,a=4,8,9)) --> TypeError: sum() got some positional-only arguments passed as keyword
 
 
 **Trabajando con argumentos obligatoriamente de palabras clave**
 
 Separas mediante un asterisco los parámetros obligatoriamente de palabras clave (que *quedan a la derecha del signo*) del resto, que podrán ser tanto posicionales como de palabra clave.
+
+    def sum(a,b,*,c,d)
+    
+	    return a+b+c+d
+	    
+	    
+	print(sum(4,8,c=9,d=5)) --> correcto
+	
+	print(sum(b=8,a=4,d=5,c=9)) --> correcto
+	
+	print(sum(b=8,a=4,8,9)) --> TypeError: sum() got some positional-only arguments passed as keyword
 
 
 ```
@@ -873,7 +885,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MTkxMTUxOCwtMTYwMzI5OTEwNywtOT
+eyJoaXN0b3J5IjpbLTc3MTgxMjE1NSwtMTYwMzI5OTEwNywtOT
 M1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgz
 NywtMTEzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMS
 wxMDk4MDI1OTE4LC0xMjA3OTY2NTA5LC0yMDE5ODY1ODIsNTc1
