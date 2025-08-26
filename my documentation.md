@@ -339,16 +339,16 @@ También puedes iterar una cadena **saltando elementos**:
 
 La orden *break* interrumpirá el bucle de inmediato y pasará a ejecutar la siguiente línea del código:
 
-    cuadrados = []
+  
     
-	    for num in range(8):
+	for num in range(8):
     
-		    cuadrados.append(num**2)
-		    print(cuadrados)
+		cuadrados = num**2
+		print(cuadrados)
 		    
-		    if cuadrados == 16:
-			    break
-			    print('lo encontramos')
+		if cuadrados == 16:
+			break
+			print('lo encontramos')
 
     
 
@@ -880,7 +880,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1MTIwMTU4LC0xMTEwNjk0MjEyLDYyNj
+eyJoaXN0b3J5IjpbNjYwODM2MTExLC0xMTEwNjk0MjEyLDYyNj
 AwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwODQzNjcs
 LTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODksMjM3Mj
 E0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NSwt
