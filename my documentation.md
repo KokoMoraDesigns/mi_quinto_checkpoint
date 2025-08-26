@@ -189,7 +189,7 @@ Estructura del bucle *while*:
    
     while 'condición':
 
-	    'código a ejecutar'
+	    'bloque de código'
 
 
 
@@ -305,18 +305,6 @@ También puedes iterar una cadena **saltando elementos**:
 
 
 
-cuadrados  =  []  
-	for  i  in  range(5):  
-		cuadrados.append(i**2)  
-#[0, 1, 4, 9, 16]
-
-
-x  =  5  while  x  >  0:  x  -=1  print(x)  # Salida: 4,3,2,1,0
-
-En el ejemplo anterior tenemos un caso sencillo de  `while`. Tenemos una condición  `x>0`  y un bloque de código a ejecutar mientras dure esa condición  `x-=1`  y  `print(x)`. Por lo tanto mientras que  `x`  sea mayor que 0, se ejecutará el código. Una vez se llega al final, se vuelve a empezar y si la condición se cumple, se ejecuta otra vez. En este caso se entra al bloque de código 5 veces, hasta que en la sexta,  `x`  vale cero y por lo tanto la condición ya no se cumple. Por lo tanto el  `while`  tiene dos partes:
-
--   La  **condición**  que se tiene que cumplir para que se ejecute el código.
--   El  **bloque de código**  que se ejecutará mientras la condición se cumpla.
 
 
 Algo no muy corriente en otros lenguajes de programación pero si en Python, es el uso de la cláusula  `else`  al final del  `while`. Podemos ver el ejemplo anterior mezclado con el  `else`. La sección de código que se encuentra dentro del  `else`, se ejecutará cuando el bucle termine, pero solo si lo hace “por razones naturales”. Es decir, si el bucle termina porque la condición se deja de cumplir, y no porque se ha hecho uso del  `break`.
@@ -919,11 +907,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0NTU5MjgzLDI1NDc5NzQsMTY1NDQzOD
-A0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1Mywx
-NTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5OD
-Q4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5
-NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMT
-EzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4
-MDI1OTE4XX0=
+eyJoaXN0b3J5IjpbLTE0ODU3NjI5MTAsMjU0Nzk3NCwxNjU0ND
+M4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUz
+LDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNT
+k4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3
+OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC
+0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEw
+OTgwMjU5MThdfQ==
 -->
