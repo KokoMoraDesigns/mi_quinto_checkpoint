@@ -297,10 +297,10 @@ También puedes iterar una cadena **saltando elementos**:
     
     for num in range(8):
     
-	    cuadrados.append(i**2)
+	    cuadrados.append(num**2)
 	    
 
-	cuadrados = 
+	cuadrados = [0, 1, 4, 9, 16, 25, 36, 49]
 
 
 
@@ -919,11 +919,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjE4MjA3NjgsMjU0Nzk3NCwxNjU0ND
-M4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUz
-LDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNT
-k4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3
-OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC
-0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEw
-OTgwMjU5MThdfQ==
+eyJoaXN0b3J5IjpbNzM0NTU5MjgzLDI1NDc5NzQsMTY1NDQzOD
+A0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1Mywx
+NTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5OD
+Q4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5
+NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMT
+EzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4
+MDI1OTE4XX0=
 -->
