@@ -417,9 +417,16 @@ Una sentencia *if* o *if-else* contiene en su interior otro bloque con una sente
 ### Sentencia condicional no binaria
 
 
-amistades = ['persona_uno', 'persona_dos', 'persona_tres']
-personas_desconocidas = ['persona_cuatro', 'persona_cinco', 'persona_tres']
-personas_desgraciadamente_conocidas = 
+    amistades = ['persona_uno', 'persona_dos', 'persona_tres']
+    
+    personas_desconocidas = ['persona_cuatro', 'persona_cinco', 'persona_seis']
+    
+    personas_desgraciadamente_conocidas = ['persona_siete', 'persona_ocho']
+    
+    if amistades:
+	    print('me haría muy feliz hacer un viaje contigo en mi cumpleaños')
+
+
 En este caso necesitarás utilizar una sentencia *if-elif-else*.
 
  `if-elif-else`:
@@ -939,11 +946,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NzEwODI2NSwxNjQ2MjIzMjMsMjA4NT
-A4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4
-OSwyMzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0ND
-M4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUz
-LDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNT
-k4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3
-OTk0NDFdfQ==
+eyJoaXN0b3J5IjpbLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MD
+g0MzY3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5
+LDIzNzIxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0Mz
+gwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMs
+MTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OT
+g0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5
+OTQ0MV19
 -->
