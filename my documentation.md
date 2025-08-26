@@ -386,9 +386,9 @@ Una sentencia *if* o *if-else* contiene en su interior otro bloque con una sente
    >- La indentación es extremadamente importante para definir el alcance de cada sentencia condicional.
    
 
+### Sentencias condicionales no binarias
 
-
-En una sentencia IF anidada, la indentación que permite **definir el alcance de cada sentencia** es esencial. El número de anidaciones posibles es ilimitado, pero cada una de ellas reduce la optimización del programa y lo hace más complejo de leer y entender. Por lo tanto, es mejor **reducir al mínimo el número de anidaciones**.
+En este caso necesitarás utilizar una sentencia if
 
 Las sentencias IF e If-else solo son útiles para **situaciones binarias**. En el caso de un problema condicional múltiple, se utiliza la sentencia «if-elif-else».
 
@@ -950,11 +950,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTM4NTY4NzcsMjA4NTA4NDM2NywtMT
-MzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3
-NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMT
-E3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4
-NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC
-0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1
-MDY2NzIwXX0=
+eyJoaXN0b3J5IjpbMTIwNTc5MjMwMiwyMDg1MDg0MzY3LC0xMz
+MwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNzIxNDc0
+OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDUsLTIxMT
+c2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMsMTU4ODM4NDg2
+NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OTg0ODYyOTEsLT
+EyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5OTQ0MSw2OTUw
+NjY3MjBdfQ==
 -->
