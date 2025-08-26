@@ -354,8 +354,8 @@ La orden *break* interrumpirá el bucle de inmediato y, en caso de existir, pasa
 
 #### Bucle con orden *continue*		  
  
-
-Concretamente,  `continue`  se salta todo el código restante en la iteración actual y vuelve al principio en el caso de que aún queden iteraciones por completar.
+ En lugar de interrumpir la ejecución del código, la orden *continue* lo que hará será saltarse el valor que le indiques y continuar reproduciendo el resto del código.
+peliculas_por_ver = ['us', 'oddity', 'seven veils', 'heretic', 'the shining']
 
 La diferencia entre el  `break`  y  `continue`  es que el  `continue`  no rompe el bucle, si no que pasa a la siguiente iteración saltando el código pendiente.
 
@@ -830,11 +830,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNTIxMDE1MSwyNTA1NDM0OTgsLTE0MT
-gwMzc1NiwyNDgyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEy
-LDYyNjAwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwOD
-QzNjcsLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODks
-MjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzOD
-A0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1M119
+eyJoaXN0b3J5IjpbNzc5NjQ4MTMsMjUwNTQzNDk4LC0xNDE4MD
+M3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2
+MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0Mz
+Y3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIz
+NzIxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwND
+UsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTNdfQ==
 
 -->
