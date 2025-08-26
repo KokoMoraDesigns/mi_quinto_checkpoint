@@ -91,27 +91,19 @@ Separas mediante '/' los parámetros obligatoriamente posicionales (que quedan a
 
     def sum(a,b,/,c,d)
     
-	    return a+b+c
+	    return a+b+c+d
 	    
 	    
 	print(sum(4,8,9,5)) --> correcto
 	
 	print(sum(4,8,d=5,c=9)) --> correcto
-	print(sum(b=8,a=4,8,9)) --> Type
+	print(sum(b=8,a=4,8,9)) --> TypeError: sum() got some positional-only arguments passed as keyword
+
+
+Trabajando con argumentos solo de pal
 
 
 
-
-
-Si especificamos argumentos de palabras clave solo para argumentos posicionales, se generará [TypeError](https://builtin-com.translate.goog/articles/typeerror-int-object-is-not-callable?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=rq) .
-
-```
-def add(a,b,/,c,d):
-    return a+b+c+d
-
-print (add(3,b=4,c=1,d=2))
-#Output:TypeError: add() got some positional-only arguments passed as keyword
-```
 
 argumentos solo de palabras clave:
 
@@ -885,11 +877,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwMjM5NTYyLC0xNjAzMjk5MTA3LC05Mz
-U3OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3
-LC0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLD
-EwOTgwMjU5MTgsLTEyMDc5NjY1MDksLTIwMTk4NjU4Miw1NzUx
-NTY0MTYsNjI1MTE5MjY4LC04NjA3MzM3NTIsLTQ1NTQwMjg4My
-wtMTI0NjM0MDAwMSw3ODE0NTQyMyw0MTgyNjYwOCwtMTI2NDIx
-NDU1Nl19
+eyJoaXN0b3J5IjpbLTIxMzg4NDc4OTksLTE2MDMyOTkxMDcsLT
+kzNTc5OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4
+MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUxMTE4Mj
+EsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NTgyLDU3
+NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1MiwtNDU1NDAyOD
+gzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4LC0xMjY0
+MjE0NTU2XX0=
 -->
