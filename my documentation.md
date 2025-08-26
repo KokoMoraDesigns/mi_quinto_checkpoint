@@ -475,9 +475,7 @@ Similar a *if*-*else*, solo que en lugar de una sola, examina múltiples condici
     
 ### Operador ternario
 
-Sirve para resumir el código en una sola línea, y se define de la siguiente manera:
-
-
+Resume el código en una sola línea, que se divide en tres partes difern
 
 
 >
@@ -810,7 +808,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTc3MjM2NSwtMTkwMzA1OTkzNSwtMT
+eyJoaXN0b3J5IjpbMTU3MTI1OTk3NSwtMTkwMzA1OTkzNSwtMT
 E2MTczMjUyMCwxOTQ3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQz
 NDk4LC0xNDE4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMT
 ExMDY5NDIxMiw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMy
