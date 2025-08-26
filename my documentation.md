@@ -380,7 +380,7 @@ Si la condición es verdadera, ejecutará el siguiente bloque de código, si la 
  
     personas_aceptaron = ['persona_uno', 'persona_cuatro', 'persona_cinco', 'persona_seis']
 
-	personas_vacunadas = ['persona_uno', 'persona_cuatro', 'persona_cinco']
+	personas_vacunadas = ['persona_uno', 'persona_dos', 'persona_cuatro', 'persona_cinco', 'persona_siete']
     
     enviar_billetes = []    
 
@@ -389,7 +389,7 @@ Si la condición es verdadera, ejecutará el siguiente bloque de código, si la 
     
 	    if persona in personas_aceptaron and persona in personas_vacunadas:
 	    
-		    print(f'{persona} ha confirmado que viene al viaje')
+		    print(f'{persona} viene sin duda alguna')
 		    enviar_billetes.append(persona)
 		    
 	print(enviar_billetes)
@@ -826,11 +826,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzY2MTA3MywtMTE2MTczMjUyMCwxOT
-Q3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3
-NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2Mj
-YwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3
-LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNz
-IxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDVd
-fQ==
+eyJoaXN0b3J5IjpbMzczNDkxMDksLTExNjE3MzI1MjAsMTk0Nz
+YxMjEzMSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2
+LDI0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MD
+A4MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2Nywt
+MTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMT
+Q3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1XX0=
+
 -->
