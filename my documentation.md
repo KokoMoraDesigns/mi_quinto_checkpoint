@@ -78,6 +78,7 @@ Un argumento variable **puede ir precedido por otros argumentos no variables.**
 *En Python, un argumento es un valor que se pasa a una función durante una llamada. Los argumentos son entradas que indican a las funciones qué salida deben dar
 son los valores que se pasan a una función cuando se llama, mientras que los parámetros son los nombres que se utilizan para definir esos valores en la declaración de la función. Los argumentos pueden ser de diferentes tipos: posicionales, de palabra clave, predeterminados, y también existen mecanismos para pasar un número variable de argumentos.*
 
+> **MEJORES PR´**
 
 Para mejorar la legibilidad y el rendimiento, conviene restringir la forma en que se pueden pasar los argumentos, de modo que un desarrollador solo tenga que consultar la definición de la función para determinar si los elementos se pasan por posición, por posición o palabra clave, o por palabra clave.
 
@@ -878,11 +879,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNTc5OTQ0MSw2OTUwNjY3MjAsMjA1Nj
-kyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0
-OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOS
-wtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDcz
-Mzc1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLD
-QxODI2NjA4LC0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0
-NzYwNV19
+eyJoaXN0b3J5IjpbLTEyODA3MjYyNDgsLTkzNTc5OTQ0MSw2OT
+UwNjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2
+MDUsLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOC
+wtMTIwNzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUx
+MTkyNjgsLTg2MDczMzc1MiwtNDU1NDAyODgzLC0xMjQ2MzQwMD
+AxLDc4MTQ1NDIzLDQxODI2NjA4LC0xMjY0MjE0NTU2LDE2OTIw
+NjAzNzZdfQ==
 -->
