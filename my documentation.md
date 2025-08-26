@@ -41,7 +41,7 @@ El argumento **se declara al definir la función**, por eso más adelante no es 
     
 	    return a+b+c
     
-    salida = print(sum(4,b,c)) = 4 + 8 + 9 = 21
+    sum(4,b,c) --> salida = 4 + 8 + 9 = 21
 
    Los argumentos predeterminados **deben ir a continuación de los no predeterminados** --> def sum(a=5,b,c) : *SyntaxError: parameter without a default follows parameter with a default*
 
@@ -60,7 +60,7 @@ Los utilizas en funciones con argumentos variables, cuando no conoces de anteman
     
 	    return a+b
 	    
-	salida = print(sum(4,8,9)) = 4 + 8 + 9 = 21
+	sum(4,8,9) --> salida = 4 + 8 + 9 = 21
 	
 	(en dicha salida 'a' equivale a 4, 'b' equivale a 8 y a 9)
 
@@ -871,11 +871,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzY5OTc5NjYsLTExNzQ3MzU4MTEsMT
-U5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1
-Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNy
-wtMTEzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwx
-MDk4MDI1OTE4LC0xMjA3OTY2NTA5LC0yMDE5ODY1ODIsNTc1MT
-U2NDE2LDYyNTExOTI2OCwtODYwNzMzNzUyLC00NTU0MDI4ODMs
-LTEyNDYzNDAwMDFdfQ==
+eyJoaXN0b3J5IjpbMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNT
+k4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3
+OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC
+0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEw
+OTgwMjU5MTgsLTEyMDc5NjY1MDksLTIwMTk4NjU4Miw1NzUxNT
+Y0MTYsNjI1MTE5MjY4LC04NjA3MzM3NTIsLTQ1NTQwMjg4Mywt
+MTI0NjM0MDAwMV19
 -->
