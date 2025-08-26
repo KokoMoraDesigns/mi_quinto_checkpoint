@@ -86,6 +86,8 @@ Un argumento variable **puede ir precedido por otros argumentos no variables.**
 
 > **MEJORES PRÁCTICAS:**
 > Restringir desde la definición de la función con qué tipos de argumentos se está trabajando, de modo que solo sea necesario mirar la función para comprender el funcionamiento de sus argumentos.
+> 
+>  Es aconsejable hacer uso de argumentos **obligatoriamente posicionales** cuando deseas imponer un orden al llamar a los argumentos de la función, y de argumentos **obligatoriamente de palabras clave** cuando los nombres de los parámetros sean significativos y apoyen a la correcta comprensión de la función (por ejemplo: *def name(first,last):* .
 
 **Trabajando con argumentos obligatoriamente posicionales**
 
@@ -128,7 +130,7 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
 	    
 	sum(4,8,9,d=5) --> salida: 26 --> 'a' y 'b' son argumentos obligatoriamente posicionales, 'c' posicional o de palabra clave, y 'd' obligatoriamente de palabra clave.
 
-> Es aconsejable hacer uso de argumentos **obligatoriamente posicionales** cuando deseas imponer un orden al llamar a los argumentos de la función, y de argumentos **obligatoriamente de palabras clave** cuando los nombres de los parámetros sean significativos y apoyen a la correcta comprensión de la función (por ejemplo: *def name(first,last):* .
+
 
 
 
@@ -857,11 +859,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1NTI5MzUzLDE1ODgzODQ4NjYsMjA4OD
-c1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC0xMjg4MjE4
-NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1MDY2NzIwLD
-IwNTY5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNjA1LC0xMTEz
-NzY5NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgsLTEyMDc5Nj
-Y1MDksLTIwMTk4NjU4Miw1NzUxNTY0MTYsNjI1MTE5MjY4LC04
-NjA3MzM3NTJdfQ==
+eyJoaXN0b3J5IjpbMTQwMzA0NTcwOSw0NzU1MjkzNTMsMTU4OD
+M4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OTg0ODYy
+OTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5OTQ0MS
+w2OTUwNjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLTExMzIy
+NzI2MDUsLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5ODAyNT
+kxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NTgyLDU3NTE1NjQxNiw2
+MjUxMTkyNjhdfQ==
 -->
