@@ -55,8 +55,12 @@ El argumento **se declara al definir la función**, por eso más adelante no es 
 
 #### Argumento arbitrario
 
-Los utilizas en funccuando no conoces de antemano el número exacto de argumentos que vas a incluir en la función. 
-Permiten a las funciones recibir un número variable de argumentos.`*args`  se utiliza para argumentos posicionales, mientras que  `**kwargs`  se utiliza para argumentos de palabra clave.
+Los utilizas en funciones con argumentos variables, cuando no conoces de antemano el número exacto de argumentos que vas a incluir en la función. 
+
+
+
+***args** lo utilizarás para argumentos posicionales, y ****kwargs** para argumentos de palabra clave.
+
 
 
 [Los argumentos de longitud variable](https://builtin-com.translate.goog/articles/python-variable-in-string?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=rq) también se conocen como argumentos arbitrarios. Si desconocemos de antemano el número de argumentos necesarios para la función, podemos usar argumentos arbitrarios. Estos argumentos son de dos tipos: argumentos posicionales arbitrarios y argumentos de palabras clave arbitrarios.
@@ -959,7 +963,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjc0MDI1OSw2OTUwNjY3MjAsMjA1Nj
+eyJoaXN0b3J5IjpbMTA4MjYxMTIwMCw2OTUwNjY3MjAsMjA1Nj
 kyNTAxOSwxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0
 OTYsLTE2ODUxMTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOS
 wtMjAxOTg2NTgyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDcz
