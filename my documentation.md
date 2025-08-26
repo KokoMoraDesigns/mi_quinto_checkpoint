@@ -339,7 +339,13 @@ También puedes iterar una cadena **saltando elementos**:
 
 Se ejecutarán bloques de código diferentes en dependencia de si una condición determinada resulta ser verdadera o resulta ser falsa, esto le da independencia al programa para tomar decisiones *(de hecho, también se puede llamar sentencia de decisión a la sentencia condicional)* según el contexto en que se encuentre. Es decir:
 
+    edad = 25
+    
+    if edad >= 18:
+    
+    	print('puedes beber delante de la policía')
 
+	
 
 edad = 20
 if edad >= 18:
@@ -922,11 +928,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1ND
-c5NzQsMTY1NDQzODA0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5
-LDQ3NTUyOTM1MywxNTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNz
-Q3MzU4MTEsMTU5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5
-OTEwNywtOTM1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LD
-EzNzkxMzgzNywtMTEzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4
-NTExMTgyMV19
+eyJoaXN0b3J5IjpbLTIwMzc0NDA3MjIsMjM3MjE0NzQ5LC0xMz
+QyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NSwtMjExNzY1OTA5
+MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0ODY2LDIwOD
+g3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5MSwtMTI4ODIx
+ODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5NTA2NjcyMC
+wyMDU2OTI1MDE5LDEzNzkxMzgzNywtMTEzMjI3MjYwNSwtMTEx
+Mzc2OTQ5Nl19
 -->
