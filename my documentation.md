@@ -13,11 +13,11 @@ A continuación unos ejemplos según los distintos tipos de argumentos que exist
 El orden en que se incluyen los argumentos al declarar la función **debe ser el mismo** orden que utilizaste al formular los parámetros de la función. 
 
 
-    sum (a, b, c) --> a, b y c siendo los *parámetros* de la función
+    sum (a,b,c) --> a, b y c siendo los *parámetros* de la función
 
-	sum (4, 8, 9) --> 4, 8 y 9 siendo los *argumentos* de la función
+	sum (4,8,9) --> 4, 8 y 9 siendo los *argumentos* de la función
 
-	salida = print(sum (4,8, 9)) = a + b `c = 4 + 8 + 9 = 21
+	salida = print(sum (4,8,9)) = a + b +`c = 4 + 8 + 9 = 21
 
 
 
@@ -25,14 +25,14 @@ El orden en que se incluyen los argumentos al declarar la función **debe ser el
 
 El orden en que se incluyen los argumentos al declarar la función **no es relevante**, dado que vamos a puntualizar en la declaración a qué parámetro  estamos haciendo referencia.
 
-    sum (a=4, c=9, b=8)
+    sum (a=4,c=9,b=8)
     
-    salida = print(sum(a=4, c=9, b=8)) = 21
+    salida = print(sum(a=4,c=9,b=8)) = 21
 
 
 Existe la posibilidad de combinar en una llamada a la función argumentos posicionales y de palabras clave, en cuyo caso, **los argumentos posicionales deben ir al principio** de la declaración.
 
-    sum (4, c=9, b=8)
+    sum (4,c=9,b=8)
     
     salida = print(sum(4, c=9, b=8)) = 21
 
@@ -42,11 +42,11 @@ Existe la posibilidad de combinar en una llamada a la función argumentos posici
 
 El argumento **se declara al definir la función**, por eso más adelante no es necesario incluir dicho argumento en la llamada de la función (si en la llamada incluyeras otro valor para ese argumento, estarías sobreescribiendo el que declaraste al principio.
 
-    def sum(a, b=8, c)
+    def sum(a,b=8,c)
     
     return a+b+c
     
-    salida = print(sum(4,b,9)) = 21
+    salida = print(sum(4,b,9)) = 4 + 8 + 9 = 21
 
 
     
@@ -968,11 +968,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTIyNjM1MzEsMjA1NjkyNTAxOSwxMz
-c5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUx
-MTE4MjEsMTA5ODAyNTkxOCwtMTIwNzk2NjUwOSwtMjAxOTg2NT
-gyLDU3NTE1NjQxNiw2MjUxMTkyNjgsLTg2MDczMzc1MiwtNDU1
-NDAyODgzLC0xMjQ2MzQwMDAxLDc4MTQ1NDIzLDQxODI2NjA4LC
-0xMjY0MjE0NTU2LDE2OTIwNjAzNzYsLTU1MDM0NzYwNSw3OTU4
-MTkwMTBdfQ==
+eyJoaXN0b3J5IjpbNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OT
+EzODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTEx
+ODIxLDEwOTgwMjU5MTgsLTEyMDc5NjY1MDksLTIwMTk4NjU4Mi
+w1NzUxNTY0MTYsNjI1MTE5MjY4LC04NjA3MzM3NTIsLTQ1NTQw
+Mjg4MywtMTI0NjM0MDAwMSw3ODE0NTQyMyw0MTgyNjYwOCwtMT
+I2NDIxNDU1NiwxNjkyMDYwMzc2LC01NTAzNDc2MDUsNzk1ODE5
+MDEwXX0=
 -->
