@@ -192,17 +192,19 @@ En la operación del bucle *while*, tras cada iteración volvía a analizarse si
 			o
 			s
 
-En la operación anterior, 'perros' equivale al **iterable**, es decir, al objeto que va a ser iterado *(e indexado, es decir, que podrás acceder al mismo mediante un índice)* en la operación. En un bucle *for*, lo que coloques después de 'in' equivaldrá al iterable.
+En la operación anterior, 'perros' equivale al **iterable**, es decir, al objeto que va a ser iterado *(e indexado, es decir, que podrás acceder al mismo mediante un índice)* en la operación. 
+
+En un bucle *for*, lo que coloques después de 'in' equivaldrá al iterable, es decir, la estructura de un bucle *for* es la siguiente:
+
+    for 'variable' in 'iterable':
+    
+	    'código a ejecutar'
+
+
 
 
 -   Los  **iteradores**  son objetos que hacen referencia a un elemento, y que tienen un método  `next`  que permite hacer referencia al siguiente.
 
-
-
-```
-#for <variable> in <iterable>:
-#    <Código>
-```
 
 
 Es posible  **anidar**  los  `for`, es decir,  **meter uno dentro de otro**. Esto puede ser muy útil si queremos iterar algún objeto que en cada elemento, tiene a su vez otra clase iterable. Podemos tener por ejemplo, una lista de listas, una especie de matriz.
@@ -864,7 +866,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzUwMjQyNSwxNjU0NDM4MDQ1LC0yMT
+eyJoaXN0b3J5IjpbMTQyNDU5NTQ3MSwxNjU0NDM4MDQ1LC0yMT
 E3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4
 NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC
 0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1
