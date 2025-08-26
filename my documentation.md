@@ -348,7 +348,11 @@ En cambio, para evaluar sentencias que determinan si una condición es verdadera
 
 La sentencia «If-else» se utiliza para ejecutar tanto la parte verdadera como la falsa de una condición. Si la condición es verdadera, se ejecuta el **bloque de código If**. Si la condición es falsa, se ejecuta el bloque de código Else.
 
+Se comprueba la expresión de prueba y se ejecutan las sentencias del **cuerpo del bloque de código If**. A continuación, se ejecutan las sentencias situadas debajo del **bloque If**.
 
+Si los resultados de la expresión de prueba son falsos, se ejecutan las sentencias del código Else. A continuación, se ejecutan las sentencias del bloque If-else.
+
+El bloque «Else» solo se ejecutará si las condiciones son falsas. Las acciones de este bloque se ejecutan cuando las condiciones no son verdaderas.
 
 
 
@@ -370,17 +374,14 @@ Se ejecutarán bloques de código diferentes en dependencia de si una condición
 	 edad = 17 (es decir, la condicion 'if' es falsa) --> salida: es aconsejable que la policía no te vea bebiendo alcohol
 
 
-
+### Sentencia condicional anidada
 	    
+Una sentencia if o if-else contiene en su interior otro bloque con una sentencia if o if-else
 
 
 
 
-Se comprueba la expresión de prueba y se ejecutan las sentencias del **cuerpo del bloque de código If**. A continuación, se ejecutan las sentencias situadas debajo del **bloque If**.
 
-Si los resultados de la expresión de prueba son falsos, se ejecutan las sentencias del código Else. A continuación, se ejecutan las sentencias del bloque If-else.
-
-El bloque «Else» solo se ejecutará si las condiciones son falsas. Las acciones de este bloque se ejecutan cuando las condiciones no son verdaderas.
 
 Cuando una sentencia If o If-else está presente dentro de otro bloque de sentencia If o If-Else, se trata de una **sentencia IF anidada**. Esta situación se produce cuando es necesario filtrar una variable varias veces y comprobar varias condiciones.
 
@@ -946,11 +947,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MT
-Y0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NTIw
-MDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkxLDE0MD
-MwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4NjYsMjA4ODc1Nzk2
-MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC0xMjg4MjE4NjgzLC
-0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1MDY2NzIwLDIwNTY5
-MjUwMTldfQ==
+eyJoaXN0b3J5IjpbLTE1MjE2NTU2OTUsMjA4NTA4NDM2NywtMT
+MzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3
+NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMT
+E3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4
+NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC
+0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1
+MDY2NzIwXX0=
 -->
