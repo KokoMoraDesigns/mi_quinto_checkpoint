@@ -373,7 +373,13 @@ Una condicional permite que se ejecuten bloques de código diferentes en depende
 
 ### Sentencia condicional *if*
 
-Si la condición es verdadera, ejecutará el siguiente bloque de código, si la condición es falsa, no la ejecutará. 	Todo el contenido que esté intentado después de *if* forma parte del contexto condiciona
+Si la condición es verdadera, ejecutará el siguiente bloque de código, si la condición es falsa, no la ejecutará. Puede haber una condición, o múltiples condiciones.
+
+personas_invitada
+
+
+
+Todo el contenido que está intentado después de *if* forma parte del contexto condicional, el resto, sin embargo, se ejecutará siempre.
 
 
 
@@ -382,7 +388,7 @@ if  b  !=  0:
 	d  =  c  +  1  
 		print(d)
 
-Todo lo que vaya después del `if` y esté indentado, será parte del bloque de código que se ejecutará si la condición se cumple. Por lo tanto el segundo `print()` “Fuera if” será ejecutado siempre, ya que está fuera del bloque `if`.
+
 
 Se puede también combinar varias condiciones entre el `if` y los `:`. Por ejemplo, se puede requerir que un número sea mayor que 5 y además menor que 15. Tenemos en realidad tres operadores usados conjuntamente, que serán evaluados por separado hasta devolver el resultado final, que será `True` si la condición se cumple o `False` de lo contrario.
 
@@ -812,11 +818,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5NzAzNDkwLC00MDgyNDA3MjQsMjUwNT
-QzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwt
-MTExMDY5NDIxMiw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMj
-MyMywyMDg1MDg0MzY3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwx
-OTgxMTUxMjg5LDIzNzIxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OT
-c0LDE2NTQ0MzgwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOV19
-
+eyJoaXN0b3J5IjpbLTQyNjIwMzc5NiwtNDA4MjQwNzI0LDI1MD
+U0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEs
+LTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2Mj
+IzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUs
+MTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nz
+k3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDld
+fQ==
 -->
