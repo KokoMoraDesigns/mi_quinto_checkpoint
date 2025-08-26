@@ -204,17 +204,17 @@ También puedes incluir la cláusula *else*, que entrará en acción una vez el 
     while horchata > 1:
     
 	    horchata -=1
-	    print('nos quedan {horchata} horchatas')
+	    print(f'nos quedan {horchata} horchatas')
 	    
 	else:
 	    print('deberíamos comprar más horchata')
 	    
-	salida: 6
-			5
-			4
-			3
-			2
-			1
+	salida: nos quedan 6 horchatas
+			nos quedan 5 horchatas
+			nos quedan 4 horchatas
+			nos quedan 3 horchatas
+			nos quedan 2 horchatas
+			nos quedan 1 horchatas
 			deberíamos comprar más horchata
 
 Estructura del bucle *while/else*:
@@ -481,30 +481,10 @@ Los condicionales utilizan operadores de comparación para evaluar las condicion
 
 
 
-Bucle infinito: 
-#Take user input
-number = 2 
-
-#condition of the while loop
-while number < 5 :  
-    # condition of the nested while loop    
-    while number % 2 == 0: 
-        print("The number "+ str(number)+" is even")
 
 
-```python
-numero = 0
-while numero < 10:
-    print(f"Numero es {numero}!")
-    numero = numero + 1
-```
-Aquí, la variable  `numero`  es fijada en  `0`  al inicio.
 
-Antes de que cualquier código sea ejecutado, Python verifica la condición (`numero < 10`). Verifica si la condición es True, imprime el siguiente estado `Number is 0!`  y así mientras que la condición continúa siendo verdadero.
 
-`numero`  es entonces incrementado en `1`. La condición es reevaluada, y si nuevamente es ver verdadero, todo el proceso se repite has que  `numero`  es igual a  `9`.
-
-Ahora cuando llegamos al punto  `Numero es 9!`  y  `numero`  es incrementado en uno,  `numero`  es igual a  `10`  la condición deja de ser verdadero, y se convierte en falso`False`
 
 Cómo viste anteriormente, los bucles  `while`  están acompañados típicamente por una variable cuyo valor cambia a través de la duración del bucle, hasta que finalmente se determina un punto en el cual el bucle llega a su cesación.
 
@@ -885,11 +865,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01Mz
-A4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3
-Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzND
-I0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkx
-LDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4NjYsMjA4OD
-c1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC0xMjg4MjE4
-NjgzXX0=
+eyJoaXN0b3J5IjpbMzEwMTU3NDg1LC0xMTEwNjk0MjEyLDYyNj
+AwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwODQzNjcs
+LTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODksMjM3Mj
+E0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzODA0NSwt
+MjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mz
+g0ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5
+MV19
 -->
