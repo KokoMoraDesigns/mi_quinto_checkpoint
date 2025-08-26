@@ -360,16 +360,11 @@ La orden *break* interrumpirá el bucle de inmediato y, en caso de existir, pasa
     peliculas_por_ver = ['us', 'oddity', 'seven veils', 'heretic', 'the shining']
     
     for opcion in peliculas_por_ver:
+	    if opcion == 'oddity':
+		    continue
 	    print(opcion)
 
 	
-	
-
-
-
-A diferencia del  `break`, el  `continue`  no rompe el bucle sino que finaliza la iteración actual, haciendo que todo el código que va después se salte, y se vuelva al principio a evaluar la condición.
-
-En el siguiente ejemplo podemos ver como cuando la  `x`  vale 3, se llama al  `continue`, lo que hace que se salte el resto de código de la iteración (el  `print()`). Por ello, vemos como el número 3 no se imprime en pantalla.
 
 ```
 x = 5
@@ -834,11 +829,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0MTM0MjI3LDI1MDU0MzQ5OCwtMTQxOD
-AzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIs
-NjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4ND
-M2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwy
-MzcyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MD
-Q1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzXX0=
+eyJoaXN0b3J5IjpbMTczNTI1MDE0OSwyNTA1NDM0OTgsLTE0MT
+gwMzc1NiwyNDgyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEy
+LDYyNjAwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwOD
+QzNjcsLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEyODks
+MjM3MjE0NzQ5LC0xMzQyNDUyMDAzLDI1NDc5NzQsMTY1NDQzOD
+A0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1M119
 
 -->
