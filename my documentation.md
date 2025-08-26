@@ -224,7 +224,7 @@ Si estás trabajando con un objeto iteradle que, en su interior, contiene otro o
     salida: ['us', 'oddity', 'seven veils', 'heretic', 'the shining']
 		    ['bottoms', 'bullet train', 'the blackening', 'heathers']
 
-Con el bucle *for* simple anterior estamos accediendo únicamente al objeto iteradle exterior; no obstante, si ahora anidamos un segundo bucle 
+Con el bucle *for* simple del ejemplo *mi_cine* estamos accediendo únicamente al objeto iterable exterior; no obstante, si ahora anidamos un segundo bucle *for* podremos acceder también a los elementos internos:
 
 
 -   Los  **iteradores**  son objetos que hacen referencia a un elemento, y que tienen un método  `next`  que permite hacer referencia al siguiente.
@@ -882,11 +882,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODUxNjYzNjgsMjU0Nzk3NCwxNjU0ND
-M4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUz
-LDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNT
-k4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3
-OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC
-0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEw
-OTgwMjU5MThdfQ==
+eyJoaXN0b3J5IjpbMTc2NTA4NTM5MywyNTQ3OTc0LDE2NTQ0Mz
+gwNDUsLTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMs
+MTU4ODM4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OT
+g0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMyOTkxMDcsLTkzNTc5
+OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOSwxMzc5MTM4MzcsLT
+ExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2ODUxMTE4MjEsMTA5
+ODAyNTkxOF19
 -->
