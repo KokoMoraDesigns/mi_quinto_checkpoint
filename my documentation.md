@@ -113,7 +113,7 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
 	    
 	sum(4,8,9,d=5) --> salida: 26 --> 'a' y 'b' son argumentos obligatoriamente posicionales, 'c' posicional o de palabra clave, y 'd' obligatoriamente de palabra clave.
 
-> Es aconsejable hacer uso de argumentos obligatoriamente posiciona
+> Es aconsejable hacer uso de argumentos **obligatoriamente posicionales** cuando deseas imponer un orden al llamar a los argumentos de la función, y de argumentos **obligatoriamente de palabras clave** cuando
 
 
 1.  Utilice **solo posicional** si desea que el nombre de los parámetros no esté disponible para el usuario. Esto es útil cuando los nombres de los parámetros no tienen un significado real.
@@ -852,7 +852,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDYzMTgzNSwyMDg4NzU3OTYyLC0xMT
+eyJoaXN0b3J5IjpbMTQ1NDE3ODkwNCwyMDg4NzU3OTYyLC0xMT
 c0NzM1ODExLDE1OTg0ODYyOTEsLTEyODgyMTg2ODMsLTE2MDMy
 OTkxMDcsLTkzNTc5OTQ0MSw2OTUwNjY3MjAsMjA1NjkyNTAxOS
 wxMzc5MTM4MzcsLTExMzIyNzI2MDUsLTExMTM3Njk0OTYsLTE2
