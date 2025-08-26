@@ -337,9 +337,9 @@ También puedes iterar una cadena **saltando elementos**:
 
 ## Condicional
 
-Se ejecutarán diferentes bloques de código en dependencia de si una condición determinada resulta ser verdadera o resulta ser falsa.
+Se ejecutarán diferentes bloques de código en dependencia de si una condición determinada resulta ser verdadera o resulta ser falsa, esto le da independencia al programa para tomar decidecidir *(de hecho, también se puede llamar sentencia de decisión a la sentencia condicional)* 
 
-> Las sentencias condicionales también se denominan sentencias de decisión. **Se utilizan para ejecutar un bloque específico de código si las condiciones dadas son verdaderas o falsas**. es una forma de controlar el flujo de ejecución del código, permitiendo que se ejecuten diferentes bloques de código en función de si una condición es verdadera o falsa. Las condicionales son fundamentales para crear programas que puedan tomar decisiones y responder de manera diferente a diferentes situaciones. Utiliza la palabra clave «If» seguida de la condición que debe cumplirse. El programador también elige la acción que se ejecutará si se cumple la condición. Los elementos que analizaremos a continuación son: elementos de la condicional, sintaxis, tipos de condicionales, operadores de las condicionales, y, por supuesto, ejemplos.
+>Las condicionales son fundamentales para crear programas que puedan tomar decisiones y responder de manera diferente a diferentes situaciones. Utiliza la palabra clave «If» seguida de la condición que debe cumplirse. El programador también elige la acción que se ejecutará si se cumple la condición. Los elementos que analizaremos a continuación son: elementos de la condicional, sintaxis, tipos de condicionales, operadores de las condicionales, y, por supuesto, ejemplos.
 
 Se comprueba la condición y el conjunto de código del bloque «If» se ejecuta si es verdadera. De lo contrario, el código del bloque «If» no se ejecuta y se ejecuta la sentencia que sigue a la sentencia If.
 
@@ -917,11 +917,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTkyMzM0MjksLTEzNDI0NTIwMDMsMj
-U0Nzk3NCwxNjU0NDM4MDQ1LC0yMTE3NjU5MDkxLDE0MDMwNDU3
-MDksNDc1NTI5MzUzLDE1ODgzODQ4NjYsMjA4ODc1Nzk2MiwtMT
-E3NDczNTgxMSwxNTk4NDg2MjkxLC0xMjg4MjE4NjgzLC0xNjAz
-Mjk5MTA3LC05MzU3OTk0NDEsNjk1MDY2NzIwLDIwNTY5MjUwMT
-ksMTM3OTEzODM3LC0xMTMyMjcyNjA1LC0xMTEzNzY5NDk2LC0x
-Njg1MTExODIxXX0=
+eyJoaXN0b3J5IjpbMjMwMTg0Mzk3LC0xMzQyNDUyMDAzLDI1ND
+c5NzQsMTY1NDQzODA0NSwtMjExNzY1OTA5MSwxNDAzMDQ1NzA5
+LDQ3NTUyOTM1MywxNTg4Mzg0ODY2LDIwODg3NTc5NjIsLTExNz
+Q3MzU4MTEsMTU5ODQ4NjI5MSwtMTI4ODIxODY4MywtMTYwMzI5
+OTEwNywtOTM1Nzk5NDQxLDY5NTA2NjcyMCwyMDU2OTI1MDE5LD
+EzNzkxMzgzNywtMTEzMjI3MjYwNSwtMTExMzc2OTQ5NiwtMTY4
+NTExMTgyMV19
 -->
