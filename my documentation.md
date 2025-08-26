@@ -211,7 +211,9 @@ En la operación anterior, 'perros' equivale al **iterable**, es decir, al objet
 
 #### Bucles anidados
 
-Si estás trabajando con un objeto que, en su interior, contiene otro objeto iteradle, puedes crear un bucle *for* anindado
+Si estás trabajando con un objeto que, en su interior, contiene otro objeto iterable, puedes crear un bucle *for* anidado. Por ejemplo:
+
+mi_cine = [[us, oddity, seven veils], 
 
 
 
@@ -878,11 +880,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTk1ODI5MiwxNjU0NDM4MDQ1LC0yMT
-E3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1ODgzODQ4
-NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2MjkxLC
-0xMjg4MjE4NjgzLC0xNjAzMjk5MTA3LC05MzU3OTk0NDEsNjk1
-MDY2NzIwLDIwNTY5MjUwMTksMTM3OTEzODM3LC0xMTMyMjcyNj
-A1LC0xMTEzNzY5NDk2LC0xNjg1MTExODIxLDEwOTgwMjU5MTgs
-LTEyMDc5NjY1MDldfQ==
+eyJoaXN0b3J5IjpbLTEzODU2NjE5ODAsMTY1NDQzODA0NSwtMj
+ExNzY1OTA5MSwxNDAzMDQ1NzA5LDQ3NTUyOTM1MywxNTg4Mzg0
+ODY2LDIwODg3NTc5NjIsLTExNzQ3MzU4MTEsMTU5ODQ4NjI5MS
+wtMTI4ODIxODY4MywtMTYwMzI5OTEwNywtOTM1Nzk5NDQxLDY5
+NTA2NjcyMCwyMDU2OTI1MDE5LDEzNzkxMzgzNywtMTEzMjI3Mj
+YwNSwtMTExMzc2OTQ5NiwtMTY4NTExMTgyMSwxMDk4MDI1OTE4
+LC0xMjA3OTY2NTA5XX0=
 -->
