@@ -337,13 +337,18 @@ También puedes iterar una cadena **saltando elementos**:
 
 #### Bucle con orden *break*
 
-La orden *break* interrumpirá el bucle de inmediato y pasará a ejecutar
+La orden *break* interrumpirá el bucle de inmediato y pasará a ejecutar la siguiente línea del código:
 
-cuadrados = []
+    cuadrados = []
     
-    for num in range(8):
+	    for num in range(8):
     
-	    cuadrados.append(num**2)
+		    cuadrados.append(num**2)
+		    print(cuadrados)
+		    if
+
+    
+
 En Python, la instrucción  `break`  permite salir de un bucle  `for`  o  `while`  de forma inmediata. Cuando el código encuentra una instrucción  `break`  dentro de un bucle, el bucle se interrumpe y la ejecución del programa continúa con la siguiente línea de código después del bucle.
 
     for i in range(10):
@@ -872,11 +877,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTA4ODYxMCwtMTExMDY5NDIxMiw2Mj
-YwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3
-LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNz
-IxNDc0OSwtMTM0MjQ1MjAwMywyNTQ3OTc0LDE2NTQ0MzgwNDUs
-LTIxMTc2NTkwOTEsMTQwMzA0NTcwOSw0NzU1MjkzNTMsMTU4OD
-M4NDg2NiwyMDg4NzU3OTYyLC0xMTc0NzM1ODExLDE1OTg0ODYy
-OTFdfQ==
+eyJoaXN0b3J5IjpbLTE2NDAwMDQxMDQsLTExMTA2OTQyMTIsNj
+I2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2
+NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMz
+cyMTQ3NDksLTEzNDI0NTIwMDMsMjU0Nzk3NCwxNjU0NDM4MDQ1
+LC0yMTE3NjU5MDkxLDE0MDMwNDU3MDksNDc1NTI5MzUzLDE1OD
+gzODQ4NjYsMjA4ODc1Nzk2MiwtMTE3NDczNTgxMSwxNTk4NDg2
+MjkxXX0=
 -->
