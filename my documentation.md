@@ -586,20 +586,9 @@ Dentro de la comprensión de lista, también podemos llamar a una función:
 
 Estructura de la comprensión de lista con condiciones:
 
+    nueva_lista = código a ejecutar for variable in iterable if condicion(es)
 
-Como puedes observar, las posibilidades son bastante amplias. Cualquier elemento que sea iterable puede ser usado con las  _list comprehensions_. Anteriormente hemos iterado  `range()`  pero podemos hacer lo mismo para una lista. En el siguiente ejemplo vemos como dividir todos los números de una lista entre 10.
-
-```
-lista = [10, 20, 30, 40 , 50]
-nueva_lista = [i/10 for i in lista]
-#[1.0, 2.0, 3.0, 4.0, 5.0]
-```
-
-
-```
-# lista = [expresión for elemento in iterable if condición]
-
-```
+En la nueva lista solo se almacenará el contenido que cumpla la(s) condicio
 
 Por lo tanto la  `expresión`  sólo se aplicará al  `elemento`  si se cumple la  `condición`. Veamos un ejemplo con una frase, de la que queremos saber el número de erres que tiene.
 
@@ -737,11 +726,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODM1NTcyNyw4MTM3MjgyMiwxNTQ1ND
-g5MjQyLDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMx
-LDEyNTkyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMz
-Y2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEy
-MTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMj
-Q4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgy
-MTVdfQ==
+eyJoaXN0b3J5IjpbLTE2OTgyMjY0NDksODEzNzI4MjIsMTU0NT
+Q4OTI0Miw4MjMzMDk3OTAsMTc4MDEzMTM2MiwtMTM3MzI4OTkz
+MSwxMjU5MjA1NTI0LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMj
+M2NjcyMDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYx
+MjEzMSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LD
+I0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4
+MjE1XX0=
 -->
