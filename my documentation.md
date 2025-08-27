@@ -558,15 +558,19 @@ Estructura de la comprensión de lista:
     nueva_lista = código a ejecutar for variable in iterable
 
 
-También podemos llamar a una función dentro de la ccompenetrarla con el trabajo de una función, por ejemplo:
+Dentro de la comprensión de lista, también podemos llamar a una función: 
 
 
-def porcentaje (p):
-    
-	    return lambda num: num * p / 100
-	    
-	    
-	veinte_porcentaje = porcentaje(20)
+    def porcentaje (p):
+        
+    	    return lambda num: num * p / 100
+    	    
+    	    
+    	cuarenta_porcentaje = porcentaje(40)
+    precio_iphones=[
+   
+
+
 ```
 cuadrados = [i**2 for i in range(5)]
 #[0, 1, 4, 9, 16]
@@ -740,11 +744,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODM3NjgyMzEsMTU0NTQ4OTI0Miw4Mj
-MzMDk3OTAsMTc4MDEzMTM2MiwtMTM3MzI4OTkzMSwxMjU5MjA1
-NTI0LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgsLT
-E5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4
-MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOC
-w2NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4
-NDk4M119
+eyJoaXN0b3J5IjpbMTQ2MTgwNDg5NSwxNTQ1NDg5MjQyLDgyMz
+MwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNTkyMDU1
+MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIwOCwtMT
+kwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC00MDgy
+NDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3MzM4LD
+Y2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgyMTUsLTUzMDg0
+OTgzXX0=
 -->
