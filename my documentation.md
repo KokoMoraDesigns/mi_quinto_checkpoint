@@ -530,19 +530,23 @@ Los tipos de argumentos de las funciones tradicionales también se aplican con l
     
 También las puedes utilizar dentro de una función tradicional:
 
-    def multiplos (m):
+    def multiplo_de (m):
     
 	    return lambda num: num * m
 	    
-	multiplos(3,7)
+	dos = multiplo_de(2)
+	tres = multiplo_de(3)
 
 
+```python
 def multiplicar_por (n):
   return lambda x: x * n
   
 duplicar = multiplicar_por(2)
 triplicar = multiplicar_por(3)
 diez_veces = multiplicar_por(10)
+```
+
 
 > **MEJORES PRÁCTICAS**
 > Son ideales para las ocasiones en que necesitas una función simple que solo vas a utilizar una vez, de esta manera, el código queda más ordenado.
@@ -748,11 +752,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzMyODk5MzEsMTI1OTIwNTUyNCwyMT
-Q3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4LC0xOTAzMDU5
-OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0MDcyNC
-wyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNjYwODM2
-MTExLC0xMTEwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5ODMsMT
-Y0NjIyMzIzLDIwODUwODQzNjcsLTEzMzAzMDEwNzcsODE2NDA5
-Mzc1XX0=
+eyJoaXN0b3J5IjpbMTcyNDU4NTcwOSwtMTM3MzI4OTkzMSwxMj
+U5MjA1NTI0LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMjM2Njcy
+MDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMS
+wtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIw
+NzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC
+01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMw
+MTA3N119
 -->
