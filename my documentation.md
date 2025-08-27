@@ -573,17 +573,10 @@ Dentro de la comprensión de lista, también podemos llamar a una función:
     precio_iphones = [1219, 959, 709, 859]
     
     mi_precio_iphones = [cuarenta_porcentaje(precio) for precio in precio_iphones]
+    
+    mi_precio_iphones = [487.6, 383.6, 283.6, 343.6]
+
    
-
-La expresión también puede ser una llamada a una función. Se podría escribir el ejemplo anterior del cálculo de cuadrados de la siguiente manera.
-
-```
-def eleva_al_2(i):
-    return i**2
-
-cuadrados = [eleva_al_2(i) for i in range(5)]
-#[0, 1, 4, 9, 16]
-```
 ```
 cuadrados = [i**2 for i in range(5)]
 #[0, 1, 4, 9, 16]
@@ -750,11 +743,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEzNzI4MjIsMTU0NTQ4OTI0Miw4MjMzMD
-k3OTAsMTc4MDEzMTM2MiwtMTM3MzI4OTkzMSwxMjU5MjA1NTI0
-LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgsLTE5MD
-MwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQw
-NzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2Nj
-A4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4
-M119
+eyJoaXN0b3J5IjpbLTczOTc5MjAyOSw4MTM3MjgyMiwxNTQ1ND
+g5MjQyLDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMx
+LDEyNTkyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMz
+Y2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEy
+MTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMj
+Q4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgy
+MTVdfQ==
 -->
