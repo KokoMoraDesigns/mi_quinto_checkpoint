@@ -605,11 +605,14 @@ En la nueva lista solo se almacenará el contenido que cumpla la(s) condicion(es
 
 ## Paquete pip
 
-Paquete: -   Un paquete es un conjunto de módulos y otros paquetes relacionados, que permiten organizar y estructurar código de manera jerárquica. -   Estos paquetes proporcionan funcionalidades adicionales que no están incluidas en la instalación estándar de Python.
+Paquete: -   Un paquete es un conjunto de módulos y otros paquetes relacionados, que permiten organizar y estructurar código de manera jerárquica. -   Estos paquetes proporcionan funcionalidades adicionales que no están incluidas en la instalación estándar de Python. 
 
 Gestor de paquetes: Un gestor de paquetes de Python es una herramienta que automatiza la instalación, desinstalación, actualización y administración de bibliotecas o paquetes de software externos que se utilizan en un proyecto de Python.
 
-Dependencias:
+Dependencias: -   otras librerías o módulos de los que un paquete depende para funcionar.
+
+-   Pip (Package Installer for Python) es el gestor de paquetes oficial y más utilizado en el ecosistema de Python. Se instala automáticamente con las versiones recientes de Python
+-   -   Para ver los paquetes instalados.
 
 
 `pip`  es el gestor de paquetes principal para Python. Sirve para instalar, actualizar y eliminar paquetes de software en Python. Es una herramienta esencial para el desarrollo en Python, ya que facilita la gestión de dependencias y la reutilización de código.
@@ -702,7 +705,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDkzODc1MjYsLTIwNTQwMzk5MSw0Mz
+eyJoaXN0b3J5IjpbLTE5NDI2ODMzMzYsLTIwNTQwMzk5MSw0Mz
 c4MDgyNTUsODEzNzI4MjIsMTU0NTQ4OTI0Miw4MjMzMDk3OTAs
 MTc4MDEzMTM2MiwtMTM3MzI4OTkzMSwxMjU5MjA1NTI0LDIxND
 cyNjg3NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgsLTE5MDMwNTk5
