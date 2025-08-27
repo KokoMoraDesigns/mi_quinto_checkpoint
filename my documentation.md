@@ -606,6 +606,13 @@ nueva_lista = [i/10 for i in lista]
 
 Pero, ¿y si quisiéramos realizar la operación sobre el elemento sólo si una determinada condición se cumple? Pues tenemos buenas noticias, porque es posible añadir un condicional  `if`. La expresión genérica sería la siguiente.
 
+Estructura de la comprensión de lista:
+
+    lista = código a ejecutar for elemento in iterable
+
+for 'variable' in 'iterable':
+
+	    'bloque de código a ejecutar'
 ```
 # lista = [expresión for elemento in iterable if condición]
 
@@ -747,11 +754,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTQ4OTI0Miw4MjMzMDk3OTAsMTc4MD
-EzMTM2MiwtMTM3MzI4OTkzMSwxMjU5MjA1NTI0LDIxNDcyNjg3
-NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgsLTE5MDMwNTk5MzUsLT
-ExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0
-MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLT
-ExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIz
-MjNdfQ==
+eyJoaXN0b3J5IjpbNjE3Njc3MzIzLDE1NDU0ODkyNDIsODIzMz
+A5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEsMTI1OTIwNTUy
+NCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4LC0xOT
+AzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0
+MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNj
+YwODM2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5
+ODNdfQ==
 -->
