@@ -551,7 +551,7 @@ También las puedes utilizar dentro de una función tradicional:
 
 ## Comprensión de lista
 
-Sirve para, con una sola línea de código, iterar una lista y, en caso de que se cumpla(n) determinada(s) condicion(es), crear una nueva lista que almacene el contenido que 'ha pasado la prueba'.
+Sirve para, con una sola línea de código, iterar un elemento y crear una nueva lista que, o bien almacene el nuevo contenido que has generado con el código de la comprensión, o bien almacene el contenido de la lista princip y, en caso de que se cumpla(n) determinada(s) condicion(es), crear una nueva lista que almacene el contenido que 'ha pasado la prueba'.
 
 Estructura de la comprensión de lista:
 
@@ -739,11 +739,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4NDg5ODk4LDgxMzcyODIyLDE1NDU0OD
-kyNDIsODIzMzA5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEs
-MTI1OTIwNTUyNCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNj
-Y3MjA4LC0xOTAzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIx
-MzEsLTQwODI0MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyND
-gyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIx
-NV19
+eyJoaXN0b3J5IjpbLTEyODg4MTA1NzAsODEzNzI4MjIsMTU0NT
+Q4OTI0Miw4MjMzMDk3OTAsMTc4MDEzMTM2MiwtMTM3MzI4OTkz
+MSwxMjU5MjA1NTI0LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMj
+M2NjcyMDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYx
+MjEzMSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LD
+I0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4
+MjE1XX0=
 -->
