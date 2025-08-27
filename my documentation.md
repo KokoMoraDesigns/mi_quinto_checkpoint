@@ -491,6 +491,10 @@ Resume el código en una sola línea, que se divide en tres partes diferentes:
 
 Sirven para declarar de una manera rápida y sencilla funciones cortas que no necesitan poseer un nombre ( de ahí su consideración de 'anónimas'); se caracterizan por tener una sola expresión (aunque sí pueden componerse por más de un argumento).
 
+Estructura de una función Lambda:
+
+    lambda argumentos: expresión --> palabra clave lambd
+
 > **MEJORES PRÁCTICAS**
 > Son ideales para las ocasiones en que necesitas una función simple que solo vas a utilizar una vez, de esta manera, el código queda más ordenado.
 
@@ -788,7 +792,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODk5NTIyNSwtMjM2NjcyMDgsLTE5MD
+eyJoaXN0b3J5IjpbMTM1MTU2NTgxMiwtMjM2NjcyMDgsLTE5MD
 MwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQw
 NzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2Nj
 A4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4
