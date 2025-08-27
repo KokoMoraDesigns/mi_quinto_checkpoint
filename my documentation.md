@@ -522,7 +522,11 @@ Por ejemplo:
     nums_solo = list(nums)
     
  
+Los tipos de argumentos de las funciones tradicionales también se aplican con las funciones anónimas:
 
+    sum = lambda num1,num2=4: num1+num2
+    
+    sum(2) --> salida: 6
 
 
 
@@ -778,7 +782,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzg4MjUzMywxMjU5MjA1NTI0LDIxND
+eyJoaXN0b3J5IjpbMTIwNjQxNDg0MCwxMjU5MjA1NTI0LDIxND
 cyNjg3NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgsLTE5MDMwNTk5
 MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LD
 I1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYx
