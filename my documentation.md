@@ -609,11 +609,11 @@ Un **gestor de paquetes** es una herramienta que te permite gestionar (instalar,
 
 PIP (Package Installer for Python) o PIP3 es el gestor de paquetes más usado entre las personas usuarios de Python, de hecho, se instala de manera automática al instalar las últimas versiones de Python.
 
-Algunos comandos que pip nos proporciona para poder gestionar de manera eficiente nuestras bibliotecas son:
+Algunos comandos que pip tproporciona para poder gestionar de manera eficiente nuestras bibliotecas son:
 
  `pip install <nombre_del_paquete>` --> para instalar un paquete determinado.
  
- `pip install <nombre_del_paquete> >= <version_del_paquete>` --> para instalar paquetes a partir de determinada versión.
+ `pip install <nombre_del_paquete> >= o == <version_del_paquete>` --> para instalar paquetes a partir de determinada versión, o de determinada versión.
  
 `pip freeze > requirements.txt` --> para crear un archivo que le indique a pip los paquetes (y sus versiones) que necesitas para el proyecto en que vas a trabajar (muy útil en el caso de proyectos colaborativos, por ejemplo).
 
@@ -625,18 +625,10 @@ Algunos comandos que pip nos proporciona para poder gestionar de manera eficient
 
 `pip uninstall <nombre_paquete>` --> para eliminar un paquete determinado de tu entorno de Python.
 
+pip list --> para listar los paquetes que tene
+
 
     
-
-    
--   **Versiones específicas:**
-    
-    Permite instalar versiones específicas de un paquete (e.g.,  `pip install pandas==1.3.4`).
-
-Si necesitas información adicional sobre los distintos comandos pip disponibles y cómo utilizarlos, ejecútalos:
-
-`>>pip help`
-
 Para listar todos los paquetes instalados en tu entorno:
 
 `>>pip list`
@@ -644,9 +636,9 @@ Para listar todos los paquetes instalados en tu entorno:
 Para ver un resumen de un paquete de tu interés:
 
 `>>pip show [NameOfPackage]`
-> Written by Maite Ekhiñe Mora
+> Written by [ Maite Ekhiñe Mora ]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMjA1NzcyOSwtMTk0MjY4MzMzNiwtMj
+eyJoaXN0b3J5IjpbLTk1ODgwMzA3MywtMTk0MjY4MzMzNiwtMj
 A1NDAzOTkxLDQzNzgwODI1NSw4MTM3MjgyMiwxNTQ1NDg5MjQy
 LDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNT
 kyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIw
