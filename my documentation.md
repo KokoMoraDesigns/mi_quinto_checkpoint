@@ -542,13 +542,7 @@ o
 
 
 
-Al igual que en las funciones se puede tener un número variable de argumentos haciendo uso de  `*`, lo conocido como  **tuple unpacking**.
 
-```
-(lambda *args: sum(args))(1, 2, 3) # 6
-```
-
-Y si tenemos los parámetros de entrada almacenados en forma de  `key`  y  `value`como si fuera un diccionario, también es posible llamar a la función.
 
 ```
 (lambda **kwargs: sum(kwargs.values()))(a=1, b=2, c=3) # 6
@@ -777,7 +771,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQ4OTM5MDgsMTI1OTIwNTUyNCwyMT
+eyJoaXN0b3J5IjpbLTE1ODk0MTMzMDksMTI1OTIwNTUyNCwyMT
 Q3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4LC0xOTAzMDU5
 OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0MDcyNC
 wyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNjYwODM2
