@@ -572,7 +572,7 @@ Dentro de la comprensión de lista, también podemos llamar a una función:
 
     precio_iphones = [1219, 959, 709, 859]
     
-    mi_precio_iphones = [cuarenta_porcentaje for precio in precio_iphones]
+    mi_precio_iphones = [cuarenta_porcentaje(precio) for precio in precio_iphones]
    
 
 La expresión también puede ser una llamada a una función. Se podría escribir el ejemplo anterior del cálculo de cuadrados de la siguiente manera.
@@ -750,11 +750,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzOTQyODMzLDE1NDU0ODkyNDIsODIzMz
-A5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEsMTI1OTIwNTUy
-NCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4LC0xOT
-AzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0
-MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNj
-YwODM2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5
-ODNdfQ==
+eyJoaXN0b3J5IjpbODEzNzI4MjIsMTU0NTQ4OTI0Miw4MjMzMD
+k3OTAsMTc4MDEzMTM2MiwtMTM3MzI4OTkzMSwxMjU5MjA1NTI0
+LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgsLTE5MD
+MwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQw
+NzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2Nj
+A4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4
+M119
 -->
