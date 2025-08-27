@@ -612,22 +612,22 @@ PIP (Package Installer for Python) o PIP3 es el gestor de paquetes más usado en
 Algunos comandos que pip nos proporciona para poder gestionar de manera eficiente nuestras bibliotecas son:
 
  `pip install <nombre_del_paquete>` --> para instalar paquetes
+ 
  `pip install <nombre_del_paquete> >= <version_del_paquete>` --> para instalar paquetes a partir de determinada versión
-`pip freeze > requirements.txt` --> para crear un archivo que le indique a pip los paquetes, y sus versiones, que necesitas para el proyecto en que vas a trabajar (muy útil en el caso de proyectos colaborativos, por ejemplo)
+ 
+`pip freeze > requirements.txt` --> para crear un archivo que le indique a pip los paquetes (y sus versiones) que necesitas para el proyecto en que vas a trabajar (muy útil en el caso de proyectos colaborativos, por ejemplo)
+
+    enter code here
 
 
 
-Pip te permite instalar una lista de paquetes a la vez utilizando un archivo de requisitos. Por ejemplo, si necesitamos para nuestro proyecto los paquetes  [numpy](https://www.datacamp.com/es/courses/introduction-to-numpy?),  [pandas](https://www.datacamp.com/es/courses/data-manipulation-with-pandas)  y  [TensorFlow](https://www.datacamp.com/es/courses/introduction-to-tensorflow-in-python), podríamos incluirlos, junto con las versiones deseadas, en un archivo requirements.txt, como se muestra a continuación:
 
-![requisitos de pip install](https://images.datacamp.com/image/upload/v1676550998/pip_install_requirements_dd5b541997.png)
 
-Si quieres crear un archivo de requisitos para compartirlo con el resto del equipo, puedes utilizar la siguiente instrucción:
 
-`>>pip freeze > requirements.txt`
 
 Para instalar los paquetes enumerados en un archivo requirements.txt, sólo tenemos que ejecutar
 
-`>>pip install -r requirements.txt`
+`>>
 
 A veces necesitarás actualizar a una versión más reciente un paquete que ya tengas instalado en tu ordenador. Pip hace que este proceso sea extremadamente fácil. Por ejemplo, si quieres actualizar pandas a la última versión:
 
@@ -679,11 +679,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MjY5NjQ1MCwtMTk0MjY4MzMzNiwtMj
-A1NDAzOTkxLDQzNzgwODI1NSw4MTM3MjgyMiwxNTQ1NDg5MjQy
-LDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNT
-kyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIw
-OCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC
-00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3
-MzM4XX0=
+eyJoaXN0b3J5IjpbNzgzMjU3MjYzLC0xOTQyNjgzMzM2LC0yMD
+U0MDM5OTEsNDM3ODA4MjU1LDgxMzcyODIyLDE1NDU0ODkyNDIs
+ODIzMzA5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEsMTI1OT
+IwNTUyNCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4
+LC0xOTAzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLT
+QwODI0MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDcz
+MzhdfQ==
 -->
