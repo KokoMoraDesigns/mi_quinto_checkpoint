@@ -528,12 +528,6 @@ Los tipos de argumentos de las funciones tradicionales también se aplican con l
     
     sum(2) --> salida: 6
     
-o
-
-    suma = lambda *args: sum(args)
-    
-    suma(2,4,24,444)
-    
 
 
 
@@ -541,21 +535,6 @@ o
 > Son ideales para las ocasiones en que necesitas una función simple que solo vas a utilizar una vez, de esta manera, el código queda más ordenado.
 
 
-
-
-
-```
-(lambda **kwargs: sum(kwargs.values()))(a=1, b=2, c=3) # 6
-
-```
-
-Por último, es posible devolver más de un valor.
-
-```
-x = lambda a, b: (b, a)
-print(x(3, 9))
-# Salida (9,3)
-```
 
 
 También es posible que una función devuelva una función lambda.
@@ -771,11 +750,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODk0MTMzMDksMTI1OTIwNTUyNCwyMT
-Q3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4LC0xOTAzMDU5
-OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0MDcyNC
-wyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNjYwODM2
-MTExLC0xMTEwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5ODMsMT
-Y0NjIyMzIzLDIwODUwODQzNjcsLTEzMzAzMDEwNzcsODE2NDA5
-Mzc1XX0=
+eyJoaXN0b3J5IjpbMTk3MjUyNjc1NSwxMjU5MjA1NTI0LDIxND
+cyNjg3NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgsLTE5MDMwNTk5
+MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LD
+I1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYx
+MTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4MywxNj
+Q2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkz
+NzVdfQ==
 -->
