@@ -493,7 +493,12 @@ Sirven para declarar de una manera rápida y sencilla funciones cortas que no ne
 
 Estructura de una función Lambda:
 
-    lambda argumentos: expresión --> palabra clave lambd
+    *lambda argumentos: expresión* --> palabra clave 'lambda', 
+								       espacio, 
+								     argumentos separados por comas, 
+								     el signo ':',
+								     la expresión
+								    
 
 > **MEJORES PRÁCTICAS**
 > Son ideales para las ocasiones en que necesitas una función simple que solo vas a utilizar una vez, de esta manera, el código queda más ordenado.
@@ -792,11 +797,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTU2NTgxMiwtMjM2NjcyMDgsLTE5MD
-MwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQw
-NzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2Nj
-A4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4
-MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MT
-Y0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NTIw
-MDNdfQ==
+eyJoaXN0b3J5IjpbMjQzOTE2MTU1LC0yMzY2NzIwOCwtMTkwMz
+A1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC00MDgyNDA3
+MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3MzM4LDY2MD
+gzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgyMTUsLTUzMDg0OTgz
+LDE2NDYyMjMyMywyMDg1MDg0MzY3LC0xMzMwMzAxMDc3LDgxNj
+QwOTM3NSwxOTgxMTUxMjg5LDIzNzIxNDc0OSwtMTM0MjQ1MjAw
+M119
 -->
