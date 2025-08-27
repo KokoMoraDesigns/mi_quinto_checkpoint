@@ -613,7 +613,7 @@ Algunos comandos que pip nos proporciona para poder gestionar de manera eficient
 
  `pip install <nombre_del_paquete>` --> para instalar paquetes
  `pip install <nombre_del_paquete> >= <version_del_paquete>` --> para instalar paquetes a partir de determinada versión
-`pip freeze > requirements.txt` --> para crear un archivo que le indique a pip los paquetes, y sus versiones, que necesitas para el proyecto en que vas a trabajar 
+`pip freeze > requirements.txt` --> para crear un archivo que le indique a pip los paquetes, y sus versiones, que necesitas para el proyecto en que vas a trabajar (muy útil en el caso de proyectos colaborativos, por ejemplo)
 
 
 
@@ -679,7 +679,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDMwNzMwNSwtMTk0MjY4MzMzNiwtMj
+eyJoaXN0b3J5IjpbMTU1MjY5NjQ1MCwtMTk0MjY4MzMzNiwtMj
 A1NDAzOTkxLDQzNzgwODI1NSw4MTM3MjgyMiwxNTQ1NDg5MjQy
 LDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNT
 kyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIw
