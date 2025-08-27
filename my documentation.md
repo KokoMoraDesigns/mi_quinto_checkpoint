@@ -609,29 +609,8 @@ Un **gestor de paquetes** es una herramienta que te permite gestionar (instalar,
 
 PIP (Package Installer for Python) o PIP3 es el gestor de paquetes más usado entre las personas usuarios de Python, de hecho, se instala de manera automática al instalar las últimas versiones de Python.
 
+Algunos comandos que pip nos proporciona para poder gestionar de manera eficiente nuestras bibliotecas son
 
-
-Dependencias: -   otras librerías o módulos de los que un paquete depende para funcionar.
-
-
-
-Aunque Python por sí solo ya es capaz de hacer muchas cosas geniales, los profesionales de los datos -y, más ampliamente, los desarrolladores de software- suelen hacer uso de paquetes adicionales -también conocidos como bibliotecas- para facilitarles la vida. Un paquete es una colección de archivos, módulos y dependencias relacionados que pueden utilizarse repetidamente en diferentes aplicaciones y problemas.
-
-Uno de los principales puntos fuertes de Python es su amplio catálogo de bibliotecas bien documentadas y completas. ¿Dónde están alojadas estas bibliotecas? ¿Cómo puedes instalar y gestionar los paquetes que te interesan?
-
-Utilicemos una metáfora para entender qué es pip. Imagina que Python es una caja de herramientas bonita y equilibrada con los elementos esenciales que necesitarás para codificar. Cuando compras (instalas) Python en tu ordenador, viene con una amplia colección de herramientas adicionales (paquetes) que puedes utilizar en cualquier momento.
-
-La llamada  [Biblioteca Estándar de Python](https://docs.python.org/3/library/)  es un amplio conjunto de paquetes incorporados que proporciona soluciones estandarizadas para muchos problemas que surgen en la programación cotidiana. Como estos paquetes vienen incluidos en las distribuciones modernas de Python, puedes utilizarlos sin necesidad de ninguna instalación adicional. Sólo tienes que "importarlos" a tu espacio de trabajo (más adelante hablaremos de ello).
-
-Sin embargo, a veces no encontrarás la herramienta que buscas en Python o en su Biblioteca Estándar. En estos casos, tendrás que conseguir nuevas herramientas en otro lugar. Afortunadamente, Internet es un inmenso almacén donde puedes encontrar cientos de miles de paquetes desarrollados por desarrolladores de Python para todo tipo de propósitos.
-
-Un gestor de paquetes (también llamado sistema de gestión de paquetes) es una herramienta que automatiza el proceso de instalación, actualización, configuración y eliminación de paquetes de un ordenador de forma coherente.
-
-Los gestores de paquetes están diseñados para eliminar la necesidad de instalaciones y actualizaciones manuales, garantizando así que un paquete se instala junto con todas las dependencias que necesita para funcionar. Asimismo, como los gestores de paquetes aprovechan la información almacenada en repositorios de paquetes certificados, como PyPi y  [Anaconda](https://anaconda.org/anaconda/repo), garantizan la integridad y autenticidad de los paquetes.
-
-El gestor de paquetes más popular para Python es pip. Desarrollado en 2008, pip (acrónimo de "pip Install Packages") es hoy la  [herramienta estándar](https://packaging.python.org/en/latest/guides/tool-recommendations/)  para instalar paquetes de Python y sus dependencias de forma segura. Las distribuciones más recientes de Python vienen con pip preinstalado. Python 2.7.9 y Python 3.4 y versiones posteriores incluyen pip por defecto.
-
-Pip es una herramienta potente y fácil de usar que te permite gestionar paquetes de Python utilizando un puñado de comandos. 
 
 En caso de que quieras instalar un paquete que cumpla determinadas condiciones en cuanto a versiones, pip te permite utilizar ciertas condiciones booleanas. Por ejemplo, si quieres instalar una versión de pandas mayor o igual que v.1.0.0 y menor que 1.5:
 
@@ -701,11 +680,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzU2NTQ2LC0xOTQyNjgzMzM2LC0yMD
-U0MDM5OTEsNDM3ODA4MjU1LDgxMzcyODIyLDE1NDU0ODkyNDIs
-ODIzMzA5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEsMTI1OT
-IwNTUyNCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4
-LC0xOTAzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLT
-QwODI0MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDcz
-MzhdfQ==
+eyJoaXN0b3J5IjpbLTkxNzQ2MzgxOSwtMTk0MjY4MzMzNiwtMj
+A1NDAzOTkxLDQzNzgwODI1NSw4MTM3MjgyMiwxNTQ1NDg5MjQy
+LDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNT
+kyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIw
+OCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC
+00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3
+MzM4XX0=
 -->
