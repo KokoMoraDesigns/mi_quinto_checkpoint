@@ -559,7 +559,9 @@ Estructura de la comprensión de lista:
 
 Por ejemplo:
 
-    multiplos_tres = [num**2
+    multiplos_cinco = [num*5 for num in range(1,7)]
+    
+    multiplos_cinco = [0, 5, 10, 15, 20, 25, 30]
 
 Dentro de la comprensión de lista, también podemos llamar a una función: 
 
@@ -742,7 +744,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTUxNzc0OSw4MTM3MjgyMiwxNTQ1ND
+eyJoaXN0b3J5IjpbLTQ5MDQyMjQ3Niw4MTM3MjgyMiwxNTQ1ND
 g5MjQyLDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMx
 LDEyNTkyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMz
 Y2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEy
