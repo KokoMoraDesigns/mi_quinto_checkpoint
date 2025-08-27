@@ -134,9 +134,7 @@ Separas mediante un asterisco los parámetros obligatoriamente de palabras clave
 	sum(4,8,9,d=5) --> salida: 26 --> 'a' y 'b' son argumentos obligatoriamente posicionales, 'c' posicional o de palabra clave, y 'd' obligatoriamente de palabra clave.
 
 
-
-
-
+<br>
 
 ## Bucle
 
@@ -638,7 +636,7 @@ Algunos comandos que PIP proporciona para poder gestionar de manera eficiente nu
     
 > Written by [ Maite Ekhiñe Mora ]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTkzMjI2NCwtMTk0MjY4MzMzNiwtMj
+eyJoaXN0b3J5IjpbLTY1MzM5NzMzOCwtMTk0MjY4MzMzNiwtMj
 A1NDAzOTkxLDQzNzgwODI1NSw4MTM3MjgyMiwxNTQ1NDg5MjQy
 LDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNT
 kyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIw
