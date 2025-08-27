@@ -534,7 +534,7 @@ Por ejemplo:
     nums_solo = list(nums)
     
  
-Los tipos de argumentos de las funciones tradicionales también se aplican con las funciones anónimas:
+Los *tipos de argumentos* de las funciones tradicionales también se aplican a las funciones anónimas:
 
     sum = lambda num1,num2=4: num1+num2
     
@@ -553,12 +553,12 @@ También las puedes utilizar dentro de una función tradicional:
 	cuarenta_porcentaje(400) --> salida --> 160
 
 
-
+<br>
 
 > **MEJORES PRÁCTICAS**
 > Son ideales para las ocasiones en que necesitas una función simple que solo vas a utilizar una vez, de esta manera, el código queda más ordenado.
 
-
+<br>
 
 
 ## Comprensión de lista
@@ -596,7 +596,7 @@ Dentro de la comprensión de lista, también podemos llamar a una función:
 
 
 
-Estructura de la comprensión de lista con condiciones:
+Estructura de la comprensión de lista con condicionales:
 
     nueva_lista = código a ejecutar for variable in iterable if condicion(es)
 
@@ -647,7 +647,7 @@ Algunos comandos que PIP proporciona para poder gestionar de manera eficiente nu
     
 > Written by [ Maite Ekhiñe Mora ]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3NzI4ODU3LC0xOTQyNjgzMzM2LC0yMD
+eyJoaXN0b3J5IjpbMjkyNTE4OTAxLC0xOTQyNjgzMzM2LC0yMD
 U0MDM5OTEsNDM3ODA4MjU1LDgxMzcyODIyLDE1NDU0ODkyNDIs
 ODIzMzA5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEsMTI1OT
 IwNTUyNCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4
