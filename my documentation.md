@@ -558,6 +558,15 @@ Estructura de la comprensión de lista:
     nueva_lista = código a ejecutar for variable in iterable
 
 
+También podemos utilizarla
+
+
+def porcentaje (p):
+    
+	    return lambda num: num * p / 100
+	    
+	    
+	veinte_porcentaje = porcentaje(20)
 ```
 cuadrados = [i**2 for i in range(5)]
 #[0, 1, 4, 9, 16]
@@ -565,11 +574,6 @@ cuadrados = [i**2 for i in range(5)]
 ```
 
 
-veamos la sintaxis general de las comprensiones de listas.
-
-```
-# lista = [expresión for elemento in iterable]
-```
 
 
 La expresión también puede ser una llamada a una función. Se podría escribir el ejemplo anterior del cálculo de cuadrados de la siguiente manera.
@@ -736,7 +740,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk1MzExOTI1LDE1NDU0ODkyNDIsODIzMz
+eyJoaXN0b3J5IjpbODk3NzI5ODA2LDE1NDU0ODkyNDIsODIzMz
 A5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEsMTI1OTIwNTUy
 NCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4LC0xOT
 AzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0
