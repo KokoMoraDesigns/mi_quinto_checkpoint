@@ -501,6 +501,12 @@ Estructura de una función Lambda:
 								    
 Por ejemplo:
 
+    FUNCIÓN TRADICIONAL:
+    
+    def sum(num1,num2):
+	    return num1+num2
+	sum(4,7
+
 > **MEJORES PRÁCTICAS**
 > Son ideales para las ocasiones en que necesitas una función simple que solo vas a utilizar una vez, de esta manera, el código queda más ordenado.
 
@@ -787,11 +793,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTYzNTA1NiwtMjM2NjcyMDgsLTE5MD
-MwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQw
-NzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2Nj
-A4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4
-MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MT
-Y0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NTIw
-MDNdfQ==
+eyJoaXN0b3J5IjpbLTI5MzAyOTg5NCwxNTExNjM1MDU2LC0yMz
+Y2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEy
+MTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMj
+Q4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgy
+MTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3LC0xMz
+MwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNzIxNDc0
+OV19
 -->
