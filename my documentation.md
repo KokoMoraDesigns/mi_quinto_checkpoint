@@ -367,6 +367,13 @@ La orden *break* interrumpirá el bucle de inmediato y, en caso de existir, pasa
 		    continue
 	    print(opcion)
 
+
+	salida --> us
+			   seven veils
+			   heretic
+			   the shining
+
+
 	
 
     
@@ -447,11 +454,13 @@ Una sentencia condicional puede contener en su interior otro bloque con otra sen
 		else:
 			print(f'tienes una media de {idiomas} en idiomas, ¿crees que necesitas refuerzo o prefieres investigar qué otras áreas puedes estudiar?')
 
+<br>
 
 > **MEJORES PRÁCTICAS:**
 > 
 > Si bien existe la posibilidad de utilizar un número ilimitado de anidaciones, con cada una de ellas el código será más difícil de leer e interpretar, con lo que resulta recomendable usarlas únicamente cuando vayan a optimizar el funcionamiento y la lectura del código.
    
+   <br>
    
 
 ### Sentencia condicional no binaria
@@ -638,11 +647,11 @@ Algunos comandos que PIP proporciona para poder gestionar de manera eficiente nu
     
 > Written by [ Maite Ekhiñe Mora ]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1ODczMTQsLTE5NDI2ODMzMzYsLTIwNT
-QwMzk5MSw0Mzc4MDgyNTUsODEzNzI4MjIsMTU0NTQ4OTI0Miw4
-MjMzMDk3OTAsMTc4MDEzMTM2MiwtMTM3MzI4OTkzMSwxMjU5Mj
-A1NTI0LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgs
-LTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtND
-A4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMz
-OF19
+eyJoaXN0b3J5IjpbMTMzMDc4NTkyNSwtMTk0MjY4MzMzNiwtMj
+A1NDAzOTkxLDQzNzgwODI1NSw4MTM3MjgyMiwxNTQ1NDg5MjQy
+LDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNT
+kyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIw
+OCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC
+00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3
+MzM4XX0=
 -->
