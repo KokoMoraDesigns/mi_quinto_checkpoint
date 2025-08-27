@@ -515,7 +515,7 @@ Por ejemplo:
 
     nums = [4, 8, 10, 12, 14]
     
-    filtrar = f
+    filtrar = filter
 
 
 > **MEJORES PRÁCTICAS**
@@ -794,11 +794,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyMDgyNzcsMTUxMTYzNTA1NiwtMjM2Nj
-cyMDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEz
-MSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0OD
-IwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1
-LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMD
-MwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDld
-fQ==
+eyJoaXN0b3J5IjpbMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMz
+Y2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEy
+MTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMj
+Q4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgy
+MTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3LC0xMz
+MwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNzIxNDc0
+OV19
 -->
