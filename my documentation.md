@@ -527,6 +527,11 @@ Los tipos de argumentos de las funciones tradicionales también se aplican con l
     sum = lambda num1,num2=4: num1+num2
     
     sum(2) --> salida: 6
+    
+o
+
+    sum = lambda *nums: 
+    
 
 
 
@@ -534,18 +539,6 @@ Los tipos de argumentos de las funciones tradicionales también se aplican con l
 > Son ideales para las ocasiones en que necesitas una función simple que solo vas a utilizar una vez, de esta manera, el código queda más ordenado.
 
 
-
-```
-(lambda a, b, c=3: a + b + c)(1, 2) # 6
-
-```
-
-También se pueden pasar los parámetros indicando su nombre.
-
-```
-(lambda a, b, c: a + b + c)(a=1, b=2, c=3) # 6
-
-```
 
 Al igual que en las funciones se puede tener un número variable de argumentos haciendo uso de  `*`, lo conocido como  **tuple unpacking**.
 
@@ -782,11 +775,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjQxNDg0MCwxMjU5MjA1NTI0LDIxND
-cyNjg3NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgsLTE5MDMwNTk5
-MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LD
-I1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYx
-MTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4MywxNj
-Q2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkz
-NzVdfQ==
+eyJoaXN0b3J5IjpbLTIwMTI4MDMwMTEsMTI1OTIwNTUyNCwyMT
+Q3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4LC0xOTAzMDU5
+OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0MDcyNC
+wyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNjYwODM2
+MTExLC0xMTEwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5ODMsMT
+Y0NjIyMzIzLDIwODUwODQzNjcsLTEzMzAzMDEwNzcsODE2NDA5
+Mzc1XX0=
 -->
