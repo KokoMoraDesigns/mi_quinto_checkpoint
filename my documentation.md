@@ -376,7 +376,8 @@ La orden *break* interrumpirá el bucle de inmediato y, en caso de existir, pasa
 
 	
 
-    
+ <br>
+ 
 ## Condicional
 
 Una condicional permite que se ejecuten bloques de código diferentes en dependencia de si una condición determinada resulta ser verdadera o resulta ser falsa, esto le da independencia al programa para tomar decisiones *(de hecho, a la sentencia condiciónal también se puede llamar sentencia de decisión)* según el contexto en que se encuentre. 
@@ -497,7 +498,7 @@ Resume el código en una sola línea, que se divide en tres partes diferentes:
         
         print('buenos días' if zona_horaria == 'dia' else 'buenas noches')
 
-
+<br>
 
 ## Función Lambda ( o función anónima)
 
@@ -652,11 +653,11 @@ Algunos comandos que PIP proporciona para poder gestionar de manera eficiente nu
   
 > Written by  **[ Maite Ekhiñe Mora ]**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzgyODI1MjEsLTE5NDI2ODMzMzYsLT
-IwNTQwMzk5MSw0Mzc4MDgyNTUsODEzNzI4MjIsMTU0NTQ4OTI0
-Miw4MjMzMDk3OTAsMTc4MDEzMTM2MiwtMTM3MzI4OTkzMSwxMj
-U5MjA1NTI0LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMjM2Njcy
-MDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMS
-wtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIw
-NzMzOF19
+eyJoaXN0b3J5IjpbLTY2MTgxNzExLC0xNzc4MjgyNTIxLC0xOT
+QyNjgzMzM2LC0yMDU0MDM5OTEsNDM3ODA4MjU1LDgxMzcyODIy
+LDE1NDU0ODkyNDIsODIzMzA5NzkwLDE3ODAxMzEzNjIsLTEzNz
+MyODk5MzEsMTI1OTIwNTUyNCwyMTQ3MjY4NzY5LDE1MTE2MzUw
+NTYsLTIzNjY3MjA4LC0xOTAzMDU5OTM1LC0xMTYxNzMyNTIwLD
+E5NDc2MTIxMzEsLTQwODI0MDcyNCwyNTA1NDM0OTgsLTE0MTgw
+Mzc1Nl19
 -->
