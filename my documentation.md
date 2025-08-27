@@ -605,19 +605,13 @@ En la nueva lista solo se almacenará el contenido que cumpla la(s) condicion(es
 
 ## Paquete pip
 
-Un **gestor de paquetes** es una herramienta que te permite gestionar (instalar, actualizar, desinstalar, consultar, etc.) las bibliotecas o paquetes externos que utilices en tu proyecto de Python; a su vez, un *paquete* te ofrece funcionalidades extra que no están incluidas en la oferta básica de Python. PIP (Package Installer for Python) es el gestor de paquetes más usado entre las personas usuarios de Python, de hecho, se instala de manera automática cuando instalas las últimas versiones de Python.
+Un **gestor de paquetes** es una herramienta que te permite gestionar (instalar, actualizar, desinstalar, consultar, etc.) las bibliotecas o paquetes externos que utilices en tu proyecto de Python; a su vez, un *paquete* te ofrece funcionalidades extra que no están incluidas en la oferta básica de Python. PIP (Package Installer for Python) o PIP3 es el gestor de paquetes más usado entre las personas usuarios de Python, de hecho, se instala de manera automática cuando instalas las últimas versiones de Python.
 
 
 
 Dependencias: -   otras librerías o módulos de los que un paquete depende para funcionar.
 
--   Pip (Package Installer for Python) es el gestor de paquetes oficial y más utilizado en el ecosistema de Python. Se instala automáticamente con las versiones recientes de Python
--   -   Para ver los paquetes instalados.
 
-
-`pip`  es el gestor de paquetes principal para Python. Sirve para instalar, actualizar y eliminar paquetes de software en Python. Es una herramienta esencial para el desarrollo en Python, ya que facilita la gestión de dependencias y la reutilización de código.
-
-pip (también conocido por el alias pip3 de Python 3) es **un sistema de gestión de paquetes escrito en Python y se utiliza para instalar y administrar paquetes de software**
 
 Aunque Python por sí solo ya es capaz de hacer muchas cosas geniales, los profesionales de los datos -y, más ampliamente, los desarrolladores de software- suelen hacer uso de paquetes adicionales -también conocidos como bibliotecas- para facilitarles la vida. Un paquete es una colección de archivos, módulos y dependencias relacionados que pueden utilizarse repetidamente en diferentes aplicaciones y problemas.
 
@@ -705,11 +699,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTg0MTU2MiwtMTk0MjY4MzMzNiwtMj
-A1NDAzOTkxLDQzNzgwODI1NSw4MTM3MjgyMiwxNTQ1NDg5MjQy
-LDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNT
-kyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIw
-OCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC
-00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3
-MzM4XX0=
+eyJoaXN0b3J5IjpbODM5Nzk1ODIyLC0xOTQyNjgzMzM2LC0yMD
+U0MDM5OTEsNDM3ODA4MjU1LDgxMzcyODIyLDE1NDU0ODkyNDIs
+ODIzMzA5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEsMTI1OT
+IwNTUyNCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4
+LC0xOTAzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLT
+QwODI0MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDcz
+MzhdfQ==
 -->
