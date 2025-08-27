@@ -567,18 +567,10 @@ Dentro de la comprensión de lista, también podemos llamar a una función:
     	    
     	    
     	cuarenta_porcentaje = porcentaje(40)
-    precio_iphones=[
+    	
+    precio_iphones=[1219, 959, 709, 859]
+    mi_precio_iphone=[
    
-
-
-```
-cuadrados = [i**2 for i in range(5)]
-#[0, 1, 4, 9, 16]
-
-```
-
-
-
 
 La expresión también puede ser una llamada a una función. Se podría escribir el ejemplo anterior del cálculo de cuadrados de la siguiente manera.
 
@@ -589,6 +581,17 @@ def eleva_al_2(i):
 cuadrados = [eleva_al_2(i) for i in range(5)]
 #[0, 1, 4, 9, 16]
 ```
+```
+cuadrados = [i**2 for i in range(5)]
+#[0, 1, 4, 9, 16]
+
+```
+
+
+
+
+
+
 
 Como puedes observar, las posibilidades son bastante amplias. Cualquier elemento que sea iterable puede ser usado con las  _list comprehensions_. Anteriormente hemos iterado  `range()`  pero podemos hacer lo mismo para una lista. En el siguiente ejemplo vemos como dividir todos los números de una lista entre 10.
 
@@ -744,11 +747,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTgwNDg5NSwxNTQ1NDg5MjQyLDgyMz
-MwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNTkyMDU1
-MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIwOCwtMT
-kwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC00MDgy
-NDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3MzM4LD
-Y2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgyMTUsLTUzMDg0
-OTgzXX0=
+eyJoaXN0b3J5IjpbLTM3Njg2MjMzLDE1NDU0ODkyNDIsODIzMz
+A5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEsMTI1OTIwNTUy
+NCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4LC0xOT
+AzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0
+MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNj
+YwODM2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5
+ODNdfQ==
 -->
