@@ -558,7 +558,7 @@ Estructura de la comprensión de lista:
     nueva_lista = código a ejecutar for variable in iterable
 
 
-También podemos utilizarla
+También podemos llamar a una función dentro de la ccompenetrarla con el trabajo de una función, por ejemplo:
 
 
 def porcentaje (p):
@@ -740,11 +740,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3NzI5ODA2LDE1NDU0ODkyNDIsODIzMz
-A5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEsMTI1OTIwNTUy
-NCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4LC0xOT
-AzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0
-MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNj
-YwODM2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5
-ODNdfQ==
+eyJoaXN0b3J5IjpbLTE5ODM3NjgyMzEsMTU0NTQ4OTI0Miw4Mj
+MzMDk3OTAsMTc4MDEzMTM2MiwtMTM3MzI4OTkzMSwxMjU5MjA1
+NTI0LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgsLT
+E5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4
+MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOC
+w2NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4
+NDk4M119
 -->
