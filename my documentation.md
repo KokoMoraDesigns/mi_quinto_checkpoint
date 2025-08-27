@@ -528,7 +528,9 @@ Los tipos de argumentos de las funciones tradicionales también se aplican con l
     
     sum(2) --> salida: 6
     
+También las puedes utilizar dentro de una función tradicional:
 
+    def múltiplos
 
 
 > **MEJORES PRÁCTICAS**
@@ -750,7 +752,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjUyNjc1NSwxMjU5MjA1NTI0LDIxND
+eyJoaXN0b3J5IjpbLTg5MDAzODgzNywxMjU5MjA1NTI0LDIxND
 cyNjg3NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgsLTE5MDMwNTk5
 MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LD
 I1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYx
