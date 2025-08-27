@@ -609,7 +609,7 @@ Un **gestor de paquetes** es una herramienta que te permite gestionar (instalar,
 
 PIP (Package Installer for Python) o PIP3 es el gestor de paquetes más usado entre las personas usuarios de Python, de hecho, se instala de manera automática al instalar las últimas versiones de Python.
 
-Algunos comandos que pip tproporciona para poder gestionar de manera eficiente nuestras bibliotecas son:
+Algunos comandos que PIP proporciona para poder gestionar de manera eficiente nuestras bibliotecas son:
 
  `pip install <nombre_del_paquete>` --> para instalar un paquete determinado.
  
@@ -623,26 +623,22 @@ Algunos comandos que pip tproporciona para poder gestionar de manera eficiente n
 
 `pip install -r requirements.txt --upgrade` --> para actualizar a su última versión todos los paquetes incluidos en el archivo de requisitos.
 
-`pip uninstall <nombre_paquete>` --> para eliminar un paquete determinado de tu entorno de Python.
+`pip uninstall <nombre_del_paquete>` --> para eliminar un paquete determinado de tu entorno de Python.
 
-pip list --> para listar los paquetes que tene
+`pip list -`-> para listar los paquetes que tienes instalados en tu entorno.
+
+`pip show <nombre_del_paquete>` --> para poder ver el resumen de un determinado paquete.
+pip help --> si nece
 
 
     
-Para listar todos los paquetes instalados en tu entorno:
-
-`>>pip list`
-
-Para ver un resumen de un paquete de tu interés:
-
-`>>pip show [NameOfPackage]`
 > Written by [ Maite Ekhiñe Mora ]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODgwMzA3MywtMTk0MjY4MzMzNiwtMj
-A1NDAzOTkxLDQzNzgwODI1NSw4MTM3MjgyMiwxNTQ1NDg5MjQy
-LDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNT
-kyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIw
-OCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC
-00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3
-MzM4XX0=
+eyJoaXN0b3J5IjpbLTE4NjIwNjI5NzQsLTE5NDI2ODMzMzYsLT
+IwNTQwMzk5MSw0Mzc4MDgyNTUsODEzNzI4MjIsMTU0NTQ4OTI0
+Miw4MjMzMDk3OTAsMTc4MDEzMTM2MiwtMTM3MzI4OTkzMSwxMj
+U5MjA1NTI0LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMjM2Njcy
+MDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMS
+wtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIw
+NzMzOF19
 -->
