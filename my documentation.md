@@ -461,7 +461,7 @@ Una sentencia condicional puede contener en su interior otro bloque con otra sen
 > Si bien existe la posibilidad de utilizar un número ilimitado de anidaciones, con cada una de ellas el código será más difícil de leer e interpretar, con lo que resulta recomendable usarlas únicamente cuando vayan a optimizar el funcionamiento y la lectura del código.
    
    <br>
-   
+   <br>
 
 ### Sentencia condicional no binaria
 
@@ -509,7 +509,7 @@ Estructura de una función Lambda:
 								       espacio, 
 								       argumentos separados por comas, 
 								       el signo ':',
-								       la expresión
+								       el código a ejecutar
 								    
 Por ejemplo:
 
@@ -647,11 +647,11 @@ Algunos comandos que PIP proporciona para poder gestionar de manera eficiente nu
     
 > Written by [ Maite Ekhiñe Mora ]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDc4NTkyNSwtMTk0MjY4MzMzNiwtMj
-A1NDAzOTkxLDQzNzgwODI1NSw4MTM3MjgyMiwxNTQ1NDg5MjQy
-LDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNT
-kyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIw
-OCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC
-00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3
-MzM4XX0=
+eyJoaXN0b3J5IjpbODg3NzI4ODU3LC0xOTQyNjgzMzM2LC0yMD
+U0MDM5OTEsNDM3ODA4MjU1LDgxMzcyODIyLDE1NDU0ODkyNDIs
+ODIzMzA5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEsMTI1OT
+IwNTUyNCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4
+LC0xOTAzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLT
+QwODI0MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDcz
+MzhdfQ==
 -->
