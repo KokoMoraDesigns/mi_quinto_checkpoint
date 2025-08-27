@@ -490,7 +490,6 @@ Resume el código en una sola línea, que se divide en tres partes diferentes:
 ## Función Lambda ( o función anónima)
 
 
-
 Estructura de una función Lambda:
 
     *lambda argumentos: expresión* --> palabra clave 'lambda', 
@@ -509,6 +508,15 @@ Por ejemplo:
 	    
 	    
 						sum(4,7) --> 11
+
+Sirven para declarar de una manera rápida y sencilla funciones cortas que no necesitan poseer un nombre ( de ahí su consideración de 'anónimas'). Se caracterizan por tener una sola expresión, aunque sí pueden componerse por más de un argumento.
+
+Por ejemplo:
+
+    nums = [4, 8, 10, 12, 14]
+    
+    filtrar = f
+
 
 > **MEJORES PRÁCTICAS**
 > Son ideales para las ocasiones en que necesitas una función simple que solo vas a utilizar una vez, de esta manera, el código queda más ordenado.
@@ -786,11 +794,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwODM2NzA4NCwxNTExNjM1MDU2LC0yMz
-Y2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEy
-MTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMj
-Q4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgy
-MTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3LC0xMz
-MwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNzIxNDc0
-OV19
+eyJoaXN0b3J5IjpbNjIyMDgyNzcsMTUxMTYzNTA1NiwtMjM2Nj
+cyMDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEz
+MSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0OD
+IwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1
+LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMD
+MwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDld
+fQ==
 -->
