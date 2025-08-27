@@ -590,7 +590,7 @@ Estructura de la comprensión de lista con condiciones:
 
 En la nueva lista solo se almacenará el contenido que cumpla la(s) condicion(es), por ejemplo:
 
-    invitadas = [('persona_uno', 'no bebe'), ('persona_dos', 'no b]
+    invitadas = [('persona uno', 'aficionada libros'), ('persona dos', 'aficionada musica'), ('persona tres', 'aficionada musica'), ('persona cuatro', 'bebe')]
     letras = char for char in string if char.isalpha()
 
 
@@ -718,7 +718,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NzM4NDc5OCw0Mzc4MDgyNTUsODEzNz
+eyJoaXN0b3J5IjpbLTgwMjQ3NDQzMiw0Mzc4MDgyNTUsODEzNz
 I4MjIsMTU0NTQ4OTI0Miw4MjMzMDk3OTAsMTc4MDEzMTM2Miwt
 MTM3MzI4OTkzMSwxMjU5MjA1NTI0LDIxNDcyNjg3NjksMTUxMT
 YzNTA1NiwtMjM2NjcyMDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1
