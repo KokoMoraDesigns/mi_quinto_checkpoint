@@ -551,7 +551,7 @@ También las puedes utilizar dentro de una función tradicional:
 
 ## Comprensión de lista
 
-Sirve para, con una sola línea de código, iterar una lista y, en caso de que se cumpla(n) determinada(s) condicion(es), crear una nueva lista que almacene el contenido de la primera lista que ha cumplido la(s) 
+Sirve para, con una sola línea de código, iterar una lista y, en caso de que se cumpla(n) determinada(s) condicion(es), crear una nueva lista que almacene el contenido que 'ha pasado la prueba'.
 
 Estructura de la comprensión de lista:
 
@@ -571,15 +571,6 @@ veamos la sintaxis general de las comprensiones de listas.
 # lista = [expresión for elemento in iterable]
 ```
 
-
-Es decir, por un lado tenemos el  `for elemento in iterable`, que itera un determinado iterable y “almacena” cada uno de los elementos en  `elemento`  [como vimos en este otro post sobre el for](https://ellibrodepython.com/for-python/). Por otro lado, tenemos la  `expresión`, que es lo que será añadido a la lista en cada iteración.
-
-La expresión puede ser una operación como hemos visto anteriormente  `i**2`, pero también puede ser un valor constante. El siguiente ejemplo genera una lista de cinco unos.
-
-```
-unos = [1 for i in range(5)]
-#[1, 1, 1, 1, 1]
-```
 
 La expresión también puede ser una llamada a una función. Se podría escribir el ejemplo anterior del cálculo de cuadrados de la siguiente manera.
 
@@ -745,11 +736,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDY5NjQzOCwxNTQ1NDg5MjQyLDgyMz
-MwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNTkyMDU1
-MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIwOCwtMT
-kwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC00MDgy
-NDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3MzM4LD
-Y2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgyMTUsLTUzMDg0
-OTgzXX0=
+eyJoaXN0b3J5IjpbMjk1MzExOTI1LDE1NDU0ODkyNDIsODIzMz
+A5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEsMTI1OTIwNTUy
+NCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4LC0xOT
+AzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0
+MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNj
+YwODM2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5
+ODNdfQ==
 -->
