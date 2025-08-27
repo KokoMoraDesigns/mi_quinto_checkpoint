@@ -557,6 +557,9 @@ Estructura de la comprensión de lista:
 
     nueva_lista = código a ejecutar for variable in iterable
 
+Por ejemplo:
+
+    multiplos_tres = [num**2
 
 Dentro de la comprensión de lista, también podemos llamar a una función: 
 
@@ -596,10 +599,6 @@ lista = [10, 20, 30, 40 , 50]
 nueva_lista = [i/10 for i in lista]
 #[1.0, 2.0, 3.0, 4.0, 5.0]
 ```
-
-Pero, ¿y si quisiéramos realizar la operación sobre el elemento sólo si una determinada condición se cumple? Pues tenemos buenas noticias, porque es posible añadir un condicional  `if`. La expresión genérica sería la siguiente.
-
-
 
 
 ```
@@ -743,7 +742,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTc5MjAyOSw4MTM3MjgyMiwxNTQ1ND
+eyJoaXN0b3J5IjpbLTk3MTUxNzc0OSw4MTM3MjgyMiwxNTQ1ND
 g5MjQyLDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMx
 LDEyNTkyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMz
 Y2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEy
