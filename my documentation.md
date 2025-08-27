@@ -551,22 +551,18 @@ También las puedes utilizar dentro de una función tradicional:
 
 ## Comprensión de lista
 
-Si
+Sirve para, con una sola línea de código, iterar una lista y, en caso de que se cumpla(n) determinada(s) condicion(es), crear una nueva lista con los elementos que cumplen la(s) condicion(es).
+
 Estructura de la comprensión de lista:
 
     lista = código a ejecutar for variable in iterable
 
-
-
-La comprensión de listas es una forma de recorrer una lista para producir una nueva lista basada en algunas condiciones.
-Vayamos al grano, las  _list comprehension_  nos permiten crear listas de elementos en una sola línea de código. Por ejemplo, podemos crear una lista con los cuadrados de los primeros 5 números de la siguiente forma
 
 ```
 cuadrados = [i**2 for i in range(5)]
 #[0, 1, 4, 9, 16]
 
 ```
-
 De no existir, podríamos hacer lo mismo de la siguiente forma, pero necesitamos alguna que otra línea más de código.
 
 ```
@@ -757,7 +753,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDk0Mjc0MCwxNTQ1NDg5MjQyLDgyMz
+eyJoaXN0b3J5IjpbMTQ0MDAwOTk0MywxNTQ1NDg5MjQyLDgyMz
 MwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNTkyMDU1
 MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIwOCwtMT
 kwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC00MDgy
