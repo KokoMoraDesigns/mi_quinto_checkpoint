@@ -489,7 +489,7 @@ Resume el código en una sola línea, que se divide en tres partes diferentes:
 
 ## Función Lambda ( o función anónima)
 
-Sirven para declarar de una manera rápida y sencilla funciones cortas que no necesitan poseer un nombre ( de ahí su consideración de 'anónimas'); se caracterizan por tener una sola expresión (aunque sí pueden componerse por más de un argumento).
+
 
 Estructura de una función Lambda:
 
@@ -514,23 +514,13 @@ Por ejemplo:
 > Son ideales para las ocasiones en que necesitas una función simple que solo vas a utilizar una vez, de esta manera, el código queda más ordenado.
 
 
-```py
-# Función Lambda para calcular el cuadrado de un número
-square = lambda x: x ** 2
-print(square(3)) # Resultado: 9
 
-# Funcion tradicional para calcular el cuadrado de un numero
-def square1(num):
-  return num ** 2
-print(square(5)) # Resultado: 25
-```
 
 ```py
 lambda_func = lambda x: True if x**2 >= 10 else False
 lambda_func(3) # Retorna False
 lambda_func(4) # Retorna True
 ```
-
 
 ```python
 mi_lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -796,7 +786,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNzM0MTQwOCwxNTExNjM1MDU2LC0yMz
+eyJoaXN0b3J5IjpbMTEwODM2NzA4NCwxNTExNjM1MDU2LC0yMz
 Y2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEy
 MTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMj
 Q4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgy
