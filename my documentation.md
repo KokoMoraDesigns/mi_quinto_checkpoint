@@ -530,9 +530,9 @@ Los tipos de argumentos de las funciones tradicionales también se aplican con l
     
 o
 
-    sum = lambda *nums: sum(nums)
+    suma = lambda *args: sum(args)
     
-    sum(2,4,24,444)
+    suma(2,4,24,444)
     
 
 
@@ -777,11 +777,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODc2NjIyNCwxMjU5MjA1NTI0LDIxND
-cyNjg3NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgsLTE5MDMwNTk5
-MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LD
-I1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYx
-MTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4MywxNj
-Q2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkz
-NzVdfQ==
+eyJoaXN0b3J5IjpbLTE1NDQ4OTM5MDgsMTI1OTIwNTUyNCwyMT
+Q3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4LC0xOTAzMDU5
+OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0MDcyNC
+wyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNjYwODM2
+MTExLC0xMTEwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5ODMsMT
+Y0NjIyMzIzLDIwODUwODQzNjcsLTEzMzAzMDEwNzcsODE2NDA5
+Mzc1XX0=
 -->
