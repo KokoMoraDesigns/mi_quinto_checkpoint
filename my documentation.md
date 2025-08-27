@@ -532,13 +532,15 @@ También las puedes utilizar dentro de una función tradicional:
 
     def porcentaje (p):
     
-	    return lambda num: num / m
+	    return lambda num: num * 100 / p * 100
 	    
 	veinte_porcentaje = 
 	cuarenta_porcentaje = 
 
 x - 100
-20- 100 : 100x/0.2
+20- 100 : 2000 / 100x
+
+20% 400 -> 400*100/2000
 ```python
 def multiplicar_por (n):
   return lambda x: x * n
@@ -753,7 +755,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NzMyNjE3MSwtMTM3MzI4OTkzMSwxMj
+eyJoaXN0b3J5IjpbMTc4MDEzMTM2MiwtMTM3MzI4OTkzMSwxMj
 U5MjA1NTI0LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMjM2Njcy
 MDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMS
 wtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIw
