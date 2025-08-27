@@ -508,7 +508,7 @@ Por ejemplo:
 	    return num1+num2
 	    
 	    
-	sum(4,7) --> 11
+						sum(4,7) --> 11
 
 > **MEJORES PRÁCTICAS**
 > Son ideales para las ocasiones en que necesitas una función simple que solo vas a utilizar una vez, de esta manera, el código queda más ordenado.
@@ -796,11 +796,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTEzMzc3NTIsMTUxMTYzNTA1NiwtMj
-M2NjcyMDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYx
-MjEzMSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LD
-I0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4
-MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMT
-MzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3
-NDldfQ==
+eyJoaXN0b3J5IjpbLTkyNzM0MTQwOCwxNTExNjM1MDU2LC0yMz
+Y2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEy
+MTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMj
+Q4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgy
+MTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3LC0xMz
+MwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNzIxNDc0
+OV19
 -->
