@@ -534,7 +534,7 @@ También las puedes utilizar dentro de una función tradicional:
     
 	    return lambda num: num * m
 	    
-	multiplos(3)
+	multiplos(3,7)
 
 
 def multiplicar_por (n):
@@ -547,14 +547,6 @@ diez_veces = multiplicar_por(10)
 > **MEJORES PRÁCTICAS**
 > Son ideales para las ocasiones en que necesitas una función simple que solo vas a utilizar una vez, de esta manera, el código queda más ordenado.
 
-
-
-
-También es posible que una función devuelva una función lambda.
-
-Si necesitas funciones que multipliquen diferentes números, por ejemplo, duplicar, triplicar, etc... una función lambda puede ser útil
-
-En lugar de crear múltiples funciones, puedes crear una sola función  `multiplicar_por()`  y llamarla con diferentes argumentos para crear una función que duplique o triplique.
 
 
 
@@ -756,11 +748,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NjgyNzExMywxMjU5MjA1NTI0LDIxND
-cyNjg3NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgsLTE5MDMwNTk5
-MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LD
-I1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYx
-MTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4MywxNj
-Q2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkz
-NzVdfQ==
+eyJoaXN0b3J5IjpbLTEzNzMyODk5MzEsMTI1OTIwNTUyNCwyMT
+Q3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4LC0xOTAzMDU5
+OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0MDcyNC
+wyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNjYwODM2
+MTExLC0xMTEwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5ODMsMT
+Y0NjIyMzIzLDIwODUwODQzNjcsLTEzMzAzMDEwNzcsODE2NDA5
+Mzc1XX0=
 -->
