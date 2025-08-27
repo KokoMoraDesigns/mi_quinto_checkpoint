@@ -511,6 +511,8 @@ Por ejemplo:
 
 Sirven para declarar de una manera rápida y sencilla funciones cortas que no necesitan poseer un nombre ( de ahí su consideración de 'anónimas'). Se caracterizan por tener una sola expresión, aunque sí pueden componerse por más de un argumento.
 
+En el ejemplo previo, la función Lambda está asignada a la variable 'sum', porque 
+
 Por ejemplo:
 
     nums = [4, 8, 10, 12, 14]
@@ -794,11 +796,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMz
-Y2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEy
-MTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMj
-Q4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgy
-MTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMDg1MDg0MzY3LC0xMz
-MwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUxMjg5LDIzNzIxNDc0
-OV19
+eyJoaXN0b3J5IjpbMjA5ODI2NjIwMCwyMTQ3MjY4NzY5LDE1MT
+E2MzUwNTYsLTIzNjY3MjA4LC0xOTAzMDU5OTM1LC0xMTYxNzMy
+NTIwLDE5NDc2MTIxMzEsLTQwODI0MDcyNCwyNTA1NDM0OTgsLT
+E0MTgwMzc1NiwyNDgyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0
+MjEyLDYyNjAwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwOD
+UwODQzNjcsLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEy
+ODldfQ==
 -->
