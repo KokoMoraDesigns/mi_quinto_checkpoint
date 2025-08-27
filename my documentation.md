@@ -611,11 +611,11 @@ PIP (Package Installer for Python) o PIP3 es el gestor de paquetes más usado en
 
 Algunos comandos que pip nos proporciona para poder gestionar de manera eficiente nuestras bibliotecas son:
 
- `enter code here`pip install <nombre_del_paquete> --> para instalar paquetes
- pip install <nombre_del_paquete> >= <version_del_paquete_> --> para instalar paquetes a partir de determinada versión
-pip freeze > requirements.txt`
+ `pip install <nombre_del_paquete>` --> para instalar paquetes
+ `pip install <nombre_del_paquete> >= <version_del_paquete>` --> para instalar paquetes a partir de determinada versión
+`pip freeze > requirements.txt` --> para crear un archivo que le indique a pip los paquetes, y sus versiones, que necesitas para el proyecto en que vas a trabajar 
 
-Cuando trabajas en proyectos colaborativos, es muy habitual que todos los miembros del equipo utilicen los mismos paquetes con las mismas versiones. Para asegurarte de ello, la mejor forma es instalar paquetes utilizando un archivo de requisitos. Suele ser un archivo de texto que contiene todos los paquetes, junto con sus respectivas versiones, que se utilizan en el proyecto.
+
 
 Pip te permite instalar una lista de paquetes a la vez utilizando un archivo de requisitos. Por ejemplo, si necesitamos para nuestro proyecto los paquetes  [numpy](https://www.datacamp.com/es/courses/introduction-to-numpy?),  [pandas](https://www.datacamp.com/es/courses/data-manipulation-with-pandas)  y  [TensorFlow](https://www.datacamp.com/es/courses/introduction-to-tensorflow-in-python), podríamos incluirlos, junto con las versiones deseadas, en un archivo requirements.txt, como se muestra a continuación:
 
@@ -679,7 +679,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzY1MDY0NCwtMTk0MjY4MzMzNiwtMj
+eyJoaXN0b3J5IjpbMTY1NDMwNzMwNSwtMTk0MjY4MzMzNiwtMj
 A1NDAzOTkxLDQzNzgwODI1NSw4MTM3MjgyMiwxNTQ1NDg5MjQy
 LDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNT
 kyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIw
