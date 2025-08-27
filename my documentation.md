@@ -561,7 +561,7 @@ Por ejemplo:
 
     multiplos_cinco = [num*5 for num in range(1,7)]
     
-    multiplos_cinco = [0, 5, 10, 15, 20, 25, 30]
+    multiplos_cinco = [5, 10, 15, 20, 25, 30]
 
 Dentro de la comprensión de lista, también podemos llamar a una función: 
 
@@ -581,12 +581,7 @@ Dentro de la comprensión de lista, también podemos llamar a una función:
     
     mi_precio_iphones = [487.6, 383.6, 283.6, 343.6]
 
-   
-```
-cuadrados = [i**2 for i in range(5)]
-#[0, 1, 4, 9, 16]
 
-```
 
 
 
@@ -744,11 +739,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDQyMjQ3Niw4MTM3MjgyMiwxNTQ1ND
-g5MjQyLDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMx
-LDEyNTkyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMz
-Y2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEy
-MTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMj
-Q4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgy
-MTVdfQ==
+eyJoaXN0b3J5IjpbNTM4NDg5ODk4LDgxMzcyODIyLDE1NDU0OD
+kyNDIsODIzMzA5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEs
+MTI1OTIwNTUyNCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNj
+Y3MjA4LC0xOTAzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIx
+MzEsLTQwODI0MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyND
+gyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIx
+NV19
 -->
