@@ -489,7 +489,7 @@ Resume el código en una sola línea, que se divide en tres partes diferentes:
 
 ## Función Lambda ( o función anónima)
 
-Sirven para declarar 
+Sirven para declarar de una manera rápida y sencilla funciones cortas que no necesitan poseer un nombre ( de ahí su consideración de 'anónimas'); se caracterizan por 
 
 Las expresiones lambda se usan idealmente cuando necesitamos hacer algo simple y estamos más interesados en hacer el trabajo rápidamente en lugar de nombrar formalmente la función. Las expresiones lambda también se conocen como funciones anónimas.
 
@@ -797,11 +797,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDE4NzQ1NTIsLTIzNjY3MjA4LC0xOT
-AzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0
-MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNj
-YwODM2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5
-ODMsMTY0NjIyMzIzLDIwODUwODQzNjcsLTEzMzAzMDEwNzcsOD
-E2NDA5Mzc1LDE5ODExNTEyODksMjM3MjE0NzQ5LC0xMzQyNDUy
-MDAzXX0=
+eyJoaXN0b3J5IjpbMTQ4MDY4OTUzNSwtMjM2NjcyMDgsLTE5MD
+MwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQw
+NzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2Nj
+A4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4
+MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MT
+Y0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NTIw
+MDNdfQ==
 -->
