@@ -515,9 +515,10 @@ En el ejemplo previo, la función Lambda está asignada a la variable 'sum', por
 
 Por ejemplo:
 
-    nums = [4, 8, 10, 12, 14]
+    mezcla = [4, 8, 'ma', 10, 'love',12,'life', 14]
+    nums = []
     
-    filtrar = filter
+    filtrar = filter(lambda 
 
 
 > **MEJORES PRÁCTICAS**
@@ -796,11 +797,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTU0ODY0NCwyMTQ3MjY4NzY5LDE1MT
-E2MzUwNTYsLTIzNjY3MjA4LC0xOTAzMDU5OTM1LC0xMTYxNzMy
-NTIwLDE5NDc2MTIxMzEsLTQwODI0MDcyNCwyNTA1NDM0OTgsLT
-E0MTgwMzc1NiwyNDgyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0
-MjEyLDYyNjAwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwOD
-UwODQzNjcsLTEzMzAzMDEwNzcsODE2NDA5Mzc1LDE5ODExNTEy
-ODldfQ==
+eyJoaXN0b3J5IjpbLTE2NzM1OTk0MzgsMjE0NzI2ODc2OSwxNT
+ExNjM1MDU2LC0yMzY2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTcz
+MjUyMCwxOTQ3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC
+0xNDE4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5
+NDIxMiw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMD
+g1MDg0MzY3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUx
+Mjg5XX0=
 -->
