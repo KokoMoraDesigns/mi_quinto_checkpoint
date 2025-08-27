@@ -511,7 +511,7 @@ Por ejemplo:
 						sum(4,7) --> 11
 
 
-En el ejemplo previo, la función Lambda está asignada a la variable 'sum', porque, al ser una función que carece de nombre, si no le asignas una variable o la integras .
+En el ejemplo previo, la función Lambda está asignada a la variable 'sum', porque, al ser una función que carece de nombre, no resulta útil si no le asignas una variable o la integras en otro cometido mayor.
 
 Por ejemplo:
 
@@ -530,30 +530,6 @@ Por ejemplo:
 > Son ideales para las ocasiones en que necesitas una función simple que solo vas a utilizar una vez, de esta manera, el código queda más ordenado.
 
 
-
-
-```py
-lambda_func = lambda x: True if x**2 >= 10 else False
-lambda_func(3) # Retorna False
-lambda_func(4) # Retorna True
-```
-
-```python
-mi_lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-filtrado = filter(lambda x: x % 2 != 0, mi_lista)
-
-list(filtrado)
-# [1, 3, 5, 7, 9]
-```
-
-¿Entonces qué ha ocurrido? Le dijiste a `filter` que tomara cada elemento en `mi_lista` y aplicara la expresión lambda. Los valores que devuelven `False` se filtran.
-
-una función `lambda` no tiene un nombre, y por lo tanto salvo que sea asignada a una variable, es totalmente inútil. Para ello debemos.
-
-suma  =  lambda  a,  b:  a  +  b
-
-Es posible tener argumentos con valor asignado por defecto.
 
 ```
 (lambda a, b, c=3: a + b + c)(1, 2) # 6
@@ -802,7 +778,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTI1MDUxMCwxMjU5MjA1NTI0LDIxND
+eyJoaXN0b3J5IjpbMTcwMzg4MjUzMywxMjU5MjA1NTI0LDIxND
 cyNjg3NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgsLTE5MDMwNTk5
 MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LD
 I1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYx
