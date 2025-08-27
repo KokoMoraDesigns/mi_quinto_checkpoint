@@ -599,29 +599,9 @@ En la nueva lista solo se almacenará el contenido que cumpla la(s) condicion(es
 
 
 
-personas = [('pedro', 33), ('ana', 3), ('juan', 13), ('carla', 45)]  
-personas_mayores = [per for per in personas if per[1] >= 18]  
-print(personas_mayores)  
-#Salida: [('pedro', 33), ('carla', 45)]
-
-
-Por lo tanto la  `expresión`  sólo se aplicará al  `elemento`  si se cumple la  `condición`. Veamos un ejemplo con una frase, de la que queremos saber el número de erres que tiene.
-
-```
-frase = "El perro de san roque no tiene rabo"
-erres = [i for i in frase if i == 'r']
-#['r', 'r', 'r', 'r']
-
-```
-
-Lo que hace el código anterior es iterar cada letra de la frase, y si es una  `r`, se añade a la lista.
-
-
-Siempre que tengamos una colección iterable que queramos modificar, son una buena opción para evitar tener que escribir bucles for.
-
 
 > **MEJORES PRÁCTICAS**
-> La comprensión de lista es muy útil para operaciones cortas y sencillas pero, dado que siempre debe primar tanto la optimización como la buena legibilidad del código, en operaciones largas o complejas sería más recomendable prescindir de la comprensión de lista.
+> La comprensión de lista es muy útil para colecciones iterables a las que deseamos aplicar modificaciones, pero, dado que en la programación siempre debe primar tanto la optimización como la buena legibilidad del código, en operaciones largas o complejas sería más recomendable prescindir de la comprensión de lista.
 
 ## Paquete pip
 
@@ -722,11 +702,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzMzc3MjM4LDQzNzgwODI1NSw4MTM3Mj
-gyMiwxNTQ1NDg5MjQyLDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0x
-MzczMjg5OTMxLDEyNTkyMDU1MjQsMjE0NzI2ODc2OSwxNTExNj
-M1MDU2LC0yMzY2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTczMjUy
-MCwxOTQ3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xND
-E4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIx
-Ml19
+eyJoaXN0b3J5IjpbLTIwNTQwMzk5MSw0Mzc4MDgyNTUsODEzNz
+I4MjIsMTU0NTQ4OTI0Miw4MjMzMDk3OTAsMTc4MDEzMTM2Miwt
+MTM3MzI4OTkzMSwxMjU5MjA1NTI0LDIxNDcyNjg3NjksMTUxMT
+YzNTA1NiwtMjM2NjcyMDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1
+MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMT
+QxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQy
+MTJdfQ==
 -->
