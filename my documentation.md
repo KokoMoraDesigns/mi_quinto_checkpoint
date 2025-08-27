@@ -590,6 +590,8 @@ Estructura de la comprensión de lista con condiciones:
 
 En la nueva lista solo se almacenará el contenido que cumpla la(s) condicion(es), por ejemplo:
 
+    string = [ma4r]
+    letras = for char in string if char.isalpha()
 
 
 Por lo tanto la  `expresión`  sólo se aplicará al  `elemento`  si se cumple la  `condición`. Veamos un ejemplo con una frase, de la que queremos saber el número de erres que tiene.
@@ -728,11 +730,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjczNjQ0Nyw4MTM3MjgyMiwxNTQ1ND
-g5MjQyLDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMx
-LDEyNTkyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMz
-Y2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEy
-MTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMj
-Q4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgy
-MTVdfQ==
+eyJoaXN0b3J5IjpbNDAxODk4Mzg0LDgxMzcyODIyLDE1NDU0OD
+kyNDIsODIzMzA5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEs
+MTI1OTIwNTUyNCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNj
+Y3MjA4LC0xOTAzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIx
+MzEsLTQwODI0MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyND
+gyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIx
+NV19
 -->
