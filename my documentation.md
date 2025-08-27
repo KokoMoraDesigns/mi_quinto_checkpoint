@@ -530,14 +530,15 @@ Los tipos de argumentos de las funciones tradicionales también se aplican con l
     
 También las puedes utilizar dentro de una función tradicional:
 
-    def multiplo_de (m):
+    def porcentaje (p):
     
-	    return lambda num: num * m
+	    return lambda num: num / m
 	    
-	dos = multiplo_de(2)
-	tres = multiplo_de(3)
+	veinte_porcentaje = 
+	cuarenta_porcentaje = 
 
-
+x - 100
+20- 100 : 100x/0.2
 ```python
 def multiplicar_por (n):
   return lambda x: x * n
@@ -752,7 +753,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDU4NTcwOSwtMTM3MzI4OTkzMSwxMj
+eyJoaXN0b3J5IjpbMTA1NzMyNjE3MSwtMTM3MzI4OTkzMSwxMj
 U5MjA1NTI0LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMjM2Njcy
 MDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMS
 wtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIw
