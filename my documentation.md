@@ -411,7 +411,7 @@ Si la condición es verdadera, ejecutará el siguiente bloque de código, si la 
 El código indentado después de *if* forma parte del condicional, mientras que el resto ( *print(enviar_billetes* ) se reproducirá tanto si se cumple la condición como si no se cumple. Además, en este ejemplo no solamente tenemos un condicional, sino que tenemos dos, y ambos deberán ser verdaderos para que el código condicional en su conjunto resulte verdadero y se ejecute.
 
 
-### Sentencia condicional if-else
+### Sentencia condicional *if-else*
 
 Si la condición es verdadera, ejecutará el primer bloque de código y no leerá más, si la condición es falsa, seguirá leyendo y ejecutará el otro bloque de código (el que sigue a *else*). 
 
@@ -627,6 +627,7 @@ PIP (Package Installer for Python) o PIP3 es el gestor de paquetes más usado en
 Algunos comandos que PIP proporciona para poder gestionar de manera eficiente nuestras bibliotecas son:
 
 <br>
+<br>
 
  `pip install <nombre_del_paquete>` --> para instalar un paquete determinado.
  
@@ -653,7 +654,7 @@ Algunos comandos que PIP proporciona para poder gestionar de manera eficiente nu
   
 > Written by  **[ Maite Ekhiñe Mora ]**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTgxNzExLC0xNzc4MjgyNTIxLC0xOT
+eyJoaXN0b3J5IjpbNzM1MDg1ODQzLC0xNzc4MjgyNTIxLC0xOT
 QyNjgzMzM2LC0yMDU0MDM5OTEsNDM3ODA4MjU1LDgxMzcyODIy
 LDE1NDU0ODkyNDIsODIzMzA5NzkwLDE3ODAxMzEzNjIsLTEzNz
 MyODk5MzEsMTI1OTIwNTUyNCwyMTQ3MjY4NzY5LDE1MTE2MzUw
