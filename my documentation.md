@@ -608,31 +608,9 @@ Lo que hace el código anterior es iterar cada letra de la frase, y si es una  `
 
 Siempre que tengamos una colección iterable que queramos modificar, son una buena opción para evitar tener que escribir bucles for.
 
-La comprensión de listas también puede contener condiciones if anidadas. Considera el siguiente bucle:
-
-```py
-divisible = list()
-for i in range(50):
-  if i%2 == 0:
-    if i%3 == 0:
-      divisible.append(i)
-```
-
-Usando la comprensión de listas, esto se puede escribir como:
-
-```py
-divisible = [i for i in range(50) if i%2==0 if i%3==0]
-```
-
-La sentencia If-Else también se puede utilizar junto con la comprensión de listas.
-
-```py
-lista_1 = [i if i%2==0 else i*-1 for i in range(10)]
-```
-!hay que tener cuidado con su uso y no abusar de ellas. Resulta fácil caer en la tentación de acabar escribiendo comprensiones que son tan largas que prácticamente son imposibles de leer, algo que puede no ser muy buena idea.
 
 > **MEJORES PRÁCTICAS**
-> La comprensión de listas es muy útil para operaciones cortas y sencillas; dado que siempre debe primar la optimización y la buena legibilidad del código, en operaciones largas o más complejas, sería más recomendable prescindir de la comprensión de listas.
+> La comprensión de lista es muy útil para operaciones cortas y sencillas pero, dado que siempre debe primar tanto la optimización como la buena legibilidad del código, en operaciones largas o complejas sería más recomendable prescindir de la comprensión de lista.
 
 ## Paquete pip
 
@@ -733,11 +711,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDAyNzA3NSw4MTM3MjgyMiwxNTQ1ND
-g5MjQyLDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMx
-LDEyNTkyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMz
-Y2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEy
-MTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMj
-Q4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgy
-MTVdfQ==
+eyJoaXN0b3J5IjpbNDM3ODA4MjU1LDgxMzcyODIyLDE1NDU0OD
+kyNDIsODIzMzA5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEs
+MTI1OTIwNTUyNCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNj
+Y3MjA4LC0xOTAzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIx
+MzEsLTQwODI0MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyND
+gyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIx
+NV19
 -->
