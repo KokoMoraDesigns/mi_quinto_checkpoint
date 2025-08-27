@@ -495,25 +495,15 @@ Estructura de una función Lambda:
 
     *lambda argumentos: expresión* --> palabra clave 'lambda', 
 								       espacio, 
-								     argumentos separados por comas, 
-								     el signo ':',
-								     la expresión
+								       argumentos separados por comas, 
+								       el signo ':',
+								       la expresión
 								    
+Por ejemplo:
 
 > **MEJORES PRÁCTICAS**
 > Son ideales para las ocasiones en que necesitas una función simple que solo vas a utilizar una vez, de esta manera, el código queda más ordenado.
 
-
-
-**Sintaxis de una función Lambda**
-
-La sintaxis de una función lambda es  `lambda args: expresión`. Primero escribes la palabra clave  `lambda`, dejas un espacio, después los argumentos que necesites separados por coma, dos puntos  `:`, y por último la expresión que será el cuerpo de la función.
-
-Recuerda que no puedes darle un nombre a una función lambda, ya que estas son anónimas (sin nombre) por definición.
-
-`lambda argumentos: expresión`
-
-Las funciones Lambda pueden tener cualquier número de argumentos, pero solo una expresión.
 
 ```py
 # Función Lambda para calcular el cuadrado de un número
@@ -797,11 +787,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzOTE2MTU1LC0yMzY2NzIwOCwtMTkwMz
-A1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC00MDgyNDA3
-MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3MzM4LDY2MD
-gzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgyMTUsLTUzMDg0OTgz
-LDE2NDYyMjMyMywyMDg1MDg0MzY3LC0xMzMwMzAxMDc3LDgxNj
-QwOTM3NSwxOTgxMTUxMjg5LDIzNzIxNDc0OSwtMTM0MjQ1MjAw
-M119
+eyJoaXN0b3J5IjpbMTUxMTYzNTA1NiwtMjM2NjcyMDgsLTE5MD
+MwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQw
+NzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2Nj
+A4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4
+MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMwMTA3Nyw4MT
+Y0MDkzNzUsMTk4MTE1MTI4OSwyMzcyMTQ3NDksLTEzNDI0NTIw
+MDNdfQ==
 -->
