@@ -532,13 +532,13 @@ También las puedes utilizar dentro de una función tradicional:
 
     def porcentaje (p):
     
-	    return lambda num: num * 100 / p * 100
+	    return lambda num: num * p / 100
 	    
-	veinte_porcentaje = 
+	veinte_porcentaje = por
 	cuarenta_porcentaje = 
 
-x - 100
-20- 100 : 2000 / 100x
+x - 400
+20- 100 : 20*400/100
 
 20% 400 -> 400*100/2000
 ```python
@@ -755,11 +755,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDEzMTM2MiwtMTM3MzI4OTkzMSwxMj
-U5MjA1NTI0LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMjM2Njcy
-MDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMS
-wtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIw
-NzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC
-01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4NDM2NywtMTMzMDMw
-MTA3N119
+eyJoaXN0b3J5IjpbLTE2NjA4NTU3NjEsMTc4MDEzMTM2MiwtMT
+M3MzI4OTkzMSwxMjU5MjA1NTI0LDIxNDcyNjg3NjksMTUxMTYz
+NTA1NiwtMjM2NjcyMDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1Mj
+AsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQx
+ODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMT
+IsNjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4
+NDM2N119
 -->
