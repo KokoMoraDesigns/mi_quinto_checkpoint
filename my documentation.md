@@ -517,8 +517,8 @@ Por ejemplo:
 
     mezcla = [4, 8, 'ma', 10, 'love',12,'life', 14]
     
-    nums = filter(lambda num: num.isdigit(), mezcla
-filter(lambda  s: s.isdigit(), lista_con_strings)
+    nums = filter(lambda num: num.isdigit(), mezcla)
+
 
 
 > **MEJORES PRÁCTICAS**
@@ -797,11 +797,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjA0ODU2LDIxNDcyNjg3NjksMTUxMT
-YzNTA1NiwtMjM2NjcyMDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1
-MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMT
-QxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQy
-MTIsNjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NT
-A4NDM2NywtMTMzMDMwMTA3Nyw4MTY0MDkzNzUsMTk4MTE1MTI4
-OV19
+eyJoaXN0b3J5IjpbLTEwMzkwNDg0MzgsMjE0NzI2ODc2OSwxNT
+ExNjM1MDU2LC0yMzY2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTcz
+MjUyMCwxOTQ3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC
+0xNDE4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5
+NDIxMiw2MjYwMDgyMTUsLTUzMDg0OTgzLDE2NDYyMjMyMywyMD
+g1MDg0MzY3LC0xMzMwMzAxMDc3LDgxNjQwOTM3NSwxOTgxMTUx
+Mjg5XX0=
 -->
