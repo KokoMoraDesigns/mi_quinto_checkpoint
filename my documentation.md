@@ -617,17 +617,13 @@ Algunos comandos que pip nos proporciona para poder gestionar de manera eficient
  
 `pip freeze > requirements.txt` --> para crear un archivo que le indique a pip los paquetes (y sus versiones) que necesitas para el proyecto en que vas a trabajar (muy útil en el caso de proyectos colaborativos, por ejemplo)
 
-    enter code here
+  `pip install -r requirements.txt` -->para instalar los paquetes incluidos en el archivo de requisitos.
+
+    pip install --upgrade <nombre_del_paquete>
 
 
 
 
-
-
-
-Para instalar los paquetes enumerados en un archivo requirements.txt, sólo tenemos que ejecutar
-
-`>>
 
 A veces necesitarás actualizar a una versión más reciente un paquete que ya tengas instalado en tu ordenador. Pip hace que este proceso sea extremadamente fácil. Por ejemplo, si quieres actualizar pandas a la última versión:
 
@@ -679,7 +675,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzMjU3MjYzLC0xOTQyNjgzMzM2LC0yMD
+eyJoaXN0b3J5IjpbODUzNTE5ODc0LC0xOTQyNjgzMzM2LC0yMD
 U0MDM5OTEsNDM3ODA4MjU1LDgxMzcyODIyLDE1NDU0ODkyNDIs
 ODIzMzA5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEsMTI1OT
 IwNTUyNCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4
