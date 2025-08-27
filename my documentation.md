@@ -590,8 +590,8 @@ Estructura de la comprensión de lista con condiciones:
 
 En la nueva lista solo se almacenará el contenido que cumpla la(s) condicion(es), por ejemplo:
 
-    invitadas = [('persona uno', 'aficionada libros'), ('persona dos', 'aficionada musica'), ('persona tres', 'aficionada musica'), ('persona cuatro', 'bebe')]
-    letras = char for char in string if char.isalpha()
+    invitadas = [('persona uno', 'aficionada libros'), ('persona dos', 'aficionada musica'), ('persona tres', 'aficionada musica'), ('persona cuatro', 'aficionada libros')]
+    itinerario_libros = [invitada for invitada in invitadas if invitada[1] == 'aficionada libros']
 
 
 
@@ -718,11 +718,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjQ3NDQzMiw0Mzc4MDgyNTUsODEzNz
-I4MjIsMTU0NTQ4OTI0Miw4MjMzMDk3OTAsMTc4MDEzMTM2Miwt
-MTM3MzI4OTkzMSwxMjU5MjA1NTI0LDIxNDcyNjg3NjksMTUxMT
-YzNTA1NiwtMjM2NjcyMDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1
-MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMT
-QxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQy
-MTJdfQ==
+eyJoaXN0b3J5IjpbNDkzMDgwMzE1LDQzNzgwODI1NSw4MTM3Mj
+gyMiwxNTQ1NDg5MjQyLDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0x
+MzczMjg5OTMxLDEyNTkyMDU1MjQsMjE0NzI2ODc2OSwxNTExNj
+M1MDU2LC0yMzY2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTczMjUy
+MCwxOTQ3NjEyMTMxLC00MDgyNDA3MjQsMjUwNTQzNDk4LC0xND
+E4MDM3NTYsMjQ4MjA3MzM4LDY2MDgzNjExMSwtMTExMDY5NDIx
+Ml19
 -->
