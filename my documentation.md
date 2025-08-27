@@ -621,40 +621,13 @@ Algunos comandos que pip nos proporciona para poder gestionar de manera eficient
 
 `pip install --upgrade <nombre_del_paquete>` --> para actualizar determinado paquete a su última versión.
 
-pip install -r requirements.txt --upgrade --> pa
+`pip install -r requirements.txt --upgrade` --> para actualizar a su última versión todos los paquetes incluidos en el archivo de requisitos.
+
+`pip uninstall <nombre_paquete>` --> para eliminar un paquete determinado de tu entorno de Python.
 
 
     
 
-
-
-
-En caso de que quieras actualizar todos los paquetes enumerados en un requirements.txt, podrías utilizar:
-
-`>>
-
-
-
-
--   **Instalación de paquetes:**
-    
-    `pip install <nombre_paquete>`  permite instalar paquetes desde el repositorio oficial de Python Package Index (PyPI) o desde otras fuentes.
-    
--   **Actualización de paquetes:**
-    
-    `pip install --upgrade <nombre_paquete>`  actualiza un paquete a la última versión disponible.
-    
--   **Eliminación de paquetes:**
-    
-    `pip uninstall <nombre_paquete>`  elimina un paquete del entorno de Python.
-    
--   **Gestión de dependencias:**
-    
-    `pip freeze`  permite crear un archivo  `requirements.txt`  con la lista de paquetes y versiones instaladas en un entorno, facilitando la replicación de entornos en otros sistemas.
-    
--   **Entornos virtuales:**
-    
-    `pip`  es compatible con entornos virtuales, lo que permite aislar las dependencias de diferentes proyectos.
     
 -   **Versiones específicas:**
     
@@ -673,7 +646,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTAxNDA4MywtMTk0MjY4MzMzNiwtMj
+eyJoaXN0b3J5IjpbMTkzMjA1NzcyOSwtMTk0MjY4MzMzNiwtMj
 A1NDAzOTkxLDQzNzgwODI1NSw4MTM3MjgyMiwxNTQ1NDg5MjQy
 LDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNT
 kyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIw
