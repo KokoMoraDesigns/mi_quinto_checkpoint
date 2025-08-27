@@ -609,8 +609,10 @@ Un **gestor de paquetes** es una herramienta que te permite gestionar (instalar,
 
 PIP (Package Installer for Python) o PIP3 es el gestor de paquetes más usado entre las personas usuarios de Python, de hecho, se instala de manera automática al instalar las últimas versiones de Python.
 
-Algunos comandos que pip nos proporciona para poder gestionar de manera eficiente nuestras bibliotecas son
+Algunos comandos que pip nos proporciona para poder gestionar de manera eficiente nuestras bibliotecas son:
 
+ - pip install <nombre_del_paquete> --> para instalar paquetes
+ - pip install <nombre_del_paquete> >= <version_del_paquete_>
 
 En caso de que quieras instalar un paquete que cumpla determinadas condiciones en cuanto a versiones, pip te permite utilizar ciertas condiciones booleanas. Por ejemplo, si quieres instalar una versión de pandas mayor o igual que v.1.0.0 y menor que 1.5:
 
@@ -680,11 +682,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzQ2MzgxOSwtMTk0MjY4MzMzNiwtMj
-A1NDAzOTkxLDQzNzgwODI1NSw4MTM3MjgyMiwxNTQ1NDg5MjQy
-LDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNT
-kyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIw
-OCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC
-00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3
-MzM4XX0=
+eyJoaXN0b3J5IjpbOTc4MDExODcsLTE5NDI2ODMzMzYsLTIwNT
+QwMzk5MSw0Mzc4MDgyNTUsODEzNzI4MjIsMTU0NTQ4OTI0Miw4
+MjMzMDk3OTAsMTc4MDEzMTM2MiwtMTM3MzI4OTkzMSwxMjU5Mj
+A1NTI0LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgs
+LTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtND
+A4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMz
+OF19
 -->
