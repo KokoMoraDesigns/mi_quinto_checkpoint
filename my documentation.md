@@ -82,12 +82,15 @@ Los utilizas en funciones con argumentos variables, cuando no conoces de anteman
 
 Un argumento variable **puede ir precedido por otros argumentos no variables.**
 
- 
+ <br>
 
 > **MEJORES PRÁCTICAS:**
 > Restringir desde la definición de la función con qué tipos de argumentos se está trabajando, de modo que solo sea necesario mirar la función para comprender el funcionamiento de sus argumentos.
 > 
 >  Es aconsejable hacer uso de argumentos **obligatoriamente posicionales** cuando deseas imponer un orden al llamar a los argumentos de la función, y de argumentos **obligatoriamente de palabras clave** cuando los nombres de los parámetros sean significativos y apoyen a la correcta comprensión de la función (por ejemplo: *def name(first,last):* .
+
+<br>
+<br>
 
 **Trabajando con argumentos obligatoriamente posicionales**
 
@@ -635,11 +638,11 @@ Algunos comandos que PIP proporciona para poder gestionar de manera eficiente nu
     
 > Written by [ Maite Ekhiñe Mora ]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM0NTk0MjAsLTE5NDI2ODMzMzYsLT
-IwNTQwMzk5MSw0Mzc4MDgyNTUsODEzNzI4MjIsMTU0NTQ4OTI0
-Miw4MjMzMDk3OTAsMTc4MDEzMTM2MiwtMTM3MzI4OTkzMSwxMj
-U5MjA1NTI0LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMjM2Njcy
-MDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMS
-wtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIw
-NzMzOF19
+eyJoaXN0b3J5IjpbLTE3MTkzMjI2NCwtMTk0MjY4MzMzNiwtMj
+A1NDAzOTkxLDQzNzgwODI1NSw4MTM3MjgyMiwxNTQ1NDg5MjQy
+LDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNT
+kyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIw
+OCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC
+00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3
+MzM4XX0=
 -->
