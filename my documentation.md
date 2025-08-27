@@ -551,6 +551,13 @@ También las puedes utilizar dentro de una función tradicional:
 
 ## Comprensión de lista
 
+Si
+Estructura de la comprensión de lista:
+
+    lista = código a ejecutar for variable in iterable
+
+
+
 La comprensión de listas es una forma de recorrer una lista para producir una nueva lista basada en algunas condiciones.
 Vayamos al grano, las  _list comprehension_  nos permiten crear listas de elementos en una sola línea de código. Por ejemplo, podemos crear una lista con los cuadrados de los primeros 5 números de la siguiente forma
 
@@ -606,13 +613,9 @@ nueva_lista = [i/10 for i in lista]
 
 Pero, ¿y si quisiéramos realizar la operación sobre el elemento sólo si una determinada condición se cumple? Pues tenemos buenas noticias, porque es posible añadir un condicional  `if`. La expresión genérica sería la siguiente.
 
-Estructura de la comprensión de lista:
 
-    lista = código a ejecutar for elemento in iterable
 
-for 'variable' in 'iterable':
 
-	    'bloque de código a ejecutar'
 ```
 # lista = [expresión for elemento in iterable if condición]
 
@@ -754,11 +757,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3Njc3MzIzLDE1NDU0ODkyNDIsODIzMz
-A5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEsMTI1OTIwNTUy
-NCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4LC0xOT
-AzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0
-MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDczMzgsNj
-YwODM2MTExLC0xMTEwNjk0MjEyLDYyNjAwODIxNSwtNTMwODQ5
-ODNdfQ==
+eyJoaXN0b3J5IjpbMTg2NDk0Mjc0MCwxNTQ1NDg5MjQyLDgyMz
+MwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNTkyMDU1
+MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIwOCwtMT
+kwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC00MDgy
+NDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3MzM4LD
+Y2MDgzNjExMSwtMTExMDY5NDIxMiw2MjYwMDgyMTUsLTUzMDg0
+OTgzXX0=
 -->
