@@ -534,13 +534,13 @@ También las puedes utilizar dentro de una función tradicional:
     
 	    return lambda num: num * p / 100
 	    
-	veinte_porcentaje = por
-	cuarenta_porcentaje = 
+	veinte_porcentaje = porcentaje(20)
+	cuarenta_porcentaje = porcentaje(40)
 
 x - 400
 20- 100 : 20*400/100
 
-20% 400 -> 400*100/2000
+
 ```python
 def multiplicar_por (n):
   return lambda x: x * n
@@ -755,11 +755,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjA4NTU3NjEsMTc4MDEzMTM2MiwtMT
-M3MzI4OTkzMSwxMjU5MjA1NTI0LDIxNDcyNjg3NjksMTUxMTYz
-NTA1NiwtMjM2NjcyMDgsLTE5MDMwNTk5MzUsLTExNjE3MzI1Mj
-AsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LDI1MDU0MzQ5OCwtMTQx
-ODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYxMTEsLTExMTA2OTQyMT
-IsNjI2MDA4MjE1LC01MzA4NDk4MywxNjQ2MjIzMjMsMjA4NTA4
-NDM2N119
+eyJoaXN0b3J5IjpbODIzMzA5NzkwLDE3ODAxMzEzNjIsLTEzNz
+MyODk5MzEsMTI1OTIwNTUyNCwyMTQ3MjY4NzY5LDE1MTE2MzUw
+NTYsLTIzNjY3MjA4LC0xOTAzMDU5OTM1LC0xMTYxNzMyNTIwLD
+E5NDc2MTIxMzEsLTQwODI0MDcyNCwyNTA1NDM0OTgsLTE0MTgw
+Mzc1NiwyNDgyMDczMzgsNjYwODM2MTExLC0xMTEwNjk0MjEyLD
+YyNjAwODIxNSwtNTMwODQ5ODMsMTY0NjIyMzIzLDIwODUwODQz
+NjddfQ==
 -->
