@@ -568,8 +568,11 @@ Dentro de la comprensión de lista, también podemos llamar a una función:
     	    
     	cuarenta_porcentaje = porcentaje(40)
     	
-    precio_iphones=[1219, 959, 709, 859]
-    mi_precio_iphone=[
+    	
+
+    precio_iphones = [1219, 959, 709, 859]
+    
+    mi_precio_iphones = [cuarenta_porcentaje for precio in precio_iphones]
    
 
 La expresión también puede ser una llamada a una función. Se podría escribir el ejemplo anterior del cálculo de cuadrados de la siguiente manera.
@@ -747,7 +750,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Njg2MjMzLDE1NDU0ODkyNDIsODIzMz
+eyJoaXN0b3J5IjpbNzUzOTQyODMzLDE1NDU0ODkyNDIsODIzMz
 A5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEsMTI1OTIwNTUy
 NCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4LC0xOT
 AzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLTQwODI0
