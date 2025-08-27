@@ -605,6 +605,7 @@ En la nueva lista solo se almacenará el contenido que cumpla la(s) condicion(es
 
 ## Paquete pip
 
+Un **gestor de paquetes** consiste en una herramienta que nos permite 
 Paquete: -   Un paquete es un conjunto de módulos y otros paquetes relacionados, que permiten organizar y estructurar código de manera jerárquica. -   Estos paquetes proporcionan funcionalidades adicionales que no están incluidas en la instalación estándar de Python. 
 
 Gestor de paquetes: Un gestor de paquetes de Python es una herramienta que automatiza la instalación, desinstalación, actualización y administración de bibliotecas o paquetes de software externos que se utilizan en un proyecto de Python.
@@ -705,11 +706,11 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDI2ODMzMzYsLTIwNTQwMzk5MSw0Mz
-c4MDgyNTUsODEzNzI4MjIsMTU0NTQ4OTI0Miw4MjMzMDk3OTAs
-MTc4MDEzMTM2MiwtMTM3MzI4OTkzMSwxMjU5MjA1NTI0LDIxND
-cyNjg3NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgsLTE5MDMwNTk5
-MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQwNzI0LD
-I1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2NjA4MzYx
-MTFdfQ==
+eyJoaXN0b3J5IjpbMTc2MTgyMzc2OCwtMTk0MjY4MzMzNiwtMj
+A1NDAzOTkxLDQzNzgwODI1NSw4MTM3MjgyMiwxNTQ1NDg5MjQy
+LDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNT
+kyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIw
+OCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC
+00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3
+MzM4XX0=
 -->
