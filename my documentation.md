@@ -628,13 +628,14 @@ Algunos comandos que PIP proporciona para poder gestionar de manera eficiente nu
 `pip list -`-> para listar los paquetes que tienes instalados en tu entorno.
 
 `pip show <nombre_del_paquete>` --> para poder ver el resumen de un determinado paquete.
-pip help --> si nece
+
+`pip help` --> si necesitas ayuda con los comandos.
 
 
     
 > Written by [ Maite Ekhiñe Mora ]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjIwNjI5NzQsLTE5NDI2ODMzMzYsLT
+eyJoaXN0b3J5IjpbLTE4MTM0NTk0MjAsLTE5NDI2ODMzMzYsLT
 IwNTQwMzk5MSw0Mzc4MDgyNTUsODEzNzI4MjIsMTU0NTQ4OTI0
 Miw4MjMzMDk3OTAsMTc4MDEzMTM2MiwtMTM3MzI4OTkzMSwxMj
 U5MjA1NTI0LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMjM2Njcy
