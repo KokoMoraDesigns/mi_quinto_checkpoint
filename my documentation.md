@@ -489,18 +489,10 @@ Resume el código en una sola línea, que se divide en tres partes diferentes:
 
 ## Función Lambda ( o función anónima)
 
-Sirven para declarar de una manera rápida y sencilla funciones cortas que no necesitan poseer un nombre ( de ahí su consideración de 'anónimas'); se caracterizan por 
+Sirven para declarar de una manera rápida y sencilla funciones cortas que no necesitan poseer un nombre ( de ahí su consideración de 'anónimas'); se caracterizan por tener una sola expresión (aunque sí pueden componerse por más de un argumento).
 
-Las expresiones lambda se usan idealmente cuando necesitamos hacer algo simple y estamos más interesados en hacer el trabajo rápidamente en lugar de nombrar formalmente la función. Las expresiones lambda también se conocen como funciones anónimas.
-
-Las expresiones lambda en Python son una forma corta de declarar funciones pequeñas y anónimas (no es necesario proporcionar un nombre para las funciones lambda).
-
-Las funciones Lambda se comportan como funciones normales declaradas con la palabra clave `def`. Resultan útiles cuando se desea definir una función pequeña de forma concisa. Pueden contener solo una expresión, por lo que no son las más adecuadas para funciones con instrucciones de flujo de control.
-
-
-Las llamamos “funciones anónimas” porque técnicamente carecen de nombre.
-
-Al contrario que una función normal, no la definimos con la palabra clave estándar  _def_  que utilizamos en  _Python_. En su lugar, las funciones Lambda se definen como una  **línea que ejecuta una sola expresión**. Este tipo de funciones pueden tomar cualquier número de argumentos, pero solo pueden tener una expresión.
+> **MEJORES PRÁCTICAS**
+> Son ideales para las ocasiones en que necesitas una 
 
 
 Si una función es utilizada una sola vez, lo mejor es usar una función lambda para evitar código innecesario y desorganizado.
@@ -797,7 +789,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDY4OTUzNSwtMjM2NjcyMDgsLTE5MD
+eyJoaXN0b3J5IjpbMjA3NDAxMTQ1NiwtMjM2NjcyMDgsLTE5MD
 MwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtNDA4MjQw
 NzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMzOCw2Nj
 A4MzYxMTEsLTExMTA2OTQyMTIsNjI2MDA4MjE1LC01MzA4NDk4
