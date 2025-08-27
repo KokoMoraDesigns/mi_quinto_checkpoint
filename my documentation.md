@@ -350,6 +350,8 @@ La orden *break* interrumpirá el bucle de inmediato y, en caso de existir, pasa
 			print(f'el número que buscamos es {num}')
 			break
 			
+			
+	salida --> el número que buscamos es 4
 	
 
 
@@ -636,11 +638,11 @@ Algunos comandos que PIP proporciona para poder gestionar de manera eficiente nu
     
 > Written by [ Maite Ekhiñe Mora ]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MzM5NzMzOCwtMTk0MjY4MzMzNiwtMj
-A1NDAzOTkxLDQzNzgwODI1NSw4MTM3MjgyMiwxNTQ1NDg5MjQy
-LDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNT
-kyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIw
-OCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC
-00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3
-MzM4XX0=
+eyJoaXN0b3J5IjpbMzc1ODczMTQsLTE5NDI2ODMzMzYsLTIwNT
+QwMzk5MSw0Mzc4MDgyNTUsODEzNzI4MjIsMTU0NTQ4OTI0Miw4
+MjMzMDk3OTAsMTc4MDEzMTM2MiwtMTM3MzI4OTkzMSwxMjU5Mj
+A1NTI0LDIxNDcyNjg3NjksMTUxMTYzNTA1NiwtMjM2NjcyMDgs
+LTE5MDMwNTk5MzUsLTExNjE3MzI1MjAsMTk0NzYxMjEzMSwtND
+A4MjQwNzI0LDI1MDU0MzQ5OCwtMTQxODAzNzU2LDI0ODIwNzMz
+OF19
 -->
