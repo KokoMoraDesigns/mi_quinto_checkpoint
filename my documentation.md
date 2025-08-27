@@ -609,11 +609,13 @@ En la nueva lista solo se almacenará el contenido que cumpla la(s) condicion(es
 
     itinerario_libros = [('persona uno', 'aficionada libros'), ('persona cuatro', 'aficionada libros')]
 
-
+<br>
 
 
 > **MEJORES PRÁCTICAS**
 > La comprensión de lista es muy útil para colecciones iterables a las que deseamos aplicar modificaciones, pero, dado que en la programación siempre debe primar tanto la optimización como la buena legibilidad del código, en operaciones largas o complejas sería más recomendable prescindir de esta herramienta.
+
+<br>
 
 ## Paquete pip
 
@@ -644,14 +646,15 @@ Algunos comandos que PIP proporciona para poder gestionar de manera eficiente nu
 `pip help` --> si necesitas ayuda con los comandos.
 
 
-    
-> Written by [ Maite Ekhiñe Mora ]
+  <br>
+  
+> Written by  **[ Maite Ekhiñe Mora ]**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkyNTE4OTAxLC0xOTQyNjgzMzM2LC0yMD
-U0MDM5OTEsNDM3ODA4MjU1LDgxMzcyODIyLDE1NDU0ODkyNDIs
-ODIzMzA5NzkwLDE3ODAxMzEzNjIsLTEzNzMyODk5MzEsMTI1OT
-IwNTUyNCwyMTQ3MjY4NzY5LDE1MTE2MzUwNTYsLTIzNjY3MjA4
-LC0xOTAzMDU5OTM1LC0xMTYxNzMyNTIwLDE5NDc2MTIxMzEsLT
-QwODI0MDcyNCwyNTA1NDM0OTgsLTE0MTgwMzc1NiwyNDgyMDcz
-MzhdfQ==
+eyJoaXN0b3J5IjpbMTkwMzM1NTU0MywtMTk0MjY4MzMzNiwtMj
+A1NDAzOTkxLDQzNzgwODI1NSw4MTM3MjgyMiwxNTQ1NDg5MjQy
+LDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNT
+kyMDU1MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIw
+OCwtMTkwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC
+00MDgyNDA3MjQsMjUwNTQzNDk4LC0xNDE4MDM3NTYsMjQ4MjA3
+MzM4XX0=
 -->
