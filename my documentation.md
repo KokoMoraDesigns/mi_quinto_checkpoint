@@ -551,11 +551,11 @@ También las puedes utilizar dentro de una función tradicional:
 
 ## Comprensión de lista
 
-Sirve para, con una sola línea de código, iterar una lista y, en caso de que se cumpla(n) determinada(s) condicion(es), crear una nueva lista con los elementos que cumplen la(s) condicion(es).
+Sirve para, con una sola línea de código, iterar una lista y, en caso de que se cumpla(n) determinada(s) condicion(es), crear una nueva lista que almacene el contenido de la primera lista que ha cumplido la(s) 
 
 Estructura de la comprensión de lista:
 
-    lista = código a ejecutar for variable in iterable
+    nueva_lista = código a ejecutar for variable in iterable
 
 
 ```
@@ -563,14 +563,7 @@ cuadrados = [i**2 for i in range(5)]
 #[0, 1, 4, 9, 16]
 
 ```
-De no existir, podríamos hacer lo mismo de la siguiente forma, pero necesitamos alguna que otra línea más de código.
 
-```
-cuadrados = []
-for i in range(5):
-    cuadrados.append(i**2)
-#[0, 1, 4, 9, 16]
-```
 
 veamos la sintaxis general de las comprensiones de listas.
 
@@ -578,7 +571,6 @@ veamos la sintaxis general de las comprensiones de listas.
 # lista = [expresión for elemento in iterable]
 ```
 
-list_variable =  [x for x in iterable]
 
 Es decir, por un lado tenemos el  `for elemento in iterable`, que itera un determinado iterable y “almacena” cada uno de los elementos en  `elemento`  [como vimos en este otro post sobre el for](https://ellibrodepython.com/for-python/). Por otro lado, tenemos la  `expresión`, que es lo que será añadido a la lista en cada iteración.
 
@@ -753,7 +745,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDAwOTk0MywxNTQ1NDg5MjQyLDgyMz
+eyJoaXN0b3J5IjpbMTQ3MDY5NjQzOCwxNTQ1NDg5MjQyLDgyMz
 MwOTc5MCwxNzgwMTMxMzYyLC0xMzczMjg5OTMxLDEyNTkyMDU1
 MjQsMjE0NzI2ODc2OSwxNTExNjM1MDU2LC0yMzY2NzIwOCwtMT
 kwMzA1OTkzNSwtMTE2MTczMjUyMCwxOTQ3NjEyMTMxLC00MDgy
