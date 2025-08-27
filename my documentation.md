@@ -588,10 +588,14 @@ Estructura de la comprensión de lista con condiciones:
 
     nueva_lista = código a ejecutar for variable in iterable if condicion(es)
 
-En la nueva lista solo se almacenará el contenido que cumpla la(s) condicion(es), por ejemplo:
+En la nueva lista solo se almacenará el contenido que cumpla la(s) condicion(es). Por ejemplo:
 
     invitadas = [('persona uno', 'aficionada libros'), ('persona dos', 'aficionada musica'), ('persona tres', 'aficionada musica'), ('persona cuatro', 'aficionada libros')]
+    
     itinerario_libros = [invitada for invitada in invitadas if invitada[1] == 'aficionada libros']
+
+
+    itinerario_libros = [('persona uno', 'aficionada libros'), ('persona cuatro', 'aficionada libros')]
 
 
 
@@ -718,7 +722,7 @@ Para ver un resumen de un paquete de tu interés:
 `>>pip show [NameOfPackage]`
 > Written by Maite Ekhiñe Mora
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzMDgwMzE1LDQzNzgwODI1NSw4MTM3Mj
+eyJoaXN0b3J5IjpbODIzMzc3MjM4LDQzNzgwODI1NSw4MTM3Mj
 gyMiwxNTQ1NDg5MjQyLDgyMzMwOTc5MCwxNzgwMTMxMzYyLC0x
 MzczMjg5OTMxLDEyNTkyMDU1MjQsMjE0NzI2ODc2OSwxNTExNj
 M1MDU2LC0yMzY2NzIwOCwtMTkwMzA1OTkzNSwtMTE2MTczMjUy
